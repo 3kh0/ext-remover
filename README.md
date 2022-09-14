@@ -18,6 +18,8 @@ Here are the instructions to using this exploit!
 
 You're done! The extension should now be disabled.
 
+If this helped please give me a star!
+
 ### Enabling
 
 1. Visit chrome://extensions and on the extension you want to enable click on Details
