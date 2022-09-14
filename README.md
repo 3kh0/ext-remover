@@ -8,7 +8,7 @@ Here are the instructions to using this exploit! There are two ways, using the G
 
 ### Using the GUI
 
-Credit to CompactCow#4717 and Cohen#9959 for the amazing UI!
+Credit to CompactCow#4717 for the amazing UI!
 
 1. Go to the file [`gui.js`](https://github.com/3kh0/ext-remover/blob/main/gui.js) and copy everything and create a new bookmark and use the code you copied as the Page URL
 2. Visit https://chrome.google.com/webstorex. (This is a 404 page, and that is ok.)
