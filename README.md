@@ -10,10 +10,11 @@ Here are the instructions to using this exploit! There are two ways, using the G
 
 Credit to CompactCow#4717 for the amazing UI!
 
-1. Go to the file [`gui.js`](https://github.com/3kh0/ext-remover/blob/main/gui.js) and copy everything and create a new bookmark and use the code you copied as the Page URL
-2. Visit https://chrome.google.com/webstorex. (This is a 404 page, and that is ok.)
-3. Click the bookmark (Make sure you are on the page above!)
-4. Use the menu to toggle your extensions!
+1. Go to the file [`gui.js`](https://github.com/3kh0/ext-remover/blob/main/gui.js) and copy everything and create a new bookmark by right clicking on your bookmarks bar and selecting add page
+2. Paste the code in the field that says URL and name it whatever.
+3. Visit https://chrome.google.com/webstorex. (This is a 404 page, and that is ok.)
+4. Click the bookmark (Make sure you are on the page above!)
+5. Use the menu to toggle your extensions!
 
 **If this helped please give me a star!**
 
