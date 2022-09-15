@@ -15,7 +15,7 @@ Credit to CompactCow#4717 for the amazing UI!
 3. Click the bookmark (Make sure you are on the page above!)
 4. Use the menu to toggle your extensions!
 
-If this helped please give me a star!
+**If this helped please give me a star!**
 
 ![image](https://user-images.githubusercontent.com/58097612/190276894-fc492c5c-b0ce-4943-ae56-603f75634618.png)
 
@@ -33,7 +33,7 @@ If this helped please give me a star!
 
 You're done! The extension should now be disabled.
 
-If this helped please give me a star!
+**If this helped please give me a star!**
 
 #### Enabling
 
@@ -44,6 +44,6 @@ If this helped please give me a star!
 
 You're done! The extension should now be enabled.
 
-If this helped please give me a star!
+**If this helped please give me a star!**
 
 Credit to Piplup7575 and bypassi for finding and making this exploit!
