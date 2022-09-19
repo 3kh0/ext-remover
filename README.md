@@ -47,4 +47,4 @@ You're done! The extension should now be enabled.
 
 **If this helped please give me a star!**
 
-Credit to Piplup7575 and bypassi for finding and making this exploit!
+Credit bypassi for finding and making this exploit!
