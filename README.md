@@ -1,6 +1,8 @@
 # ext remover
 
-Bookmarklet exploit that can force-disable any extension installed on Google Chrome
+![image](https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png)
+
+Bookmarklet exploit that can force-disable any extension installed on Google Chrome. Also known as LTBEEF
 
 ## Instructions
 
