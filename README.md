@@ -24,6 +24,8 @@ For easy setup go the the website at https://fognetwork.github.io/Ingot
 javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
 ```
 
+![image](https://user-images.githubusercontent.com/58097612/193318485-5267cd59-fb65-45a5-ad28-7f068bbce974.png)
+
 ### Using the GUI
 
 Credit to CompactCow#4717 for the amazing UI!
