@@ -23,6 +23,7 @@ For easy setup go the the website at https://fognetwork.github.io/Ingot
 ```js
 javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
 ```
+**If this helped please give me a star!**
 
 ![image](https://user-images.githubusercontent.com/58097612/193318485-5267cd59-fb65-45a5-ad28-7f068bbce974.png)
 
@@ -30,8 +31,11 @@ javascript:(function () {var a = document.createElement('script');a.src = 'https
 
 Credit to CompactCow#4717 for the amazing UI!
 
-1. Go to the file [`gui.js`](https://github.com/3kh0/ext-remover/blob/main/gui.js) and copy everything and create a new bookmark by right clicking on your bookmarks bar and selecting add page
-2. Paste the code in the field that says URL and name it whatever.
+1. Right click on the bar and choose `Add Page`
+1. Set the name to `GUI` and the URL to the code below or [here](https://github.com/3kh0/ext-remover/blob/main/gui.js)
+```js
+javascript:fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
+```
 3. Visit https://chrome.google.com/webstorex. (This is a 404 page, and that is ok.)
 4. Click the bookmark (Make sure you are on the page above!)
 5. Use the menu to toggle your extensions!
