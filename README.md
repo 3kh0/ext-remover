@@ -6,6 +6,8 @@ Bookmarklet exploit that can force-disable any extension installed on Google Chr
 
 **DO NOT UPDATE YOUR CHROMEBOOK! This exploit might have been patched, so do not update!**
 
+If you need any help, please go here: https://github.com/3kh0/ext-remover/discussions
+
 ## Instructions
 
 Here are the instructions to using this exploit! There are two ways, using the GUI and using the ids, the GUI method is better
