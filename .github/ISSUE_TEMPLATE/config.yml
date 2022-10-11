@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Please make a discussion instead
+    url: https://github.com/3kh0/ext-remover/discussions
+    about: We are switching over to discussions!
