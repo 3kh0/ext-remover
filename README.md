@@ -4,7 +4,7 @@
 
 Bookmarklet exploit that can force-disable any extension installed on Google Chrome. Also known as LTBEEF.
 
-**DO NOT UPDATE YOUR CHROMEBOOK! This exploit might have been patched, so do not update!**
+**DO NOT UPDATE YOUR CHROMEBOOK! This exploit has been patched, so do not update!**
 
 If you need any help, please go here: https://github.com/3kh0/ext-remover/discussions
 
