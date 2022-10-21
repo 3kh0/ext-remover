@@ -74,3 +74,10 @@ You're done! The extension should now be enabled.
 **If this helped please give me a star!**
 
 Credit bypassi for finding and making this exploit!
+
+So... How does it work?
+Well, it's pretty basic. It finds extensions and displays them on this page with some toggle switches
+![image](https://yeeteeyt.github.io/exploitbranch.png)
+
+then, it detects when the toggle switch is toggled, and for what extension, then compiles a message to chrome that says "hey, turn this off for me". Chrome, mistaking this for the webstore complies.
+![image](https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png)
