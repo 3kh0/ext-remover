@@ -4,13 +4,13 @@
 
 Bookmarklet exploit that can force-disable any extension installed on Google Chrome. Also known as LTBEEF.
 
-**DO NOT UPDATE YOUR CHROMEBOOK! This exploit has been patched, so do not update!**
+**DO NOT UPDATE YOUR CHROMEBOOK! This exploit has been patched in versions 106 and above, so do not update!** If you version is above 106, [try this method](https://github.com/3kh0/ext-remover#v106-and-above)
 
 If you need any help, please go here: https://github.com/3kh0/ext-remover/discussions
 
 ## Instructions
 
-Here are the instructions to using this exploit! There are two ways, using the GUI and using the ids, the GUI method is better
+Here are the instructions to using this exploit! There are two ways, using the GUI and using the ids, the GUI method is better.
 
 ### Ingot (GUI)
 
@@ -81,3 +81,30 @@ Well, it's pretty basic. It finds extensions and displays them on this page with
 
 then, it detects when the toggle switch is toggled, and for what extension, then compiles a message to chrome that says "hey, turn this off for me". Chrome, mistaking this for the webstore complies.
 ![image](https://yeeteeyt.github.io/exploitgrid.png)
+
+## v106 and above
+
+This exploit details another way to permanently delete extensions. Once done, you can update or restart your chromebook and the extensions will stay gone until you powerwash.
+
+You need a usb for downgrading, and rudimentary knowledge of bash is recommended
+
+STEPS:
+1. Downgrade to any version below 101. Instructions are in [Chrome100.dev](https://chrome100.dev).
+2. Hit `ctrl+alt+t` to open a crosh window. If it’s blocked by extensions, use LTBEEF. If it’s policy blocked (“The person who set up this computer has chosen to block this site”) you can try downgrading to a version below 90, where crosh had a different URL.
+3. Type in `set_cellular_ppp \';bash;exit;\'` and hit enter. 
+4. You now have access to a bash shell, logged in as chronos. More information about the permissions of this shell is at the bottom.
+5. Type `rm -rf ~/Extensions/*`. **THIS WILL BREAK EVERY EXTENSION ON YOUR CHROMEBOOK.** If there are extensions you want to keep, they can be selectively removed by ID using `rm -rf ~/Extensions/InsertIdHere`
+6. Run `chmod 000 ~/Extensions`. This marks the extension folder as read only, stopping it from updating in the future or any new extensions from being installed.
+7. You can now restart chrome, allowing it to update to the latest version. Once rebooted onto the latest version, all removed extensions will have the default icon and won’t function at all.
+
+**Things you can’t do**
+1. Run sudo or su into root. There might be ways to privilege escalate to root using disclosed chromium bug reports, but at the moment I have not gotten any of them to work on managed chromebooks
+2. Enable dev mode or use dev mode things
+3. Write to certain protected folders
+4. Install packages
+5. Install your own extensions. There is no way that known of (right now) to do that, so don’t ask. Please suggest any ideas.
+6. Modify an existing extension. Extensions are checksummed before running, so any modification will result in chrome thinking the extension is “corrupted” and trying to redownload it, failing if the directory is marked readonly
+
+If anyone knows some fun commands for the bash shell to break things even further, let me know!
+
+Thanks to CoolElectronics for finding this amazing trick, trent:gra.im and justinchrm for helping with some parts, and the discoverer of the original bash shell exploit found here https://bugs.chromium.org/p/chromium/issues/detail?id=1329945
