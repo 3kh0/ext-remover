@@ -113,6 +113,8 @@ STEPS:
 5. Install your own extensions. There is no way that known of (right now) to do that, so don’t ask. Please suggest any ideas.
 6. Modify an existing extension. Extensions are checksummed before running, so any modification will result in chrome thinking the extension is “corrupted” and trying to redownload it, failing if the directory is marked readonly
 
+<h1><b>NOTE:</b></h1> DO NOT DO THIS IF YOU DON'T KNOW WHAT YOU ARE DOING! I don't recommend anyone do this, but I can't really control your will. What I can do, though, is warn you. Doing ANY of this will violate your school's policy and will possibly get you banned from electronics. This sticks to your record, and you won't get rid of it. Think about it, are you REALLY that desperate?
+
 If anyone knows some fun commands for the bash shell to break things even further, let me know!
 
 Thanks to CoolElectronics for finding this amazing trick, trent:gra.im and justinchrm for helping with some parts, and the discoverer of the original bash shell exploit found here https://bugs.chromium.org/p/chromium/issues/detail?id=1329945
