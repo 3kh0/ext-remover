@@ -123,4 +123,4 @@ Thanks to CoolElectronics for finding this amazing trick, trent:gra.im and justi
 
 <img src="https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif" alt="Rickroll GIFs | Tenor"/>
 
-There are still so many more fun exploits, please [join the discord](https://discord.gg/unblock)
+There are still so many more fun exploits, please [join the discord](https://discord.gg/unblock) or [see an alternative](https://github.com/yeeteeyt/goguardian-bypass)
