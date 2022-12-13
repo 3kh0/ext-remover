@@ -10,7 +10,7 @@ Hello, I am Echo and I created this repo in order to give exploits for the masse
 
 Bookmarklet exploit that can force-disable any extension installed on Google Chrome. Also known as LTBEEF. And for some reason I put a unenroll exploit aswell yippee
 
-**DO NOT UPDATE YOUR CHROMEBOOK! This exploit has been patched in versions 106 and above, so do not update!** If you version is above 106, [try this method](https://github.com/3kh0/ext-remover#for-v106-and-up)
+**DO NOT UPDATE YOUR CHROMEBOOK! This exploit has been patched in versions 106 and above, so do not update!** If your version is above 106, [try this method](https://github.com/3kh0/ext-remover#for-v106-and-up)
 
 If you need any help, please go here: https://github.com/3kh0/ext-remover/discussions
 
