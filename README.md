@@ -20,7 +20,7 @@ If you need any help, please go here: https://github.com/3kh0/ext-remover/discus
 
 The screenshot below was preformed on 108.0.5359.75 (Official Build) (64-bit) on the stable channel.
 
-This has been tested and does work but has varying levels of success, you will need access bookmarklets (or inspect if your school is dumb like that) and access to a manifest.json page of a extension.
+This has been tested and does work but has varying levels of success, you will need access bookmarklets (or inspect if your school is dumb like that) and access to a manifest.json page of a extension. Example: chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json (Try this link)
 
 Run the code below, replace the echoontop with the extension ID you want to disable.
 
