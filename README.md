@@ -22,13 +22,18 @@ If you need any help, please go here: https://github.com/3kh0/ext-remover/discus
 
 The screenshot below was preformed on 108.0.5359.75 (Official Build) (64-bit) on the stable channel.
 
-This has been tested and does work but has varying levels of success, you will need access to inspect element, more specifically, console and access to a manifest.json page of a extension. Example: chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json (Try this link)
+This has been tested and does work but has varying levels of success, you will need access to inspect element, more specifically, console.
 
-Run the code below, replace the echoontop with the extension ID you want to disable.
-
+- Open this URL on your chromebook: `chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json` Shortened link: https://tinyurl.com/i-ltbeef
+- Open inspect and navigate to the console tab.
+- Run the basic LTBEEF code such as
 ```js
-chrome.management.setEnabled('echoontop',!1)
+chrome.management.setEnabled('extensionid', false)
 ```
+
+Replacing `extensionid` with the ID of the extension you want to disable, e.g. the stuff after the = in the URL bar when you click the extension's "details" button in chrome://extensions
+
+Credit to SprinkzMC#8421 (aka Bypassi) for finding this!
 
 ![image](https://user-images.githubusercontent.com/58097612/207385046-5a9f6f07-6089-4775-9183-c11bd24ba02c.png)
 
@@ -117,4 +122,4 @@ then, it detects when the toggle switch is toggled, and for what extension, then
 
 <img src="https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif" alt="Rickroll GIFs | Tenor"/>
 
-There are still so many more fun exploits, please [join the discord](https://discord.gg/unblock) or [see an alternative](https://github.com/yeeteeyt/goguardian-bypass)
+There are still so many more fun exploits, please [join the TN](https://discord.gg/unblock) or [my discord](https://discord.gg/3kh0)
