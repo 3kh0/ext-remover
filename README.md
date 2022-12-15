@@ -12,7 +12,7 @@ credit LittleMissNyan for the swag logo
 
 This bookmarklet exploit that can force-disable any extension installed on Google Chrome. Also known as LTBEEF. And for some reason I put a unenroll exploit aswell yippee
 
-**DO NOT UPDATE YOUR CHROMEBOOK! This exploit has been patched in versions 106 and above, so do not update!** If your version is above 106, [try this method](https://github.com/3kh0/ext-remover#for-v106-and-up)
+**DO NOT UPDATE YOUR CHROMEBOOK! This exploit has been patched in versions 106 and above, so do not update!** If your version is above 106, [try this method](https://github.com/3kh0/ext-remover#for-v106-and-up) Need help to stop updates? [Click here to learn how!](https://caub.glitch.me/)
 
 If you need any help, please go here: https://github.com/3kh0/ext-remover/discussions
 
