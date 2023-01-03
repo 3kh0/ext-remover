@@ -23,7 +23,9 @@ If you need any help, please go here: https://github.com/3kh0/ext-remover/discus
 ```js
 let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 250);
 ```
+## 106 And Higher Method
 
+1.  Make a bookmarklet with this code ``` javascript:localStorage.cluster="UNKNOWN_SCHOOL,"+(confirm("ok = Disable\ncancel = Enable ")?99999999999999:0),opener.chrome.extension.getBackgroundPage().location.reload() ```
 2. Go to tinyurl.com/goofcurly if you have securly, tinyurl.com/goofguardian if you have goguardian, tinurl.com/goofsi for blocksi, tinyurl.com/goofclassroom for securly classroom, and tinyurl.com/goofumbrella. 
 3. Once your on the link depending on your blocker, click the button you see, it should open a about:blank tab, then click the bookmarklet and press ok, and all sites should be unblocked. Credit to the SprinksMC#8421 on the Titanium Network Discord.
 
