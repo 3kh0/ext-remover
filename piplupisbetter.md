@@ -4,8 +4,16 @@ Many of these exploits can destory your computer if used inproperly.
   
 [Echo put your shebeal  about how chromebooks are trash here]
 
-![image](https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png)  
-Credit: LittleMissNyan
+<img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
+
+Image Credit: LittleMissNyan
+
+<details>
+<summary><b>CAUB (Prevent Updates)</b></summary>
+This exploit prevents your chromebook from updating by using the Metered wifi flag. This exploit was found by Catakang#0987.  
+Head to <a href="https://caub.glitch.me/">https://caub.glitch.me/</a> to use this exploit.
+
+</details>
 
 <details>
 <summary><b>LTBEEF</b></summary>
@@ -62,9 +70,42 @@ If you close the tab, the exploit will stop working.
 </details>
 
 <details>
-<summary><b>SH1mmer</b></summary>
+<summary><b>SH1mmer</b></summary>  
+SH1mmer is an explit devloped by the crew at Mercury Workshop. Credits can be found within the menu and on their site.  
+This exploit can be used to completely unenroll enterprise-managed Chromebooks.  
+  
+**PLEASE FOLLOW EVERY DIRECTION!** If you do not, you could brick your chromebook.
+  
+More info: <a href="https://sh1mmer.me/">https://sh1mmer.me/</a>  
+- FAQ: <a href="https://sh1mmer.me/faq.html">https://sh1mmer.me/faq.html</a>
+- Credits: <a href="https://sh1mmer.me/credits.html">https://sh1mmer.me/faq.html</a>
+  
+This exploit works quite like downgrading, but requires a few more steps.  
+<i>Requirements</i>  
+- A USB with atleast 16gbs
+- A personal computer
 
+<i>Setup</i>
 
+1. Navigate to chrome://version on the chromebook you with to downgrade and check for your board under "Platform" (ex I have a c3100 and it's board is stable-channel octopus)  
+<img src="https://user-images.githubusercontent.com/88395302/212484378-65e6e6e3-b995-48a1-b229-3265a4993279.png">  
+Make sure your board is in this list: `brask, brya, clapper, coral, dedede, enguarde, glimmer, grunt, hana, hatch, jacuzzi, kukui, nami, octopus, orco, pyro, reks, sentry, stout, strongbad, tidus, ultima, volteer, zork` If it is not, then this exploit will not work.
+
+2. - On your personal computer, download the corresponding shim from the SH1MMER file mirror <ahttps://dl.sh1mmer.me/Beautiful%20World%20GUI%20Shims>https://dl.sh1mmer.me/Beautiful World GUI Shims</a>
+3. Install Chromebook Recovery Utility onto your personal computer (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en</a>  
+4. Open the extention, and click on the settings button in to top right hand corner, click "use local image"  
+5. Select the .bin file you downloaded
+
+<i>Instlation</i>
+
+1. Enter recovery mode on your Managed Chromebook. This is done by pressing the power button, reload key (↻), and esc key at the same time.
+2. Press ctrl+d, then enter
+3. It will now say something about "returning to secure mode" or that "OS verification is off", this means ou are ready to boot Sh1mmer. 
+4. Press the power button, reload key (↻), and esc key at the same time again.
+5. Plug your shimmed USB into your Chromebook, and press the power button, reload key (↻), and esc key again.
+6. Navigate to "Payloads", then click on "Unenroll"
+7. Nagigate back to the pain page, and click "Reboot"  
+Enjoy your new, unenrolled chromebook!
 </details>
 
 <details>
@@ -76,7 +117,8 @@ Downgrading can be used for several exploits, to get to a version that does not 
 2. A personal computer with access to downloading extentions
 
 <i>Setup</i>
-1. Navigate to chrome://version on the chromebook you with to downgrade and check for your board under "Platform" (ex I have a c3100 and it's board is stable-channel octopus)
+1. Navigate to chrome://version on the chromebook you with to downgrade and check for your board under "Platform" (ex I have a c3100 and it's board is stable-channel octopus)  
+<img src="https://user-images.githubusercontent.com/88395302/212484378-65e6e6e3-b995-48a1-b229-3265a4993279.png">  
 2. Navigate to https://chrome100.dev/ , press ctrl+f and type in your board
 3. Find and download the chrome version you want to your personal computer
 
