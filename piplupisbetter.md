@@ -53,8 +53,29 @@ Point Blank
 </details>
 
 <details>
-<summary><b>Downgrading</b></summary>
-See SH1mmer 🤓
+<summary><b>Downgrading</b></summary>  
+Downgrading can be used for several exploits, to get to a version that does not have patches for sertain exploits, sutch as LTBEEF. This is a built in feature of ChromeOS.  
+   
+<i>Requirements</i>
+1. USB A thumb drive with at least 16gb storage
+2. A personal computer with access to downloading extentions
+
+<i>Setup</i>
+1. Navigate to chrome://version on the chromebook you with to downgrade and check for your board under "Platform" (ex I have a c3100 and it's board is stable-channel octopus)
+2. Navigate to https://chrome100.dev/ , press ctrl+f and type in your board
+3. Find and download the chrome version you want to your personal computer
+
+<i>Instlation</i>
+1. Install Chromebook Recovery Utility onto your personal computer (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en</a>  
+2. Open the extention, and click on the settings button in to top right hand corner, click "use local image"  
+3. Select the recovery image you downloaded from chrome100  
+4. Plug in the USB you wish to use, and follow the prompts on the screen  
+
+5. On your chromebook, press esc+reload+power and follow the prompts  
+6. On the checking for updates screen, press ctrl+shift+e to skip the "checking for updates" screen  
+
+7. Profit
+
 </details>
 
 <details>
