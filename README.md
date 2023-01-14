@@ -16,7 +16,68 @@ This bookmarklet exploit that can force-disable any extension installed on Googl
 
 If you need any help, please go here: https://github.com/3kh0/ext-remover/discussions
 
+## Using sh1mmer
 
+![2023_01_14_04q_Kleki](https://user-images.githubusercontent.com/58097612/212447514-61e4755b-fe01-408d-b11e-ec79cd71b6a2.png)
+
+**PLEASE PLEASE PLEASE! Read everything before you start downloading, flashing, whatever, it will make sure you know what you are doing! If all of this seems scary for you, DO NOT, I repeat, DO NOT DO THIS!**
+
+SH1MMER is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team
+
+Before we get into this, please give a massive **massive MASSIVE** thank you to the devs behind this, they are the fricken coolest people on the planet like goddamn, thank you CoolElectronics, r58Playz, Bideos, Sharp_Jack, Unciaur, TheMemeSniper/Kaitlin, OlyB, CVFD, Rafflesia, Catakang, Bypassi, and aub! You can read about their roles in this cool project [here](https://sh1mmer.me/credits.html)
+
+*You can view the full guide with fun pictures and what not here: https://sh1mmer.me/, more help can be found here: https://sh1mmer.me/tutorial.html*
+
+### What you will need
+
+- A USB with at least 8 GBs of storage
+- A personal computer, note that you need admin perms on Windows/MacOS 
+You just need a computer that can install the extension "Chromebook Recovery Utility" or balenaEtcher
+
+### Writing to USB
+
+- First, you'll need to find your school Chromebook's board name. This can be done by going to chrome://version on your Chromebook and copying the word after "stable-channel", or with a variety of other methods.
+- If your board name is in the list below, you can continue on with the instructions:
+
+brask, brya, clapper, coral, dedede, enguarde, glimmer, grunt, hana, hatch, jacuzzi, kukui, nami, octopus, orco, pyro, reks, sentry, stout, strongbad, tidus, ultima, volteer, zork
+
+- On your personal computer, download the corresponding shim from the [SH1MMER file mirror](https://dl.sh1mmer.me/Beautiful%20World%20GUI%20Shims)
+- Download the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/pocpnlppkickgojjlmhdmidojbmbodfm) extension on your personal computer as well.
+- Once the downloads are complete, launch the recovery utility by clicking on the icon and plug your USB into your personal computer. Note that your USB will be completely cleared and partitioned.
+- In the recovery utility window, click the settings icon and press "use local image".
+- Select your shim file, identify your USB, and start the writing process. This will take about 10 minutes. 
+
+### Executing on Chromebook
+
+- Once writing is complete, enter recovery mode on your Chromebook. This is done by pressing the power button, reload key (↻), and esc key at the same time.
+- Press ctrl+d on this screen, then press enter.
+- It will now say something about "returning to secure mode" or that "OS verification is off". You will most likely not actually be in dev mode, but the exploit will work regardless.
+- On this screen, press the power button, reload key (↻), and esc key at the same time again! This is very important and cannot be skipped.
+- Once it re-shows the original recovery screen, plug your shimmed USB into your Chromebook, and press the power button, reload key (↻), and esc key again. After a brief black-and-white loading screen, you should be in the SH1MMER menu. 
+- Play around with the UI, exit, and reboot.
+
+### What now?
+
+You will now be able to, among other things, unenroll your Chromebook. It will now behave entirely as if it is a personal computer and no longer contain spyware or blocker extensions. After you do this and get past the "determining device configuration" screen, you will be able to actually turn dev mode on.
+
+Note that while unenrolled, it is recommended to add your personal account first, then add your school account, then switch between the two as needed. **Mercury Workshop does not condone the use of SH1MMER or unenrolling to cheat in school.**
+
+The biggest challenges with unenrolling are connecting to the school network and taking state or national exams (since there are no kiosk apps anymore).
+
+There are many methods to get a school Wi-Fi password while enrolled, including the [policy netlog trick](https://luphoria.com/netlog-policy-password-tool). While on a school account and unenrolled, you can bypass Wi-Fi blocks by using a secure DNS such as Cloudflare 1.1.1.1 from chrome://os-settings/osPrivacy. It is also recommended to enable "MAC Address Randomization" in chrome://flags to stay hidden. 
+
+To take a kiosk exam, the safest option is to re-enroll temporarily. Instructions for doing that are hosted [at this TXT file](https://sh1mmer.me/kiosks.txt). Saving a copy of this file for future reference is probably a smart move.
+
+Again, I highly recommend that you check out the [website](https://sh1mmer.me/) for more detailed instructions and photos to help. Be sure to thank the people who have worked on the exploit [here](https://discord.gg/unblock)
+
+- FAQ: https://sh1mmer.me/faq.html
+- Credits: https://sh1mmer.me/credits.html
+
+If you would like to learn more about this, check out these cool links:
+- https://github.com/CoolElectronics/sh1mmer
+- https://coolelectronics.me/blog/breaking-cros-2
+- https://sh1mmer.me/
+- https://www.youtube.com/watch?v=AYZBhfmLtxk
 
 ## Using Point Blank, 106 and higher.
 1. [found by bypassi](https://blog.bypassi.com/_/point-blank/) . Bookmark this code 
