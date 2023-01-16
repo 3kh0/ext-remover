@@ -1,22 +1,46 @@
 # EXT-REMOVER
-This is a curated list of exploits for ChromeOS.   
-Many of these exploits can destory your computer if used inproperly.  
+This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more!
+Many of these exploits can destory your computer if used inproperly. So PLEASE PLEASE make sure you follow these instructions very carefully!
   
-[Echo put your shebeal  about how chromebooks are trash here]
+**ATTENTION ALL SYS ADMINS!!!**
+
+Hello, I am Echo and I created this repo in order to give exploits for the masses and to prove one thing, chromebooks are literal trash, and a poor excuse for a computer. They are full of exploits, you might think you blocked/patched them all but then 3 more pop up. It is a endless game of wack-a-mole. Treat your students to a windows computer, they will thank you. And don't you dare start to think "My school district does not have that kind of money", it most likely does! How much are you paying the blocker companies? Think about that.
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
-
 Image Credit: LittleMissNyan
 
 <details>
-<summary><b>CAUB (Prevent Updates)</b></summary>
-This exploit prevents your chromebook from updating by using the Metered wifi flag. This exploit was found by Catakang#0987.  
-Head to <a href="https://caub.glitch.me/">https://caub.glitch.me/</a> to use this exploit.
+<summary><b>CAUB</b> (Prevent Updates)</summary>
+This exploit keeps your chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by Catakang#0987. Using onc files, you can convince your chromebook that the wifi that you're connected to is pay-to-use (like a hotspot using data), and thus it will not check for updates.
+
+*Scroll down to preform this exploit!*
+
+![image](https://user-images.githubusercontent.com/58097612/212685932-ef9c802e-6040-42a3-be6e-10997162b7cd.png)
+
+<i>Getting started</i>
+
+1. Go to `chrome://network#state` (on your school chromebook of course; if this is blocked then ur kinda screwed lol).
+2. Scroll to the bottom of the page; you should see a list of "favorite" wifis that you've connected to in the past.
+3. Click the + sign next to the wifi name of each network that you commonly connect your chromebook to.
+4. The more wifis you expand, the better, but note that they have to come from the "favorites" section.
+5. Use ctrl+a and ctrl+c to copy all the text on the entire network#state page.
+6. Go to [caub.glitch.me](https://caub.glitch.me/).
+7. Paste the copied text into the textbox below.
+8. Press the "generate onc" button below the textbox.
+9. Once you have downloaded the file, go to chrome://network#general
+10. Click on the "import onc" button
+11. Import the newly downloaded file
+
+Your chromebook will no longer automatically update. (as long as you are on a wifi that you used caub on)
+
+Be careful not to stay on a wifi for too long without using caub on it, otherwise you might update.
+
+We cannot guarantee that this will work on every wifi
 
 </details>
 
 <details>
-<summary><b>LTBEEF</b></summary>
+<summary><b>LTBEEF</b> (Disable extensions)</summary>
 LTBEEF is an exploit, created by Bypassi#7037, which abuses api endpoints within the google chrome webstore.  
 
 <b>Please Note:</b> This exploit only works on versions below 106, and eariler versions of 102
@@ -53,7 +77,7 @@ There are several vesions of thisexploit you can use, here are the 2 most common
 </details>  
 
 <details>
-<summary><b>Point Blank</b></summary>
+<summary><b>Point Blank</b> (Run code on system pages)</summary>
 Point Blank is an exploit that allows you to run bookmarklets on privilaged pages, sutch as the chrome extentions page.  
 This exploit was also found by Bypassi, you can read more about how he discovered this exploit <a href="https://blog.bypassi.com/_/point-blank/"></a>
 
@@ -70,7 +94,7 @@ If you close the tab, the exploit will stop working.
 </details>
 
 <details>
-<summary><b>SH1mmer</b></summary>  
+<summary><b>SH1mmer</b> (Unenroll and more)</summary>  
 SH1mmer is an explit devloped by the crew at Mercury Workshop. Credits can be found within the menu and on their site.  
 This exploit can be used to completely unenroll enterprise-managed Chromebooks.  
   
@@ -110,36 +134,47 @@ Enjoy your new, unenrolled chromebook!
 
 <details>
 <summary><b>Downgrading</b></summary>  
-Downgrading can be used for several exploits, to get to a version that does not have patches for sertain exploits, sutch as LTBEEF. This is a built in feature of ChromeOS.  
-   
+Downgrading can be used for several exploits, to get to a version that does not have patches for sertain exploits, sutch as LTBEEF. This is a built in feature of ChromeOS.
+
+![image](https://user-images.githubusercontent.com/58097612/212685863-3d6b8ce1-7caa-4735-95a8-8eb6787b227c.png)
+
 <i>Requirements</i>
-1. USB A thumb drive with at least 16gb storage
+1. A USB thumb drive with at least 4gb of storage, some board have small or bigger images, so have a beef usb, I recommend 16gb
 2. A personal computer with access to downloading extentions
+3. A brain
 
 <i>Setup</i>
 1. Navigate to chrome://version on the chromebook you with to downgrade and check for your board under "Platform" (ex I have a c3100 and it's board is stable-channel octopus)  
 <img src="https://user-images.githubusercontent.com/88395302/212484378-65e6e6e3-b995-48a1-b229-3265a4993279.png">  
-2. Navigate to https://chrome100.dev/ , press ctrl+f and type in your board
+2. Navigate to https://chrome100.dev/ , press `ctrl+f` and type in your board
 3. Find and download the chrome version you want to your personal computer
 
 <i>Instlation</i>
-1. Install Chromebook Recovery Utility onto your personal computer (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en</a>  
-2. Open the extention, and click on the settings button in to top right hand corner, click "use local image"  
-3. Select the recovery image you downloaded from chrome100  
-4. Plug in the USB you wish to use, and follow the prompts on the screen  
-
-5. On your chromebook, press esc+reload+power and follow the prompts  
-6. On the checking for updates screen, press ctrl+shift+e to skip the "checking for updates" screen  
-
-7. Profit
+1. Install Chromebook Recovery Utility onto your personal computer (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en</a>
+2. Open the extention, and click on the settings button in to top right hand corner, click "use local image"
+3. Select the recovery image you downloaded from chrome100
+4. Plug in the USB you wish to use, and follow the prompts on the screen
+5. On your chromebook, press esc+reload+power and follow the prompts
+6. On the checking for updates screen, press ctrl+shift+e to skip the "checking for updates" screen
+7. Profi
 
 </details>
   
 <details>
-<summary><b>Wifi Password</b></summary>  
-You can get your school's wifi password if it is built into the enrolement! 
+<summary><b>Wifi Password</b> (Get school wifi passwords)</summary>
+You can get your school's wifi password if it is built into the enrolement!
 
-1. Navigate to <a href="https://luphoria.com/netlog-policy-password-tool">https://luphoria.com/netlog-policy-password-tool</a>
-2. Follow directions on the site.
+![image](https://user-images.githubusercontent.com/58097612/212685463-cfd45697-a90f-42dd-8295-2bcdb5edcd4f.png)
+
+*This tool should not be used for illegal activity. By using this tool, you acknowledge that you are legally allowed to extract the password(s) in question.*
+
+1. Visit chrome://net-export
+2. In "OPTIONS" set "Include raw bytes"
+3. Click "Start Logging to Disk"
+4. Visit chrome://policy
+5. Click "Reload policies"
+6. Go back to chrome://net-export and click "Stop logging"
+7. Upload file [here!](https://luphoria.com/netlog-policy-password-tool)
+8. Profit
 
 </details>
