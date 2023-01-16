@@ -133,7 +133,7 @@ Enjoy your new, unenrolled chromebook!
 </details>
 
 <details>
-<summary><b>Downgrading</b></summary>  
+<summary><b>Downgrading</b> (Change versions)</summary>  
 Downgrading can be used for several exploits, to get to a version that does not have patches for sertain exploits, sutch as LTBEEF. This is a built in feature of ChromeOS.
 
 ![image](https://user-images.githubusercontent.com/58097612/212685863-3d6b8ce1-7caa-4735-95a8-8eb6787b227c.png)
@@ -176,5 +176,7 @@ You can get your school's wifi password if it is built into the enrolement!
 6. Go back to chrome://net-export and click "Stop logging"
 7. Upload file [here!](https://luphoria.com/netlog-policy-password-tool)
 8. Profit
-
 </details>
+
+
+boop
