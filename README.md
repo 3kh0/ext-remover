@@ -95,7 +95,7 @@ If you close the tab, the exploit will stop working.
 
 <details>
 <summary><b>SH1mmer</b> (Unenroll and more)</summary>  
-SH1mmer is an explit devloped by the crew at Mercury Workshop. Credits can be found within the menu and on their site.  
+SH1mmer is an exploit devloped by the crew at Mercury Workshop. Credits can be found within the menu and on their site.  
 This exploit can be used to completely unenroll enterprise-managed Chromebooks.  
   
 **PLEASE FOLLOW EVERY DIRECTION!** If you do not, you could brick your chromebook.
