@@ -31,11 +31,12 @@ This exploit keeps your chromebook downgraded (or on the current version) withou
 10. Click on the "import onc" button
 11. Import the newly downloaded file
 
-Your chromebook will no longer automatically update. (as long as you are on a wifi that you used caub on)
+**Extra notes**
+- Your chromebook will no longer automatically update. (as long as you are on a wifi that you used caub on)
+- Be careful not to stay on a wifi for too long without using caub on it, otherwise you might update.
+- We cannot guarantee that this will work on every wifi
 
-Be careful not to stay on a wifi for too long without using caub on it, otherwise you might update.
-
-We cannot guarantee that this will work on every wifi
+Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
 
 </details>
 
@@ -74,6 +75,9 @@ There are several vesions of thisexploit you can use, here are the 2 most common
     Set every box there to the following ip:  
     ```158.101.114.159``` (Hosted by The Greatest Giant#0110)  
     Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. Flip the switches on the extentions you want to disable. 
+
+
+Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
 </details>  
 
 <details>
@@ -91,6 +95,8 @@ javascript:let shim = false;var ids = prompt("extension ids (comma separated)").
 5. Click "View in Chrome Web Store" and spam the excape key. If it loads into chrome webstore try again, if it is a blank screen click the bookmarklet
 5. Paste the id of the extension into the prompt. 
 If you close the tab, the exploit will stop working.
+
+Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
 </details>
 
 <details>
@@ -111,14 +117,17 @@ This exploit works quite like downgrading, but requires a few more steps.
 
 <i>Setup</i>
 
-1. Navigate to chrome://version on the chromebook you with to downgrade and check for your board under "Platform" (ex I have a c3100 and it's board is stable-channel octopus)  
-<img src="https://user-images.githubusercontent.com/88395302/212484378-65e6e6e3-b995-48a1-b229-3265a4993279.png">  
-Make sure your board is in this list: `brask, brya, clapper, coral, dedede, enguarde, glimmer, grunt, hana, hatch, jacuzzi, kukui, nami, octopus, orco, pyro, reks, sentry, stout, strongbad, tidus, ultima, volteer, zork` If it is not, then this exploit will not work.
+1. Navigate to chrome://version on the chromebook you with to downgrade and check for your board under "Platform" (ex I have a c3100 and it's board is stable-channel octopus)
 
-2. - On your personal computer, download the corresponding shim from the SH1MMER file mirror <ahttps://dl.sh1mmer.me/Beautiful%20World%20GUI%20Shims>https://dl.sh1mmer.me/Beautiful World GUI Shims</a>
-3. Install Chromebook Recovery Utility onto your personal computer (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en</a>  
-4. Open the extention, and click on the settings button in to top right hand corner, click "use local image"  
-5. Select the .bin file you downloaded
+<img src="https://user-images.githubusercontent.com/88395302/212484378-65e6e6e3-b995-48a1-b229-3265a4993279.png">
+
+2. Make sure your board is in this list: `brask, brya, clapper, coral, dedede, enguarde, glimmer, grunt, hana, hatch, jacuzzi, kukui, nami, octopus, orco, pyro, reks, sentry, stout, strongbad, tidus, ultima, volteer, zork` If it is not, then this exploit will not work.
+3. On your personal computer, download the corresponding shim from the [SH1MMER file mirror](https://dl.sh1mmer.me/Beautiful%20World%20GUI%20Shims/) pick crew if you are not advanced
+4. Install Chromebook Recovery Utility onto your personal computer (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en</a>  
+5. Open the extention, and click on the settings button in to top right hand corner, click "use local image"  
+6. Select the .bin file you downloaded
+7. Click the blue button
+8. Wait
 
 <i>Instlation</i>
 
@@ -128,8 +137,11 @@ Make sure your board is in this list: `brask, brya, clapper, coral, dedede, engu
 4. Press the power button, reload key (↻), and esc key at the same time again.
 5. Plug your shimmed USB into your Chromebook, and press the power button, reload key (↻), and esc key again.
 6. Navigate to "Payloads", then click on "Unenroll"
-7. Nagigate back to the pain page, and click "Reboot"  
+7. Nagigate back to the pain page, and click "Reboot"
+
 Enjoy your new, unenrolled chromebook!
+
+Please use this only when you have permisson, I (3kh0) and Mercury Workshop do not condone the use of this exploit for illegal purposes!
 </details>
 
 <details>
@@ -156,8 +168,9 @@ Downgrading can be used for several exploits, to get to a version that does not 
 4. Plug in the USB you wish to use, and follow the prompts on the screen
 5. On your chromebook, press esc+reload+power and follow the prompts
 6. On the checking for updates screen, press ctrl+shift+e to skip the "checking for updates" screen
-7. Profi
+7. Profit
 
+Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
 </details>
   
 <details>
@@ -176,6 +189,8 @@ You can get your school's wifi password if it is built into the enrolement!
 6. Go back to chrome://net-export and click "Stop logging"
 7. Upload file [here!](https://luphoria.com/netlog-policy-password-tool)
 8. Profit
+
+Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
 </details>
 
 
