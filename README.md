@@ -124,18 +124,32 @@ This exploit works quite like downgrading, but requires a few more steps.
 2. Make sure your board is in this list: `brask, brya, clapper, coral, dedede, enguarde, glimmer, grunt, hana, hatch, jacuzzi, kukui, nami, octopus, orco, pyro, reks, sentry, stout, strongbad, tidus, ultima, volteer, zork` If it is not, then this exploit will not work.
 3. On your personal computer, download the corresponding shim from the [SH1MMER file mirror](https://dl.sh1mmer.me/Beautiful%20World%20GUI%20Shims/) pick crew if you are not advanced
 4. Install Chromebook Recovery Utility onto your personal computer (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en</a>  
-5. Open the extention, and click on the settings button in to top right hand corner, click "use local image"  
+5. Open the extention, and click on the settings button in to top right hand corner, click "use local image"
+
+![image](https://user-images.githubusercontent.com/58097612/212979292-61787616-f640-47f8-8aee-2b37baf66b58.png)
+
 6. Select the .bin file you downloaded
 7. Click the blue button
 8. Wait
 
 <i>Instlation</i>
 
-1. Enter recovery mode on your Managed Chromebook. This is done by pressing the power button, reload key (↻), and esc key at the same time.
+1. Enter recovery mode on your Managed Chromebook. This is done by pressing the power button, reload key (↻), and esc key at the same time. Your screens should look like the image below:
+
+![image](https://user-images.githubusercontent.com/58097612/212979580-afb09ba1-e851-49a1-9b72-71092c46af43.png)
+![image](https://user-images.githubusercontent.com/58097612/212979638-8af8d0ed-d080-4d7d-938a-a6723cff4d5e.png)
+
 2. Press ctrl+d, then enter
-3. It will now say something about "returning to secure mode" or that "OS verification is off", this means ou are ready to boot Sh1mmer. 
+3. It will now say something about "returning to secure mode" or that "OS verification is off", this means ou are ready to boot Sh1mmer. It will look the like the images below:
+
+![image](https://user-images.githubusercontent.com/58097612/212979781-926be545-fb6e-4441-bebe-ff89e7d4a1f1.png)
+![image](https://user-images.githubusercontent.com/58097612/212979798-65f45aa3-616a-4ccf-8636-2b94cce86686.png)
+
 4. Press the power button, reload key (↻), and esc key at the same time again.
 5. Plug your shimmed USB into your Chromebook, and press the power button, reload key (↻), and esc key again.
+
+![image](https://user-images.githubusercontent.com/58097612/212979889-019e53e9-1f39-4536-900d-d95585c65bd6.png)
+
 6. Navigate to "Payloads", then click on "Unenroll"
 7. Nagigate back to the pain page, and click "Reboot"
 
