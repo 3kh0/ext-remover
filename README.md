@@ -1,6 +1,7 @@
 # EXT-REMOVER
 This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more!
 Many of these exploits can destory your computer if used inproperly. So PLEASE PLEASE make sure you follow these instructions very carefully!
+If you need help ask it <a href="https://github.com/3kh0/ext-remover/discussions">here</a>
   
 **ATTENTION ALL SYS ADMINS!!!**
 
@@ -8,6 +9,33 @@ Hello, I am Echo and I created this repo in order to give exploits for the masse
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
+
+<details>
+<summary><b>New Point-Blank</b> (Run scripts on extension pages)</summary>
+This exploit allows you to run scripts, on extensions pages, this is a great example of how Chromebooks are a piece of garbage.
+
+*Scroll down to preform this exploit!*
+
+
+<i>Getting started</i>
+(Note: if bookmarklets are blocked your screwed.)
+  1. Go to <a href="https://spot-maze-chinchilla.glitch.me/ingot.js">here</a> (on your school chromebook of course)
+2. Make a bookmark with the code there.
+3. Once that is done.
+  If you have Securly go to <a href="https://tinyurl.com/bettergoofcurly">here</a> if it says blocked by chrome, reload(you have to actually have securly ofc)
+ If you have iBoss go to <a href="https://tinyurl.com/goofboss">here</a>, 
+ 
+ If you have Cisco Umbrella go to <a href="https://tinyurl.com/goofumbrella">here</a>
+ If you have Blocksi go to <a href="https://tinyurl.com/goofsi">here</a> 
+ And if you have GoGuardian(might not work) go to <a href="https://tinyurl.com/goofguardian">here</a>. Now most of these links are a block page(this is intentional) on each page should have a blue link, click the link on the page if it opens a blank page click the bookmarklet that you just made and click either hard disable or soft disable, you can also run some of the scripts and run your own code, your extension may disable javascript being ran on it, so running your own code may not work.
+**Extra notes**
+- I recommend doing soft disable, which only disables it until restart. 
+- The launcher was made by me, but the idea was from <a href="https://bolg.glitch.me/_/point-blank/">Bypassi#7037</a>
+- If your school updated GoGuardian, this exploit may not work.
+
+Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
+
+</details>
 
 <details>
 <summary><b>CAUB</b> (Prevent Updates)</summary>
@@ -87,7 +115,7 @@ This exploit was also found by Bypassi, you can read more about how he discovere
 
 1. Bookmark this code:
 ```js
-javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 125);
+javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 145);
 ```
 2. Navigate to `chrome://extensions` 
 3. Click on a extension that YOU installed from the Chrome Web Store > Details
@@ -187,6 +215,19 @@ Downgrading can be used for several exploits, to get to a version that does not 
 Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
 </details>
   
+<details>
+  <summary><b>Killcurly</b></summary>
+Kill extension, by signing out.
+
+1. Visit chrome://settings/signOut the O in Out must be capital.
+2. Press the blue button
+3. Go to chrome://restart
+4. Everything should be unblocked
+  
+  **Using this, may get your computer taken away, if your school finds out** 
+**This was discoverered by zoroark**
+Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
+</details>
 <details>
 <summary><b>Wifi Password</b> (Get school wifi passwords)</summary>
 You can get your school's wifi password if it is built into the enrolement!
