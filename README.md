@@ -224,7 +224,7 @@ Kill extension, by signing out.
 3. Go to chrome://restart
 4. Everything should be unblocked
   
-  **Using this, may get your computer taken away, if your school finds out** 
+  **Using this, may get your computer taken away if your school finds out.** 
 **This was discoverered by zoroark**
 Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
 </details>
