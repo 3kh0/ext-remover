@@ -222,7 +222,10 @@ Kill extension, by signing out.
 1. Visit chrome://settings/signOut the O in Out must be capital.
 2. Press the blue button
 3. Go to chrome://restart
-4. Everything should be unblocked
+4. Now visit tinyurl.com/AddSession
+5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, Youtube, and any Google    service.
+6. All extensions should stop working.
+7. Note that you have to repeat this every time you restart or sign out.
   
   **Using this, may get your computer taken away if your school finds out.** 
 **This was discoverered by zoroark**
