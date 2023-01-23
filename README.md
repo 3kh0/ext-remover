@@ -109,6 +109,30 @@ Please use this only when you have permisson, I (3kh0) do not condone the use of
 </details>  
 
 <details>
+<summary><b>LTBEEF inspect</b> (Using google forms to disable)</summary>
+
+![image](https://user-images.githubusercontent.com/58097612/207386423-e6aa2095-d92d-44a8-a3d6-e42066bdf34e.png)
+
+The screenshot below was preformed on 108.0.5359.75 (Official Build) (64-bit) on the stable channel.
+
+This has been tested and does work but has varying levels of success, you will need access to inspect element, more specifically, console.
+
+- Open this URL on your chromebook: `chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json` Shortened link: https://tinyurl.com/i-ltbeef
+- Open inspect and navigate to the console tab.
+- Run the basic LTBEEF code such as
+```js
+chrome.management.setEnabled('extensionid', false)
+```
+Replacing `extensionid` with the ID of the extension you want to disable, e.g. the stuff after the = in the URL bar when you click the extension's "details" button in chrome://extensions
+
+Credit to SprinkzMC#8421 (aka Bypassi) for finding this!
+
+![image](https://user-images.githubusercontent.com/58097612/207385046-5a9f6f07-6089-4775-9183-c11bd24ba02c.png)
+
+To re-enable just go to the chrome web listing for the extension and click on the banner.
+</details>
+
+<details>
 <summary><b>Point Blank</b> (Run code on system pages)</summary>
 Point Blank is an exploit that allows you to run bookmarklets on privilaged pages, sutch as the chrome extentions page.  
 This exploit was also found by Bypassi, you can read more about how he discovered this exploit <a href="https://blog.bypassi.com/_/point-blank/"></a>
