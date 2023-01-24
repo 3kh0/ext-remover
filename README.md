@@ -109,7 +109,7 @@ Please use this only when you have permisson, I (3kh0) do not condone the use of
 </details>  
 
 <details>
-<summary><b>LTBEEF inspect</b> (Using google forms to disable)</summary>
+<summary><b>LTBEEF inspect</b> (Using inspect to disable extensions)</summary>
 
 ![image](https://user-images.githubusercontent.com/58097612/207386423-e6aa2095-d92d-44a8-a3d6-e42066bdf34e.png)
 
