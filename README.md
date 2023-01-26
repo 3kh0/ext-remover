@@ -173,9 +173,38 @@ This exploit works quite like downgrading, but requires a few more steps.
 
 <img src="https://user-images.githubusercontent.com/88395302/212484378-65e6e6e3-b995-48a1-b229-3265a4993279.png">
 
+**NOTE: IT IS ILLADVISED TO USE PREBUILT SHIMS FROM RANDOM PEOPLE AS SOME ARE TROJANS WHICH WILL BRICK YOUR CHROMEBOOK, YOU HAVE BEEN WARNED, ALWAYS COMPARE THE HASHES OF THE SHIM WITH A TRUSTED PERSONS HASH** When in doubt, make your own shim, if you brick your chromebook, have fun explaining that to your sysadmin
+
 2. Make sure your board is in this list: `brask, brya, clapper, coral, dedede, enguarde, glimmer, grunt, hana, hatch, jacuzzi, kukui, nami, octopus, orco, pyro, reks, sentry, stout, strongbad, tidus, ultima, volteer, zork` If it is not, then this exploit will not work.
-3. On your personal computer, download the corresponding shim from the [SH1MMER file mirror](https://dl.sh1mmer.me/Beautiful%20World%20GUI%20Shims/) pick crew if you are not advanced
+3. This next step can be hard for some people who are stupid and can't use computers, so if you are dumb, make someone else do it or just dont do it. You will need Windows or Linux (cry rich MacOS users) , **YOU CAN NOT DO THIS ON A CHROMEBOOK!** (unless you have linux on, but then again, linux on chromeos sucks)
+
+Build Process: Windows
+
+1. Download wax4windows from https://dl.sh1mmer.me/build-tools (windows folder btw)
+2. Extract the zip file fully
+3. Open the application
+4. Select "Select RMA Shim from local"
+5. Select the .bin file of the RMA shim you are modifying to be a sh1mmer payload (if you dont have one, https://lenovo-driver-download.com)
+6. Click "Inject SH1mmer payload"
+7. Wait from 1-10 minutes (depending on your CPU and IO speed)
+8. Profit
+
+Build process: Linux
+
+1. Install vboot-utils (archlinux aur) or cgpt (debian/ubuntu and dirr, sudo apt install cgpt)
+2. Download and extract source-code (mini).zip from https://dl.sh1mmer.me/build-tools
+3. Change your working directory into SOURCE-CODE-ROOT/wax (cd wax)
+4. Change wax.sh to be executable (chmod 755 wax.sh)
+5. Run wax with sudo ./wax.sh <PATH-TO-RMA-SHIM>
+6. Wait from 30 seconds to 5 minutes, depending on IO speed
+7. Profit
+
+Note if you can not do this, I may help you, depends on my mood, discord.gg/3kh0 >:(
+
 4. Install Chromebook Recovery Utility onto your personal computer (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en</a>  
+
+If the Chromebook Recovery Utility doesn't work, you can use Rufus or any other USB flasher. The Chromebook Recovery Utility isn't very good, but I had to use it just to make sure the guide was streamlined between all operating systems. Download Rufus here: https://rufus.ie
+
 5. Open the extention, and click on the settings button in to top right hand corner, click "use local image"
 
 ![image](https://user-images.githubusercontent.com/58097612/212979292-61787616-f640-47f8-8aee-2b37baf66b58.png)
@@ -208,6 +237,11 @@ This exploit works quite like downgrading, but requires a few more steps.
 Enjoy your new, unenrolled chromebook!
 
 Please use this only when you have permisson, I (3kh0) and Mercury Workshop do not condone the use of this exploit for illegal purposes!
+
+Further reading (if you like this stuff)
+- https://www.reddit.com/r/MercuryWorkshop/comments/10kz7rr/sh1mmer_official_post/
+- https://sh1mmer.me/
+- https://www.youtube.com/watch?v=AYZBhfmLtxk
 </details>
 
 <details>
