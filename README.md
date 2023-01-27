@@ -176,8 +176,15 @@ This exploit works quite like downgrading, but requires a few more steps.
 **NOTE: IT IS ILLADVISED TO USE PREBUILT SHIMS FROM RANDOM PEOPLE AS SOME ARE TROJANS WHICH WILL BRICK YOUR CHROMEBOOK, YOU HAVE BEEN WARNED, ALWAYS COMPARE THE HASHES OF THE SHIM WITH A TRUSTED PERSONS HASH** When in doubt, make your own shim, if you brick your chromebook, have fun explaining that to your sysadmin
 
 2. Make sure your board is in this list: `brask, brya, clapper, coral, dedede, enguarde, glimmer, grunt, hana, hatch, jacuzzi, kukui, nami, octopus, orco, pyro, reks, sentry, stout, strongbad, tidus, ultima, volteer, zork` If it is not, then this exploit will not work.
-3. This next step can be hard for some people who are stupid and can't use computers, so if you are dumb, make someone else do it or just dont do it. You will need Windows or Linux (cry rich MacOS users) , **YOU CAN NOT DO THIS ON A CHROMEBOOK!** (unless you have linux on, but then again, linux on chromeos sucks)
+3. This next step can be hard for some people who are stupid and can't use computers, so if you are dumb, make someone else do it or just dont do it. You will need Windows or Linux (cry rich MacOS users), there is also a web version for those smooth brained people
 
+Build Process: Web ~~idiot~~
+
+1. Download your board [here](https://chromeos-rma-leaks.me/SHIMS/)
+2. Upload your file [here](https://chromeos-rma-leaks.me/) and click inject shim
+3. Wait (This can be about 7 minutes for octo, 2 min for good computers)
+4. Profit
+  
 Build Process: Windows
 
 1. Download wax4windows from https://dl.sh1mmer.me/build-tools (windows folder btw)
@@ -242,6 +249,7 @@ Further reading (if you like this stuff)
 - https://www.reddit.com/r/MercuryWorkshop/comments/10kz7rr/sh1mmer_official_post/
 - https://sh1mmer.me/
 - https://www.youtube.com/watch?v=AYZBhfmLtxk
+- https://youtu.be/6ND_yrboOKM
 </details>
 
 <details>
