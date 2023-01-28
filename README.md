@@ -9,7 +9,19 @@ Hello, I am Echo and I created this repo in order to give exploits for the masse
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
+<details>
+<summary><b> Extension Launcher(Bookmarklet) </summary>
+A bookmarklet capable of installing extensions, for those without a allowlist. 
 
+Steps: 
+Go to <a href="https://extension-installer.glitch.me/code.js">here</a> bookmark the code there (Might make a dns)
+go to chrome.google.com/webstorex and use the bookmarklet, then put the icon of the extension, the id, and name of it (Doesn't matter just put anything)
+press download, and it will work.
+**Extra Notes**
+- Credit to "Aka, but nice" on discord.
+- Dns will be up soon, if bookmarklets are blocked
+- This will not work if you have a blocklist this is only for if when you go to the webstore it shows blocked
+</details>
 <details>
 <summary><b>New Point-Blank</b> (Run scripts on extension pages)</summary>
 This exploit allows you to run scripts, on extensions pages, this is a great example of how Chromebooks are a piece of garbage.
@@ -289,7 +301,7 @@ Kill extension, by signing out.
 2. Press the blue button
 3. Go to chrome://restart
 4. Now visit tinyurl.com/AddSession
-5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, Youtube, and any Google    service.
+5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, Youtube, and any Google   service.
 6. All extensions should stop working.
 7. Note that you have to repeat this every time you restart or sign out.
   
@@ -299,7 +311,7 @@ Please use this only when you have permisson, I (3kh0) do not condone the use of
 </details>
 <details>
 <summary><b>Wifi Password</b> (Get school wifi passwords)</summary>
-You can get your school's wifi password if it is built into the enrolement!
+You can get your school's wifi password if it is built into the enrollment!
 
 ![image](https://user-images.githubusercontent.com/58097612/212685463-cfd45697-a90f-42dd-8295-2bcdb5edcd4f.png)
 
