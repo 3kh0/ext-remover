@@ -262,6 +262,7 @@ Further reading (if you like this stuff)
 - https://sh1mmer.me/
 - https://www.youtube.com/watch?v=AYZBhfmLtxk
 - https://youtu.be/6ND_yrboOKM
+- https://coolelectronics.me/blog/breaking-cros-2
 </details>
 
 <details>
