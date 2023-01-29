@@ -65,7 +65,7 @@ This exploit keeps your chromebook downgraded (or on the current version) withou
 4. The more wifis you expand, the better, but note that they have to come from the "favorites" section.
 5. Use ctrl+a and ctrl+c to copy all the text on the entire network#state page.
 6. Go to [caub.glitch.me](https://caub.glitch.me/).
-7. Paste the copied text into the textbox below.
+7. Paste the copied text into the textbox bshelow.
 8. Press the "generate onc" button below the textbox.
 9. Once you have downloaded the file, go to chrome://network#general
 10. Click on the "import onc" button
@@ -192,10 +192,10 @@ This exploit works quite like downgrading, but requires a few more steps.
 
 Build Process: Web ~~idiot~~
 
-1. Download your board [here](https://chromeos-rma-leaks.me/SHIMS/)
-2. Upload your file [here](https://chromeos-rma-leaks.me/) and click inject shim
-3. Wait (This can be about 7 minutes for octo, 2 min for good computers)
-4. Profit
+1. Download your board at [files.ultimatesrv.com](https://files.ultimatesrv.com/) or [mirror.the-repo.org](https://mirror.the-repo.org/RMA/Shims/)
+2. Go to [chromeos-rma-leaks.me](https://chromeos-rma-leaks.me/)
+3. Click the nice big start button and select the board you downloaded
+4. Wait (This can be about 7 minutes for octo, 2 min for good computers)
   
 Build Process: Windows
 
