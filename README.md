@@ -164,105 +164,15 @@ Please use this only when you have permisson, I (3kh0) do not condone the use of
 </details>
 
 <details>
-<summary><b>SH1mmer</b> (Unenroll and more)</summary>  
+<summary><b>SH1mmer</b></summary>  
 SH1mmer is an exploit devloped by the crew at Mercury Workshop. Credits can be found within the menu and on their site.  
-This exploit can be used to completely unenroll enterprise-managed Chromebooks.  
-  
-**PLEASE FOLLOW EVERY DIRECTION!** If you do not, you could brick your chromebook.
-  
-More info: <a href="https://sh1mmer.me/">https://sh1mmer.me/</a>  
-- FAQ: <a href="https://sh1mmer.me/faq.html">https://sh1mmer.me/faq.html</a>
-- Credits: <a href="https://sh1mmer.me/credits.html">https://sh1mmer.me/faq.html</a>
-  
-This exploit works quite like downgrading, but requires a few more steps.  
-<i>Requirements</i>  
-- A USB with atleast 16gbs
-- A personal computer
 
-<i>Setup</i>
+Further information is now located at these links:
 
-1. Navigate to chrome://version on the chromebook you with to downgrade and check for your board under "Platform" (ex I have a c3100 and it's board is stable-channel octopus)
-
-<img src="https://user-images.githubusercontent.com/88395302/212484378-65e6e6e3-b995-48a1-b229-3265a4993279.png">
-
-**NOTE: IT IS ILLADVISED TO USE PREBUILT SHIMS FROM RANDOM PEOPLE AS SOME ARE TROJANS WHICH WILL BRICK YOUR CHROMEBOOK, YOU HAVE BEEN WARNED, ALWAYS COMPARE THE HASHES OF THE SHIM WITH A TRUSTED PERSONS HASH** When in doubt, make your own shim, if you brick your chromebook, have fun explaining that to your sysadmin
-
-2. Make sure your board is in this list: `brask, brya, clapper, coral, dedede, enguarde, glimmer, grunt, hana, hatch, jacuzzi, kukui, nami, octopus, orco, pyro, reks, sentry, stout, strongbad, tidus, ultima, volteer, zork` If it is not, then this exploit will not work.
-3. This next step can be hard for some people who are stupid and can't use computers, so if you are dumb, make someone else do it or just dont do it. You will need Windows or Linux (cry rich MacOS users), there is also a web version for those smooth brained people
-
-Build Process: Web ~~idiot~~
-
-1. Download your board at [files.ultimatesrv.com](https://files.ultimatesrv.com/) or [mirror.the-repo.org](https://mirror.the-repo.org/RMA/Shims/)
-2. Go to [chromeos-rma-leaks.me](https://chromeos-rma-leaks.me/)
-3. Click the nice big start button and select the board you downloaded
-4. Wait (This can be about 7 minutes for octo, 2 min for good computers)
-  
-Build Process: Windows
-
-1. Download wax4windows from https://dl.sh1mmer.me/build-tools (windows folder btw)
-2. Extract the zip file fully
-3. Open the application
-4. Select "Select RMA Shim from local"
-5. Select the .bin file of the RMA shim you are modifying to be a sh1mmer payload (if you dont have one, https://lenovo-driver-download.com)
-6. Click "Inject SH1mmer payload"
-7. Wait from 1-10 minutes (depending on your CPU and IO speed)
-8. Profit
-
-Build process: Linux
-
-1. Install vboot-utils (archlinux aur) or cgpt (debian/ubuntu and dirr, sudo apt install cgpt)
-2. Download and extract source-code (mini).zip from https://dl.sh1mmer.me/build-tools
-3. Change your working directory into SOURCE-CODE-ROOT/wax (cd wax)
-4. Change wax.sh to be executable (chmod 755 wax.sh)
-5. Run wax with sudo ./wax.sh <PATH-TO-RMA-SHIM>
-6. Wait from 30 seconds to 5 minutes, depending on IO speed
-7. Profit
-
-Note if you can not do this, I may help you, depends on my mood, discord.gg/3kh0 >:(
-
-4. Install Chromebook Recovery Utility onto your personal computer (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en</a>  
-
-If the Chromebook Recovery Utility doesn't work, you can use Rufus or any other USB flasher. The Chromebook Recovery Utility isn't very good, but I had to use it just to make sure the guide was streamlined between all operating systems. Download Rufus here: https://rufus.ie
-
-5. Open the extention, and click on the settings button in to top right hand corner, click "use local image"
-
-![image](https://user-images.githubusercontent.com/58097612/212979292-61787616-f640-47f8-8aee-2b37baf66b58.png)
-
-6. Select the .bin file you downloaded
-7. Click the blue button
-8. Wait
-
-<i>Instlation</i>
-
-1. Enter recovery mode on your Managed Chromebook. This is done by pressing the power button, reload key (↻), and esc key at the same time. Your screens should look like the image below:
-
-![image](https://user-images.githubusercontent.com/58097612/212979580-afb09ba1-e851-49a1-9b72-71092c46af43.png)
-![image](https://user-images.githubusercontent.com/58097612/212979638-8af8d0ed-d080-4d7d-938a-a6723cff4d5e.png)
-
-2. Press ctrl+d, then enter
-3. It will now say something about "returning to secure mode" or that "OS verification is off", this means ou are ready to boot Sh1mmer. It will look the like the images below:
-
-![image](https://user-images.githubusercontent.com/58097612/212979781-926be545-fb6e-4441-bebe-ff89e7d4a1f1.png)
-![image](https://user-images.githubusercontent.com/58097612/212979798-65f45aa3-616a-4ccf-8636-2b94cce86686.png)
-
-4. Press the power button, reload key (↻), and esc key at the same time again.
-5. Plug your shimmed USB into your Chromebook, and press the power button, reload key (↻), and esc key again.
-
-![image](https://user-images.githubusercontent.com/58097612/212979889-019e53e9-1f39-4536-900d-d95585c65bd6.png)
-
-6. Navigate to "Payloads", then click on "Unenroll"
-7. Nagigate back to the pain page, and click "Reboot"
-
-Enjoy your new, unenrolled chromebook!
-
-Please use this only when you have permisson, I (3kh0) and Mercury Workshop do not condone the use of this exploit for illegal purposes!
-
-Further reading (if you like this stuff)
-- https://www.reddit.com/r/MercuryWorkshop/comments/10kz7rr/sh1mmer_official_post/
-- https://sh1mmer.me/
-- https://www.youtube.com/watch?v=AYZBhfmLtxk
-- https://youtu.be/6ND_yrboOKM
-- https://coolelectronics.me/blog/breaking-cros-2
+[Official Repository](https://github.com/CoolElectronics/sh1mmer)  
+[Official Website (INSTRUCTIONS)](https://sh1mmer.me/)  
+[Raw Shims Download](https://files.ultimatesrv.com/)  
+[Wax4Web Shim Builder](https://build.ultimatesrv.com/)
 </details>
 
 <details>
@@ -308,25 +218,6 @@ Kill extension, by signing out.
   
   **Using this, may get your computer taken away if your school finds out.** 
 **This was discoverered by zoroark**
-Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
-</details>
-<details>
-<summary><b>Wifi Password</b> (Get school wifi passwords)</summary>
-You can get your school's wifi password if it is built into the enrollment!
-
-![image](https://user-images.githubusercontent.com/58097612/212685463-cfd45697-a90f-42dd-8295-2bcdb5edcd4f.png)
-
-*This tool should not be used for illegal activity. By using this tool, you acknowledge that you are legally allowed to extract the password(s) in question.*
-
-1. Visit chrome://net-export
-2. In "OPTIONS" set "Include raw bytes"
-3. Click "Start Logging to Disk"
-4. Visit chrome://policy
-5. Click "Reload policies"
-6. Go back to chrome://net-export and click "Stop logging"
-7. Upload file [here!](https://luphoria.com/netlog-policy-password-tool)
-8. Profit
-
 Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
 </details>
 
