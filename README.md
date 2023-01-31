@@ -86,10 +86,10 @@ LTBEEF is an exploit, created by Bypassi#7037, which abuses api endpoints within
 
 <b>Please Note:</b> This exploit only works on versions below 106, and eariler versions of 102
   
-The origional site created for this exploit can be found at <a href="https://ltbeef.netlify.app/">ltbeef.netlify.app</a>
+The original site created for this exploit can be found at <a href="https://ltbeef.netlify.app/">ltbeef.netlify.app</a>
   
-**Instlation**  
-There are several vesions of thisexploit you can use, here are the 2 most common versions:
+**Installation**  
+There are several vesions of this exploit you can use, here are the 2 most common versions:
 - *Bookmarklets*  
     To use a GUI, bookmark one of the below scripts:  
     - Ingot  
@@ -148,16 +148,17 @@ To re-enable just go to the chrome web listing for the extension and click on th
 <summary><b>Point Blank</b> (Run code on system pages)</summary>
 Point Blank is an exploit that allows you to run bookmarklets on privilaged pages, sutch as the chrome extentions page.  
 This exploit was also found by Bypassi, you can read more about how he discovered this exploit <a href="https://blog.bypassi.com/_/point-blank/"></a>
-
+You can either use the prompt or the gui the prompt is below
 1. Bookmark this code:
 ```js
 javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 145);
 ```
+and <a href="https://extension-installer.glitch.me/old.js">this </a> is the gui
 2. Navigate to `chrome://extensions` 
 3. Click on a extension that YOU installed from the Chrome Web Store > Details
 4. In the URL bar, copy the string of letters and numbers after the `/?id=`
 5. Click "View in Chrome Web Store" and spam the excape key. If it loads into chrome webstore try again, if it is a blank screen click the bookmarklet
-5. Paste the id of the extension into the prompt. 
+5. Paste the id of the extension into the prompt or input box seperated by commas.
 If you close the tab, the exploit will stop working.
 
 Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
@@ -177,7 +178,7 @@ Further information is now located at these links:
 
 <details>
 <summary><b>Downgrading</b> (Change versions)</summary>  
-Downgrading can be used for several exploits, to get to a version that does not have patches for sertain exploits, sutch as LTBEEF. This is a built in feature of ChromeOS.
+Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, sutch as LTBEEF. This is a built in feature of ChromeOS.
 
 ![image](https://user-images.githubusercontent.com/58097612/212685863-3d6b8ce1-7caa-4735-95a8-8eb6787b227c.png)
 
