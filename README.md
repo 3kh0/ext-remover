@@ -50,6 +50,34 @@ Please use this only when you have permisson, I (3kh0) do not condone the use of
 </details>
 
 <details>
+<summary><b> UBoss </summary>
+
+By the BlueHatCrew
+https://dsc.gg/blue-hat-crew
+
+This works only for iboss, cisco umbrella, blocksi and securely(maybe).
+So if you don't have those then go tell your mommy.
+First go to https://tinyurl.com/byeswamp if you have iboss. 
+https://tinyurl.com/blockboss if you have Blocksi.
+https://tinyurl.com/cyouboss if you have Cisco Umbrella. May not work
+and https://tinyurl.com/suboss if you have securely. May not work.
+
+Then bookmark the code below
+```js
+javascript:document.documentElement.innerHTML =   '<head> <center> <h1> [UBoss]  <strong> Ur </strong> moms the <strong> BOSS </strong> </h1> </center></head><br> <h4> <center> This is based off of the original swamp launcher, the new point-blank method and the old extesnion id disabler. <hr> <strong> Credits: </strong> Aka, but nice (for the main code layout and javscript), Bypassi (for the original Swamp code and Point-Blank), <a href="https://www.youtube.com/legoaxolotl?Sub_Confirmation=1">Lego Axolotl</a> (For name idea, and beta testing), and finally, the <a href="https://www.youtube.com/@thebluehatcrew/Sub_Confirmation=1">BlueHatCrew</a> for making the UI and initial idea of this. </h4> </center> <hr> <br><div><style> pre,textarea{display:inline-block;height:400px}*{box-sizing:border-box}body{padding:10px;font-size:110%;color:#349633%20;background-color:#2e2e31}h1{text-align:center;font-size:70px}h2{text-align:left;font-size:175%}button,input,pre,select,textarea{color:#000;font-size:15px}h1,h2,h3,button,label,p,select{font-family:Roboto,sans-serif}hr{border:none;border-bottom:3px%20solid%20#fff}input,kbd,pre,textarea{font-family:monospace;border:none}input,select,textarea{background-color:#fff;border-radius:10px;p%20dding:10px%2017px;border:none}button,input{background-color:#fff;padding:10px%2020px;margin:0%205px%205px%200}input{width:600px;border-radius:10px}textarea{white-space:pre;float:left;width:60%;border-radius:10px%200%200%2010px;resize:none;background-color:#99edc3;margin-bottom:15px}pre{border-radius:0%2010px%2010px%200;padding:8px;float:right;margin:0%200%2025px;width:40%;overflow-y:scroll;word-break:break-all;white-space:pre-line;background-color:#1c8e40}button{border:none;border-radius:10px;cursor:pointer;transition:filter%20250ms}button:hover{filter:brightness(.8)}.gg{background-color:#99edc3}a{color:#4fef7c;transition:color%20250ms}a:hover{color:#1c8e40}</style><br><br><center><input%20id="id"%20placeholder="Put%20Extension%20ID%20Here:%20(split%20by%20commas)"><br>%20<button%20id="disable">Disable</button>';%20document.getElementById("disable").addEventListener(%20%20%20"click",%20%20%20function%20()%20{%20%20%20%20%20var%20ids%20=%20document%20%20%20%20%20%20%20.getElementById("id")%20%20%20%20%20%20%20.value.split(",")%20%20%20%20%20%20%20.forEach((e)%20=>%20{%20%20%20%20%20%20%20%20%20opener.chrome.management.setEnabled(ids.trim(),%20false);%20%20%20%20%20%20%20});%20%20%20},%20%20%20!1%20);%20opener.chrome.management.getAll(function%20(extensions)%20{%20%20%20extensions.forEach((extension)%20=>%20{%20%20%20%20%20var%20button%20=%20document.createElement("button");%20%20%20%20%20(button.textContent%20=%20extension.name),%20%20%20%20%20%20%20(button.id%20=%20extension.id),%20%20%20%20%20%20%20(button.enabled%20=%20extension.enabled),%20%20%20%20%20%20%20(button.onclick%20=%20toggle);%20%20%20%20%20document.documentElement.appendChild(button);%20%20%20});%20});%20var%20blocking%20=%20false;%20function%20toggle()%20{%20%20%20if%20(blocking)%20{%20%20%20%20%20opener.chrome.management.setEnabled(this.id,%20false);%20%20%20}%20else%20{%20%20%20%20%20opener.chrome.management.setEnabled(this.id,%20true);%20%20%20}%20%20%20blocking%20=%20!blocking;%20}%20toggle();%20this.onclick%20=%20toggle();%20document.write(%20%20%20'<style>%20pre,textarea{display:inline-block;height:400px}*{box-sizing:border-box}body{padding:10px;font-size:110%;color:#fff;background-color:#2e2e31}h1{text-align:center;font-size:70px}h2{text-align:left;font-size:175%}button,input,pre,select,textarea{color:#000;font-size:15px}h1,h2,h3,button,label,p,select{font-family:Roboto,sans-serif}hr{border:none;border-bottom:3px%20solid%20#fff}input,kbd,pre,textarea{font-family:monospace;border:none}input,select,textarea{background-color:#fff;border-radius:10px;padding:10px%2017px;border:none}button,input{background-color:#fff;padding:10px%2020px;margin:0%205px%205px%200}input{width:600px;border-radius:10px}textarea{white-space:pre;float:left;width:60%;border-radius:10px%200%200%2010px;resize:none;background-color:#99edc3;margin-bottom:15px}pre{border-radius:0%2010px%2010px%200;padding:8px;float:right;margin:0%200%2025px;width:40%;overflow-y:scroll;word-break:break-all;white-space:pre-line;background-color:#1c8e40}button{border:none;border-radius:10px;cursor:pointer;transition:filter%20250ms}button:hover{filter:brightness(.8)}.gg{background-color:#99edc3}a{color:#99edc3;transition:color%20250ms}a:hover{color:#1c8e40}%20</style>%20<center>%20<input%20id="extension"%20placeholder="Put%20Extension%20Id%20Here"><button%20id="disable">Disable%20Extension</button>'%20),%20%20%20document.getElementById("disable").addEventListener(%20%20%20%20%20"click",%20%20%20%20%20function%20()%20{%20%20%20%20%20%20%20var%20ids%20=%20document%20%20%20%20%20%20%20%20%20.getElementById("extension")%20%20%20%20%20%20%20%20%20.value.split(",")%20%20%20%20%20%20%20%20%20.forEach((i)%20=>%20{%20%20%20%20%20%20%20%20%20%20%20opener.chrome.management.setEnabled(i.trim(),%20!1);%20%20%20%20%20%20%20%20%20});%20%20%20%20%20},%20%20%20%20%20!1%20%20%20);
+```
+
+Then go to the site with your blocker^.
+
+And run the code. Follow the instructions there.
+If it doesnt work let us know by creating a discussion.
+
+This was made in partnership with Aka, but nice and Bypassi.
+
+-Cubing Hay
+</details>
+
+<details>
 <summary><b>CAUB</b> (Prevent Updates)</summary>
 This exploit keeps your chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by Catakang#0987. Using onc files, you can convince your chromebook that the wifi that you're connected to is pay-to-use (like a hotspot using data), and thus it will not check for updates.
 
