@@ -256,7 +256,11 @@ Kill extension, by signing out.
 5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, Youtube, and any Google   service.
 6. All extensions should stop working.
 7. Note that you have to repeat this every time you restart or sign out.
-  
+8. If the link gets patched and you no longer see the blue button, go to chrome://settings/resetProfileSettings click current settings, it'll open a blank page, on that page run 
+```js
+javascript:opener.chrome.send("TurnOffSync");
+```
+And visit chrome://restart.
   **Using this, may get your computer taken away if your school finds out.** 
 **This was discoverered by zoroark**
 Please use this only when you have permisson, I (3kh0) do not condone the use of this exploit for illegal purposes!
