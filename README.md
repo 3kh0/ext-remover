@@ -9,6 +9,28 @@ Hello, I am Echo and I created this repo in order to give exploits for the masse
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
+
+<details>
+<summary><b>JPCMG LTBEEF with Service workers</b></summary>
+
+**Requirements**
+- Access to `chrome://serviceworker-internals`
+- Inspect
+
+1. Go to `chrome://serviceworker-internals`
+2. Find your extension, this wont work if theres not a plugin in there.
+3. Hit start then inspect, run basic LTBEEF code
+```js
+chrome.management.setEnabled('<plugin id here>',false)
+```
+4. Profit
+
+![image](https://user-images.githubusercontent.com/58097612/234904781-4d5ad77e-6045-435e-8aae-df12dec53013.png)
+
+Thanks to Nyaann#3881 for this exploit
+
+</details>
+
 <details>
 <summary><b> Extension Launcher (Bookmarklet) </summary>
 A bookmarklet capable of installing extensions, for those without a allowlist. 
