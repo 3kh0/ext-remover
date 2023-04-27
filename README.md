@@ -174,7 +174,7 @@ There are several vesions of this exploit you can use, here are the 2 most commo
 </details>  
 
 <details>
-<summary><b>LTBEEF inspect</b> (Using inspect to disable extensions)</summary>
+<summary><b>LTBEEF inspect</b> Using inspect to disable extensions</summary>
 
 ![image](https://user-images.githubusercontent.com/58097612/207386423-e6aa2095-d92d-44a8-a3d6-e42066bdf34e.png)
 
@@ -201,7 +201,7 @@ To re-enable just go to the chrome web listing for the extension and click on th
 </details>
 
 <details>
-<summary><b>Point Blank</b> (Run code on system pages)</summary>
+<summary><b>Point Blank</b> Run code on system pages</summary>
 
 Point Blank is an exploit that allows you to run bookmarklets on privilaged pages, sutch as the chrome extentions page. This exploit was also found by Bypassi, you can read more about how he discovered this exploit <a href="https://blog.bypassi.com/_/point-blank/"></a>
 
@@ -242,7 +242,7 @@ Further information is now located at these links:
 </details>
 
 <details>
-<summary><b>Downgrading</b> (Change versions)</summary>  
+<summary><b>Downgrading</b> Change versions</summary>  
 Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, sutch as LTBEEF. This is a built in feature of ChromeOS.
 
 ![image](https://user-images.githubusercontent.com/58097612/212685863-3d6b8ce1-7caa-4735-95a8-8eb6787b227c.png)
@@ -273,7 +273,7 @@ If you do not have these, you **CAN NOT** perform the exploit!
 </details>
   
 <details>
-<summary><b>Killcurly</b> (Break extensions)</summary>
+<summary><b>Killcurly</b> Break extensions</summary>
 Kill extension, by signing out.
 
 1. Visit `chrome://settings/signOut`, the O in Out must be capital.
