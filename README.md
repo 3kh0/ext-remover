@@ -13,6 +13,27 @@ Hello, I am Echo and I created this repo in order to give exploits for the masse
 Image Credit: LittleMissNyan
 
 <details>
+<summary><b>LTMEAT</b> Disable extensions</summary>
+
+1. Find a page belonging to the extension you want to disable. `chrome://extensions`, `chrome://extensions-internals`, and `chrome://process-internals` are all good places to find your extension's ID (a 32-character lowercase string). You can also just do a simple Google search. Once you have your ID, substitute it into the hostname in the URL below:
+
+```
+chrome-extension://extensionidhereblahblah/manifest.json
+```
+
+For some filters like Securly, the block screen is already an extension page. 
+
+2. Bookmark the extension page (bookmark A) if you wish. Then, bookmark `chrome://kill` (B) and `chrome://hang` (C). 
+3. While on the extension page (A), click the `chrome://kill` bookmark (B). The page should crash. You should already have the next step prepared. 
+4. Quickly (within three seconds) reload the page with `ctrl`+`R` and instantly spam `chrome://hang` (bookmark C) for a second or two. It might take a few tries to get perfect. 
+
+If the extension page (bookmark A) no longer loads, then LTMEAT worked! You can close your tabs and the extension will basically be dead. If nothing loads, then you either reloaded too late or used hang too late. Restart your computer to revert back to normal.
+
+Exploit made by [Bypassi#7037](https://buymeacoffee.com/bypassi), [further reading](https://ltmeat.bypassi.com)
+
+</details>
+
+<details>
 <summary><b>JPCMG</b> LTBEEF with Service workers</summary>
 
 **Requirements**
