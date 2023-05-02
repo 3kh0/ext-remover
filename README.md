@@ -15,6 +15,8 @@ Image Credit: LittleMissNyan
 <details>
 <summary><b>LTMEAT</b> Disable extensions</summary>
 
+**L**iterally **T**he **M**eatiest **E**xploit of **A**ll **T**ime
+
 From [ltmeat.bypassi.com](https://ltmeat.bypassi.com), if you are intrested in how this exploit works, check out that website.
 
 1. Find a page belonging to the extension you want to disable. `chrome://extensions`, `chrome://extensions-internals`, and `chrome://process-internals` are all good places to find your extension's ID (a 32-character lowercase string). You can also just do a simple Google search. Once you have your ID, substitute it into the hostname in the URL below:
