@@ -35,6 +35,44 @@ If the extension page (bookmark A) no longer loads, then LTMEAT worked! You can 
 
 Exploit made by [Bypassi#7037](https://buymeacoffee.com/bypassi), [further reading](https://ltmeat.bypassi.com)
 
+### "Help me! I'm an idiot!"
+
+Turns out that I had far too much faith in society when making this page. Some of you skids out there are really, really stupid and also can't read. So here are the answers to some commonly asked questions. 
+
+**How do I get an extension ID?**
+
+Okay, fair. Extension IDs are leaked in a couple of places. Generally, the best way to get them is to go to extension settings and copy the URL query value.
+
+**It says blocked by client?**
+
+That's the message you get when you try to visit an a page belonging to an extension that doesn't exist. The error message (`ERR_BLOCKED_BY_CLIENT`) is extremely misleading. Nobody blocked it--you just need to find the right extension ID (see above).
+
+If you got this because you tried to visit the `extension_id_here_please` example URL, you should be extremely ashamed of yourself. Please change and grow as a person. 
+
+**I don't have a bookmarks bar!!!!**
+
+First, try running ctrl+shift+B. If that doesn't work, go to `chrome://settings` and turn on the "home button" feature, then set it to `chrome://hang`. A home icon should show up to the right of your refresh icon in the top left. Use that instead of bookmark C.
+
+There is a version where you don't need bookmarklets, but I am currently gatekeeping it (L). Check this site daily to see if new alternate instructions have been posted. 
+
+**I disabled an extension but now I can't load websites!**
+
+If you actually just read the writeup, you'd know that this would happen if the extension's background page loaded and its listeners were already initialized before you used `chrome://hang`. You can double-check whether the extension is listening using `chrome://extensions-internals`, assuming you have a few brain cells in your head.
+
+Anyway, no listeners means you were too slow. Either you waited more than three seconds between bookmark B and reloading the page, or you weren't spamming bookmark C fast enough. The most reliable fix for this is to just restart your computer and try again. Try to match the pace of the gif below: (note the reload) 
+
+![image](https://ltmeat.bypassi.com/img/abc.gif)
+
+**The bookmarks don't do anything when I click them!**
+
+Might be admin-blocked. Either be smart enough to figure out another way, or check this site daily to see if new alternate instructions have been posted.
+
+**I disabled the extension, why is some stuff still blocked?**
+
+I have bad news for you... not all filters are Chrome Extensions. And again, make sure the extension pages (like bookmark A) are frozen before you assume that your skiddy self successfully did the exploit. 
+
+*Need more help? [Ask in the discussions](https://github.com/3kh0/ext-remover/discussions)*
+
 </details>
 
 <details>
