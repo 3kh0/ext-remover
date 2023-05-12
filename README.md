@@ -13,6 +13,16 @@ Hello, I am Echo and I created this repo in order to give exploits for the masse
 Image Credit: LittleMissNyan
 
 <details>
+<summary><b>LTMEAT +</b> Easier LTMEAT</summary>
+Simpler Version of LTMEAT by sk337
+
+Step 1: follow Step 1 form LTMEAT this is tab 1<br>
+Step 2: type `chrome://hang` in address bar of tab 1 and press enter<br>
+Step 3: right click tab 1 and press `Duplicate` this is tab 2<br>
+Step 4: Click the extension widget (the puzzle one) the the top right of the screen and click on the 3 dots of the extension from step 1 then click `Manage Extension` this is tab 3<br>
+Step 5: Find the switch called `Allow access to file URLs` and toggle it **NOTE: it does not matter whether you are turning on or off it should work either way** tab 1 should close leaving you with tabs 2 and 3<br>
+</details>
+<details>
 <summary><b>LTMEAT</b> Disable extensions</summary>
 
 **L**iterally **T**he **M**eatiest **E**xploit of **A**ll **T**ime
