@@ -357,5 +357,17 @@ And visit `chrome://restart`.
 **This was discoverered by zoroark**
 
 </details>
+<details>
+<summary><b>YeeteeAnnihalator</b> Chrome OS exploit </summary>
+So after getting bored of doing "Nuttin much" but freelancing, I decided to peeek back at coding.
+  I saw that you kiddos were STILL fighting this battle against the extensions, and again I can provide. 
+  I am 99% certain this is unpatchable, as it uses chrome OS core features that are crucial to browser function.
+  Step 1: Copy your extension ID and go to chrome-extension:// * id here * / manifest.json
+  Step 2: Make sure to have chrome://hang copied to your clipboard, then type chrome://kill in the searchbar.
+  Step 3: Press enter and reload as fast as possible, press ctrl+L, and paste chrome://hang into the search bar & press enter.
+  This will keep the extension's manifest page in a permanant hang until it either crashes or you reboot your computer.
+  
+  No bookmarklets needed, no inspect needed, no perms needed, can't be disabled, and can't be patched. Only thing I see that could go wrong is having the extension page blocked which can be bypassed by killing goguardian in the process manager and turning off your wifi. That's right, this exploit works even without internet access.
 
-boop
+I discovered this, but I'm pretty sure others have also found this exploit because of how hidden-in-plain-sight it was.
+</details>
