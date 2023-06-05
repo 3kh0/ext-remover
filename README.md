@@ -47,7 +47,7 @@ Okay, fair. Extension IDs are leaked in a couple of places. Generally, the best 
 
 That's the message you get when you try to visit an a page belonging to an extension that doesn't exist. The error message (`ERR_BLOCKED_BY_CLIENT`) is extremely misleading. Nobody blocked it--you just need to find the right extension ID (see above).
 
-If you got this because you tried to visit the `extensionidhereblahblah` example URL, you should be extremely ashamed of yourself. Please change and grow as a person. 
+If you got this because you tried to visit the `extension_id_here_please` example URL, you should be extremely ashamed of yourself. Please change and grow as a person. 
 
 **I don't have a bookmarks bar!!!!**
 
