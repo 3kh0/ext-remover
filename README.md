@@ -71,7 +71,7 @@ Might be admin-blocked. Either be smart enough to figure out another way, or che
 
 I have bad news for you... not all filters are Chrome Extensions. And again, make sure the extension pages (like bookmark A) are frozen before you assume that your skiddy self successfully did the exploit. 
 
-[https://ltmeat.bypassi.com/alt/1.txt](Baby method for slow people)
+[Baby method for slow people](https://ltmeat.bypassi.com/alt/1.txt)
 
 *Need more help? [Ask in the discussions](https://github.com/3kh0/ext-remover/discussions)*
 
