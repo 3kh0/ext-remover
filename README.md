@@ -265,7 +265,7 @@ To re-enable just go to the Chrome web listing for the extension and click on th
 </details>
 
 <details>
-<summary>Blank3r</b>Reload extensions continuously</summary>
+<summary><b>Blank3r</b> Reload extensions continuously</summary>
 
 Point Blank is an exploit that allows you to run bookmarklets on privileged pages, such as the Chrome extensions page. This exploit was made with Point Blank as well.
 
