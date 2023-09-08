@@ -384,5 +384,71 @@ And visit `chrome://restart`.
 **This was discovered by Zoroark**
 
 </details>
+<details>
+<summary><b>New Temporarily Unblock Anything</b> Temperarily Unblock Any Website</summary>
+
+**Might Be Patched on 115 And Above**
+  
+  Step 1 go to the chrome-extension://Paste the blocker id here/manifest.json page.
+Step 2 go to a new tab page and type in the URL Website you want to unblock don´t go into that website yet just leave it inside the URL Box.
+Step 3 go back to chrome-extension://Paste the blocker id here/manifest.json now create a bookmark called E now click more and In the URL Box you put chrome://kill now save that bookmark.
+Step 4 create another bookmark called D click more In the URL Box copy and paste  javascript:(function () {window.onbeforeunload = function() { return 1; };})()    Into that URL Box and save that bookmark.
+Step 5 go back to chrome-extension://Paste the blocker id here/manifest.json page and now click bookmark B then quickly go back to the new tab page and click enter now quickly spam bookmark D like 2 or more times now there should be a pop up called do you want to close this page click cancel now boom that website is unblocked until you turn off your chromebook or until you exit out of that website then if that happen´s your gonna have to do all the steps again.
+
+  Easier way for step 2: instead of putting the URL in the new tab box go to chrome-extension://Paste the blocker id here/manifest.json page then click Bookmark E then go to a random website then use the javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1)) Bookmarklet then spam Bookmark D two or more times then a pop up should appear quickly click cancel now boom all done.    Name of Bookmarklet > Unblock Website: javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1))
+
+Note: Save chrome-extension://Paste the blocker id here/manifest.json as a bookmark so you don´t have to come back here and type in the URL thing.
+
+IMPORTANT NOTE: if bookmarklets are blocked your screwed
+
+</details>
+
+<details>
+<summary><b>Old Temporarily Unblock Anything</b> Temperarily Unblock Any Website</summary>
+Step 1 make a bookmark called tab close blocker now click more on the bottom left corner now in that URL BOX put  javascript:(function () {window.onbeforeunload = function() { return 1; };})()
+Step 2 go to a newtab page now go into the URL BOX on the top and put https://YOUR WEBSITE HERE do not click enter yet stay in that URL BOX.
+Step 3 do search+esc now that should open task manager if search+esc doesn't work then click the three dots on the top right now scroll down until you find more tools click that and now find task manager click it now boom done with step 3.
+Step 4 find your blocker extension and click it now on the bottom right you should see a button called End process click it now quickly click the URL BOX on the newtab page and click enter now quickly spam the bookmark tab close blocker now a pop up should come up it should have to buttons cancel and leave click cancel and boom done.
+
+  IMPORTANT NOTE: if bookmarklets are blocked your screwed also if task manager or the End process button for task manager is blocked your double screwed.
+
+  </details>
+
+  <details>
+  <summary><b>Incognito</b> Bypass Extensions</summary>
+IP Servers: 
+  Server 1. 52.207.185.90
+  Server 2. 158.101.114.159
+Step 1. Go to your settings
+Step 2. Click on the wifi your using rn then click it again.
+Step 3.  Scroll down until you see network once you see the option click it.
+Step 4. Scroll down until you find custom name servers now once you find the option click it.
+Step 5. Paste in the IP Server.
+Step 6. Now there should be a notification saying open new tab click that and now you should be in a small window some instructions and there are 2 buttons click the yellow with black letters button and boom Incognito Mode is Unblocked.
+One of the buttons are just a link in blue don´t click that one is just for test´s
+Step 7. Go back to the network settings and change back the custom name servers to automatic name servers.
+Note: If your connection is slow if your school has more than one wifi then connect to the other wifi that might have a better connection.
+
+Btw if you close out of the Incognito Tab your gonna have to do all the steps again.
+
+Cool Advanced Facts About Incognito Mode:
+1. Bypass Extensions Aka Unblock All Websites.
+2. Your History Is Hidden From Your School
+
+</details>
+
+<details>
+<summary><b>Google System Method</b> Bypass Extensions</summary>
+Unblocked Google
+  
+Step 1. Go to `chrome://chrome-signin`
+Step 2. Click ok on the bottom right corner
+Step 3. In the Email text box put `google@d11.org`
+Step 4. Click `signin options`
+Step 5. Now click signin with github
+Step 6. Click the github cat icon
+Step 7. In the search box on the top Right type google and then click see more topics then you will see all the google links click `www.google.com` now boom unblocked Google.
+
+</details>
 
 boop
