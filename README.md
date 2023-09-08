@@ -78,6 +78,46 @@ I have bad news for you... not all filters are Chrome Extensions. And again, mak
 </details>
 
 <details>
+<summary><b>Baby LTMEAT</b> Disable extensions</summary>
+
+**Patched On Chrome Versions 115 And Above**
+  
+BABY METHOD
+FOR THE TECHNOLOGICALLY CHALLENGES.
+
+1. Follow step one of the original instructions to find a page belonging to the Chrome extension you want to disable.
+
+2. Visit that chrome-extension://blockeridhere page, then type chrome://hang in the URL bar of that tab. It should start loading infinitely.
+
+3. Right-click the tab and duplicate it. Don't close anything.
+
+4. Go to the chrome://extensions page for the blocker extension you want to Disable.
+
+5. If that page has any sort of switch, such as "Allow access to file URLs", click that switch. If there are no clickable switches, cry in a corner or something.
+
+The extension should now be broken, assuming you clicked the switch! Only one of the two duplicate tabs should be left standing. You can close your tabs now.
+
+</details>
+
+<details>
+<summary><b>NEW LTMEAT</b> Disable extensions</summary>
+
+  **If your Chromebook has received the 115 And Above patch on the stable channel Then Here's A New Method For LTMEAT**
+  
+  
+**Unpatched on 115 and above**
+
+**L**iterally **T**he **M**eatiest **E**xploit of **A**ll **T**ime
+1. Create a bookmark folder and paste the extension page about 126 times.
+2. Right click and open all in a new window now in that new window click open all 126 click it like 3-5 times.
+3. Close the window with all those tabs.
+4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed.
+5. Go to chrome://extensions/?id=Your blocker id here flip the Allow access to file URLS button and then you've bypassed the patch and the exploit is working.
+Close everything and make a new window you want to play games listen to music and yeah you're good to go. If it didn't work, try adjusting the number of tabs being opened. Bypassi should add this to his website as Alternate Method # 2. With this workaround, LTMEAT can endure a longer life!
+
+</details>
+
+<details>
 <summary><b>JPCMG</b> LTBEEF with Service workers</summary>
 
 **Requirements**
