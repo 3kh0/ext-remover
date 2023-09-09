@@ -496,8 +496,6 @@ Step 7. In the search box on the top Right type google and then click see more t
 
 Disable Extensions
 
-### Installation
-For easy setup go the the website at https://fognetwork.github.io/Ingot
 
 1. Show your bookmarks bar with `ctrl + shift + b`
 
