@@ -78,6 +78,112 @@ I have bad news for you... not all filters are Chrome Extensions. And again, mak
 </details>
 
 <details>
+<summary><b>Temporary LTMEAT</b> Temporarily disable extensions</summary>
+
+**A method of using LTMEAT that does not require `chrome://` urls.
+Works by using 80-150 tabs to soak up memory.**
+
+1. Create a bookmark with the link chrome://extensions/?id=idhereidkimaskid and name it “Kill switch”.
+
+2. Create a new bookmark folder. Name it “spam.js”. Next, paste this link into your browser: chrome-extension://idhereidkimaskid/background.js
+
+3. Then right-click on your folder and hit “Add Page”. Press Enter.
+
+4. Right-click on the folder again and hit “Bookmark Manager”. You should see your page. Click on it and hit Ctrl+C. Press Ctrl+V until you have 38 of them.
+
+5. Go to a new tab and right click your folder. Press “Open All (38)”.
+
+6. Repeat step 3, then click on one of the tabs from this batch. Wait until the “this page is taking too long” popup appears. This will take 30-60 seconds. If it doesn’t, do chrome://restart and go back to step 2 and add 3-4 more pages to the folder.
+
+7. Once the popup happens, right-click on one of the tabs closest to the right of the screen and hit “Duplicate”. Then, go to your “Kill switch” bookmark and look for a switch to flip, “Allow Access to File:// urls” or something. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click “close all tabs to the right”. KEEP THIS TAB OPEN!!!
+
+Tips: Go to chrome://settings/performance and turn Memory Saver off, and in the box where it says “Keep these sites always active” paste in the extension url. I’ve noticed clicking on one of the tabs from the second batch seems to help with reliability.
+
+</details>
+
+<details>
+<summary><b>Baby LTMEAT</b> Disable extensions</summary>
+
+**Patched On Chrome Versions 115 And Above**
+
+BABY METHOD
+FOR THE TECHNOLOGICALLY CHALLENGES.
+
+1. Follow step one of the original instructions to find a page belonging to the Chrome extension you want to disable.
+
+2. Visit that chrome-extension://blockeridhere page, then type chrome://hang in the URL bar of that tab. It should start loading infinitely.
+
+3. Right-click the tab and duplicate it. Don't close anything.
+
+4. Go to the chrome://extensions page for the blocker extension you want to Disable.
+
+5. If that page has any sort of switch, such as "Allow access to file URLs", click that switch. If there are no clickable switches, cry in a corner or something.
+
+The extension should now be broken, assuming you clicked the switch! Only one of the two duplicate tabs should be left standing. You can close your tabs now.
+
+</details>
+
+<details>
+<summary><b>NEW LTMEAT</b> Disable extensions</summary>
+
+  **If your Chromebook has received the 115 And Above patch on the stable channel Then Here's A New Method For LTMEAT**
+
+
+**Unpatched on 115 and above**
+
+**L**iterally **T**he **M**eatiest **E**xploit of **A**ll **T**ime
+
+1. Create a bookmark folder and paste the extension page lots of times. (About 800 minimum is recommended assuming your Chromebook is average school quality) It is recommended that you add the extension page at the beginning of the folder.
+
+2. Right click and open all in a new window.
+
+3. Close the window with all those tabs.
+
+4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed. (Equivalent to the duplicate tab step in Bypassi's method)
+
+5. Flip the Allow access to file URLs switch in the extension settings and then you've bypassed the patch and the exploit is working.
+
+6. Close everything and you're good to go. If it didn't work, try adjusting the number of tabs being opened. Bypassi should add this to his website as Alternate Method # 2. With this workaround, LTMEAT can endure a longer life!
+
+</details>
+
+<details>
+<summary><b>Baby NEW LTMEAT</b> Disable extensions</summary>
+
+**Unpatched on 115 and above**
+
+1. First of all, get your folder with 800+ extension page tabs and open it in a new window, for my Chromebook i used 800 extension page tabs as i feel it's the right amount for me
+
+2. Close the newly opened Window with 800+ extension page tabs
+
+3. Click into your folder, and open one of the extension page tab in a new window, maybe waiting slightly longer this time, to confirm it worked. If it loads, you did it wrong. If you see a "page unresponsive screen, and a wait/exit page button" you did it right. BUT DO NOT CLICK THE EXIT PAGE BUTTON OR WAIT BUTTON. (Or if you want to do it fast you can just see that the page always has a spinning loading circle)
+
+4. Now go to `chrome://extensions/?id=yourblockerID`  Then scroll down and flick the "allow access to file URLs" lever and close the window with the 1 extension page tab remaining.
+
+</details>
+
+<details>
+<summary><b>LoMoH</b> Disable extensions</summary>
+
+  **This exploit has been patched in Chrome OS 111 after being found and reported. It should have gotten admin protection sooner.**
+
+  **About: LoMoH is a Chromebook exploit that uses the Chrome OS locked mode feature to soft disable enforced extensions (excluding Hapara Highlights if installed).**
+
+HTML VERSION: <a href="https://tiny.cc/LoMoH">LoMoH HTML</a>
+
+BOOKMARKLET VERSION: javascript:(function(){if (location.hostname == "docs.google.com") {document.body.innerHTML = document.body.innerHTML.replace("Locked mode is on", "Are you ready to turn off extensions?%22);%20document.body.innerHTML%20=%20document.body.innerHTML.replace(%22You%20have%20already%20opened%20and%20closed%20this%20quiz.%20Opening%20this%20quiz%20again%20will%20notify%20the%20form%20owner%20by%20email.%22,%20%22This%20will%20reload%20all%20tabs%20in%20your%20browser%22);%20var%20button%20=%20document.getElementById(%27mG61Hd%27);%20button.innerHTML%20=%20button.innerHTML.replace(%22Start%20Quiz%22,%20%22Disable%20Extensions%22);%20button.addEventListener(%27click%27,%20function(event){window.close();})}%20else%20{window.open(%22https://docs.google.com/forms/u/0/d/e/1FAIpQLSf5EYwrSUjmQhBOasMpORZy80eBCYb7qCpEwWNoRPUGyObGMA/startquiz%22);}})()
+
+</details>
+
+<details>
+<summary><b>Dextensify</b> Disable extensions</summary>
+
+**Dextensify is an exploit that lets you disable most admin-installed Chrome extensions from any webpage. It can be used from regular websites, HTML files, and data URLs.**
+
+Go here and follow instructions: <a href="https://dextensify.pages.dev/main">Dextensify Main HTML</a>
+</details>
+
+<details>
 <summary><b>JPCMG</b> LTBEEF with Service workers</summary>
 
 **Requirements**
