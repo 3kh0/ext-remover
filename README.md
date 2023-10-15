@@ -118,6 +118,112 @@ Close everything and make a new window you want to play games listen to music an
 </details>
 
 <details>
+<summary><b>Temporary LTMEAT</b> Temporarily disable extensions</summary>
+
+**A method of using LTMEAT that does not require `chrome://` urls.
+Works by using 80-150 tabs to soak up memory.**
+
+1. Create a bookmark with the link chrome://extensions/?id=idhereidkimaskid and name it “Kill switch”.
+
+2. Create a new bookmark folder. Name it “spam.js”. Next, paste this link into your browser: chrome-extension://idhereidkimaskid/background.js
+
+3. Then right-click on your folder and hit “Add Page”. Press Enter.
+
+4. Right-click on the folder again and hit “Bookmark Manager”. You should see your page. Click on it and hit Ctrl+C. Press Ctrl+V until you have 38 of them.
+
+5. Go to a new tab and right click your folder. Press “Open All (38)”.
+
+6. Repeat step 3, then click on one of the tabs from this batch. Wait until the “this page is taking too long” popup appears. This will take 30-60 seconds. If it doesn’t, do chrome://restart and go back to step 2 and add 3-4 more pages to the folder.
+
+7. Once the popup happens, right-click on one of the tabs closest to the right of the screen and hit “Duplicate”. Then, go to your “Kill switch” bookmark and look for a switch to flip, “Allow Access to File:// urls” or something. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click “close all tabs to the right”. KEEP THIS TAB OPEN!!!
+
+Tips: Go to chrome://settings/performance and turn Memory Saver off, and in the box where it says “Keep these sites always active” paste in the extension url. I’ve noticed clicking on one of the tabs from the second batch seems to help with reliability.
+
+</details>
+
+<details>
+<summary><b>Baby LTMEAT</b> Disable extensions</summary>
+
+**Patched On Chrome Versions 115 And Above**
+
+BABY METHOD
+FOR THE TECHNOLOGICALLY CHALLENGES.
+
+1. Follow step one of the original instructions to find a page belonging to the Chrome extension you want to disable.
+
+2. Visit that chrome-extension://blockeridhere page, then type chrome://hang in the URL bar of that tab. It should start loading infinitely.
+
+3. Right-click the tab and duplicate it. Don't close anything.
+
+4. Go to the chrome://extensions page for the blocker extension you want to Disable.
+
+5. If that page has any sort of switch, such as "Allow access to file URLs", click that switch. If there are no clickable switches, cry in a corner or something.
+
+The extension should now be broken, assuming you clicked the switch! Only one of the two duplicate tabs should be left standing. You can close your tabs now.
+
+</details>
+
+<details>
+<summary><b>NEW LTMEAT</b> Disable extensions</summary>
+
+  **If your Chromebook has received the 115 And Above patch on the stable channel Then Here's A New Method For LTMEAT**
+
+
+**Unpatched on 115 and above**
+
+**L**iterally **T**he **M**eatiest **E**xploit of **A**ll **T**ime
+
+1. Create a bookmark folder and paste the extension page lots of times. (About 800 minimum is recommended assuming your Chromebook is average school quality) It is recommended that you add the extension page at the beginning of the folder.
+
+2. Right click and open all in a new window.
+
+3. Close the window with all those tabs.
+
+4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed. (Equivalent to the duplicate tab step in Bypassi's method)
+
+5. Flip the Allow access to file URLs switch in the extension settings and then you've bypassed the patch and the exploit is working.
+
+6. Close everything and you're good to go. If it didn't work, try adjusting the number of tabs being opened. Bypassi should add this to his website as Alternate Method # 2. With this workaround, LTMEAT can endure a longer life!
+
+</details>
+
+<details>
+<summary><b>Baby NEW LTMEAT</b> Disable extensions</summary>
+
+**Unpatched on 115 and above**
+
+1. First of all, get your folder with 800+ extension page tabs and open it in a new window, for my Chromebook i used 800 extension page tabs as i feel it's the right amount for me
+
+2. Close the newly opened Window with 800+ extension page tabs
+
+3. Click into your folder, and open one of the extension page tab in a new window, maybe waiting slightly longer this time, to confirm it worked. If it loads, you did it wrong. If you see a "page unresponsive screen, and a wait/exit page button" you did it right. BUT DO NOT CLICK THE EXIT PAGE BUTTON OR WAIT BUTTON. (Or if you want to do it fast you can just see that the page always has a spinning loading circle)
+
+4. Now go to `chrome://extensions/?id=yourblockerID`  Then scroll down and flick the "allow access to file URLs" lever and close the window with the 1 extension page tab remaining.
+
+</details>
+
+<details>
+<summary><b>LoMoH</b> Disable extensions</summary>
+
+  **This exploit has been patched in Chrome OS 111 after being found and reported. It should have gotten admin protection sooner.**
+
+  **About: LoMoH is a Chromebook exploit that uses the Chrome OS locked mode feature to soft disable enforced extensions (excluding Hapara Highlights if installed).**
+
+HTML VERSION: <a href="https://tiny.cc/LoMoH">LoMoH HTML</a>
+
+BOOKMARKLET VERSION: javascript:(function(){if (location.hostname == "docs.google.com") {document.body.innerHTML = document.body.innerHTML.replace("Locked mode is on", "Are you ready to turn off extensions?%22);%20document.body.innerHTML%20=%20document.body.innerHTML.replace(%22You%20have%20already%20opened%20and%20closed%20this%20quiz.%20Opening%20this%20quiz%20again%20will%20notify%20the%20form%20owner%20by%20email.%22,%20%22This%20will%20reload%20all%20tabs%20in%20your%20browser%22);%20var%20button%20=%20document.getElementById(%27mG61Hd%27);%20button.innerHTML%20=%20button.innerHTML.replace(%22Start%20Quiz%22,%20%22Disable%20Extensions%22);%20button.addEventListener(%27click%27,%20function(event){window.close();})}%20else%20{window.open(%22https://docs.google.com/forms/u/0/d/e/1FAIpQLSf5EYwrSUjmQhBOasMpORZy80eBCYb7qCpEwWNoRPUGyObGMA/startquiz%22);}})()
+
+</details>
+
+<details>
+<summary><b>Dextensify</b> Disable extensions</summary>
+
+**Dextensify is an exploit that lets you disable most admin-installed Chrome extensions from any webpage. It can be used from regular websites, HTML files, and data URLs.**
+
+Go here and follow instructions: <a href="https://dextensify.pages.dev/main">Dextensify Main HTML</a>
+</details>
+
+<details>
 <summary><b>JPCMG</b> LTBEEF with Service workers</summary>
 
 **Requirements**
@@ -412,7 +518,7 @@ Kill extension, by signing out.
 2. Press the big blue button
 3. Go to `chrome://restart`
 4. Now visit `tinyurl.com/AddSession` or [this link](https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession)
-5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, Youtube, and any Google service.
+5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, YouTube, and any Google service.
 6. All extensions should stop working.
 7. Note that you have to repeat this every time you restart or sign out.
 8. If your Chrome version is `v112`, this exploit will no longer work, the bypass to this is listed further on. Visit`chrome://settings/resetProfileSettings` click current settings, and it'll open a blank page, on that page run 
@@ -422,6 +528,126 @@ javascript:opener.chrome.send("TurnOffSync");
 And visit `chrome://restart`.
 `
 **This was discovered by Zoroark**
+</details>
+
+<details>
+<summary><b>Extention Inactivity hack</b> Inactive Extensions</summary>
+
+1. First do the Esc+Refresh+Power
+
+2. ctrl+d then enter
+
+3. will give you some bullcrap about dev mode being blocked press enter then you will go to a newly restarted Chromebook
+
+4. next add wifi-
+
+5. then sign into your account
+
+6. Immediately turn wifi off before extensions load
+
+7. go to chrome://settings/signOut
+
+8. click Turn off sync and personalization and then turn wifi back on go to whatever site that is extension blocked.
+
+1. Workaround for chrome://settings/signOut if patched: If the link gets patched and you no longer see the blue button, go to `chrome://settings/resetProfileSettings` and click current settings, it'll open a blank page, on that page run 
+```js
+javascript:opener.chrome.send("TurnOffSync");
+```
+2. Workaround for `chrome://settings/signOut` and `javascript:opener.chrome.send("TurnOffSync");` if both patched: Just go to `chrome://settings/syncSetup/advanced` and click 
+Customize sync and then flip off the Extensions and Apps
+
+Note: Before you do any of the method 4 tricks only do this at home so that way you don't have to worry about asking for the school wifi password.
+
+</details>
+
+<details>
+<summary><b>New Temporarily Unblock Anything</b> Temperarily Unblock Any Website</summary>
+
+**Might Be Patched on 115 And Above**
+
+Step 1 go to the chrome-extension://Paste the blocker id here/manifest.json page.
+
+Step 2 go to a new tab page and type in the URL Website you want to unblock don´t go into that website yet just leave it inside the URL Box.
+
+Step 3 go back to chrome-extension://Paste the blocker id here/manifest.json now create a bookmark called E now click more and In the URL Box you put chrome://kill now save that bookmark.
+
+Step 4 create another bookmark called D. Click more In the URL Box copy and paste  `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`    Into that URL Box and save that bookmark.
+
+Step 5 go back to chrome-extension://Paste the blocker id here/manifest.json page and now click bookmark B. Then quickly go back to the new tab page and click enter now quickly spam bookmark D like 2 or more times now there should be a pop-up called `Do you want to close this page?` click cancel now boom that website is unblocked until you turn off your Chromebook or until you exit out of that website then if that happens your gonna have to do all the steps again.
+
+An easier way for step 2: instead of putting the URL in the new tab box go to chrome-extension://Paste the blocker id here/manifest.json page then click Bookmark E then go to a random website then use the `javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1))` Bookmarklet then spam Bookmark D two or more times then a pop up should appear quickly click cancel now boom all done.
+  
+Name of Bookmarklet > Unblock Website: `javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1))`
+
+Note: Save `chrome-extension://Paste` the blocker id here/manifest.json as a bookmark so you don´t have to come back here and type in the URL thing.
+
+IMPORTANT NOTE: if bookmarklets are blocked your screwed
+
+</details>
+
+<details>
+<summary><b>Old Temporarily Unblock Anything</b> Temperarily Unblock Any Website</summary>
+
+  Step 1 make a bookmark called tab close blocker now click more on the bottom left corner in that URL BOX put `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`
+
+Step 2 go to a newtab page now go into the URL BOX on the top and put https://YOUR WEBSITE HERE do not click enter yet stay in that URL BOX.
+
+Step 3 do search+esc now that should open task manager if search+esc doesn't work then click the three dots on the top right now and scroll down until you find more tools click that and now find Task Manager click it now boom done with step 3.
+Step 4 find your blocker extension and click it now on the bottom right you should see a button called End process click it now quickly click the URL BOX on the new page and click enter now quickly spam the bookmark tab close blocker Now a pop up should come up it should have to buttons cancel and leave click cancel and boom done.
+  IMPORTANT NOTE: if bookmarklets are blocked your screwed also if task manager or the End Process button for the task manager is blocked your double screwed.
+  </details>
+  <details>
+  <summary><b>Incognito</b> Bypass Extensions</summary>
+IP Server: Server 1. 52.207.185.90
+Step 1. Go to your settings
+Step 2. Click on the wifi your using rn then click it again.
+Step 3.  Scroll down until you see network once you see the option click it.
+Step 4. Scroll down until you find custom name servers now once you find the option click it.
+Step 5. Paste in the IP Server.
+Step 6. Now there should be a notification saying open a new tab click that and now you should be in a small window some instructions and there are 2 buttons click the yellow with black letters button and boom Incognito Mode is Unblocked.
+One of the buttons are just a link in blue don´t click that one is just for tests
+Step 7. Go back to the network settings and change the custom name servers to automatic name servers.
+Note: If your connection is slow if your school has more than one wifi then connect to the other wifi that might have a better connection.
+If you close out of the Incognito Tab you will have to do all the steps again.
+Cool Advanced Facts About Incognito Mode:
+1. Bypass Extensions Aka Unblock All Websites.
+2. Your History Is Hidden From Your School
+</details>
+<details>
+<summary><b>Google System Method</b> Bypass Extensions</summary>
+Unblocked Google
+  
+Step 1. Go to `chrome://chrome-signin`
+Step 2. Click OK on the bottom right corner
+Step 3. In the Email text box put `google@d11.org`
+Step 4. Click `signin options`
+Step 5. Now click sign in with GitHub
+Step 6. Click the GitHub cat icon
+Step 7. In the search box on the top right type google and then click see more topics then you will see all the Google links click `www.google.com` now boom unblocked Google.
+</details>
+<details>
+<summary><b>Quick View</b> Bypass Extensions</summary>
+**QuickView is a universal webview exploit in Chrome OS that utilizes the QuickOffice component extension. This exploit lets you create login windows with arbitrary URLs, thus allowing you to load pages without any extensions.**
+Go here and follow the instructions: https://quickview-exploit.pages.dev/
+WARNING: If javascript:// is blocked then you can't perform this exploit
+
+</details>
+
+<details>
+<summary><b>School Network Restriction Bypass</b> Bypass School Network Restrictions</summary>
+IP Server 1: 8.8.8.8 in all boxes
+IP Server 2: 1.1.1.1 in the first box and 1.0.0.1 in the second box the third and fourth boxes stay 0.0.0.0
+
+Step 1. Go to your settings
+
+Step 2. Click on the wifi you using right now then click it again.
+
+Step 3.  Scroll down until you see the network once you see the option click it.
+
+Step 4. Scroll down until you find custom name servers once you find the option click it.
+
+Step 5. Paste in one of the IP Servers.
+Note: If IP Server 1 doesn't work then use IP Server 2 if IP Server 2 doesn't work then try using IP Server 1 if they both don't work you're screwed
 
 </details>
 <details>
