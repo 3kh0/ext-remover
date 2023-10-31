@@ -224,6 +224,20 @@ Thanks to Nyaann#3881 for this exploit
 </details>
 
 <details>
+<summary><b>Corkey</b> Corrupt extensions</summary>
+
+1. Esc+Refresh+Power and re-enroll (Enter recovery page), or you can just powerwash.
+2. log into your Chromebook and immediately turn off wifi and do refresh+power to (instant restart)
+3. Log back into your Chromebook with the wifi off. There should be something on the side of the connect wifi page that says log in offline or sign in as an existing user.
+4. Go to chrome://extensions, turn on wifi, and wait for your school's blocking extension to appear.
+5. As soon as it appears, turn off wifi and instant restart as fast as you can.
+6. Log back in, go back to extensions, and wait. If it says your blocking extension could be corrupted or doesn't appear at all, then it worked (wait at least a minute with a close watch in case it comes back)
+7. If it didn't work repeat from step 1.
+8. If it did work, congrats you did it.
+
+</details>
+
+<details>
 <summary><b>Extension Launcher</b> Install extensions w/o allowlist</summary>
 A bookmarklet capable of installing extensions, for those without an allowlist. 
 
