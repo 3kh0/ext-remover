@@ -456,8 +456,8 @@ If you close the tab, the exploit will stop working.
 </details>
 
 <details>
-<summary><b>SH1mmer</b> Unenrollment</summary>  
-SH1mmer is an exploit developed by the crew at Mercury Workshop. Credits can be found within the menu and on their site.  
+<summary><b>sh1mmer</b> Unenrollment</summary>  
+sh1mmer is an exploit developed by the crew at Mercury Workshop. Credits can be found within the menu and on their site.  
 
 Further information is now located at these links:
 
@@ -497,10 +497,58 @@ If you do not have these, you **CAN NOT** perform the exploit!
 7. Profit.
 
 </details>
+
+<details>
+<summary><b>E-Halcyon</b> Unenrollment Or Downgrade</summary>
+
+First of all, you'll need a Linux PC or VM. WSL is not guaranteed to work
+
+Now, you'll need to boot into SH1MMER, and press the Un-Enroll option. It won't truly unenroll you if you've received the 112 update patching unenrollment and downgrading, but it is still a necessary step for the rest of this. If you've never used SH1MMER before or don't have an image lying around, make sure to follow all the instructions on sh1mmer.me for unenrollment before proceeding with the rest of the tutorial here
+
+Next, you need a version 107 recovery image corresponding to your board, which you can pick up from chrome100.dev. Once you've downloaded the right image for your board and have confirmed it's for version 107, unzip it and save it to a safe place. Now open up a terminal and type in the following commands (make sure to replace /path/to/recovery/image.bin with the actual path)
+
+```
+git clone https://github.com/MercuryWorkshop/RecoMod
+cd RecoMod
+chmod +x recomod.sh
+sudo ./recomod.sh -i /path/to/recovery/image.bin --halcyon --rw_legacy
+```
+
+The script will modify the image in place, and it can now be flashed with a standard recovery tool onto a USB of your choice.
+
+Enable developer mode and get to the dev mode block screen similarly to how you would with SH1MMER, then plug in the USB. The recovery screen will show up, and at this point you need to start spamming the E key on your keyboard. It will begin a 5 minute wait sequence, and near the end of the 5 minutes start spamming E again. You will only have to wait 5 minutes once, subsequent boots will have the 5 minute wait omitted
+
+The boot splash will show, and you will enter a special menu. Use arrow keys to navigate the cursor down to "activate halcyon environment" and press enter. Then navigate down to "Install halcyon semi-tethered" and wait for it to finish. Once it's finished, go back to "activate halcyon environment" and press "Boot halcyon semi-tethered". and you will be booted into a downgraded and unenrolled ChromeOS environment.
+
+FAQ:
+How does this work?
+See the writeup for more information
+
+Can the admins see that I'm doing this?
+No.
+
+Why don't my history/cookies/etc save after a reboot?
+Unfixable restriction of cryptohome. See the writeup for more information
+
+Why is my Chromebook "Missing or damaged?"
+After installing E-Halcyon, you won't be able to boot Chrome OS normally. You'll have to keep the usb around to jumpstart the booting process
+
+Where do I report bugs?
+The RecoMod GitHub
+
+Why does it say "E mode not activated" when I try to boot halcyon?
+You spammed the E key when starting at the wrong time, or not at all
+
+Credits:
+CoolElectronics - RecoMod, working switch_root, and everything else
+OlyB - Insight and contributions to the RecoMod script
+vk6 - Created this website
+
+</details>
   
 <details>
 <summary><b>Killcurly</b> Break extensions</summary>
-Kill extension, by signing out.
+Kill the extension by signing out.
 
 1. Visit `chrome://settings/signOut`, the O in Out must be capitalized.
 2. Press the big blue button
@@ -508,7 +556,7 @@ Kill extension, by signing out.
 4. Now visit `tinyurl.com/AddSession` or [this link](https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession)
 5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, YouTube, and any Google service.
 6. All extensions should stop working.
-7. Note that you have to repeat this every time you restart or sign out.
+7. Note that you must repeat this every time you restart or sign out.
 8. If your Chrome version is `v112`, this exploit will no longer work, the bypass to this is listed further on. Visit`chrome://settings/resetProfileSettings` click current settings, and it'll open a blank page, on that page run 
 ```js
 javascript:opener.chrome.send("TurnOffSync");
