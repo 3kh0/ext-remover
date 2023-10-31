@@ -259,7 +259,7 @@ press download, and it will work.
 <details>
 <summary><b> Point-Blank</b> Execute scripts on extension pages</summary>
 
-This exploit allows you to execute scripts on extensions pages, this is a great example of how Chromebooks are a piece of garbage.
+This exploit allows you to execute scripts on extension pages, this is a great example of how Chromebooks are a piece of garbage.
 
 <i>Getting started</i>
 (Note: if bookmarklets are blocked you're screwed.)
@@ -276,7 +276,7 @@ For Cisco Umbrella, visit <a href="https://tinyurl.com/goofumbrella">here</a>.
  
  And if you have GoGuardian (might not work), go to <a href="https://tinyurl.com/goofguardian">here</a>. 
  
- Now most of these links are a block page(this is intentional) on each page should have a blue link, click the link on the page if it opens a blank page click the bookmarklet that you just made and click either hard disable or soft disable, you can also run some of the scripts and run your own code, your extension may disable javascript running on it, so running your own code may not work.
+ Now most of these links are a block page(this is intentional) each page should have a blue link, click the link on the page if it opens a blank page click the bookmarklet that you just made and click either hard disable or soft disable, you can also run some of the scripts and run your own code, your extension may disable javascript running on it, so running your own code may not work.
  
 **Extra notes**
 - I recommend doing soft disable, which only disables it until restart. 
@@ -324,7 +324,7 @@ This exploit keeps your Chromebook downgraded (or on the current version) withou
 8. Press the `generate onc` button below the textbox.
 9. Once you have downloaded the file, go to `chrome://network#general`.
 10. Click on the `import ONC` button.
-11. Import the newly downloaded file.
+11. Import the newly-downloaded file.
 
 **Extra notes**
 - Your Chromebook will no longer automatically update. (as long as you are on a wifi that you used CAUB on)
@@ -395,7 +395,7 @@ There are several versions of this exploit you can use, here are the 2 most comm
     ```
     (Hosted by The Greatest Giant#0110)  
     4. Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. 
-    5. Flip the switches on the extentions you want to disable.
+    5. Flip the switches on the extension you want to disable.
     6. Profit
     
 </details>  
@@ -405,9 +405,9 @@ There are several versions of this exploit you can use, here are the 2 most comm
 
 ![image](https://user-images.githubusercontent.com/58097612/207386423-e6aa2095-d92d-44a8-a3d6-e42066bdf34e.png)
 
-The screenshot below was preformed on `108.0.5359.75` (Official Build) (64-bit) on the stable channel. This has been tested and does work but has varying levels of success, you will need access to inspect element, more specifically, console.
+The screenshot below was performed on `108.0.5359.75` (Official Build) (64-bit) on the stable channel. This has been tested and does work but has varying levels of success, you will need access to inspect elements, more specifically, console.
 
-1. Open this on your chromebook: 
+1. Open this on your Chromebook: 
 ```
 chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json
 ``` 
@@ -449,7 +449,7 @@ And the GUI is in launcher.js
 
 5. Click "View in Chrome Web Store" and spam the escape key. If it loads into Chrome Webstore try again, if it is a blank screen click the bookmarklet.
 
-5. Paste the id of the extension into the prompt separated by commas.
+5. Paste the ID of the extension into the prompt separated by commas.
 
 If you close the tab, the exploit will stop working.
 
@@ -499,11 +499,11 @@ If you do not have these, you **CAN NOT** perform the exploit!
 </details>
 
 <details>
-<summary><b>E-Halcyon</b> Unenrollment Or Downgrade</summary>
+<summary><b>E-Halcyon</b> Unenrolmlent Or Downgrade</summary>
 
 First of all, you'll need a Linux PC or VM. WSL is not guaranteed to work
 
-Now, you'll need to boot into SH1MMER, and press the Un-Enroll option. It won't truly unenroll you if you've received the 112 update patching unenrollment and downgrading, but it is still a necessary step for the rest of this. If you've never used SH1MMER before or don't have an image lying around, make sure to follow all the instructions on sh1mmer.me for unenrollment before proceeding with the rest of the tutorial here
+Now, you'll need to boot into SH1MMER, and press the Un-Enroll option. It won't truly unenroll you if you've received the 112 updates patching unenrollment and downgrading, but it is still a necessary step for the rest of this. If you've never used SH1MMER before or don't have an image lying around, make sure to follow all the instructions on sh1mmer.me for unenrollment before proceeding with the rest of the tutorial here
 
 Next, you need a version 107 recovery image corresponding to your board, which you can pick up from chrome100.dev. Once you've downloaded the right image for your board and have confirmed it's for version 107, unzip it and save it to a safe place. Now open up a terminal and type in the following commands (make sure to replace /path/to/recovery/image.bin with the actual path)
 
@@ -516,7 +516,7 @@ sudo ./recomod.sh -i /path/to/recovery/image.bin --halcyon --rw_legacy
 
 The script will modify the image in place, and it can now be flashed with a standard recovery tool onto a USB of your choice.
 
-Enable developer mode and get to the dev mode block screen similarly to how you would with SH1MMER, then plug in the USB. The recovery screen will show up, and at this point you need to start spamming the E key on your keyboard. It will begin a 5 minute wait sequence, and near the end of the 5 minutes start spamming E again. You will only have to wait 5 minutes once, subsequent boots will have the 5 minute wait omitted
+Enable developer mode and get to the dev mode block screen similarly to how you would with SH1MMER, then plug in the USB. The recovery screen will show up, and at this point, you need to start spamming the E key on your keyboard. It will begin a 5-minute wait sequence, and near the end of the 5 minutes start spamming E again. You will only have to wait 5 minutes once, subsequent boots will have the 5-minute wait omitted
 
 The boot splash will show, and you will enter a special menu. Use arrow keys to navigate the cursor down to "activate halcyon environment" and press enter. Then navigate down to "Install halcyon semi-tethered" and wait for it to finish. Once it's finished, go back to "activate halcyon environment" and press "Boot halcyon semi-tethered". and you will be booted into a downgraded and unenrolled ChromeOS environment.
 
@@ -531,7 +531,7 @@ Why don't my history/cookies/etc save after a reboot?
 Unfixable restriction of cryptohome. See the writeup for more information
 
 Why is my Chromebook "Missing or damaged?"
-After installing E-Halcyon, you won't be able to boot Chrome OS normally. You'll have to keep the usb around to jumpstart the booting process
+After installing E-Halcyon, you won't be able to boot Chrome OS normally. You'll have to keep the USB around to jumpstart the booting process
 
 Where do I report bugs?
 The RecoMod GitHub
@@ -559,8 +559,8 @@ B) then "ctrl"+"d" and then space or enter
 
 2. Then add wifi
 3. Now when it takes you to the enrolling screen or whatever immediately turn off wifi, then wait until it says enterprise enrollment has failed or something like that
-4. There should be 2-3 buttons to use as personal device and enroll manually and try again
-5. Click use as personal device, then add back wifi and then sign in and boom Unenrollment worked
+4. There should be 2-3 buttons to use as a personal device and enroll manually and try again
+5. Click use as a personal device, then add back wifi and then sign in and boom Unenrollment worked
 
 If it doesn't work then your screwed
 
@@ -603,7 +603,7 @@ And visit `chrome://restart`.
 
 7. go to chrome://settings/signOut
 
-8. click Turn off sync and personalization and then turn wifi back on go to whatever site that is extension blocked.
+8. click Turn off sync and personalization and then turn wifi back on and go to whatever site that is extension blocked.
 
 1. Workaround for chrome://settings/signOut if patched: If the link gets patched and you no longer see the blue button, go to `chrome://settings/resetProfileSettings` and click current settings, it'll open a blank page, on that page run 
 ```js
@@ -646,22 +646,22 @@ IMPORTANT NOTE: if bookmarklets are blocked your screwed
 
   Step 1 make a bookmark called tab close blocker now click more on the bottom left corner in that URL BOX put `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`
 
-Step 2 go to a newtab page now go into the URL BOX on the top and put https://YOUR WEBSITE HERE do not click enter yet stay in that URL BOX.
+Step 2 go to a new page now go into the URL BOX on the top and put https://YOUR WEBSITE HERE do not click enter yet stay in that URL BOX.
 
-Step 3 do search+esc now that should open task manager if search+esc doesn't work then click the three dots on the top right now and scroll down until you find more tools click that and now find Task Manager click it now boom done with step 3.
+Step 3 do search+esc now which should open Task Manager if search+esc doesn't work then click the three dots on the top right now and scroll down until you find more tools click that and now find Task Manager click it now boom done with step 3.
 Step 4 find your blocker extension and click it now on the bottom right you should see a button called End process click it now quickly click the URL BOX on the new page and click enter now quickly spam the bookmark tab close blocker Now a pop up should come up it should have to buttons cancel and leave click cancel and boom done.
-  IMPORTANT NOTE: if bookmarklets are blocked your screwed also if task manager or the End Process button for the task manager is blocked your double screwed.
+  IMPORTANT NOTE: if bookmarklets are blocked you are screwed also if the task manager or the End Process button for the task manager is blocked you are double screwed.
   </details>
   <details>
   <summary><b>Incognito</b> Bypass Extensions</summary>
 IP Server: Server 1. 52.207.185.90
 Step 1. Go to your settings
-Step 2. Click on the wifi your using rn then click it again.
-Step 3.  Scroll down until you see network once you see the option click it.
-Step 4. Scroll down until you find custom name servers now once you find the option click it.
+Step 2. Click on the wifi you are using rn then click it again.
+Step 3.  Scroll down until you see the network once you see the option click it.
+Step 4. Scroll down until you find custom name servers once you find the option click it.
 Step 5. Paste in the IP Server.
-Step 6. Now there should be a notification saying open a new tab click that and now you should be in a small window some instructions and there are 2 buttons click the yellow with black letters button and boom Incognito Mode is Unblocked.
-One of the buttons are just a link in blue don´t click that one is just for tests
+Step 6. Now there should be a notification saying open a new tab click that and now you should be in a small window with some instructions there are 2 buttons click the yellow with black letters button and boom Incognito Mode is Unblocked.
+One of the buttons is just a link in blue don´t click that one is just for tests
 Step 7. Go back to the network settings and change the custom name servers to automatic name servers.
 Note: If your connection is slow if your school has more than one wifi then connect to the other wifi that might have a better connection.
 If you close out of the Incognito Tab you will have to do all the steps again.
@@ -679,11 +679,11 @@ Step 3. In the Email text box put `google@d11.org`
 Step 4. Click `signin options`
 Step 5. Now click sign in with GitHub
 Step 6. Click the GitHub cat icon
-Step 7. In the search box on the top right type google and then click see more topics then you will see all the Google links click `www.google.com` now boom unblocked Google.
+Step 7. In the search box on the top right type Google and then click see more topics then you will see all the Google links click `www.google.com` now boom unblocked Google.
 </details>
 <details>
 <summary><b>Quick View</b> Bypass Extensions</summary>
-**QuickView is a universal webview exploit in Chrome OS that utilizes the QuickOffice component extension. This exploit lets you create login windows with arbitrary URLs, thus allowing you to load pages without any extensions.**
+**QuickView is a universal web view exploit in Chrome OS that utilizes the QuickOffice component extension. This exploit lets you create login windows with arbitrary URLs, thus allowing you to load pages without any extensions.**
 Go here and follow the instructions: https://quickview-exploit.pages.dev/
 WARNING: If javascript:// is blocked then you can't perform this exploit
 
@@ -711,7 +711,7 @@ Note: If IP Server 1 doesn't work then use IP Server 2 if IP Server 2 doesn't wo
 <summary><b>OP Crosh</b> Disable extensions with crosh</summary>
 
 1. Back up any data you want before the powerwash.
-2. If you're doing the second variation, note down any extension IDs. You may also want to do this if you intend on disabling all extensions, since sometimes that will fail and require you to specify each extension you want to disable.
+2. If you're doing the second variation, note down any extension IDs. You may also want to do this if you intend on disabling all extensions since sometimes that will fail and require you to specify each extension you want to disable.
 3. Powerwash by attempting to enable developer mode. Instructions are available here: [this link](https://chromium.googlesource.com/chromiumos/docs/+/master/developer_mode.md#dev-mode)
 4. Log into your Google account as normal, but immediately disable your internet right after you sign in.
 5. You should be logged into your account, but without any extensions installed due to being offline.
@@ -741,7 +741,7 @@ Made by vk6
 <details>
 <summary><b>uBlock Origin</b> Run Code On Pages</summary>
 
-if your school allows the ublock origin chrome extension, then running any javascript on pages is possible
+if your school allows the unlock origin chrome extension, then running any javascript on pages is possible
 
 1. install [ublock origin](https://ublockorigin.com/)
 2. Go to the extension's settings
@@ -749,7 +749,7 @@ if your school allows the ublock origin chrome extension, then running any javas
 4. Inside the advanced settings, change `userResourcesLocation` from unset to https://pastebin.com/raw/PPZ1T7uh (image 2)
 5. In the custom filters tab of the settings, add `##+js(execute_script.js)` as a filter (image 3)
 6. Now you can press ctr+alt+tilde (~) to run any js on the current page
-7. If you want to run a bookmarklet, just paste in the javascript: url and press enter on the popup
+7. If you want to run a bookmarklet, just paste in the javascript: URL and press enter on the popup
 
 </details>
 
