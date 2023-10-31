@@ -582,4 +582,35 @@ Note: If IP Server 1 doesn't work then use IP Server 2 if IP Server 2 doesn't wo
 
 </details>
 
+<details>
+<summary><b>OP Crosh</b> Disable extensions with crosh</summary>
+
+1. Back up any data you want before the powerwash.
+2. If you're doing the second variation, note down any extension IDs. You may also want to do this if you intend on disabling all extensions, since sometimes that will fail and require you to specify each extension you want to disable.
+3. Powerwash by attempting to enable developer mode. Instructions are available here: [this link](https://chromium.googlesource.com/chromiumos/docs/+/master/developer_mode.md#dev-mode)
+4. Log into your Google account as normal, but immediately disable your internet right after you sign in.
+5. You should be logged into your account, but without any extensions installed due to being offline.
+Here the instructions are split, so follow the one for the method that you want to do.
+ 
+Disable All Extensions:
+1. Open up crosh by hitting ctr+alt+t.
+2. Type in `vmc create-extra-disk --size 1 /home/chronos/user/Extensions`
+3. Run that command.
+4. If it fails with a "file exists" error, then you must individually specify each extension that you want to remove. Move to step 5 of the next section to do that.
+5. Re-enable your internet, and no extensions should be installed.
+ 
+
+Disable Specific Extensions:
+1. Navigate to `chrome://extensions`.
+2. Enable your internet, and immediately disable it when an extension is installed.
+3. Assuming the installed extension was not one that you were trying to disable, move on to step 4. If it was, you'd have to powerwash to try again.
+4. Open up crosh by hitting ctr+alt+t.
+5. For each extension you want to disable, run this command: `vmc create-extra-disk --size 1 /home/chronos/user/Extensions/{extension_id}`
+6. Each command should look something like this: `vmc create-extra-disk --size 1 /home/chronos/user/Extensions/cjpalhdlnbpafiamejdnhcphjbkeiagm`
+7. Re-enable your internet, and if you typed/pasted in the extension IDs correctly, those specific extensions should be blocked from ever being installed.
+
+Made by vk6
+
+</details>
+
 boop
