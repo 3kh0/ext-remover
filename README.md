@@ -147,6 +147,8 @@ The extension should now be broken, assuming you clicked the switch! Only one of
 
 Bypassi should add this to his website as an Alternate Method # 2. With this workaround, LTMEAT can endure a longer life!
 
+Credit to <a href="https://github.com/AshtonDavies">Ashton Davies</a> for finding this workaround
+
 </details>
 
 <details>
@@ -195,6 +197,8 @@ HTML VERSION: <a href="https://tiny.cc/LoMoH">LoMoH HTML</a>
 
 BOOKMARKLET VERSION: javascript:(function(){if (location.hostname == "docs.google.com") {document.body.innerHTML = document.body.innerHTML.replace("Locked mode is on", "Are you ready to turn off extensions?%22);%20document.body.innerHTML%20=%20document.body.innerHTML.replace(%22You%20have%20already%20opened%20and%20closed%20this%20quiz.%20Opening%20this%20quiz%20again%20will%20notify%20the%20form%20owner%20by%20email.%22,%20%22This%20will%20reload%20all%20tabs%20in%20your%20browser%22);%20var%20button%20=%20document.getElementById(%27mG61Hd%27);%20button.innerHTML%20=%20button.innerHTML.replace(%22Start%20Quiz%22,%20%22Disable%20Extensions%22);%20button.addEventListener(%27click%27,%20function(event){window.close();})}%20else%20{window.open(%22https://docs.google.com/forms/u/0/d/e/1FAIpQLSf5EYwrSUjmQhBOasMpORZy80eBCYb7qCpEwWNoRPUGyObGMA/startquiz%22);}})()
 
+Credit to <a href="https://github.com/AshtonDavies">Ashton Davies</a> for finding this exploit
+
 </details>
 
 <details>
@@ -204,7 +208,7 @@ BOOKMARKLET VERSION: javascript:(function(){if (location.hostname == "docs.googl
 
 Go here and follow instructions: <a href="https://dextensify.pages.dev/main">Dextensify Main HTML</a>, or download the file here [Dextensify.html](Dextensify.html)
 
-Made by [ading2210](https://ading.dev/).
+Made by <a href="https://ading.dev/">ading2210</a>
 
 </details>
 
@@ -254,6 +258,7 @@ press download, and it will work.
 - Credit to "Aka, but nice" on Discord.
 - DNS will be up soon for those who have JavaScript bookmarklets blocked.
 - This will not work if you have a blocklist this is only for if when you go to the web store it shows blocked
+
 </details>
 
 <details>
