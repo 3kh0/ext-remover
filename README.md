@@ -545,6 +545,26 @@ OlyB - Insight and contributions to the RecoMod script
 vk6 - Created this website
 
 </details>
+
+<details>
+<summary><b>Enterprise Enrollment Glitch</b> Unenroll/Bypass Enterprise Enrollment</summary>
+
+This only works on Chrome versions 115 and above if not then sorry oh and your school has to not have force enterprise enrollment on your school Chromebook
+
+1. Powerwash your Chromebook
+
+A) esc+refresh+power
+
+B) then "ctrl"+"d" and then space or enter
+
+2. Then add wifi
+3. Now when it takes you to the enrolling screen or whatever immediately turn off wifi, then wait until it says enterprise enrollment has failed or something like that
+4. There should be 2-3 buttons to use as personal device and enroll manually and try again
+5. Click use as personal device, then add back wifi and then sign in and boom Unenrollment worked
+
+If it doesn't work then your screwed
+
+</details>
   
 <details>
 <summary><b>Killcurly</b> Break extensions</summary>
