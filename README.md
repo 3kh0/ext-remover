@@ -1,13 +1,13 @@
 # EXT-REMOVER
 This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more!
-Many of these exploits can destroy your computer if used improperly. So PLEASE PLEASE make sure you follow these instructions very carefully!
+Many of these exploits can destroy your computer if misused. So PLEASE, PLEASE make sure you follow these instructions very carefully!
 If you need help ask it <a href="https://github.com/3kh0/ext-remover/discussions">here</a>
 
 Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
   
 **ATTENTION ALL SYS ADMINS!!!**
 
-Hello, I am Echo and I created this repo in order to give exploits for the masses and to prove one thing, Chromebooks are literal trash, and a poor excuse for a computer. They are full of exploits, you might think you blocked/patched them all but then 3 more pop up. It is an endless game of whack-a-mole. Treat your students to a Windows computer, they will thank you. And don't you dare start to think "My school district does not have that kind of money", it most likely does! How much are you paying the blocker companies? Think about that.
+go away pls
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
@@ -19,7 +19,7 @@ Image Credit: LittleMissNyan
 
 From [ltmeat.bypassi.com](https://ltmeat.bypassi.com), if you are interested in how this exploit works, check out that website.
 
-1. Find a page belonging to the extension you want to disable. `chrome://extensions`, `chrome://extensions-internals`, and `chrome://process-internals` are all good places to find your extension's ID (a 32-character lowercase string). You can also just do a simple Google search. Once you have your ID, substitute it into the hostname in the URL below:
+1. Find a page belonging to the extension you want to disable. `chrome://extensions`, `chrome://extensions-internals`, and `chrome://process-internals` are all good places to find your extension's ID (a 32-character lowercase string). You can also do a simple Google search. Once you have your ID, substitute it into the hostname in the URL below:
 
 ```
 chrome-extension://extensionidhereblahblah/manifest.json
@@ -28,16 +28,16 @@ chrome-extension://extensionidhereblahblah/manifest.json
 For some filters like Securly, the block screen is already an extension page. 
 
 2. Bookmark the extension page (bookmark A) if you wish. Then, bookmark `chrome://kill` (B) and `chrome://hang` (C). 
-3. While on the extension page (A), click the `chrome://kill` bookmark (B). The page should crash. You should already have the next step prepared. 
+3. On the extension page (A), click the `chrome://kill` bookmark (B). The page should crash. You should already have the next step prepared. 
 4. Instantly start spamming `chrome://hang` (bookmark C) and quickly reload the page while spamming (ideally with the refresh key on your keyboard or `ctrl`+`R`). You should have reloaded within one or two seconds of killing the page. 
 
-If the extension page (bookmark A) no longer loads, then LTMEAT worked! You can close your tabs and the extension will basically be dead. If nothing loads, then you probably reloaded too late or spammed too slowly. This isn't rocket science! Restart your computer to revert back to normal. 
+If the extension page (bookmark A) no longer loads, then LTMEAT worked! You can close your tabs, and the extension will be dead. If nothing loads, you probably reloaded too late or spammed too slowly. This isn't rocket science! Restart your computer to revert back to normal. 
 
 Exploit made by [Bypassi#7037](https://buymeacoffee.com/bypassi), [further reading](https://ltmeat.bypassi.com)
 
 ### "Help me! I'm an idiot!"
 
-Turns out that I had far too much faith in society when making this page. Some of you skids out there are really, really stupid and also can't read. So here are the answers to some commonly asked questions. 
+I had far too much faith in society when making this page. Some of you skids out there are really, really stupid and also can't read. So here are the answers to some commonly asked questions. 
 
 **How do I get an extension ID?**
 
@@ -45,31 +45,31 @@ Okay, fair. Extension IDs are leaked in a couple of places. Generally, the best 
 
 **It says blocked by client?**
 
-That's the message you get when you try to visit a page belonging to an extension that doesn't exist. The error message (`ERR_BLOCKED_BY_CLIENT`) is extremely misleading. Nobody blocked it--you just need to find the right extension ID (see above).
+That's the message you get when you try to visit a page belonging to an extension that doesn't exist. The error message (`ERR_BLOCKED_BY_CLIENT`) is highly misleading. Nobody blocked it--you need to find the correct extension ID (see above).
 
 If you got this because you tried to visit the `extension_id_here_please` example URL, you should be extremely ashamed of yourself. Please change and grow as a person. 
 
 **I don't have a bookmarks bar!!!!**
 
-First, try running ctrl+shift+B. If that doesn't work, go to `chrome://settings` and turn on the "home button" feature, then set it to `chrome://hang`. A home icon should show up to the right of your refresh icon in the top left. Use that instead of bookmark C.
+First, try running ctrl+shift+B. If that doesn't work, go to `chrome://settings` and turn on the "home button" feature, then set it to `chrome://hang`. A home icon should appear to the right of your refresh icon in the top left. Use that instead of bookmark C.
 
 There is a version where you don't need bookmarklets, but I am currently gatekeeping it (L). Check this site daily to see if new alternate instructions have been posted. 
 
-**I disabled an extension but now I can't load websites!**
+**I disabled an extension, but now I can't load websites!**
 
-If you actually just read the write-up, you'd know that this would happen if the extension's background page loaded and its listeners were already initialized before you used `chrome://hang`. You can double-check whether the extension is listening using `chrome://extensions-internals`, assuming you have a few brain cells in your head.
+If you just read the write-up, you'd know that this would happen if the extension's background page loaded and its listeners were already initialized before you used `chrome://hang`. You can double-check whether the extension is listening using `chrome://extensions-internals`, assuming you have a few brain cells in your head.
 
-Anyway, no listeners mean you were too slow. Either you waited more than three seconds between bookmark B and reloading the page, or you weren't spamming bookmark C fast enough. The most reliable fix for this is to just restart your computer and try again. Try to match the pace of the gif below: (note the reload) 
+Anyway, no listeners mean you were too slow. Either you waited more than three seconds between bookmark B and reloading the page, or you needed to be spamming bookmark C faster. The most reliable fix is to restart your computer and try again. Try to match the pace of the gif below: (note the reload) 
 
 ![image](https://ltmeat.bypassi.com/img/abc.gif)
 
 **The bookmarks don't do anything when I click them!**
 
-Might be admin-blocked. Either be smart enough to figure out another way, or check this site daily to see if new alternate instructions have been posted.
+Might be admin-blocked. Either be smart enough to figure out another way or check this site daily to see if new alternate instructions have been posted.
 
-**I disabled the extension, why is some stuff still blocked?**
+**I disabled the extension. Why is some stuff still blocked?**
 
-I have bad news for you... not all filters are Chrome Extensions. And again, make sure the extension pages (like bookmark A) are frozen before you assume that your skiddy self successfully did the exploit. 
+I have bad news for you... not all filters are Chrome Extensions. Again, make sure the extension pages (like bookmark A) are frozen before you assume that your skiddy self successfully did the exploit. 
 
 [Baby method for slow people](https://ltmeat.bypassi.com/alt/1.txt)
 
@@ -91,13 +91,13 @@ Works by using 80-150 tabs to soak up memory.**
 
 4. Right-click on the folder again and hit “Bookmark Manager”. You should see your page. Click on it and hit Ctrl+C. Press Ctrl+V until you have 38 of them.
 
-5. Go to a new tab and right click your folder. Press “Open All (38)”.
+5. Go to a new tab and right-click your folder. Press “Open All (38)”.
 
 6. Repeat step 3, then click on one of the tabs from this batch. Wait until the “this page is taking too long” popup appears. This will take 30-60 seconds. If it doesn’t, do chrome://restart and go back to step 2 and add 3-4 more pages to the folder.
 
-7. Once the popup happens, right-click on one of the tabs closest to the right of the screen and hit “Duplicate”. Then, go to your “Kill switch” bookmark and look for a switch to flip, “Allow Access to File:// urls” or something. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click “close all tabs to the right”. KEEP THIS TAB OPEN!!!
+7. Once the popup happens, right-click on one of the tabs closest to the right of the screen and hit “Duplicate”. Then, go to your “Kill switch” bookmark and look for a switch to flip, “Allow Access to File:// urls” or something. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click “Close all tabs to the right”. KEEP THIS TAB OPEN!!!
 
-Tips: Go to chrome://settings/performance and turn Memory Saver off, and in the box where it says “Keep these sites always active” paste in the extension url. I’ve noticed clicking on one of the tabs from the second batch seems to help with reliability.
+Tips: Go to chrome://settings/performance and turn Memory Saver off, and in the box where it says “Keep these sites always active,” paste in the extension URL. I’ve noticed clicking on one of the tabs from the second batch seems to help with reliability.
 
 </details>
 
@@ -107,7 +107,7 @@ Tips: Go to chrome://settings/performance and turn Memory Saver off, and in the 
 **Patched On Chrome Versions 115 And Above**
 
 BABY METHOD
-FOR THE TECHNOLOGICALLY CHALLENGES.
+FOR THE TECHNOLOGICALLY CHALLENGED.
 
 1. Follow step one of the original instructions to find a page belonging to the Chrome extension you want to disable.
 
@@ -117,7 +117,7 @@ FOR THE TECHNOLOGICALLY CHALLENGES.
 
 4. Go to the chrome://extensions page for the blocker extension you want to Disable.
 
-5. If that page has any sort of switch, such as "Allow access to file URLs", click that switch. If there are no clickable switches, cry in a corner or something.
+5. If that page has any switch, such as "Allow access to file URLs", click that switch. If there are no clickable switches, cry in a corner or something.
 
 The extension should now be broken, assuming you clicked the switch! Only one of the two duplicate tabs should be left standing. You can close your tabs now.
 
@@ -126,16 +126,15 @@ The extension should now be broken, assuming you clicked the switch! Only one of
 <details>
 <summary><b>NEW LTMEAT</b> Disable extensions</summary>
 
-  **If your Chromebook has received the 115 And Above patch on the stable channel Then Here's A New Method For LTMEAT**
-
+  **If your Chromebook has received the 115 And Above patch on the stable channel, Then Here's A New Method For LTMEAT**
 
 **Unpatched on 115 and above**
 
 **L**iterally **T**he **M**eatiest **E**xploit of **A**ll **T**ime
 
-1. Create a bookmark folder and paste the extension page lots of times. (About 800 minimum is recommended assuming your Chromebook is average school quality) It is recommended that you add the extension page at the beginning of the folder.
+1. Create a bookmark folder and paste the extension page many times. (About 800 minimum is recommended assuming your Chromebook is average school quality) It is recommended that you add the extension page at the beginning of the folder.
 
-2. Right click and open all in a new window.
+2. Right-click and open all in a new window.
 
 3. Close the window with all those tabs.
 
@@ -143,7 +142,10 @@ The extension should now be broken, assuming you clicked the switch! Only one of
 
 5. Flip the Allow access to file URLs switch in the extension settings and then you've bypassed the patch and the exploit is working.
 
-6. Close everything and you're good to go. If it didn't work, try adjusting the number of tabs being opened. Bypassi should add this to his website as Alternate Method # 2. With this workaround, LTMEAT can endure a longer life!
+6. Close everything, and you're good to go. If it didn't work, try adjusting the number of open tabs.
+
+
+Bypassi should add this to his website as an Alternate Method # 2. With this workaround, LTMEAT can endure a longer life!
 
 </details>
 
@@ -152,13 +154,13 @@ The extension should now be broken, assuming you clicked the switch! Only one of
 
 **Unpatched on 115 and above**
 
-1. First of all, get your folder with 800+ extension page tabs and open it in a new window, for my Chromebook i used 800 extension page tabs as i feel it's the right amount for me
+1. First of all, get your folder with 800+ extension page tabs and open it in a new window, for my Chromebook I used 800 extension page tabs as I feel it's the right amount for me
 
 2. Close the newly opened Window with 800+ extension page tabs
 
-3. Click into your folder, and open one of the extension page tab in a new window, maybe waiting slightly longer this time, to confirm it worked. If it loads, you did it wrong. If you see a "page unresponsive screen, and a wait/exit page button" you did it right. BUT DO NOT CLICK THE EXIT PAGE BUTTON OR WAIT BUTTON. (Or if you want to do it fast you can just see that the page always has a spinning loading circle)
+3. Click into your folder, and open one of the extension page tabs in a new window, maybe waiting slightly longer to confirm it worked. If it loads, you did it wrong. If you see a "page unresponsive screen and a wait/exit page button," you did it right. BUT DO NOT CLICK THE EXIT PAGE BUTTON OR WAIT BUTTON. (Or if you want to do it fast, you can just see that the page always has a spinning loading circle)
 
-4. Now go to `chrome://extensions/?id=yourblockerID`  Then scroll down and flick the "allow access to file URLs" lever and close the window with the 1 extension page tab remaining.
+4. Now go to `chrome://extensions/?id=yourblockerID`  Then scroll down and flick the "allow access to file URLs" lever and close the window with the one extension page tab remaining.
 
 </details>
 
@@ -166,8 +168,8 @@ The extension should now be broken, assuming you clicked the switch! Only one of
 <summary><b>Print LTMEAT</b> Disable extensions with printing</summary>
 
 1. Find your extension's largest file. This can usually be found by poking around in your extension's manifest.json.
-2. Go to that page. and hit Ctrl+P. A print window should show up, with a number of pages in the top right.
-3. Do everything you can to increase that number. Shrink down margins, change layout to landscape, anything you can. The higher you can get that number, the longer the effect will last.
+2. Go to that page. and hit Ctrl+P. A print window should show up, with several pages in the top right.
+3. Do everything you can to increase that number. Shrink down margins, change layout to landscape, anything you can. The higher you get that number, the longer the effect will last.
 4. Reload. The page should start hanging.
 5. Go to your extension's settings page, `chrome://extensions`.
 6. Duplicate your "printing" tab, and go back to your extension's settings page.
@@ -176,9 +178,9 @@ The extension should now be broken, assuming you clicked the switch! Only one of
 
 
 **Where do I find my extension's manifest.json?**
-First, find your extension's ID. This is a 32-character code that can be found on your extension's settings page, normally near or at the top. Then go to `chrome-extension://your-32-char-id-goes-here/manifest.json`
+First, find your extension's ID. This is a 32-character code found on your extension's settings page, normally near or at the top. Then go to `chrome-extension://your-32-char-id-goes-here/manifest.json`
 
-Credit to Bypassi for the original LTMEAT framework, and HUGE thanks to Swordmaster4321 for discovering that pages can be hung with printing and lots of help and suggestions along the way.
+Credit to Bypassi for the original LTMEAT framework, and HUGE thanks to Swordmaster4321 for discovering that pages can be hung with printing and lots of help and suggestions.
 
 </details>
 
@@ -200,7 +202,10 @@ BOOKMARKLET VERSION: javascript:(function(){if (location.hostname == "docs.googl
 
 **Dextensify is an exploit that lets you disable most admin-installed Chrome extensions from any webpage. It can be used from regular websites, HTML files, and data URLs.**
 
-Go here and follow instructions: <a href="https://dextensify.pages.dev/main">Dextensify Main HTML</a>
+Go here and follow instructions: <a href="https://dextensify.pages.dev/main">Dextensify Main HTML</a>, or download the file here [Dextensify.html](Dextensify.html)
+
+Made by [ading2210](https://ading.dev/).
+
 </details>
 
 <details>
