@@ -547,9 +547,66 @@ vk6 - Created this website
 </details>
 
 <details>
+<summary><b>Extention Inactivity hack</b> Inactive Extensions</summary>
+
+1. First, do the Esc+Refresh+Power
+2. Ctrl+d then enter
+3. Will give you some bullcrap about dev mode being blocked press enter then you will go to a newly restarted Chromebook
+4. Next, add wifi
+5. Then sign into your account
+6. Immediately turn wifi off before extensions load
+7. Go to `chrome://settings/signOut`
+8. Click turn off sync and personalization and then turn wifi back on go to whatever site that is extension blocked.
+
+1. Workaround for chrome://settings/signOut if patched: If the link gets patched and you no longer see the blue button, go to `chrome://settings/resetProfileSettings` and click current settings, it'll open a blank page, on that page run 
+```js
+javascript:opener.chrome.send("TurnOffSync");
+```
+2. Workaround for `chrome://settings/signOut` and `javascript:opener.chrome.send("TurnOffSync");` if both patched: Just go to `chrome://settings/syncSetup/advanced` and click 
+Customize sync and then flip off the Extensions and Apps or just flip off everything except for bookmarks
+
+Note: Before you do any of this do it at home so that way you don't have to worry about asking for the school wifi password.
+
+</details>
+
+<details>
+<summary><b>New TUA</b> Temporarily Unblock Any Website</summary>
+
+**Might Be Patched on 115 And Above**
+  
+1 go to the chrome-extension://Paste the blocker id here/manifest.json page.
+
+2 go to a new tab page and type in the URL Website you want to unblock don´t go into that website yet just leave it inside the URL Box.
+
+3 go back to chrome-extension://Paste the blocker id here/manifest.json now create a bookmark called E now click more and In the URL Box you put chrome://kill now save that bookmark.
+
+4 create another bookmark called D click more In the URL Box copy and paste  javascript:(function () {window.onbeforeunload = function() { return 1; };})()    Into that URL Box and save that bookmark.
+
+5 go back to chrome-extension://Paste the blocker id here/manifest.json page and now click bookmark B then quickly go back to the new tab page and click enter now quickly spam bookmark D like 2 or more times now there should be a pop up called do you want to close this page click cancel now boom that website is unblocked until you turn off your chromebook or until you exit out of that website then if that happen´s your gonna have to do all the steps again.
+
+  Easier way for step 2: instead of putting the URL in the new tab box go to chrome-extension://Paste the blocker id here/manifest.json page then click Bookmark E then go to a random website then use the javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1)) Bookmarklet then spam Bookmark D two or more times then a pop up should appear quickly click cancel now boom all done.    Name of Bookmarklet > Unblock Website: javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1))
+
+Note: Save chrome-extension://Paste the blocker id here/manifest.json as a bookmark so you don´t have to come back here and type in the URL thing.
+
+IMPORTANT NOTE: if bookmarklets are blocked your screwed
+
+</details>
+
+<details>
+<summary><b>Old TUA</b> Temporarily Unblock Any Website</summary>
+
+1. Make a bookmark called tab close blocker now click more on the bottom left corner now in that URL BOX put in `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`
+2. Go to a new page now go into the URL BOX on the top and put https://YOUR WEBSITE HERE do not click enter yet stay in that URL BOX.
+3. Do search+esc now which should open task Manager if search+esc doesn't work then click the three dots on the top right now and scroll down until you find more tools click that and find task Manager.
+4. Find your blocker extension and click it now on the bottom right you should see a button called End process click it now quickly click the URL BOX on the new page and click enter now quickly spam the bookmark tab close blocker now a pop up should come up it should have to buttons cancel and leave click cancel.
+
+IMPORTANT NOTE: You can not do this exploit if bookmarklets or the task manager is blocked.
+</details>
+
+<details>
 <summary><b>Enterprise Enrollment Glitch</b> Unenroll/Bypass Enterprise Enrollment</summary>
 
-This only works on Chrome versions 115 and above if not then sorry oh and your school has to not have force enterprise enrollment on your school Chromebook
+This only works on Chrome versions 115 and above, and your school has not to have force enterprise enrollment on your school Chromebook
 
 1. Powerwash your Chromebook
 
@@ -563,6 +620,114 @@ B) then "ctrl"+"d" and then space or enter
 5. Click use as a personal device, then add back wifi and then sign in and boom Unenrollment worked
 
 If it doesn't work then your screwed
+
+</details>
+
+<details>
+<summary><b>Fakemurk</b> Trick your Chromebook into being in developer mode while being enrolled in your school's profile.</summary>
+
+**Fakemurk is a script that can run in developer mode to trick your Chromebook into being in developer mode while being enrolled in your school's profile. You can use this to disable any extension, as well as have full access to the Chrome web store and Google Play store. This provides a personal Chromebook-like experience while still being enrolled.**
+
+Go here and follow instructions: <a href="https://docs.google.com/document/d/1Pku_CbEG9SwQtnm0I188RtpdpW8nXQhiNdMp8PN7Mik/edit?pli=1">Fakemurk Doc</a>
+
+</details>
+
+<details>
+<summary><b>Pollen</b> Chrome OS User Policy Editor</summary>
+
+How To Use
+
+- Normal
+  - Note: Devmode **NEEDS** to be enabled.
+  - Open Crosh
+  - Run `shell`
+  - Run `sudo su`
+  - Run `curl -Ls https://mercuryworkshop.github.io/Pollen/Pollen.sh | bash`
+  - Done! It may take a few seconds for the new policy to apply. If it does not apply, press `alt+vol_up+x`.
+- PollenFS (RootFS)
+  - Note: Disabling RootFS **will** Soft-Brick your Chromebook when booting back into normal mode.
+  - Note II: Devmode **NEEDS** to be enabled.
+  - Open Crosh
+  - Run `shell`
+  - Run `sudo su`
+  - Run `curl -Ls https://mercuryworkshop.github.io/Pollen/RootFS.sh | bash`
+  - Reboot
+  - Go Through Steps 1-3 Again
+  - Run `curl -Ls https://mercuryworkshop.github.io/Pollen/PollenFS.sh | bash`
+  - Done! Your Pollen configuration is now permanently applied!
+
+It works by loading a custom user policy into chromeOS. (Similar to how policies on windows work.)  
+
+Using this we can either disable RootFS permanently or temporarily to load it.  
+
+CrOS does not have the folder to load it built-in, however, the src code is still there so we can manually create it.  
+
+Then simply we just create the file and restart.
+
+Credits
+- Pollen Developer - Scaratek
+- Discovery - Rafflesia
+- Original Script Developer - OlyB
+- Logo - Nitelite
+- Fixed Bug - r58playz
+- Added Policies - 5less-chromosones
+
+To make your own modifications refer to the Pollen Wiki
+
+<a href="https://github.com/MercuryWorkshop/Pollen/wiki#getting-your-policies">Pollen Modifaction Wiki</a>
+
+Further reading:
+- https://github.com/MercuryWorkshop/Pollen
+
+</details>
+
+<details>
+<summary><b>Customized Pollen</b> Chrome OS Policy Editor Customized</summary>
+
+**Customized Pollen for SH1mmered chrombook users.** 
+
+The original pollen by Mercury Workshop: https://github.com/MercuryWorkshop/Pollen 
+
+It removes all admin-installed extensions and that's kinda a problem for me so this is edited it to make it fit more for SH1mmer users
+
+So I customized this one to edit lots of features  but to keep all admin-installed extensions
+
+incognito mode: on (everything unblocked, idk if extensions like GoGauridan can see)
+
+ExtensionSettings: all settings removed
+
+HomepageLocation: chrome://newtab
+
+NewTabPageLocation:             (left empty)
+
+ManagedBookmarks: removed all school added bookmarks
+
+PinnedLauncherApps: removed all force pinned apps to home bar
+
+RestoreOnStartupURLs:   (set it so when you open a new window some schools force it to also open the school's homepage so its set back to new tab and no extra tabs)
+
+WebAppInstallForceList: removed all force installed apps
+
+
+How to run
+
+Note: Devmode NEEDS to be enabled.
+Open Crosh
+
+Run
+```
+shell
+sudo su
+curl -Ls https://tinyurl.com/repollen | bash
+```
+
+Done! It may take a few seconds for the new policy to apply. If it does not apply, press `alt+vol_up+x`
+
+Errors
+
+If you have Linux enabled you will have to turn it off and turn it back on for it to work
+
+THIS WILL RESET EVERY TIME YOU RESTART THE CHROMEBOOK SO YOU WILL NEED TO REDO THE PROCESS
 
 </details>
   
@@ -621,15 +786,11 @@ Note: Before you do any of the method 4 tricks only do this at home so that way 
 
 **Might Be Patched on 115 And Above**
 
-Step 1 go to the chrome-extension://Paste the blocker id here/manifest.json page.
-
-Step 2 go to a new tab page and type in the URL Website you want to unblock don´t go into that website yet just leave it inside the URL Box.
-
-Step 3 go back to chrome-extension://Paste the blocker id here/manifest.json now create a bookmark called E now click more and In the URL Box you put chrome://kill now save that bookmark.
-
-Step 4 create another bookmark called D. Click more In the URL Box copy and paste  `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`    Into that URL Box and save that bookmark.
-
-Step 5 go back to chrome-extension://Paste the blocker id here/manifest.json page and now click bookmark B. Then quickly go back to the new tab page and click enter now quickly spam bookmark D like 2 or more times now there should be a pop-up called `Do you want to close this page?` click cancel now boom that website is unblocked until you turn off your Chromebook or until you exit out of that website then if that happens your gonna have to do all the steps again.
+1. Go to the chrome-extension://Paste the blocker id here/manifest.json page.
+2. Go to a new tab page and type in the URL Website you want to unblock don´t go into that website yet just leave it inside the URL Box.
+3. Go back to chrome-extension://Paste the blocker id here/manifest.json now create a bookmark called E now click more and In the URL Box you put chrome://kill now save that bookmark.
+4. Create another bookmark called D. Click more In the URL Box copy and paste  `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`    Into that URL Box and save that bookmark.
+5. Go back to chrome-extension://Paste the blocker id here/manifest.json page and now click bookmark B. Then quickly go back to the new tab page and click enter now quickly spam bookmark D like 2 or more times now there should be a pop-up called `Do you want to close this page?` click cancel now boom that website is unblocked until you turn off your Chromebook or until you exit out of that website then if that happens your gonna have to do all the steps again.
 
 An easier way for step 2: instead of putting the URL in the new tab box go to chrome-extension://Paste the blocker id here/manifest.json page then click Bookmark E then go to a random website then use the `javascript:open('https://YOUR WEBSITE HERE?'+'i'.repeat(1))` Bookmarklet then spam Bookmark D two or more times then a pop up should appear quickly click cancel now boom all done.
   
@@ -644,25 +805,26 @@ IMPORTANT NOTE: if bookmarklets are blocked your screwed
 <details>
 <summary><b>Old Temporarily Unblock Anything</b> Temperarily Unblock Any Website</summary>
 
-  Step 1 make a bookmark called tab close blocker now click more on the bottom left corner in that URL BOX put `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`
-
-Step 2 go to a new page now go into the URL BOX on the top and put https://YOUR WEBSITE HERE do not click enter yet stay in that URL BOX.
-
-Step 3 do search+esc now which should open Task Manager if search+esc doesn't work then click the three dots on the top right now and scroll down until you find more tools click that and now find Task Manager click it now boom done with step 3.
-Step 4 find your blocker extension and click it now on the bottom right you should see a button called End process click it now quickly click the URL BOX on the new page and click enter now quickly spam the bookmark tab close blocker Now a pop up should come up it should have to buttons cancel and leave click cancel and boom done.
-  IMPORTANT NOTE: if bookmarklets are blocked you are screwed also if the task manager or the End Process button for the task manager is blocked you are double screwed.
+1. make a bookmark called tab close blocker now click more on the bottom left corner in that URL BOX put `javascript:(function () {window.onbeforeunload = function() { return 1; };})()`
+2. go to a newtab page now go into the URL BOX on the top and put https://YOUR WEBSITE HERE do not click enter yet stay in that URL BOX.
+3. do search+esc now that should open task manager if search+esc doesn't work then click the three dots on the top right now and scroll down until you find more tools click that and now find Task Manager click it now boom done with step 3.
+4. find your blocker extension and click it now on the bottom right you should see a button called End process click it now quickly click the URL BOX on the new page and click enter now quickly spam the bookmark tab close blocker Now a pop up should come up it should have to buttons cancel and leave click cancel and boom done.
+  IMPORTANT NOTE: if bookmarklets are blocked your screwed also if task manager or the End Process button for the task manager is blocked your double screwed.
   </details>
+  
   <details>
   <summary><b>Incognito</b> Bypass Extensions</summary>
 IP Server: Server 1. 52.207.185.90
-Step 1. Go to your settings
-Step 2. Click on the wifi you are using rn then click it again.
-Step 3.  Scroll down until you see the network once you see the option click it.
-Step 4. Scroll down until you find custom name servers once you find the option click it.
-Step 5. Paste in the IP Server.
-Step 6. Now there should be a notification saying open a new tab click that and now you should be in a small window with some instructions there are 2 buttons click the yellow with black letters button and boom Incognito Mode is Unblocked.
-One of the buttons is just a link in blue don´t click that one is just for tests
-Step 7. Go back to the network settings and change the custom name servers to automatic name servers.
+
+1. Go to your settings
+2. Click on the wifi your using rn then click it again.
+3.  Scroll down until you see network once you see the option click it.
+4. Scroll down until you find custom name servers now once you find the option click it.
+5. Paste in the IP Server.
+6. Now there should be a notification saying open a new tab click that and now you should be in a small window some instructions and there are 2 buttons click the yellow with black letters button and boom Incognito Mode is Unblocked.
+One of the buttons are just a link in blue don´t click that one is just for tests
+7. Go back to the network settings and change the custom name servers to automatic name servers.
+
 Note: If your connection is slow if your school has more than one wifi then connect to the other wifi that might have a better connection.
 If you close out of the Incognito Tab you will have to do all the steps again.
 Cool Advanced Facts About Incognito Mode:
@@ -672,14 +834,15 @@ Cool Advanced Facts About Incognito Mode:
 <details>
 <summary><b>Google System Method</b> Bypass Extensions</summary>
 Unblocked Google
-  
-Step 1. Go to `chrome://chrome-signin`
-Step 2. Click OK on the bottom right corner
-Step 3. In the Email text box put `google@d11.org`
-Step 4. Click `signin options`
-Step 5. Now click sign in with GitHub
-Step 6. Click the GitHub cat icon
-Step 7. In the search box on the top right type Google and then click see more topics then you will see all the Google links click `www.google.com` now boom unblocked Google.
+
+1. Go to `chrome://chrome-signin`
+2. Click OK on the bottom right corner
+3. In the Email text box put `google@d11.org`
+4. Click `signin options`
+5. Now click sign in with GitHub
+6. Click the GitHub cat icon
+7. In the search box on the top right type google and then click see more topics then you will see all the Google links click `www.google.com` now boom unblocked Google.
+
 </details>
 <details>
 <summary><b>Quick View</b> Bypass Extensions</summary>
@@ -694,15 +857,11 @@ WARNING: If javascript:// is blocked then you can't perform this exploit
 IP Server 1: 8.8.8.8 in all boxes
 IP Server 2: 1.1.1.1 in the first box and 1.0.0.1 in the second box the third and fourth boxes stay 0.0.0.0
 
-Step 1. Go to your settings
-
-Step 2. Click on the wifi you using right now then click it again.
-
-Step 3.  Scroll down until you see the network once you see the option click it.
-
-Step 4. Scroll down until you find custom name servers once you find the option click it.
-
-Step 5. Paste in one of the IP Servers.
+1. Go to your settings
+2. Click on the wifi you using right now then click it again.
+3.  Scroll down until you see the network once you see the option click it.
+4. Scroll down until you find custom name servers once you find the option click it.
+5. Paste in one of the IP Servers.
 Note: If IP Server 1 doesn't work then use IP Server 2 if IP Server 2 doesn't work then try using IP Server 1 if they both don't work you're screwed
 
 </details>
@@ -751,6 +910,185 @@ if your school allows the unlock origin chrome extension, then running any javas
 6. Now you can press ctr+alt+tilde (~) to run any js on the current page
 7. If you want to run a bookmarklet, just paste in the javascript: URL and press enter on the popup
 
+</details>
+
+<details>
+<summary><b>Incognito on Sign-In</b> Bypass Extensions/Unblocked Google Webview</summary>
+Might work but idk if it will
+
+IP Servers: Server 1. `52.207.185.90`
+            Server 2. `158.111.114.159`
+
+1. On the sign-in screen go to your Wi-Fi settings and click on the wifi you are using right now.
+2. Then Scroll down until you see network once you see the option click it.
+3. Scroll down until you find custom name servers once you find the option click it.
+4. Paste in the IP Servers
+5. Now on the network settings click the sign in and you should be in a small window with some instructions, there are 2 buttons click the blue link and boom unblocked webview of google.
+
+Cool Facts About Incognito Mode:
+1. No Extensions.
+2. Your History Is Hidden From Your School*
+
+*If your school does not have network logs or anything like that
+
+</details>
+
+<details>
+<summary><b>chrome-signin webview</b> Yet another webview bypass</summary>
+  
+1. Go to `chrome://chrome-signin`
+2. Click OK on the bottom right corner
+3. In the Email text box put `google@d11.org`
+4. Click `sign in options`
+5. Now click sign in with GitHub
+6. Click the GitHub logo
+7. In the search box on the top right type Google and then click see more topics then you will see all the Google links click `www.google.com`
+8. Profit
+
+</details>
+
+<details>
+<summary><b>chrome-signin webview 2</b> Yet another webview bypass</summary>
+Unblocked Google
+  
+1. Go to `chrome://chrome-signin`
+2. Click OK on the bottom right corner
+3. In the Email text box put `google@d11.org`
+4. Click `signin options`
+5. Now click sign in with GitHub
+6 Click forgot password instead of the GitHub logo
+7. Click docs
+8. Scroll down
+9. Click Ask the GitHub community
+10. Search Google and click the hyperlink on the right
+
+Credit to snail for finding this workaround.
+
+</details>
+
+<details>
+<summary><b>Microsoft Labs</b> Bypass Extensions</summary>
+
+YOU NEED A MICROSOFT ACCOUNT FOR THIS
+
+Go to: <a href="https://learn.microsoft.com/en-us/training/modules/implement-common-integration-features-finance-ops/10-exercise-1">https://learn.microsoft.com/en-us/training/modules/implement-common-integration-features-finance-ops/10-exercise-1</a>
+
+Next, sign into your Microsoft account, if it doesn't already, go back to that link
+
+Then, hit Launch VM Mode
+
+After it loads it's gonna ask for a password, the password is pass@word1 See images attached if needed
+
+Then boom, you are done.
+
+It's still kinda limited, like you can't go on Spotify sound doesn't output anyway and it, blocks random sites, but Discord 100% works
+
+</details>
+
+<details>
+<summary><b>Quick View Exploit</b> Bypass Extensions</summary>
+
+**QuickView is a universal webview exploit in Chrome OS that utilizes the QuickOffice component extension. This exploit lets you create login windows with arbitrary URLs, thus allowing you to load pages without any extensions.**
+
+Go to <a href="https://quickview-exploit.pages.dev/">this link</a> and follow instructions
+
+WARNING: If javascript:// is blocked then you can't preform this exploit
+
+</details>
+
+<details>
+<summary><b>Buypass</b> Temporarily Unblock Websites</summary>
+
+Exploit Made By <a href="https://buymeacoffee.com/bypassi">Bypassi#7037</a>
+
+Here's the original GitHub repo of the buypass exploit: <a href="https://github.com/bypassiwastaken/buypass">Bypassi#7037's Buypass Exploit Github Repo</a>
+
+Here's the original website of the buypass exploit: <a href="https://buypass.bypassi.com/">Bypassi#7037's Buypass Exploit Website</a>
+
+Here are 3 alternative websites for the buypass exploit:
+
+1. <a href="https://buypass.brandonprather.repl.co/">Buypass Exploit Repl Website</a>
+
+2. <a href="https://buypass.glitch.me/">Buypass Exploit Glitch Website</a>
+
+3. <a href="https://buypass.netlify.app/">Buypass Exploit netlify.app Website</a>
+
+This Exploit Is Kinda Similar To The Quick View Exploit
+
+</details>
+
+<details>
+<summary><b>[Webview] Testnav Exploit</b> Unblocked Webview for either google or a web browser</summary>
+
+Step 1. Download Testnav off the webstore/playstore/or run as a kiosk app as some schools have it added as one
+Step 2. Open it
+Step 3. After opened it will probably bring you to the page were you select your consumer, click aimsweb/aimsweb plus
+Step 4. After you click goto select your district in the bottom right corner of the page
+Step 5. Select “STRATFORD FRIENDS SCHOOL” 
+Step 6. Click the arrow to the right of the selection box
+Step 7. Click sign in options
+a) Click sign in with github
+Step  8. Click the github logo at the top of the screen
+Step 9. Click the three bars in the top right corner, then goto the search box and type in googleyay
+Step 11. Scroll down until you see DerDer56/googleyay
+Step 12. There's several links to choose from, but if there's a link you want that's not there click the Bypassi Redirect Tool
+(Optional) Step 13. Type in the link you want to go on and click "Go To the URL"
+Step 14. Click it and you have webview (unblocked browser)
+
+</details>
+
+<details>
+<summary><b>Disable GoGuardian With The Chat</b> Disable GoGuardian [Unreliable]</summary>
+
+1. wait until your teacher opens the chat window thingy
+
+2. spam the x button until it stops re-opening
+
+3. open the url `chrome-extension://haldlgldplgnggkjaafhelgiaglafanh/manifest.json`
+
+4. open `chrome://extensions/?id=haldlgldplgnggkjaafhelgiaglafanh`, and toggle the “allow access to file:// urls” switch
+
+goguardian is now disabled and you can close both tabs 
+
+made by carteeeee
+
+</details>
+
+<details>
+<summary><b>Temporary Disable GoGuardian using a dns</b> Temporarily Disable GoGuardian</summary>
+
+This method will remove GoGuardian from your Chromebook and keep it off, until you switch to a non-DNS wifi
+
+1 - Powerwash your Chromebook
+
+A) esc+refresh+power
+
+B) then "ctrl"+"d" and then space or enter from then on
+
+2 - Immediately after you add wifi to your Chromebook add the DNS record 158.101.114.159
+
+A) Click on the menu at the bottom right of the screen and Click the Settings icon, go to your wifi, scroll to the bottom and open the networks dropdown, choose the "Custom name server" bubble, change the first box to 158.101.114.159
+
+</details>
+
+<details>
+<summary><b>Insecurly</b> Disable Or Bypass Securly</summary>
+
+**ONLY FOR SECURLY USERS**
+
+Go to <a href="https://insecurly.bypassi.com/">this link</a> and follow instructions
+
+If blocked then go cry in a corner
+</details>
+
+<details>
+<summary><b>Chaos</b> A full bypass method for Hapara Highlights and Hapara Filter</summary>
+
+**Devtools must not be blocked by policy to perform this exploit.**
+
+Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructions
+
+If blocked then go cry in a corner
 </details>
 
 boop
