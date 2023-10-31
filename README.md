@@ -963,6 +963,7 @@ Credit to snail for finding this workaround.
 
 </details>
 
+<details>
 <summary><b>Microsoft Labs</b> Bypass Extensions</summary>
 
 YOU NEED A MICROSOFT ACCOUNT FOR THIS
@@ -1067,7 +1068,6 @@ A) Click on the menu at the bottom right of the screen and Click the Settings ic
 
 </details>
 
-
 <details>
 <summary><b>Insecurly</b> Disable Or Bypass Securly</summary>
 
@@ -1076,7 +1076,6 @@ A) Click on the menu at the bottom right of the screen and Click the Settings ic
 Go to <a href="https://insecurly.bypassi.com/">this link</a> and follow instructions
 
 If blocked then go cry in a corner
-
 </details>
 
 <details>
@@ -1087,7 +1086,6 @@ If blocked then go cry in a corner
 Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructions
 
 If blocked then go cry in a corner
-
 </details>
 
 boop
