@@ -633,4 +633,19 @@ Made by vk6
 
 </details>
 
+<details>
+<summary><b>uBlock Origin</b> Run Code On Pages</summary>
+
+if your school allows the ublock origin chrome extension, then running any javascript on pages is possible
+
+1. install [ublock origin](https://ublockorigin.com/)
+2. Go to the extension's settings
+3. Under the settings tab, check the "I am an advanced user" box and click on the cog icon (image 1)
+4. Inside the advanced settings, change `userResourcesLocation` from unset to https://pastebin.com/raw/PPZ1T7uh (image 2)
+5. In the custom filters tab of the settings, add `##+js(execute_script.js)` as a filter (image 3)
+6. Now you can press ctr+alt+tilde (~) to run any js on the current page
+7. If you want to run a bookmarklet, just paste in the javascript: url and press enter on the popup
+
+</details>
+
 boop
