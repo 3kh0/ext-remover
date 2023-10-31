@@ -324,12 +324,30 @@ This exploit keeps your Chromebook downgraded (or on the current version) withou
 8. Press the `generate onc` button below the textbox.
 9. Once you have downloaded the file, go to `chrome://network#general`.
 10. Click on the `import ONC` button.
-11. Import the newly-downloaded file.
+11. Import the newly downloaded file.
 
 **Extra notes**
 - Your Chromebook will no longer automatically update. (as long as you are on a wifi that you used CAUB on)
-- Be careful not to stay on wifi for too long without using CAUB on it, otherwise you might update.
+- Be careful not to stay on wifi for too long without using CAUB on it, otherwise, you might update.
 - We cannot guarantee that this will work on every wifi
+
+</details>
+
+<details>
+<summary><b>Alt CAUB</b> Prevent Updates</summary>
+
+This alt exploit keeps your Chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by <a href="https://github.com/MechaXYZ">MechaXYZ</a>. Using a Chrome flag, you can convince your Chromebook not to automatically update.
+
+<i>Getting started</i>
+
+1. Go to `chrome://flags#show-metered-toggle` or search "metered" in `chrome://flags` instead
+2. Enable it and restart your device
+3. Go to your network >> Advanced >> Show metered toggle and turn it on
+
+**Extra notes**
+- Your Chromebook will no longer automatically update.
+- Chrome://flags must not be blocked by your school otherwise, this exploit will not work
+- And you must be able to enable flags if it ain't blocked otherwise, this exploit won't work
 
 </details>
 
