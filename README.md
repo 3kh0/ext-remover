@@ -900,9 +900,9 @@ Made by vk6
 <details>
 <summary><b>uBlock Origin</b> Run Code On Pages</summary>
 
-if your school allows the unlock origin chrome extension, then running any javascript on pages is possible
+If your school allows the uBlock Origin chrome extension, then running any javascript on pages is possible.
 
-1. install [ublock origin](https://ublockorigin.com/)
+1. install [uBlock Origin](https://ublockorigin.com/)
 2. Go to the extension's settings
 3. Under the settings tab, check the "I am an advanced user" box and click on the cog icon (image 1)
 4. Inside the advanced settings, change `userResourcesLocation` from unset to https://pastebin.com/raw/PPZ1T7uh (image 2)
