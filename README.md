@@ -5,9 +5,11 @@ If you need help ask it <a href="https://github.com/3kh0/ext-remover/discussions
 
 Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
   
-**ATTENTION ALL SYS ADMINS!!!**
+**ATTENTION ALL SYS ADMINS (aka communists)!!!**
 
-Have fun patching all these
+Have fun patching all these and making the entire system unusable and having more emails to sift through about "thIs iS nOt WorKiNg!1!!1!"
+
+(On a serious note for all the sysadmins viewing this, stop invading students privacy. They aren't animals, or inferior beings. Give them the privacy they need as a teenager. Here is even more proof: "https://raisingchildren.net.au/pre-teens/communicating-relationships/family-relationships/privacy-trust-teen-years". Quit your job now and give the students of our future a break from being watched.)
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
@@ -1042,8 +1044,17 @@ If blocked then go cry in a corner
 **Devtools must not be blocked by policy to perform this exploit.**
 
 Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructions
+</details>
 
-If blocked then go cry in a corner
+<details>
+<summary><b>Network Bypassing</b> A bypass for any network filters.</summary>
+
+**ONLY FOR NETWORK FILTERS. A network filter is something that blocks website on the actual network instead of the operating system. Thus you can't disable with exploits like LTBEEF or LTMEAT.**
+
+Go to <a href="https://drive.google.com/file/d/1MGVFf8d9pww0M2bO9ogxQX1LyR1y6zc_/view">this link</a> once you have downloaded the ONC file. Goto chrome://network and press "Import ONC File". You will have know if it worked if it says: "Network imported: 1". Then click on the time, or goto settings. Find VPN, click on it and click on the "Haven VPN" it will say "Connected" and now you are free.
+
+
+If chrome://network is blocked, start bawling your eyes out and beat up your IT manager.
 </details>
 
 boop
