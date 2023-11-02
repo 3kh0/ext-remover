@@ -1051,7 +1051,7 @@ Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructi
 
 **ONLY FOR NETWORK FILTERS. A network filter is something that blocks website on the actual network instead of the operating system. Thus you can't disable with exploits like LTBEEF or LTMEAT.**
 
-Go to <a href="https://drive.google.com/file/d/1MGVFf8d9pww0M2bO9ogxQX1LyR1y6zc_/view">this link</a> once you have downloaded the ONC file. Goto chrome://network and press "Import ONC File". You will have know if it worked if it says: "Network imported: 1". Then click on the time, or goto settings. Find VPN, click on it and click on the "Haven VPN" it will say "Connected" and now you are free.
+Go to <a href="https://drive.google.com/file/d/1MGVFf8d9pww0M2bO9ogxQX1LyR1y6zc_/view">this link</a>. Now once you have downloaded the ONC file. Goto chrome://network and press "Import ONC File". You will have know if it worked if it says: "Network imported: 1". Then click on the time, or goto settings. Find VPN, click on it and click on the "Haven VPN" it will say "Connected" and now you are free.
 
 
 If chrome://network is blocked, start bawling your eyes out and beat up your IT manager.
