@@ -685,6 +685,20 @@ And visit `chrome://restart`.
 </details>
 
 <details>
+<summary><b>Shimboot</b> Linux from RMA shim</summary>
+
+Shimboot is a collection of scripts for patching a Chrome OS RMA shim to serve as a bootloader for a standard Linux distribution. It allows you to boot a full desktop Debian install on a Chromebook, without needing to unenroll it or modify the firmware.
+  
+**For more detailed information, please see the project's [README](https://github.com/ading2210/shimboot).**
+
+Further reading:
+- https://shimboot.ading.dev/
+- https://github.com/ading2210/shimboot
+
+Credit to [vk6](https://ading.dev/) for this exploit
+</details>
+
+<details>
 <summary><b>Extention Inactivity hack</b> Inactive Extensions</summary>
 
 1. First do the Esc+Refresh+Power
