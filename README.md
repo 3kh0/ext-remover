@@ -905,15 +905,23 @@ Made by vk6
 <details>
 <summary><b>uBlock Origin</b> Run Code On Pages</summary>
 
-If your school allows the uBlock Origin chrome extension, then running any javascript on pages is possible.
+if your school allows the ublock origin chrome extension, then running the edpuzzle script (as well as any other bookmarklet) is possible
 
-1. install [uBlock Origin](https://ublockorigin.com/)
-2. Go to the extension's settings
-3. Under the settings tab, check the "I am an advanced user" box and click on the cog icon (image 1)
-4. Inside the advanced settings, change `userResourcesLocation` from unset to https://pastebin.com/raw/PPZ1T7uh (image 2)
-5. In the custom filters tab of the settings, add `##+js(execute_script.js)` as a filter (image 3)
-6. Now you can press ctr+alt+tilde (~) to run any js on the current page
-7. If you want to run a bookmarklet, just paste in the javascript: URL and press enter on the popup
+1. install ublock origin (<a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm</a>)
+
+2. go to the extension's settings
+
+3. under the settings tab, check the "i am an advanced user" box and click on the cog icon
+
+4. inside the advanced settings (chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/advanced-settings.html), scroll down and find userResourcesLocation now change userResourcesLocation from unset to <a href="https://pastebin.com/raw/PPZ1T7uh">https://pastebin.com/raw/PPZ1T7uh</a>
+
+5. in the My filters tab of the settings (chrome-extension://cjpalhdlnbpafiamejdnhcphjbkeiagm/dashboard.html#1p-filters.html), add *##+js(execute_script.js) as a filter
+
+6. now you can press ctr+alt+tilde (~) to run any js on the current page
+
+7. if you want to run a bookmarklet, just paste in the javascript: url and press ok on the popup
+
+</details>
 
 </details>
 
