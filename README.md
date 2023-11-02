@@ -428,9 +428,9 @@ If you do not have these, you **CAN NOT** perform the exploit!
 </details>
 
 <details>
-<summary><b>E-Halcyon</b> Unenrolmlent Or Downgrade</summary>
+<summary><b>E-Halcyon</b> Unenrollment Or Downgrade</summary>
 
-First of all, you'll need a Linux PC or VM. WSL is not guaranteed to work
+First of all, you'll need a Linux PC or VM. WSL is not guaranteed to work.
 
 Now, you'll need to boot into SH1MMER, and press the Un-Enroll option. It won't truly unenroll you if you've received the 112 updates patching unenrollment and downgrading, but it is still a necessary step for the rest of this. If you've never used SH1MMER before or don't have an image lying around, make sure to follow all the instructions on sh1mmer.me for unenrollment before proceeding with the rest of the tutorial here
 
