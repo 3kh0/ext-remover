@@ -7,10 +7,18 @@ Please use these only when you have permission, I (3kh0) do not condone the use 
   
 **ATTENTION ALL SYS ADMINS!!!**
 
-Have fun patching all these
+Have fun patching all these.
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
 Image Credit: LittleMissNyan
+
+### Thank you to all of the contributors!
+
+Yall really are pretty epic :D
+
+<a href="https://github.com/3kh0/ext-remover/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=3kh0/ext-remover" />
+</a>
 
 <details>
 <summary><b>LTMEAT</b> Disable extensions</summary>
