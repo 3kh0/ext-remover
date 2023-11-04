@@ -7,7 +7,7 @@ Please use these only when you have permission, I (3kh0) do not condone the use 
   
 **ATTENTION ALL SYS ADMINS (aka communists)!!!**
 
-Quit your job now. If you patch any of these we will sue but theres too much to block before you get complaints about the chromebook being unusable. Have fun. 
+We are sorry for creating such exploits. This repo has been shut down.
 
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
@@ -20,7 +20,65 @@ Yall really are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=3kh0/ext-remover" />
 </a>
+<details>
+<summary><b>Shut Down</b> The repo has been shutdown</summary>
 
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will sue and grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+<details>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will sue and grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+  <details>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+  <details>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+  <details>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+  <details>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+  <details>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+  <details>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+<summary><b></b></summary>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+<summary><b></b> </summary>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+<summary><b></b> </summary>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
+<details>
+<summary><b></b> </summary>
+<summary><b>‌</b> </summary>
+
+If you are a sysadmin reading this, god has rejected you from the afterlife and you will burn in hell forever!!! If you patch any of these we will grind you in a meatgrinder and serve that to the kids at lunch.
 <details>
 <summary><b>LTMEAT</b> Disable extensions</summary>
 
@@ -873,9 +931,6 @@ if your school allows the ublock origin chrome extension, then running the edpuz
 7. if you want to run a bookmarklet, just paste in the javascript: url and press ok on the popup
 
 </details>
-
-</details>
-
 <details>
 <summary><b>Incognito on Sign-In</b> Bypass Extensions/Unblocked Google Webview</summary>
 Might work but idk if it will
