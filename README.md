@@ -543,25 +543,6 @@ IMPORTANT NOTE: if bookmarklets are blocked your screwed, womp womp
 4. Find your blocker extension and click it. now on the bottom right you should see a button called End process. click it now quickly click the URL BOX on the new page and click enter. now quickly spam the bookmark tab close blocker. now a pop up should come up it should have to buttons cancel and leave. click cancel.
 
 IMPORTANT NOTE: You can not do this exploit if bookmarklets or the task manager is blocked. womp womp
-</details>
-
-<details>
-<summary><b>Enterprise Enrollment Glitch</b> Unenroll/Bypass Enterprise Enrollment</summary>
-
-This only works on Chrome versions 115 and above, and your school has not to have force enterprise enrollment on your school Chromebook
-
-1. Powerwash your Chromebook
-
-A) esc+refresh+power
-
-B) then "ctrl"+"d" and then space or enter
-
-2. Then add wifi
-3. Now when it takes you to the enrolling screen or whatever immediately turn off wifi, then wait until it says enterprise enrollment has failed or something like that
-4. There should be 2-3 buttons to use as a personal device and enroll manually and try again
-5. Click use as a personal device, then add back wifi and then sign in and boom Unenrollment worked
-
-If it doesn't work then your screwed, womp womp
 
 </details>
 
