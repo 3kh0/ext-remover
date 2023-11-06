@@ -1064,6 +1064,17 @@ Go to <a href="https://drive.google.com/file/d/1MGVFf8d9pww0M2bO9ogxQX1LyR1y6zc_
 If chrome://network is blocked, start bawling your eyes out and beat up your IT manager. 
 </details>
 
+<details>  
+<summary><b>Filter session bypass</b> Bypass hapara filter session</summary>
+
+Bookmark this link: [filtersessionbypass.txt](filtersessionbypass.txt)
+
+During a filter session, right click the link, and press "Open in a new tab"
+Then insert the URL for any website you want to go to.  Make sure to include https://<br>
+If it says "website name refused to connect", try using a web proxy.<br>
+Also this dosn't bypass blocker extentions so use an unblocked link, or another exploit.
+</details>
+
 boop
 
 
