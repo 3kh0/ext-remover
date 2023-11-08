@@ -133,7 +133,7 @@ The extension should now be broken, assuming you clicked the switch! Only one of
 </details>
 
 <details>
-<summary><b>NEW LTMEAT</b> Disable extensions</summary>
+<summary><b>LTMEAT Flood</b> Disable extensions</summary>
 
   **If your Chromebook has received the 115 And Above patch on the stable channel, Then Here's A New Method For LTMEAT**
 
@@ -161,7 +161,7 @@ Credit to <a href="https://github.com/AshtonDavies">Ashton Davies</a> for findin
 </details>
 
 <details>
-<summary><b>Baby NEW LTMEAT</b> Disable extensions</summary>
+<summary><b>Baby LTMEAT Flood</b> Disable extensions</summary>
 
 **Unpatched on 115 and above**
 
