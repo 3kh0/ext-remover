@@ -905,9 +905,10 @@ Cool Facts About Incognito Mode:
 3. In the Email text box put `google@d11.org`
 4. Click `sign in options`
 5. Now click sign in with GitHub
-6. Click the GitHub logo
-7. In the search box on the top right type Google and then click see more topics then you will see all the Google links click `www.google.com`
-8. Profit
+6. Click forgot password
+7. Now Click the GitHub logo
+8. In the search box on the top right type Google and then on the right you will see Google links click `www.google.com`
+9. Profit
 
 </details>
 
