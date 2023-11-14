@@ -788,19 +788,6 @@ Cool Advanced Facts About Incognito Mode:
 2. Your History Is Hidden From Your School
 </details>
 <details>
-<summary><b>Google System Method</b> Bypass Extensions</summary>
-Unblocked Google
-
-1. Go to `chrome://chrome-signin`
-2. Click OK on the bottom right corner
-3. In the Email text box put `google@d11.org`
-4. Click `signin options`
-5. Now click sign in with GitHub
-6. Click the GitHub cat icon
-7. In the search box on the top right type google and then click see more topics then you will see all the Google links click `www.google.com` now boom unblocked Google.
-
-</details>
-<details>
 <summary><b>Quick View</b> Bypass Extensions</summary>
 **QuickView is a universal web view exploit in Chrome OS that utilizes the QuickOffice component extension. This exploit lets you create login windows with arbitrary URLs, thus allowing you to load pages without any extensions.**
 Go here and follow the instructions: https://quickview-exploit.pages.dev/
@@ -898,7 +885,7 @@ Cool Facts About Incognito Mode:
 </details>
 
 <details>
-<summary><b>chrome-signin webview</b> Yet another webview bypass</summary>
+<summary><b>chrome-signin webview/Google system method</b> Yet another webview bypass</summary>
   
 1. Go to `chrome://chrome-signin`
 2. Click OK on the bottom right corner
