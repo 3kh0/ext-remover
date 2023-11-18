@@ -1,7 +1,7 @@
 # EXT-REMOVER
-This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more!
-Many of these exploits can destroy your computer if misused. So PLEASE, PLEASE make sure you follow these instructions very carefully!
-If you need help ask it <a href="https://github.com/3kh0/ext-remover/discussions">here</a>
+This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more! Many of these exploits can destroy your computer if misused. So PLEASE, PLEASE make sure you follow these instructions very carefully!
+
+<b>Need help? Ask for help <a href="https://github.com/3kh0/ext-remover/discussions">here</a>!</b>
 
 Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
   
@@ -10,7 +10,8 @@ Please use these only when you have permission, I (3kh0) do not condone the use 
 Quit your job now. If you patch any of these we will sue but theres too much to block before you get complaints about the chromebook being unusable. Have fun. 
 
 
-<img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">  
+<img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">
+
 Image Credit: LittleMissNyan
 
 ### Thank you to all of the contributors!
@@ -54,9 +55,9 @@ Okay, fair. Extension IDs are leaked in a couple of places. Generally, the best 
 
 **It says blocked by client?**
 
-That's the message you get when you try to visit a page belonging to an extension that doesn't exist. The error message (`ERR_BLOCKED_BY_CLIENT`) is highly misleading. Nobody blocked it--you need to find the correct extension ID (see above).
+That's the message you get when you try to visit a page belonging to an extension that doesn't exist. The error message (`ERR_BLOCKED_BY_CLIENT`) is highly misleading. Nobody blocked it. You need to find the correct extension ID (see above).
 
-If you got this because you tried to visit the `extension_id_here_please` example URL, you should be extremely ashamed of yourself. Please change and grow as a person. 
+If you got this because you tried to visit the `extension_id_here_please` example URL, you should be extremely ashamed of yourself. Please change and grow as a person.
 
 **I don't have a bookmarks bar!!!!**
 
@@ -225,16 +226,15 @@ Made by <a href="https://ading.dev/">ading2210</a>
 <summary><b>JPCMG</b> LTBEEF with Service workers</summary>
 
 **Requirements**
-- Access to `chrome://serviceworker-internals`
+- `chrome://serviceworker-internals`
 - Inspect element
 
 1. Go to `chrome://serviceworker-internals`
 2. Find your extension, this won't work if there's not a plugin in there.
-3. Hit the start button then the `inspect` button, and execute the basic LTBEEF code
+3. Hit the start button then the `inspect` button, and execute LTBEEF code
 ```js
-chrome.management.setEnabled('<plugin id here>',false)
+chrome.management.setEnabled('put_the_id_here',false)
 ```
-4. Profit
 
 ![image](https://user-images.githubusercontent.com/58097612/234904781-4d5ad77e-6045-435e-8aae-df12dec53013.png)
 
@@ -245,13 +245,12 @@ Thanks to Nyaann#3881 for this exploit
 <summary><b>Corkey</b> Corrupt extensions</summary>
 
 1. Esc+Refresh+Power and re-enroll (Enter recovery page), or you can just powerwash.
-2. log into your Chromebook and immediately turn off wifi and do refresh+power to (instant restart)
+2. Log into your Chromebook and immediately turn off wifi and do refresh+power to (instant restart)
 3. Log back into your Chromebook with the wifi off. There should be something on the side of the connect wifi page that says log in offline or sign in as an existing user.
 4. Go to chrome://extensions, turn on wifi, and wait for your school's blocking extension to appear.
 5. As soon as it appears, turn off wifi and instant restart as fast as you can.
 6. Log back in, go back to extensions, and wait. If it says your blocking extension could be corrupted or doesn't appear at all, then it worked (wait at least a minute with a close watch in case it comes back)
 7. If it didn't work repeat from step 1.
-8. If it did work, congrats you did it.
 
 </details>
 
@@ -1007,19 +1006,12 @@ made by carteeeee
 </details>
 
 <details>
-<summary><b>Temporary Disable GoGuardian using a dns</b> Temporarily Disable GoGuardian</summary>
+<summary><b>Temp Disable GoGuardian DNS</b> Temporarily Disable GoGuardian</summary>
 
 This method will remove GoGuardian from your Chromebook and keep it off, until you switch to a non-DNS wifi
 
-1 - Powerwash your Chromebook
-
-A) esc+refresh+power
-
-B) then "ctrl"+"d" and then space or enter from then on
-
-2 - Immediately after you add wifi to your Chromebook add the DNS record 158.101.114.159
-
-A) Click on the menu at the bottom right of the screen and Click the Settings icon, go to your wifi, scroll to the bottom and open the networks dropdown, choose the "Custom name server" bubble, change the first box to 158.101.114.159
+1. Powerwash your Chromebook
+2. Click on the menu at the bottom right of the screen and Click the Settings icon, go to your wifi, scroll to the bottom and open the networks dropdown, choose the "Custom name server" bubble, change the first box to 158.101.114.159
 
 </details>
 
@@ -1034,11 +1026,14 @@ If blocked then go cry in a corner
 </details>
 
 <details>
-<summary><b>Chaos</b> A full bypass method for Hapara Highlights and Hapara Filter</summary>
+<summary><b>Chaos</b> A full bypass for Hapara</summary>
 
 **Devtools must not be blocked by policy to perform this exploit.**
 
 Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructions
+
+Further Reading:
+- https://github.com/xlak/chaos
 </details>
 
 <details>  
@@ -1052,7 +1047,7 @@ Go to <a href="https://drive.google.com/file/d/1MGVFf8d9pww0M2bO9ogxQX1LyR1y6zc_
 If chrome://network is blocked, start bawling your eyes out and beat up your IT manager. 
 </details>
 
-<details>  
+<details>
 <summary><b>Filter session bypass</b> Bypass hapara filter session</summary>
 
 Bookmark this link: [filtersessionbypass.txt](filtersessionbypass.txt)
@@ -1064,7 +1059,3 @@ Also this dosn't bypass blocker extentions so use an unblocked link, or another 
 </details>
 
 boop
-
-
-
-If you are a student who believes in privacy and freedom, heres a tutorial on how to annoy your IT manager: Send them emails to approve this website since it is required for doing a project/homework assignment: "https://stock-images.0o.si/?p#/old-man-tries-to-climb-ladder-falls-down-and-eats-cookie-2298498123". It is recommended to shorten the link with bit.ly, ad.fly, or gg.gg or any other shortner as they might get suspicious looking at the URL. Once they click on the website and press the popup they will be met with an obxniously loud sound (aka a screamer).
