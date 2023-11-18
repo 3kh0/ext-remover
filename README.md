@@ -4,23 +4,14 @@ This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now
 <b>Need help? Ask for help <a href="https://github.com/3kh0/ext-remover/discussions">here</a>!</b>
 
 Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
-  
-**ATTENTION ALL SYS ADMINS (aka communists)!!!**
-
-Quit your job now. If you patch any of these we will sue but theres too much to block before you get complaints about the chromebook being unusable. Have fun. 
-
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">
 
 Image Credit: LittleMissNyan
 
-### Thank you to all of the contributors!
+Thank you to all of the contributors! Yall really are pretty epic :D
 
-Yall really are pretty epic :D
-
-<a href="https://github.com/3kh0/ext-remover/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=3kh0/ext-remover" />
-</a>
+<a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 <details>
 <summary><b>LTMEAT</b> Disable extensions</summary>
