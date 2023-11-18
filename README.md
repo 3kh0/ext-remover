@@ -13,8 +13,6 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
-## Table of Contents
-
 <details>
 <summary><b>LTMEAT</b> Disable extensions</summary>
 
