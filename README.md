@@ -13,6 +13,8 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
+## Table of Contents
+
 <details>
 <summary><b>LTMEAT</b> Disable extensions</summary>
 
@@ -36,7 +38,7 @@ If the extension page (bookmark A) no longer loads, then LTMEAT worked! You can 
 
 Exploit made by [Bypassi#7037](https://buymeacoffee.com/bypassi), [further reading](https://ltmeat.bypassi.com)
 
-### "Help me! I'm an idiot!"
+**"Help me! I'm an idiot!"**
 
 I had far too much faith in society when making this page. Some of you skids out there are really, really stupid and also can't read. So here are the answers to some commonly asked questions. 
 
