@@ -665,3 +665,13 @@ Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructi
 - [Repository](https://github.com/xlak/chaos)
 
 [**🔼 Back to top**](#ext-remover)
+
+## SOT Exploit
+
+Download this extension [One Tab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+
+Click the import button in the settings tab, copy-paste the URL you wish to visit about 100 times, and then click import. spam click the top link, then either spam escape on one of them or wait for one to load on a about:blank page.
+  
+this was made by Coding4Hours on github
+
+[**🔼 Back to top**](#ext-remover)
