@@ -431,6 +431,8 @@ This exploit keeps your Chromebook downgraded (or on the current version) withou
 - Be careful not to stay on wifi for too long without using CAUB on it, otherwise, you might update.
 - We cannot guarantee that this will work on every wifi, but it should work on most.
 
+[**🔼 Back to top**](#ext-remover)
+
 ## CAUB Flags *Prevent Updates*
 
 This alt exploit keeps your Chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by <a href="https://github.com/MechaXYZ">MechaXYZ</a>. Using a Chrome flag, you can convince your Chromebook not to automatically update.
@@ -448,6 +450,8 @@ This alt exploit keeps your Chromebook downgraded (or on the current version) wi
 **Extra notes**
 - Your Chromebook will no longer automatically update. (as long as you have the flag enabled)
 - And you must be able to enable flags if it ain't blocked otherwise, this exploit won't work
+
+[**🔼 Back to top**](#ext-remover)
 
 ## Blank3r
 
@@ -469,6 +473,8 @@ javascript:let shim = false;var ids = prompt("extension ids (comma separated)").
 5. Paste the ID of the extension into the prompt separated by commas.
 
 If you close the tab, the exploit will stop working.
+
+[**🔼 Back to top**](#ext-remover)
 
 ## sh1mmer *Unenrollment*
 
@@ -571,6 +577,8 @@ Kill the extension by signing out.
 8. If your Chrome version is v112 or above, this exploit will no longer work, the bypass to this is listed further on.
 
 Credit to Zoroark
+
+[**🔼 Back to top**](#ext-remover)
 
 ## Shimboot *Boot Linux*
 
