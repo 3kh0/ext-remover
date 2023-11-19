@@ -18,19 +18,19 @@ Thank you to all of the contributors! Yall really are pretty epic :D
     + [What is it?](#what-is-it-)
     + [How to use it](#how-to-use-it)
     + [Further Reading](#further-reading)
-  * [LTBEEF *Disable extensions*](#ltbeef--disable-extensions-)
+  * [LTBEEF (Disable extensions)](#ltbeef--disable-extensions-)
     + [How to use LTBEEF](#how-to-use-ltbeef)
     + [Bookmarklets](#bookmarklets)
       - [CompactCow GUI](#compactcow-gui)
       - [Ingot](#ingot)
-  * [LTMEAT *Disable extensions*](#ltmeat--disable-extensions-)
+  * [LTMEAT (Disable extensions)](#ltmeat--disable-extensions-)
     + ["Help me! I'm an idiot!"](#-help-me--i-m-an-idiot--)
-  * [Temp TMEAT *Disable extensions*](#temp-tmeat--disable-extensions-)
-  * [Baby LTMEAT *Disable extensions*](#baby-ltmeat--disable-extensions-)
-  * [LTMEAT Print *Disable extensions*](#ltmeat-print--disable-extensions-)
+  * [Temp TMEAT (Disable extensions)](#temp-tmeat--disable-extensions-)
+  * [Baby LTMEAT (Disable extensions)](#baby-ltmeat--disable-extensions-)
+  * [LTMEAT Print (Disable extensions)](#ltmeat-print--disable-extensions-)
     + [Where do I find my extension's manifest.json?](#where-do-i-find-my-extension-s-manifestjson-)
-  * [Dextensify *Disable extensions*](#dextensify--disable-extensions-)
-  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg--ltbeef-w--service-workers-)
+  * [Dextensify (Disable extensions)](#dextensify--disable-extensions-)
+  * [JPCMG (LTBEEF w/ Service workers)](#jpcmg--ltbeef-w--service-workers-)
   * [Corkey *Corrupt extensions*](#corkey--corrupt-extensions-)
   * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher--install-extensions-w-o-allowlist-)
     + [Requirements](#requirements)
@@ -115,7 +115,7 @@ Bypassi made a wonderful slideshow for you goof balls to follow, view using any 
 
 [**🔼 Back to top**](#ext-remover)
 
-## LTBEEF *Disable extensions*
+## LTBEEF (Disable extensions)
 
 LTBEEF (Literally The Best Exploit Ever Found) is a exploit found by Bypassi (Bypassi#7037) in September 2022, and is a great way to disable spyware that was installed on your chromebook by your school.
 
@@ -154,7 +154,7 @@ javascript:(function () {var a = document.createElement('script');a.src = 'https
 
 [**🔼 Back to top**](#ext-remover)
 
-## LTMEAT *Disable extensions*
+## LTMEAT (Disable extensions)
 
 **L**iterally **T**he **M**eatiest **E**xploit of **A**ll **T**ime
 
@@ -213,7 +213,7 @@ I have bad news for you... not all filters are Chrome Extensions. Again, make su
 
 [**🔼 Back to top**](#ext-remover)
 
-## Temp TMEAT *Disable extensions*
+## Temp TMEAT (Disable extensions)
 
 A method of using LTMEAT that does not require `chrome://` urls. This works by using 80-150 tabs to soak up memory.
 
@@ -229,7 +229,7 @@ Tips: Go to `chrome://settings/performance` and turn Memory Saver off, and in th
 
 [**🔼 Back to top**](#ext-remover)
 
-## Baby LTMEAT *Disable extensions*
+## Baby LTMEAT (Disable extensions)
 
 BABY METHOD
 FOR THE TECHNOLOGICALLY CHALLENGED.
@@ -243,7 +243,7 @@ FOR THE TECHNOLOGICALLY CHALLENGED.
 
 [**🔼 Back to top**](#ext-remover)
 
-## LTMEAT Print *Disable extensions*
+## LTMEAT Print (Disable extensions)
 
 1. Find your extension's largest file. This can usually be found by using [Rob Wu's crxviewer](https://robwu.nl/crxviewer/)
 2. Go to that page and run `Ctrl`+`P`. A print window should show up, with several pages in the top right.
@@ -264,7 +264,7 @@ Credit to Bypassi for the original LTMEAT framework, and to Swordmaster4321 for 
 
 [**🔼 Back to top**](#ext-remover)
 
-## Dextensify *Disable extensions*
+## Dextensify (Disable extensions)
 
 Dextensify is an exploit that lets you disable most admin-installed Chrome extensions from any webpage. It can be used from regular websites, HTML files, and data URLs.
 
@@ -276,7 +276,7 @@ Made by <a href="https://ading.dev/">ading2210</a>
 
 [**🔼 Back to top**](#ext-remover)
 
-## JPCMG *LTBEEF w/ Service workers*
+## JPCMG (LTBEEF w/ Service workers)
 
 **Requirements**
 - `chrome://serviceworker-internals`
