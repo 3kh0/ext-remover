@@ -83,6 +83,34 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
+## Skiovox *Unrestricted browsing*
+
+### What is it?
+
+An exploit that allows for browsing within a completely unblocked Chrome
+browser. It works on ChromeOS 118 and a wide range of previous versions.
+- Skiovox utilizes a bug in kiosk apps
+- Very similar to a bug from 3 years ago
+Within the unblocked browser, you can
+- Install extensions
+- Bypass pretty much all blocks
+- Do whatever the honk you want
+
+### How to use it
+
+Bypassi made a wonderful slideshow for you goof balls to follow, view using any of the links below!
+
+- https://www.skiovox.com/skiovox.pdf
+- https://drive.google.com/file/d/1tl8eP26MFRejHO38H5HwMLl2VaQrtn0Z/preview
+- https://ftp.3kh0.net/Archive/skiovox.pdf
+- https://1drv.ms/b/s!Ais5N3vPLTEMh8poZbywnNWdMUrhUA?e=MaCHBx
+- [`img/skiovox.pdf`](img/skiovox.pdf)
+
+### Further Reading
+- [Skiovox helper](https://github.com/bypassiwastaken/skiovox-helper)
+
+[**🔼 Back to top**](#ext-remover)
+
 ## LTBEEF *Disable extensions*
 
 LTBEEF (Literally The Best Exploit Ever Found) is a exploit found by Bypassi (Bypassi#7037) in September 2022, and is a great way to disable spyware that was installed on your chromebook by your school.
