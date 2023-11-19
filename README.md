@@ -14,6 +14,10 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [Skiovox *Unrestricted browsing*](#skiovox--unrestricted-browsing-)
+    + [What is it?](#what-is-it-)
+    + [How to use it](#how-to-use-it)
+    + [Further Reading](#further-reading)
   * [LTBEEF *Disable extensions*](#ltbeef--disable-extensions-)
     + [How to use LTBEEF](#how-to-use-ltbeef)
     + [Bookmarklets](#bookmarklets)
@@ -55,7 +59,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
     + [Requirements](#requirements-5)
     + [Getting started](#getting-started-4)
   * [sh1mmer *Unenrollment*](#sh1mmer--unenrollment-)
-    + [Further Reading](#further-reading)
+    + [Further Reading](#further-reading-1)
   * [Downgrading *Change versions*](#downgrading--change-versions-)
     + [Requirements](#requirements-6)
     + [Setup](#setup)
@@ -65,7 +69,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
     + [Getting started](#getting-started-5)
       - [Normal](#normal)
       - [PollenFS (RootFS)](#pollenfs--rootfs-)
-    + [Further Reading](#further-reading-1)
+    + [Further Reading](#further-reading-2)
   * [Killcurly *Break extensions*](#killcurly--break-extensions-)
   * [Shimboot *Boot Linux*](#shimboot--boot-linux-)
     + [Further reading](#further-reading)
