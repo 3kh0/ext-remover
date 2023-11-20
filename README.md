@@ -84,6 +84,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
     + [Further reading](#further-reading-2)
   * [Chaos *Hapara bypass*](#chaos-hapara-bypass)
     + [Further Reading:](#further-reading)
+  * [SOT Exploit](#sot-exploit)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
@@ -668,10 +669,11 @@ Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructi
 
 ## SOT Exploit
 
-Download this extension [One Tab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
-
-Click the import button in the settings tab, copy-paste the URL you wish to visit about 100 times, and then click import. spam click the top link, then either spam escape on one of them or wait for one to load on a about:blank page.
+1. Download this extension [One Tab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+2. Click the import button in the settings tab.
+3. Copy-paste the URL you wish to visit about 100 times, and then click import.
+4. Spam click the top link, then either spam escape on one of them or wait for one to load on a about:blank page.
   
-this was made by Coding4Hours on github
+Credit to [Coding4Hours](https://github.com/Coding4Hours)
 
 [**🔼 Back to top**](#ext-remover)
