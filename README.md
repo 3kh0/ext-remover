@@ -5,7 +5,7 @@ This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now
 
 Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
 
-<img width="150px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">
+<img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">
 
 Image Credit: LittleMissNyan
 
