@@ -14,79 +14,35 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
-  * [Skiovox *Unrestricted browsing*](#skiovox-unrestricted-browsing)
-    + [What is it?](#what-is-it)
-    + [How to use it](#how-to-use-it)
-    + [Further Reading](#further-reading)
-  * [LTBEEF *Disable extensions*](#ltbeef-disable-extensions)
-    + [How to use LTBEEF](#how-to-use-ltbeef)
-    + [Bookmarklets](#bookmarklets)
-      - [CompactCow GUI](#compactcow-gui)
-      - [Ingot](#ingot)
-  * [LTMEAT *Disable extensions*](#ltmeat-disable-extensions)
-    + ["Help me! I'm an idiot!"](#-help-me-i-m-an-idiot-)
-  * [Temp TMEAT *Disable extensions*](#temp-tmeat-disable-extensions)
-  * [Baby LTMEAT *Disable extensions*](#baby-ltmeat-disable-extensions)
-  * [LTMEAT Print *Disable extensions*](#ltmeat-print-disable-extensions)
-    + [Where do I find my extension's manifest.json?](#where-do-i-find-my-extension-s-manifestjson)
-  * [Dextensify *Disable extensions*](#dextensify-disable-extensions)
-  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg-ltbeef-w-service-workers)
-  * [Corkey *Corrupt extensions*](#corkey-corrupt-extensions)
-  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher-install-extensions-w-o-allowlist)
-    + [Requirements](#requirements)
-    + [Instructions](#instructions)
-    + [Extra Notes](#extra-notes)
-  * [Point-Blank *Execute scripts on extension pages*](#point-blank-execute-scripts-on-extension-pages)
-    + [Requirements](#requirements-1)
-    + [Getting started](#getting-started)
-    + [Blockers](#blockers)
-      - [Securly](#securly)
-      - [iBoss](#iboss)
-      - [Cisco Umbrella](#cisco-umbrella)
-      - [Blocksi](#blocksi)
-      - [GoGuardian](#goguardian)
-    + [Extra Notes](#extra-notes-1)
-  * [UBoss *Tamper with IBoss*](#uboss-tamper-with-iboss)
-    + [Requirements](#requirements-2)
-    + [Getting started](#getting-started-1)
-  * [CAUB *Prevent Updates*](#caub-prevent-updates)
-    + [Requirements](#requirements-3)
-    + [Getting started](#getting-started-2)
-  * [CAUB Flags *Prevent Updates*](#caub-flags-prevent-updates)
-    + [Requirements](#requirements-4)
-    + [Getting started](#getting-started-3)
+  * [Skiovox *Unrestricted browsing*](#skiovox--unrestricted-browsing-)
+  * [LTBEEF *Disable extensions*](#ltbeef--disable-extensions-)
+  * [LTMEAT *Disable extensions*](#ltmeat--disable-extensions-)
+  * [Temp TMEAT *Disable extensions*](#temp-tmeat--disable-extensions-)
+  * [Baby LTMEAT *Disable extensions*](#baby-ltmeat--disable-extensions-)
+  * [LTMEAT Print *Disable extensions*](#ltmeat-print--disable-extensions-)
+  * [LTMEAT Flood *Crash extensions*](#ltmeat-flood--crash-extensions-)
+  * [Dextensify *Disable extensions*](#dextensify--disable-extensions-)
+  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg--ltbeef-w--service-workers-)
+  * [Corkey *Corrupt extensions*](#corkey--corrupt-extensions-)
+  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher--install-extensions-w-o-allowlist-)
+  * [Point-Blank *Execute scripts on extension pages*](#point-blank--execute-scripts-on-extension-pages-)
+  * [UBoss *Tamper with IBoss*](#uboss--tamper-with-iboss-)
+  * [CAUB *Prevent Updates*](#caub--prevent-updates-)
+  * [CAUB Flags *Prevent Updates*](#caub-flags--prevent-updates-)
   * [Blank3r](#blank3r)
-    + [Requirements](#requirements-5)
-    + [Getting started](#getting-started-4)
-  * [sh1mmer *Unenrollment*](#sh1mmer-unenrollment)
-    + [Further Reading](#further-reading-1)
-  * [Downgrading *Change versions*](#downgrading-change-versions)
-    + [Requirements](#requirements-6)
-    + [Setup](#setup)
-    + [Downgrading](#downgrading)
-  * [Pollen *Policy Editor*](#pollen-policy-editor)
-    + [Requirements](#requirements-7)
-    + [Getting started](#getting-started-5)
-      - [Normal](#normal)
-      - [PollenFS (RootFS)](#pollenfs-rootfs)
-    + [Further Reading](#further-reading-2)
-  * [Killcurly *Break extensions*](#killcurly-break-extensions)
-  * [Shimboot *Boot Linux*](#shimboot-boot-linux)
-    + [Further reading](#further-reading)
-  * [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages)
-    + [Requirements](#requirements-8)
-    + [Getting started](#getting-started-6)
-  * [Quick View *Bypass extensions*](#quick-view-bypass-extensions)
-    + [Further reading](#further-reading-1)
-  * [Buypass *Bypass extensions*](#buypass-bypass-extensions)
-    + [What it can and can't do](#what-it-can-and-can-t-do)
-    + [Getting started](#getting-started-7)
-    + [Further reading](#further-reading-2)
-  * [Chaos *Hapara bypass*](#chaos-hapara-bypass)
-    + [Further Reading:](#further-reading)
+  * [sh1mmer *Unenrollment*](#sh1mmer--unenrollment-)
+  * [Downgrading *Change versions*](#downgrading--change-versions-)
+  * [Pollen *Policy Editor*](#pollen--policy-editor-)
+  * [Killcurly *Break extensions*](#killcurly--break-extensions-)
+  * [Shimboot *Boot Linux*](#shimboot--boot-linux-)
+  * [uBlock Run *Run Code On Pages*](#ublock-run--run-code-on-pages-)
+  * [Quick View *Bypass extensions*](#quick-view--bypass-extensions-)
+  * [Buypass *Bypass extensions*](#buypass--bypass-extensions-)
+  * [Chaos *Hapara bypass*](#chaos--hapara-bypass-)
   * [SOT Exploit](#sot-exploit)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
+
 
 ## Skiovox *Unrestricted browsing*
 
@@ -264,6 +220,18 @@ Then go to `chrome-extension://extension_id_here/manifest.json`
 Credit to Bypassi for the original LTMEAT framework, and to Swordmaster4321 for discovering that pages can be hung with printing.
 
 [**🔼 Back to top**](#ext-remover)
+
+## LTMEAT Flood *Crash extensions*
+
+1. Create a bookmark folder and paste the extension page lots of times. (About 800 minimum is recommended assuming your Chromebook is average school quality) It is recommended that you add the extension page at the beginning of the folder.
+2. Right click and open all in a new window.
+3. Close the window with all those tabs.
+4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed. (Equivalent to the duplicate tab step in Bypassi's method)
+5. Flip the Allow access to file URLs switch in the extension settings and then you've bypassed the patch and the exploit is working.
+
+Close everything and you're good to go. If it didn't work, try adjusting the number of tabs being opened. This is the LTMEAT Flood Method, and also unofficially called Alternate Method # 2. Enjoy a much longer life of LTMEAT!
+
+**Not working?** Ensure you open a large set, but not too large, of extension tabs (_/generated_background_page.html or /manifest.json) for a permanent freeze.
 
 ## Dextensify *Disable extensions*
 
