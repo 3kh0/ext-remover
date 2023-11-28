@@ -266,11 +266,13 @@ Thanks to Nyaann#3881 for this exploit
 
 ## Corkey *Corrupt extensions*
 
+Corkey does indeed include power washing the Chromebook, which wipes local data including everything under "My files," so I suggest you select everything you want to drag and back up to Google Drive if that's available for your account.
+
 1. Esc+Refresh+Power and re-enroll (Enter recovery page), or you can just powerwash.
 2. Log into your Chromebook and immediately turn off WiFi and do refresh+power to (instant restart)
-3. Log back into your Chromebook with the WiFi off. Look for a option to login as a existing user and click that.
+3. Log back into your Chromebook with the WiFi off. Look for an option to login as a existing user and click that.
 4. Go to `chrome://extensions`, turn on WiFi, and wait for your school's blocking extension to appear.
-5. As soon as it appears, turn off WiFi and instant restart as fast as you can.
+5. As soon as it appears, turn off WiFi and restart as fast as possible.
 6. Log back in, go back to extensions, and wait. If it says your blocking extension could be corrupted or doesn't appear at all, then it worked (wait at least a minute with a close watch in case it comes back)
 7. If it didn't work, start over. You have to be fast.
 
