@@ -266,7 +266,7 @@ Thanks to Nyaann#3881 for this exploit
 
 ## Corkey *Corrupt extensions*
 
-Corkey does indeed include power washing the Chromebook, which wipes local data including everything under "My files," so I suggest you select everything you want to drag and back up to Google Drive if that's available for your account.
+Corkey does indeed include power washing the Chromebook, which wipes local data including everything under "My files," so I suggest you select everything you want to drag and back up to Google Drive if that's available for your account, it also deletes Skiovox data, so I recommend backing up your files to github if possible.
 
 1. Esc+Refresh+Power and re-enroll (Enter recovery page), or you can just powerwash.
 2. Log into your Chromebook and immediately turn off WiFi and do refresh+power to (instant restart)
