@@ -16,12 +16,13 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 - [EXT-REMOVER](#ext-remover)
   * [Skiovox *Unrestricted browsing*](#skiovox--unrestricted-browsing-)
   * [LTBEEF *Disable extensions*](#ltbeef--disable-extensions-)
+  * [LoMoH *Disable extensions*](#lomoh--disable-extensions-)
   * [LTMEAT *Disable extensions*](#ltmeat--disable-extensions-)
-  * [Temp TMEAT *Disable extensions*](#temp-tmeat--disable-extensions-)
-  * [Baby LTMEAT *Disable extensions*](#baby-ltmeat--disable-extensions-)
-  * [LTMEAT Print *Disable extensions*](#ltmeat-print--disable-extensions-)
-  * [LTMEAT Flood *Crash extensions*](#ltmeat-flood--crash-extensions-)
-  * [Dextensify *Disable extensions*](#dextensify--disable-extensions-)
+  * [LTMEAT Flood *Freeze extensions*](#ltmeat-flood--freeze-extensions-)
+  * [Temp TMEAT *Freeze extensions*](#temp-tmeat--freeze-extensions-)
+  * [Baby LTMEAT *Freeze extensions*](#baby-ltmeat--freeze-extensions-)
+  * [LTMEAT Print *Freeze extensions*](#ltmeat-print--freeze-extensions-)
+  * [Dextensify *Disable extensions*](#dextensify--freeze-extensions-)
   * [JPCMG *LTBEEF w/ Service workers*](#jpcmg--ltbeef-w--service-workers-)
   * [Corkey *Corrupt extensions*](#corkey--corrupt-extensions-)
   * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher--install-extensions-w-o-allowlist-)
@@ -111,6 +112,27 @@ javascript:(function () {var a = document.createElement('script');a.src = 'https
 
 [**🔼 Back to top**](#ext-remover)
 
+## LoMoH *Disable extensions*
+
+Formerly named "Locked Mode Hack," this is a Chrome OS exploit that uses the locked mode feature to soft disable extensions that are force-enabled on managed accounts (Excluding Hapara Highlights and Read&Write if installed).
+
+**This exploit is patched in Chrome OS 111**
+
+### Bookmarklet Version (Original and nicer)
+```
+javascript:(function(){if (location.hostname == "docs.google.com") {document.body.innerHTML = document.body.innerHTML.replace("Locked mode is on", "Are you ready to turn off extensions?%22);%20document.body.innerHTML%20=%20document.body.innerHTML.replace(%22You%20have%20already%20opened%20and%20closed%20this%20quiz.%20Opening%20this%20quiz%20again%20will%20notify%20the%20form%20owner%20by%20email.%22,%20%22This%20will%20reload%20all%20tabs%20in%20your%20browser%22);%20var%20button%20=%20document.getElementById(%27mG61Hd%27);%20button.innerHTML%20=%20button.innerHTML.replace(%22Start%20Quiz%22,%20%22Disable%20Extensions%22);%20button.addEventListener(%27click%27,%20function(event){window.close();})}%20else%20{window.open(%22https://docs.google.com/forms/u/0/d/e/1FAIpQLSf5EYwrSUjmQhBOasMpORZy80eBCYb7qCpEwWNoRPUGyObGMA/startquiz%22);}})()
+```
+
+### Website/HTML Version (for blocked bookmarklets)
+[LoMoH HTML](https://ashtondavies.github.io/LoMoH?unlock)
+**Additional Notes:**
+You must create your own link with the button on the page for locked mode to work within your oranization/district.
+If this is patched for you, you will get rickrolled attempting to perform this exploit, just a heads up for those of you who do happen to read this.
+
+[GitHub Repository](https://github.com/AshtonDavies/LoMoH)
+
+[**🔼 Back to top**](#ext-remover)
+
 ## LTMEAT *Disable extensions*
 
 **L**iterally **T**he **M**eatiest **E**xploit of **A**ll **T**ime
@@ -170,7 +192,21 @@ I have bad news for you... not all filters are Chrome Extensions. Again, make su
 
 [**🔼 Back to top**](#ext-remover)
 
-## Temp TMEAT *Disable extensions*
+## LTMEAT Flood *Freeze extensions*
+
+1. Create a bookmark folder and paste the extension page lots of times. (About 800 minimum is recommended assuming your Chromebook is average school quality) It is recommended that you add the extension page at the beginning of the folder.
+2. Right click and open all in a new window.
+3. Close the window with all those tabs.
+4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed. (Equivalent to the duplicate tab step in Bypassi's method)
+5. Flip the Allow access to file URLs switch in the extension settings and then you've bypassed the patch and the exploit is working.
+
+Close everything and you're good to go. If it didn't work, try adjusting the number of tabs being opened. This is the LTMEAT Flood Method, and also unofficially called Alternate Method # 2. Enjoy a much longer life of LTMEAT!
+
+**Not working?** Ensure you open a large set, but not too large, of extension tabs (_/generated_background_page.html or /manifest.json) for a permanent freeze.
+
+[**🔼 Back to top**](#ext-remover)
+
+## Temp TMEAT *Freeze extensions*
 
 A method of using LTMEAT that does not require `chrome://` urls. This works by using 80-150 tabs to soak up memory.
 
@@ -186,7 +222,7 @@ Tips: Go to `chrome://settings/performance` and turn Memory Saver off, and in th
 
 [**🔼 Back to top**](#ext-remover)
 
-## Baby LTMEAT *Disable extensions*
+## Baby LTMEAT *Freeze extensions*
 
 BABY METHOD
 FOR THE TECHNOLOGICALLY CHALLENGED.
@@ -200,7 +236,7 @@ FOR THE TECHNOLOGICALLY CHALLENGED.
 
 [**🔼 Back to top**](#ext-remover)
 
-## LTMEAT Print *Disable extensions*
+## LTMEAT Print *Freeze extensions*
 
 1. Find your extension's largest file. This can usually be found by using [Rob Wu's crxviewer](https://robwu.nl/crxviewer/)
 2. Go to that page and run `Ctrl`+`P`. A print window should show up, with several pages in the top right.
@@ -221,19 +257,7 @@ Credit to Bypassi for the original LTMEAT framework, and to Swordmaster4321 for 
 
 [**🔼 Back to top**](#ext-remover)
 
-## LTMEAT Flood *Crash extensions*
-
-1. Create a bookmark folder and paste the extension page lots of times. (About 800 minimum is recommended assuming your Chromebook is average school quality) It is recommended that you add the extension page at the beginning of the folder.
-2. Right click and open all in a new window.
-3. Close the window with all those tabs.
-4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed. (Equivalent to the duplicate tab step in Bypassi's method)
-5. Flip the Allow access to file URLs switch in the extension settings and then you've bypassed the patch and the exploit is working.
-
-Close everything and you're good to go. If it didn't work, try adjusting the number of tabs being opened. This is the LTMEAT Flood Method, and also unofficially called Alternate Method # 2. Enjoy a much longer life of LTMEAT!
-
-**Not working?** Ensure you open a large set, but not too large, of extension tabs (_/generated_background_page.html or /manifest.json) for a permanent freeze.
-
-## Dextensify *Disable extensions*
+## Dextensify *Freeze extensions*
 
 Dextensify is an exploit that lets you disable most admin-installed Chrome extensions from any webpage. It can be used from regular websites, HTML files, and data URLs.
 
