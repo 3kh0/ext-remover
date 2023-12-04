@@ -14,32 +14,32 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
-  * [Skiovox *Unrestricted browsing*](#skiovox--unrestricted-browsing-)
-  * [LTBEEF *Disable extensions*](#ltbeef--disable-extensions-)
-  * [LoMoH *Disable extensions*](#lomoh--disable-extensions-)
-  * [LTMEAT *Disable extensions*](#ltmeat--disable-extensions-)
-  * [LTMEAT Flood *Freeze extensions*](#ltmeat-flood--freeze-extensions-)
-  * [Temp TMEAT *Freeze extensions*](#temp-tmeat--freeze-extensions-)
-  * [Baby LTMEAT *Freeze extensions*](#baby-ltmeat--freeze-extensions-)
-  * [LTMEAT Print *Freeze extensions*](#ltmeat-print--freeze-extensions-)
-  * [Dextensify *Disable extensions*](#dextensify--freeze-extensions-)
-  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg--ltbeef-w--service-workers-)
-  * [Corkey *Corrupt extensions*](#corkey--corrupt-extensions-)
-  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher--install-extensions-w-o-allowlist-)
-  * [Point-Blank *Execute scripts on extension pages*](#point-blank--execute-scripts-on-extension-pages-)
-  * [UBoss *Tamper with IBoss*](#uboss--tamper-with-iboss-)
-  * [CAUB *Prevent Updates*](#caub--prevent-updates-)
-  * [CAUB Flags *Prevent Updates*](#caub-flags--prevent-updates-)
+  * [Skiovox *Unrestricted browsing*](#skiovox-unrestricted-browsing)
+  * [LTBEEF *Disable extensions*](#ltbeef-disable-extensions)
+  * [LoMoH *Disable extensions*](#lomoh-disable-extensions)
+  * [LTMEAT *Disable extensions*](#ltmeat-disable-extensions)
+  * [LTMEAT Flood *Freeze extensions*](#ltmeat-flood-freeze-extensions)
+  * [Temp TMEAT *Freeze extensions*](#temp-tmeat-freeze-extensions)
+  * [Baby LTMEAT *Freeze extensions*](#baby-ltmeat-freeze-extensions)
+  * [LTMEAT Print *Freeze extensions*](#ltmeat-print-freeze-extensions)
+  * [Dextensify *Disable extensions*](#dextensify-freeze-extensions)
+  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg-ltbeef-w--service-workers)
+  * [Corkey *Corrupt extensions*](#corkey-corrupt-extensions)
+  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher-install-extensions-w-o-allowlist)
+  * [Point-Blank *Execute scripts on extension pages*](#point-blank-execute-scripts-on-extension-pages)
+  * [UBoss *Tamper with IBoss*](#uboss-tamper-with-iboss)
+  * [CAUB *Prevent Updates*](#caub-prevent-updates)
+  * [CAUB Flags *Prevent Updates*](#caub-flags-prevent-updates)
   * [Blank3r](#blank3r)
-  * [sh1mmer *Unenrollment*](#sh1mmer--unenrollment-)
-  * [Downgrading *Change versions*](#downgrading--change-versions-)
-  * [Pollen *Policy Editor*](#pollen--policy-editor-)
-  * [Killcurly *Break extensions*](#killcurly--break-extensions-)
-  * [Shimboot *Boot Linux*](#shimboot--boot-linux-)
-  * [uBlock Run *Run Code On Pages*](#ublock-run--run-code-on-pages-)
-  * [Quick View *Bypass extensions*](#quick-view--bypass-extensions-)
-  * [Buypass *Bypass extensions*](#buypass--bypass-extensions-)
-  * [Chaos *Hapara bypass*](#chaos--hapara-bypass-)
+  * [sh1mmer *Unenrollment*](#sh1mmer-unenrollment)
+  * [Downgrading *Change versions*](#downgrading-change-versions)
+  * [Pollen *Policy Editor*](#pollen-policy-editor)
+  * [Killcurly *Break extensions*](#killcurly-break-extensions)
+  * [Shimboot *Boot Linux*](#shimboot-boot-linux)
+  * [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages)
+  * [Quick View *Bypass extensions*](#quick-view-bypass-extensions)
+  * [Buypass *Bypass extensions*](#buypass-bypass-extensions)
+  * [Chaos *Hapara bypass*](#chaos-hapara-bypass)
   * [SOT Exploit](#sot-exploit)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
@@ -471,14 +471,14 @@ If you close the tab, the exploit will stop working.
 
 [**🔼 Back to top**](#ext-remover)
 
-## sh1mmer *Unenrollment*
+## SH1MMER *Unenrollment*
 
 SH1MMER is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on January, Friday the 13th, 2023.
 
 Due to the detail this exploit requires, please check out the offical website: [sh1mmer.me](https://sh1mmer.me)
 
 ### Further Reading
-- [Repository](https://github.com/CoolElectronics/sh1mmer)  
+- [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
 - [Official Website](https://sh1mmer.me/)
 - [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
 
