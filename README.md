@@ -31,7 +31,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
   * [CAUB *Prevent Updates*](#caub-prevent-updates)
   * [CAUB Flags *Prevent Updates*](#caub-flags-prevent-updates)
   * [Blank3r](#blank3r)
-  * [sh1mmer *Unenrollment*](#sh1mmer-unenrollment)
+  * [SH1MMER *Unenrollment*](#sh1mmer-unenrollment)
   * [Downgrading *Change versions*](#downgrading-change-versions)
   * [Pollen *Policy Editor*](#pollen-policy-editor)
   * [Killcurly *Break extensions*](#killcurly-break-extensions)
@@ -476,6 +476,8 @@ If you close the tab, the exploit will stop working.
 SH1MMER is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on January, Friday the 13th, 2023.
 
 Due to the detail this exploit requires, please check out the offical website: [sh1mmer.me](https://sh1mmer.me)
+
+**This exploit has been patched since Chrome OS 111.**
 
 ### Further Reading
 - [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
