@@ -80,7 +80,7 @@ VSEW (View Source Exploit Website) this exploit was found by robloxsuckslikereal
 
 ### How to Use VSEW
 js add view-source: before https:// MAKE SURE COLON IS THERE
-![image](img/viewsource.gif)
+![VSEM](img/viewsource.gif)
 
 
 #### Help Me I'm retarded
