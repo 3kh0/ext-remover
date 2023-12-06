@@ -15,7 +15,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 
 - [EXT-REMOVER](#ext-remover)
   * [Skiovox *Unrestricted browsing*](#skiovox-unrestricted-browsing)
-  * [VSEM](#VSEM-View-page-source)
+  * [VSEM](#vsem-view-page-source)
   * [LTBEEF *Disable extensions*](#ltbeef-disable-extensions)
   * [LoMoH *Disable extensions*](#lomoh-disable-extensions)
   * [LTMEAT *Disable extensions*](#ltmeat-disable-extensions)
