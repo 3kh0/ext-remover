@@ -73,6 +73,13 @@ Bypassi made a wonderful slideshow for you goof balls to follow, view using any 
 
 [**🔼 Back to top**](#ext-remover)
 
+## VSEW *View page source*
+VSEW (View Source Exploit Website) this exploit was found by robloxsuckslikereallydude in December 2023, and is the greatest way to hack the communist and troll them
+
+### How to Use VSEW
+js add view-source: before https:// MAKE SURE COLON IS THERE
+
+
 ## LTBEEF *Disable extensions*
 
 LTBEEF (Literally The Best Exploit Ever Found) is a exploit found by Bypassi (Bypassi#7037) in September 2022, and is a great way to disable spyware that was installed on your chromebook by your school.
