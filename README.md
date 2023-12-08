@@ -40,7 +40,8 @@ Thank you to all of the contributors! Yall really are pretty epic :D
   * [Quick View *Bypass extensions*](#quick-view-bypass-extensions)
   * [Buypass *Bypass extensions*](#buypass-bypass-extensions)
   * [Chaos *Hapara bypass*](#chaos-hapara-bypass)
-  * [SOT Exploit](#sot-exploit)
+  * [SOT Exploit *OneTab bypass**](#sot-exploit)
+  * [GoGuardian GoAway *GoGuardian bypass*](#goguardian-goaway-goguardian-bypass)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
@@ -663,7 +664,7 @@ Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructi
 
 [**🔼 Back to top**](#ext-remover)
 
-## SOT Exploit
+## SOT Exploit *OneTab bypass*
 
 1. Download this extension [One Tab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
 2. Click the import button in the settings tab.
@@ -671,5 +672,23 @@ Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructi
 4. Spam click the top link, then either spam escape on one of them or wait for one to load on a about:blank page.
   
 Credit to [Coding4Hours](https://github.com/Coding4Hours)
+
+[**🔼 Back to top**](#ext-remover)
+
+## GoGuardian GoAway *GoGuardian bypass*
+
+No idea whatsoever on how this went through
+
+THIS EXPLOIT WILL NOT WORK FOR YOU IF YOU HAVE ANY OTHER EXTENSION BESIDES GOGUARDIAN
+
+### Getting Started
+1. Obviously (but still needs to be said due to skids in Titanium Network), make sure GoGuardian is actually installed
+2. Visit the [attached URL](goaway.txt) in a new tab
+3. On that tab there will be a simple white screen with nothing on it, reload the page
+4. If the GET request fails and you are left on an error screen (don't panic, this is intended, continue)
+5. Visit `chrome://restart`` to clear cached sites from GoGuardian
+
+
+Credit to akabutnice
 
 [**🔼 Back to top**](#ext-remover)
