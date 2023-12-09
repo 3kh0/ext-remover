@@ -682,7 +682,7 @@ No idea whatsoever on how this went through
 THIS EXPLOIT WILL NOT WORK FOR YOU IF YOU HAVE ANY OTHER EXTENSION BESIDES GOGUARDIAN
 
 ### Getting Started
-1. Obviously (but still needs to be said due to skids in Titanium Network), make sure GoGuardian is actually installed
+1. Obviously (but still needs to be said due to skids), make sure GoGuardian is actually installed
 2. Visit the [attached URL](goaway.txt) in a new tab
 3. On that tab there will be a simple white screen with nothing on it, reload the page
 4. If the GET request fails and you are left on an error screen (don't panic, this is intended, continue)
