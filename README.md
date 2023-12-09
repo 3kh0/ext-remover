@@ -61,7 +61,7 @@ Within the unblocked browser, you can
 
 ### How to use it
 
-Bypassi made a wonderful slideshow for you goof balls to follow, view using any of the links below!
+Bypassi made a wonderful slideshow for you goofballs to follow and view using any of the links below!
 
 - https://www.skiovox.com/skiovox.pdf
 - https://drive.google.com/file/d/1tl8eP26MFRejHO38H5HwMLl2VaQrtn0Z/preview
@@ -76,20 +76,20 @@ Bypassi made a wonderful slideshow for you goof balls to follow, view using any 
 
 ## LTBEEF *Disable extensions*
 
-LTBEEF (Literally The Best Exploit Ever Found) is a exploit found by Bypassi (Bypassi#7037) in September 2022, and is a great way to disable spyware that was installed on your chromebook by your school.
+LTBEEF (Literally The Best Exploit Ever Found) is an exploit found by Bypassi (Bypassi#7037) in September 2022 and is a great way to disable spyware installed on your Chromebook by your school.
 
 ### How to use LTBEEF
 
-Use either of the two bookmarklets below, the instructions are the same for both.
+Use either of the two bookmarklets below. The instructions are the same for both.
 
 1. Copy the Javascript code from either of the two bookmarklets below
-2. Make a new bookmark on your chromebook
+2. Make a new bookmark on your Chromebook
 3. Put the Javascript code in the URL section of the bookmark
 4. Visit https://chrome.google.com/webstorex. (This is a 404 page, and that is ok.)
 5. If that page does not work, you can just change the end of the URL to anything else, like https://chrome.google.com/webstoreYAAAAAAAAAAAAAAAY
 6. Click on the bookmark you made
-7. Switch off the extentions you don't want to have anymore.
-8. You're done! The extention should now be disabled. 
+7. Switch off the extensions you don't want to have anymore.
+8. You're done! The extension should now be disabled. 
 
 **Please note that this exploit has been patched for quite some time**
 
@@ -115,7 +115,7 @@ javascript:(function () {var a = document.createElement('script');a.src = 'https
 
 ## LoMoH *Disable extensions*
 
-Formerly named "Locked Mode Hack," this is a Chrome OS exploit that uses the locked mode feature to soft disable extensions that are force-enabled on managed accounts (Excluding Hapara Highlights and Read&Write if installed).
+Formerly named "Locked Mode Hack," this Chrome OS exploit uses the locked mode feature to soft disable force-enabled extensions on managed accounts (Excluding Hapara Highlights and Read&Write if installed).
 
 **This exploit is patched in Chrome OS 111**
 
@@ -127,8 +127,8 @@ javascript:(function(){if (location.hostname == "docs.google.com") {document.bod
 ### Website/HTML Version (for blocked bookmarklets)
 [LoMoH HTML](https://ashtondavies.github.io/LoMoH?unlock)
 **Additional Notes:**
-You must create your own link with the button on the page for locked mode to work within your oranization/district.
-If this is patched for you, you will get rickrolled attempting to perform this exploit, just a heads up for those of you who do happen to read this.
+You must create your link with the button on the page for locked mode to work within your organization/district.
+If this is patched for you, you will get rickrolled attempting to perform this exploit. This is just a heads-up for those who do happen to read this.
 
 [GitHub Repository](https://github.com/AshtonDavies/LoMoH)
 
@@ -169,13 +169,13 @@ If you got this because you tried to visit the `extension_id_here` example URL, 
 
 **I don't have a bookmarks bar!!!!**
 
-First, try running ctrl+shift+B. If that doesn't work, go to `chrome://settings` and turn on the "home button" feature, then set it to `chrome://hang`. A home icon should appear to the right of your refresh icon in the top left. Use that instead of bookmark C.
+First, try running ctrl+shift+B. If that doesn't work, go to `chrome://settings` and turn on the "home button" feature, then set it to `chrome://hang`. A home icon in the top left should appear to the right of your refresh icon. Use that instead of bookmark C.
 
 There is a version where you don't need bookmarklets, but I am currently gatekeeping it (L). Check this site daily to see if new alternate instructions have been posted. 
 
 **I disabled an extension, but now I can't load websites!**
 
-If you just read the write-up, you'd know that this would happen if the extension's background page loaded and its listeners were already initialized before you used `chrome://hang`. You can double-check whether the extension is listening using `chrome://extensions-internals`, assuming you have a few brain cells in your head.
+If you just read the write-up, you'd know this would happen if the extension's background page loaded and its listeners were already initialized before you used `chrome://hang`. You can double-check whether the extension is listening using `chrome://extensions-internals`, assuming you have a few brain cells in your head.
 
 Anyway, no listeners mean you were too slow. Either you waited more than three seconds between bookmark B and reloading the page, or you needed to be spamming bookmark C faster. The most reliable fix is to restart your computer and try again. Try to match the pace of the gif below: (note the reload) 
 
@@ -195,13 +195,13 @@ I have bad news for you... not all filters are Chrome Extensions. Again, make su
 
 ## LTMEAT Flood *Freeze extensions*
 
-1. Create a bookmark folder and paste the extension page lots of times. (About 800 minimum is recommended assuming your Chromebook is average school quality) It is recommended that you add the extension page at the beginning of the folder.
-2. Right click and open all in a new window.
+1. Create a bookmark folder and paste the extension page many times. (About 800 minimum is recommended, assuming your Chromebook is average school quality) You should add the extension page at the beginning of the folder.
+2. Right-click and open all in a new window.
 3. Close the window with all those tabs.
 4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed. (Equivalent to the duplicate tab step in Bypassi's method)
-5. Flip the Allow access to file URLs switch in the extension settings and then you've bypassed the patch and the exploit is working.
+5. Flip the Allow access to file URLs switch in the extension settings, and then you've bypassed the patch, and the exploit is working.
 
-Close everything and you're good to go. If it didn't work, try adjusting the number of tabs being opened. This is the LTMEAT Flood Method, and also unofficially called Alternate Method # 2. Enjoy a much longer life of LTMEAT!
+Close everything and you're good to go. If it didn't work, try adjusting the number of open tabs. This is the LTMEAT Flood Method, and also unofficially called Alternate Method # 2. Enjoy a much longer life of LTMEAT!
 
 **Not working?** Ensure you open a large set, but not too large, of extension tabs (_/generated_background_page.html or /manifest.json) for a permanent freeze.
 
@@ -209,14 +209,14 @@ Close everything and you're good to go. If it didn't work, try adjusting the num
 
 ## Temp TMEAT *Freeze extensions*
 
-A method of using LTMEAT that does not require `chrome://` urls. This works by using 80-150 tabs to soak up memory.
+A method of using LTMEAT that does not require `chrome://` URLs. This works by using 80-150 tabs to soak up memory.
 
 1. Create a bookmark with the link `chrome://extensions/?id=extension_id_here` and name it `Kill switch`.
 2. Create a new bookmark folder. Name it `spam.js`. Next, paste this link into your browser: `chrome-extension://extension_id_here/background.js`
 3. Then right-click on your folder and hit `Add Page`. Press Enter.
 4. Right-click on the folder again and hit `Bookmark Manager`. You should see your page. Click on it and hit `Ctrl`+`C`. Press `Ctrl`+`V` until you have 38 of them.
 5. Go to a new tab and right-click your folder. Press `Open All (38)`.
-6. Repeat step 3, then click on one of the tabs from this batch. Wait until the `This page is taking too long` popup appears. This will take 30-60 seconds. If it doesn’t, do `chrome://restart` and go back to step 2 and add 3-4 more pages to the folder.
+6. Repeat step 3, then click on one of the tabs from this batch. Wait until the `This page is taking too long` popup appears. This will take 30-60 seconds. If it doesn’t, do `chrome://restart` and go back to step 2. Add 3-4 more pages to the folder.
 7. Once the popup happens, right-click on one of the tabs closest to the right of the screen and hit `Duplicate`. Then, go to your `Kill switch` bookmark and look for a switch to flip, `Allow Access to File:// urls`. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click `Close all tabs to the right`. KEEP THIS TAB OPEN!!!
 
 Tips: Go to `chrome://settings/performance` and turn Memory Saver off, and in the box where it says `Keep these sites always active`, paste in the extension URL. I’ve noticed clicking on one of the tabs from the second batch seems to help with reliability.
@@ -278,7 +278,7 @@ Made by <a href="https://ading.dev/">ading2210</a>
 
 1. Go to `chrome://serviceworker-internals`
 2. Find your extension, this exploit will not work if you can't find it. Some extensions will not work with this exploit.
-3. Hit the start button then the `Inspect` button, and execute LTBEEF code
+3. Hit the start button then the `Inspect` button, and execute the LTBEEF code
 ```js
 chrome.management.setEnabled('extension_id_here',false)
 ```
@@ -295,7 +295,7 @@ Corkey does indeed include power washing the Chromebook, which wipes local data 
 
 1. Esc+Refresh+Power and re-enroll (Enter recovery page), or you can just powerwash.
 2. Log into your Chromebook and immediately turn off WiFi and do refresh+power to (instant restart)
-3. Log back into your Chromebook with the WiFi off. Look for an option to login as a existing user and click that.
+3. Log back into your Chromebook with the WiFi off. Look for an option to log in as an existing user and click that.
 4. Go to `chrome://extensions`, turn on WiFi, and wait for your school's blocking extension to appear.
 5. As soon as it appears, turn off WiFi and restart as fast as possible.
 6. Log back in, go back to extensions, and wait. If it says your blocking extension could be corrupted or doesn't appear at all, then it worked (wait at least a minute with a close watch in case it comes back)
@@ -316,7 +316,7 @@ A bookmarklet capable of installing extensions, for those without an allowlist.
 
 1. Go to [`ext-launcher-bookmarklet.js`](ext-launcher-bookmarklet.js) and save the code as a bookmarklet.
 2. Go to [The Chrome Webstore](https://chrome.google.com/webstorex) and use the bookmarklet
-3. Then put the icon of the extension, the id, and the name of it (This does not matter, you can put anything), then press download, and it will work.
+3. Then put the icon of the extension, the ID, and the name of it (This does not matter, you can put anything), then press download, and it will work.
 
 ### Extra Notes
 - Credit to "Aka, but nice" on Discord.
@@ -413,14 +413,14 @@ This exploit keeps your Chromebook downgraded (or on the current version) withou
 1. Go to `chrome://network#state`.
 2. Scroll to the bottom of the page. You will see a list of WiFi that you have connected to before.
 3. Click the `+` sign next to the WiFi name of each network that you commonly connect your Chromebook to.
-4. We are going to make it when the Chromebook is connected to those networks, it will not check for updates.
+4. We are going to make it so that when the Chromebook is connected to those networks, it will not check for updates.
 5. Use ctrl+a and ctrl+c to copy all the text on the entire network#state page.
 6. Go to [caub.glitch.me](https://caub.glitch.me/).
 7. Paste the copied text into the textbox below.
 8. Press the `generate onc` button below the textbox.
 9. Once you have downloaded the file, go to `chrome://network#general`.
 10. Click on the `import ONC` button.
-11. Import the newly-downloaded file.
+11. Import the newly downloaded file.
 
 **Extra notes**
 - Your Chromebook will no longer automatically update. (as long as you are on a wifi that you CAUBed)
@@ -677,7 +677,7 @@ Credit to [Coding4Hours](https://github.com/Coding4Hours)
 
 ## GoGuardian GoAway *GoGuardian bypass*
 
-No idea whatsoever on how this went through
+No idea whatsoever how this went through
 
 THIS EXPLOIT WILL NOT WORK FOR YOU IF YOU HAVE ANY OTHER EXTENSION BESIDES GOGUARDIAN
 
@@ -687,7 +687,6 @@ THIS EXPLOIT WILL NOT WORK FOR YOU IF YOU HAVE ANY OTHER EXTENSION BESIDES GOGUA
 3. On that tab there will be a simple white screen with nothing on it, reload the page
 4. If the GET request fails and you are left on an error screen (don't panic, this is intended, continue)
 5. Visit `chrome://restart`` to clear cached sites from GoGuardian
-
 
 Credit to akabutnice
 
