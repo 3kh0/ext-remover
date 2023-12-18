@@ -67,6 +67,8 @@ An exploit that allows for unrestricted internet access outside of goguardian's 
 #### Discovered by @py660
 
 
+[**🔼 Back to top**](#ext-remover)
+
 ## Skiovox *Unrestricted browsing*
 
 ### What is it?
