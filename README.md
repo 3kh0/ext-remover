@@ -14,6 +14,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [GuardianTabCrash *Unrestricted browsing*](#guardiantabcrash-unrestricted-browsing)
   * [Skiovox *Unrestricted browsing*](#skiovox-unrestricted-browsing)
   * [LTBEEF *Disable extensions*](#ltbeef-disable-extensions)
   * [LoMoH *Disable extensions*](#lomoh-disable-extensions)
@@ -46,6 +47,27 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
+## GuardianTabCrash *Unrestricted browsing*
+
+### What is it?
+
+An exploit that allows for unrestricted internet access outside of goguardian's control
+
+### How to use it?
+
+**Teacher's can still see your screen, but they can't block or close any of your tabs.**
+
+**YOUR TEACHER NEEDS TO HAVE SET A TAB LIMIT. TRY OPENING TONS OF TABS TO CONVINCE THEM TO ENABLE TAB LIMITS**.
+
+1. create a bookmark named anything: `javascript: window.onbeforeunload = ()=>{return false;}`
+2. Hold down CTRL and then SPAM CLICK the bookmark until you're well above the tab limit, opening a bunch of `about:blank` pages.
+3. It might ask if you want to leave this page, this is goguardian trying to close it. Say No, and click `Prevent from creating additional dialogues`.
+4. Enjoy your unblocked stay!
+
+#### Discovered by @py660
+
+
+[**🔼 Back to top**](#ext-remover)
 
 ## Skiovox *Unrestricted browsing*
 
