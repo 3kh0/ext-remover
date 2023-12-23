@@ -1,4 +1,4 @@
-# EXT-REMOVER
+# BALLS-REMOVER
 This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more! Many of these exploits can destroy your computer if misused. So PLEASE, PLEASE make sure you follow these instructions very carefully!
 
 <b>Need help? Ask for help <a href="https://github.com/3kh0/ext-remover/discussions">here</a>!</b>
