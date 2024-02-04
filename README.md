@@ -38,6 +38,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
   * [Killcurly *Break extensions*](#killcurly-break-extensions)
   * [Shimboot *Boot Linux*](#shimboot-boot-linux)
   * [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages)
+  * [uRun - Bypass bookmarklet restrictions with ublock](#urun---bypass-bookmarklet-restrictions-with-ublock)
   * [Quick View *Bypass extensions*](#quick-view-bypass-extensions)
   * [Buypass *Bypass extensions*](#buypass-bypass-extensions)
   * [Chaos *Hapara bypass*](#chaos-hapara-bypass)
@@ -639,6 +640,7 @@ If your school allows the uBlock Origin chrome extension, then running any bookm
 
 ## uRun - Bypass bookmarklet restrictions with uBlock
 From [Inglan2](https://github.com/Inglan2)
+
 Recently Google cracked down on bookmarklets and now they don't work (Its based on the [DeveloperToolsAvailability](https://chromeenterprise.google/policies/?policy=DeveloperToolsAvailability) policy). I wanted to run scripts still so I started making this, inspired by [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages), but with more features, like saving scripts.
 1. Open uBlock settings
 2. Enable advanced settings, and click the gear ⚙️ button
