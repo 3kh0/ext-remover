@@ -38,6 +38,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
   * [Killcurly *Break extensions*](#killcurly-break-extensions)
   * [Shimboot *Boot Linux*](#shimboot-boot-linux)
   * [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages)
+  * [uRun - Bypass bookmarklet restrictions with ublock](#urun---bypass-bookmarklet-restrictions-with-ublock)
   * [Quick View *Bypass extensions*](#quick-view-bypass-extensions)
   * [Buypass *Bypass extensions*](#buypass-bypass-extensions)
   * [Chaos *Hapara bypass*](#chaos-hapara-bypass)
@@ -634,6 +635,42 @@ If your school allows the uBlock Origin chrome extension, then running any bookm
 ```
 6. Now press ctr+alt+tilde (~) to run code on the current page
 7. Have fun!
+
+[**🔼 Back to top**](#ext-remover)
+
+## uRun - Bypass bookmarklet restrictions with uBlock
+From [Inglan2](https://github.com/Inglan2)
+
+Recently Google cracked down on bookmarklets and now they don't work (Its based on the [DeveloperToolsAvailability](https://chromeenterprise.google/policies/?policy=DeveloperToolsAvailability) policy). I wanted to run scripts still so I started making this, inspired by [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages), but with more features, like saving scripts.
+1. Open uBlock settings
+2. Enable advanced settings, and click the gear ⚙️ button
+
+> [!CAUTION]
+> DO MODIFY ANYTHING ELSE ON THIS PAGE, UNLESS YOU KNOW WHAT YOU ARE DOING (you probably don't), AS YOU COULD BREAK SOMETHING.
+
+> [!TIP]
+> If you mess up, go to the home of settings and at the bottom click reset to default settings
+
+3. Add the script
+> Change
+> ```
+> userResourcesLocation unset
+> ```
+> to
+> ```
+> userResourcesLocation https://inglan2.github.io/uRun/urun.js
+> ```
+
+> [!TIP]
+> It's down the bottom
+4. Set a filter to load uRun
+> After closing the advanced settings tab, go to the filters tab and add this:
+> ```
+> *##+js(urun.js)
+> ```
+
+### Usage
+Simply press Ctrl + Shift + \` to open the menu and from there you can run and create scripts. To add a script, press the ➕ button up the top right, and enter the code you would like to add (without the `javascript:` part).
 
 [**🔼 Back to top**](#ext-remover)
 
