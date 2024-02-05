@@ -62,7 +62,9 @@ An exploit that allows for access to sites outside of the Hapara Focus Session
 **YOU MUST NEED data: LINKS ALLOWED, IF YOU DON'T HAVE THOSE ALLOWED, THIS WILL NOT WORK**.
 
 1. create a bookmark named anything, head to the URL section, and paste this in it: `data:text/html,<!DOCTYPE html> <html> <head> <title>full screen iframe</title> <style type="text/css"> html { overflow: auto; } html, body, div, iframe { margin: 0px; padding: 0px; height: 100%; border: none; } iframe { display: block; width: 100%; border: none; overflow-y: auto; overflow-x: hidden; } </style> </head> <body> <iframe src="https://www.google.com.au" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto" id="google"> </iframe> </body> </html>`
-2.  when you are in a focus session, click the bookmark, and it will open a google tab. (If it says that it doesn't work, then you can download the [Iframe](url)
+2.  when you are in a focus session, click the bookmark, and it will open a google tab. (If it says that it doesn't work, then you can download the [Iframe](https://github.com/3kh0/ext-remover/blob/main/HaparaBypass-Iframe.html)
+3.  enjoy not having to listen to a lecture from your teacher!
+(Credit to [Hero Link 6](https://github.com/HeroLink6) For finding this exploit, you can find more info on his GitHub repository [here](https://github.com/HeroLink6/Hapara-Focus-Session-Bypass/tree/main).)
 
 ## GuardianTabCrash *Unrestricted browsing*
 
