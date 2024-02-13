@@ -676,11 +676,12 @@ Simply press Ctrl + Shift + \` to open the menu and from there you can run and c
 
 ## Quick View *Bypass extensions*
 
+### Requirements
+- Bookmarklets enabled
+
 QuickView is a universal webview exploit in Chrome OS that utilizes the QuickOffice component extension. This exploit lets you create login windows with arbitrary URLs, thus allowing you to load pages without any extensions.
 
 Go to <a href="https://quickview-exploit.pages.dev/">quickview-exploit.pages.dev</a> and follow the instructions
-
-Please note that you need to be able to run bookmarklets for this exploit to work.
 
 ### Further reading
 - [Writeup](https://ading.dev/blog/posts/quickview.html)
