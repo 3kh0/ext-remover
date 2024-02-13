@@ -523,7 +523,7 @@ Please do note that recently, they have patched downgrading on most devices up t
 
 ### Setup
 
-1. Navigate to `chrome://version` on the Chromebook you wish to downgrade and check for your board under `Platform`. For me, that would be octopus.
+1. Navigate to `chrome://version` on the Chromebook you wish to downgrade. If that is blocked try `chrome://system/:~:text=CHROMEOS_RELEASE_DESCRIPTION`, and check for your board under `Platform`. For me, that would be octopus.
 
 ![chrome://version](img/chromeos-check-board.png)
 
