@@ -1,6 +1,11 @@
 # EXT-REMOVER
 This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more! Many of these exploits can destroy your computer if misused. So PLEASE, PLEASE make sure you follow these instructions very carefully!
 
+> [!IMPORTANT]
+> In a recent version of Chrome, the `DeveloperToolsAvailability` [policy](https://chromeenterprise.google/policies/?policy=DeveloperToolsAvailability) now blocks bookmarklets.
+>
+> Use [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages) or [uRun - Bypass bookmarklet restrictions with ublock](#urun---bypass-bookmarklet-restrictions-with-ublock)
+
 <b>Need help? Ask for help <a href="https://github.com/3kh0/ext-remover/discussions">here</a>!</b>
 
 Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
