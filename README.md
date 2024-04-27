@@ -664,7 +664,7 @@ Recently Google cracked down on bookmarklets and now they don't work (Its based 
 2. Enable advanced settings, and click the gear ⚙️ button
 
 > [!CAUTION]
-> DO MODIFY ANYTHING ELSE ON THIS PAGE, UNLESS YOU KNOW WHAT YOU ARE DOING (you probably don't), AS YOU COULD BREAK SOMETHING.
+> DO NOT MODIFY ANYTHING ELSE ON THIS PAGE, UNLESS YOU KNOW WHAT YOU ARE DOING (you probably don't), AS YOU COULD BREAK SOMETHING.
 
 > [!TIP]
 > If you mess up, go to the home of settings and at the bottom click reset to default settings
