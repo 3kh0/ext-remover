@@ -14,6 +14,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [CryptoSmite *Unenrollment*](#cryptosmite-unenrollment)
   * [SH1MMER *Unenrollment*](#sh1mmer-unenrollment)
   * [Hapara Focus Session Bypass](#hapara-focus-session-bypass)
   * [GuardianTabCrash *Unrestricted browsing*](#guardiantabcrash-unrestricted-browsing)
@@ -48,6 +49,41 @@ Thank you to all of the contributors! Yall really are pretty epic :D
   * [Microsoft Labs](#microsoft-labs-virtualbox-but-it-got-20-doses-of-the-covid-vaccine*)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
+
+## CryptoSmite *Unenrollment*
+
+**CryptoSmite** is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by FWSmasher and released on **March 9th, 2024**.
+
+**This exploit has been patched since Chrome OS 120.**
+
+### Finding Kernver
+If you're on v120 or higher, you need to downgrade in order to use CryptoSmite. To do this, you first need to check your `kernver=` in Recovery Mode.
+
+1. Boot into Recovery Mode
+   - Hold ESC + Refresh + Power for 2 or 3 seconds.
+   - You should be on an "Insert Recovery Media" or "Let's step you through the recovery process" screen.
+2. Press TAB and look at the last digit of the `kernver=` line
+
+- `kernver=` ends with a 2!
+Congratulations, you can downgrade to v119 or lower! Follow the instructions at [Downgrading *Change versions*](#downgrading-change-versions) on how to downgrade.
+
+- `kernver=` ends with a 3!
+Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit or do a **dangerous** hardware modification.
+
+### Using CryptoSmite
+1. Download a SH1MMER Prebuilt image here: [dl.darkn.bio](<https://dl.darkn.bio/SH1mmer/Prebuilt/>)
+2. Disable OS verification *(blocked or not, doesn't matter)*, and boot into the shim.
+3. Navigate to Payloads and navigate to CryptoSmite using the arrow keys, then press `Enter`.
+4. Type in `Y` then press enter, and it'll automatically reboot upon completion.
+5. Proceed through the setup partially till you get to the Add Account Screen.
+   - If you see an update prompt, reboot then press `CTRL + ALT + E` on the Wi-Fi screen.
+     - This *should* allow skipping the update, or make it not appear at all.
+6. Powerwash the Chromebook at the "Add Account" screen. Afterwards, it'll be fully unenrolled.
+
+### Further Reading
+- [Repository](https://github.com/FWSmasher/CryptoSmite)  
+- [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
+- [Official Blogspot](https://exploitingchromium.blogspot.com/)
 
 ## SH1MMER *Unenrollment*
 
@@ -539,7 +575,7 @@ If you close the tab, the exploit will stop working.
 
 Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, such as LTBEEF. This is a built-in feature of ChromeOS.
 
-Please do note that recently, they have patched downgrading on most devices up to a certain version., so this may not work for you.
+Please do note that depending on your `kernver=` you may not be able to downgrade to certain version. More info is at the [CryptoSmite Unenrollment](#cryptomite-unenrollment)
 
 ### Requirements
 - A USB thumb drive with at least 4GB of storage, some boards have small or bigger images, I recommend 16GB
@@ -552,15 +588,16 @@ Please do note that recently, they have patched downgrading on most devices up t
 ![chrome://version](img/chromeos-check-board.png)
 
 2. Navigate to [chrome100.dev](https://chrome100.dev/) , press `ctrl+f` and type in your board.
-3. Find and download the Chrome version you want to your personal computer.
+   - Please note that chrome100 is now **outdated.** Use [cros.tech](https://cros.tech) for newer images.
+4. Find and download the Chrome version you want to your personal computer.
 
 ### Downgrading
 1. Install [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) onto your personal computer.
 2. Open the extension, click on the settings button in the top right-hand corner, and click "Use local image".
-3. Select the recovery image you downloaded from chrome100.
+3. Select the recovery image you downloaded from chrome100 or cros.tech.
 4. Plug in the USB you wish to use, and follow the prompts on the screen.
 5. On your Chromebook, press esc+reload+power and follow the prompts.
-6. On the checking for updates screen, press `ctrl`+`shift`+`e` to skip the "checking for updates" screen.
+6. On the checking for updates screen or Wi-Fi selection screen, press `ctrl`+`alt`+`e` to skip the "checking for updates" screen.
 
 [**🔼 Back to top**](#ext-remover)
 
