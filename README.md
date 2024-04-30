@@ -98,7 +98,7 @@ Due to the detail this exploit requires, please check out the offical website: [
 Mercury Workshop received a notice from Google™️ that they had to take down their builder and shims. Currently, it is being rehosted by multiple community members.
 - [Wax4Web](https://darkn.bio/sh1mmer/builder)
 - [RMA shims](https://dl.darkn.bio/SH1mmer)
-- [Prebuilt shims](https://dl.darkn.bip/SH1mmer/Prebuilt)
+- [Prebuilt shims](https://dl.darkn.bio/SH1mmer/Prebuilt)
 
 ### Further Reading
 - [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
