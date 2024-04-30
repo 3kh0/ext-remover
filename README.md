@@ -14,6 +14,8 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [CryptoSmite *Unenrollment*](#cryptosmite-unenrollment)
+  * [SH1MMER *Unenrollment*](#sh1mmer-unenrollment)
   * [Hapara Focus Session Bypass](#hapara-focus-session-bypass)
   * [GuardianTabCrash *Unrestricted browsing*](#guardiantabcrash-unrestricted-browsing)
   * [Skiovox *Unrestricted browsing*](#skiovox-unrestricted-browsing)
@@ -33,7 +35,6 @@ Thank you to all of the contributors! Yall really are pretty epic :D
   * [CAUB *Prevent Updates*](#caub-prevent-updates)
   * [CAUB Flags *Prevent Updates*](#caub-flags-prevent-updates)
   * [Blank3r](#blank3r)
-  * [SH1MMER *Unenrollment*](#sh1mmer-unenrollment)
   * [Downgrading *Change versions*](#downgrading-change-versions)
   * [Pollen *Policy Editor*](#pollen-policy-editor)
   * [Killcurly *Break extensions*](#killcurly-break-extensions)
@@ -48,6 +49,61 @@ Thank you to all of the contributors! Yall really are pretty epic :D
   * [Microsoft Labs](#microsoft-labs-virtualbox-but-it-got-20-doses-of-the-covid-vaccine*)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
+
+## CryptoSmite *Unenrollment*
+
+**CryptoSmite** is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by FWSmasher and released on **March 9th, 2024**.
+
+**This exploit has been patched since Chrome OS 120.**
+
+### Finding Kernver
+If you're on v120 or higher, you need to downgrade in order to use CryptoSmite. To do this, you first need to check your `kernver=` in Recovery Mode.
+
+1. Boot into Recovery Mode
+   - Hold ESC + Refresh + Power for 2 or 3 seconds.
+   - You should be on an "Insert Recovery Media" or "Let's step you through the recovery process" screen.
+2. Press TAB and look at the last digit of the `kernver=` line
+
+- `kernver=` ends with a 2! <br />
+Congratulations, you can downgrade to v119 or lower! Follow the instructions at [Downgrading *Change versions*](#downgrading-change-versions) on how to downgrade.
+
+- `kernver=` ends with a 3! <br />
+Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit or do a **dangerous** hardware modification.
+
+### Using CryptoSmite
+1. Download a SH1MMER Prebuilt image here: [dl.darkn.bio](<https://dl.darkn.bio/SH1mmer/Prebuilt/>)
+2. Disable OS verification *(blocked or not, doesn't matter)*, and boot into the shim.
+3. Navigate to Payloads and navigate to CryptoSmite using the arrow keys, then press `Enter`.
+4. Type in `Y` then press enter, and it'll automatically reboot upon completion.
+5. Proceed through the setup partially till you get to the Add Account Screen.
+   - If you see an update prompt, reboot then press `CTRL + ALT + E` on the Wi-Fi screen.
+     - This *should* allow skipping the update, or make it not appear at all.
+6. Powerwash the Chromebook at the "Add Account" screen. Afterwards, it'll be fully unenrolled.
+
+### Further Reading
+- [Repository](https://github.com/FWSmasher/CryptoSmite)  
+- [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
+- [Official Blogspot](https://exploitingchromium.blogspot.com/)
+
+## SH1MMER *Unenrollment*
+
+**SH1MMER** is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on **January, Friday the 13th, 2023**.
+
+Due to the detail this exploit requires, please check out the offical website: [sh1mmer.me](https://sh1mmer.me)
+
+**This exploit has been patched since Chrome OS 111.**
+
+### Note
+
+Mercury Workshop received a notice from Google™️ that they had to take down their builder and shims. Currently, it is being rehosted by multiple community members.
+- [Wax4Web](https://darkn.bio/sh1mmer/builder)
+- [RMA shims](https://dl.darkn.bio/SH1mmer)
+- [Prebuilt shims](https://dl.darkn.bip/SH1mmer/Prebuilt)
+
+### Further Reading
+- [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
+- [Official Website](https://sh1mmer.me/)
+- [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
 
 ## Hapara Focus Session Bypass
 
@@ -65,6 +121,8 @@ An exploit that allows for access to sites outside of the Hapara Focus Session
 2.  when you are in a focus session, click the bookmark, and it will open a google tab. (If it says that it doesn't work, then you can download the [Iframe](https://github.com/3kh0/ext-remover/blob/main/HaparaBypass-Iframe.html)
 3.  enjoy not having to listen to a lecture from your teacher!
 (Credit to [Hero Link 6](https://github.com/HeroLink6) For finding this exploit, you can find more info on his GitHub repository [here](https://github.com/HeroLink6/Hapara-Focus-Session-Bypass/tree/main).)
+
+[**🔼 Back to top**](#ext-remover)
 
 ## GuardianTabCrash *Unrestricted browsing*
 
@@ -84,7 +142,6 @@ An exploit that allows for unrestricted internet access outside of goguardian's 
 4. Enjoy your unblocked stay!
 
 #### Discovered by @py660
-
 
 [**🔼 Back to top**](#ext-remover)
 
@@ -514,26 +571,11 @@ If you close the tab, the exploit will stop working.
 
 [**🔼 Back to top**](#ext-remover)
 
-## SH1MMER *Unenrollment*
-
-SH1MMER is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on January, Friday the 13th, 2023.
-
-Due to the detail this exploit requires, please check out the offical website: [sh1mmer.me](https://sh1mmer.me)
-
-**This exploit has been patched since Chrome OS 111.**
-
-### Further Reading
-- [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
-- [Official Website](https://sh1mmer.me/)
-- [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
-
-[**🔼 Back to top**](#ext-remover)
-
 ## Downgrading *Change versions*
 
 Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, such as LTBEEF. This is a built-in feature of ChromeOS.
 
-Please do note that recently, they have patched downgrading on most devices up to a certain version., so this may not work for you.
+Please do note that depending on your `kernver=` you may not be able to downgrade to certain version. More info is at the [CryptoSmite Unenrollment](#cryptosmite-unenrollment) section.
 
 ### Requirements
 - A USB thumb drive with at least 4GB of storage, some boards have small or bigger images, I recommend 16GB
@@ -546,15 +588,16 @@ Please do note that recently, they have patched downgrading on most devices up t
 ![chrome://version](img/chromeos-check-board.png)
 
 2. Navigate to [chrome100.dev](https://chrome100.dev/) , press `ctrl+f` and type in your board.
-3. Find and download the Chrome version you want to your personal computer.
+   - Please note that chrome100 is now **outdated.** Use [cros.tech](https://cros.tech) for newer images.
+4. Find and download the Chrome version you want to your personal computer.
 
 ### Downgrading
 1. Install [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) onto your personal computer.
 2. Open the extension, click on the settings button in the top right-hand corner, and click "Use local image".
-3. Select the recovery image you downloaded from chrome100.
+3. Select the recovery image you downloaded from chrome100 or cros.tech.
 4. Plug in the USB you wish to use, and follow the prompts on the screen.
 5. On your Chromebook, press esc+reload+power and follow the prompts.
-6. On the checking for updates screen, press `ctrl`+`shift`+`e` to skip the "checking for updates" screen.
+6. On the checking for updates screen or Wi-Fi selection screen, press `ctrl`+`alt`+`e` to skip the "checking for updates" screen.
 
 [**🔼 Back to top**](#ext-remover)
 
