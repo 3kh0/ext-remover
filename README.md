@@ -578,8 +578,8 @@ Downgrading can be used for several exploits, to get to a version that does not 
 Please do note that depending on your `kernver=` you may not be able to downgrade to certain versions. More info is at the [CryptoSmite Unenrollment](#cryptosmite-unenrollment) section.
 
 ### Requirements
-- A USB thumb drive with at least 4GB of storage, some boards have small or bigger images, I recommend 16GB
-- A personal computer with access to downloading extensions
+- A USB thumb drive with at least 8GB of storage, however 16GB (or more) is recommended.
+- A personal computer with access to downloading the Chromebook Recovery Utility.
 
 ### Setup
 
@@ -589,7 +589,7 @@ Please do note that depending on your `kernver=` you may not be able to downgrad
 
 2. Navigate to [chrome100.dev](https://chrome100.dev/) , press `ctrl+f` and type in your board.
    - Please note that chrome100 is now **outdated.** Use [cros.tech](https://cros.tech) for newer images.
-4. Find and download the Chrome version you want to your personal computer.
+3. Find and download the Chrome version you want to your personal computer.
 
 ### Downgrading
 1. Install [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) onto your personal computer.
