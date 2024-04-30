@@ -14,6 +14,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [SH1MMER *Unenrollment*](#sh1mmer-unenrollment)
   * [Hapara Focus Session Bypass](#hapara-focus-session-bypass)
   * [GuardianTabCrash *Unrestricted browsing*](#guardiantabcrash-unrestricted-browsing)
   * [Skiovox *Unrestricted browsing*](#skiovox-unrestricted-browsing)
@@ -33,7 +34,6 @@ Thank you to all of the contributors! Yall really are pretty epic :D
   * [CAUB *Prevent Updates*](#caub-prevent-updates)
   * [CAUB Flags *Prevent Updates*](#caub-flags-prevent-updates)
   * [Blank3r](#blank3r)
-  * [SH1MMER *Unenrollment*](#sh1mmer-unenrollment)
   * [Downgrading *Change versions*](#downgrading-change-versions)
   * [Pollen *Policy Editor*](#pollen-policy-editor)
   * [Killcurly *Break extensions*](#killcurly-break-extensions)
@@ -48,6 +48,26 @@ Thank you to all of the contributors! Yall really are pretty epic :D
   * [Microsoft Labs](#microsoft-labs-virtualbox-but-it-got-20-doses-of-the-covid-vaccine*)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
+
+## SH1MMER *Unenrollment*
+
+**SH1MMER** is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on **January, Friday the 13th, 2023**.
+
+Due to the detail this exploit requires, please check out the offical website: [sh1mmer.me](https://sh1mmer.me)
+
+**This exploit has been patched since Chrome OS 111.**
+
+### Note
+
+Mercury Workshop received a notice from Google™️ that they had to take down their builder and shims. Currently, it is being rehosted by multiple community members.
+- [Wax4Web](https://darkn.bio/sh1mmer/builder)
+- [RMA shims](https://dl.darkn.bio/SH1mmer)
+- [Prebuilt shims](https://dl.darkn.bip/SH1mmer/Prebuilt)
+
+### Further Reading
+- [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
+- [Official Website](https://sh1mmer.me/)
+- [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
 
 ## Hapara Focus Session Bypass
 
@@ -65,6 +85,8 @@ An exploit that allows for access to sites outside of the Hapara Focus Session
 2.  when you are in a focus session, click the bookmark, and it will open a google tab. (If it says that it doesn't work, then you can download the [Iframe](https://github.com/3kh0/ext-remover/blob/main/HaparaBypass-Iframe.html)
 3.  enjoy not having to listen to a lecture from your teacher!
 (Credit to [Hero Link 6](https://github.com/HeroLink6) For finding this exploit, you can find more info on his GitHub repository [here](https://github.com/HeroLink6/Hapara-Focus-Session-Bypass/tree/main).)
+
+[**🔼 Back to top**](#ext-remover)
 
 ## GuardianTabCrash *Unrestricted browsing*
 
@@ -84,7 +106,6 @@ An exploit that allows for unrestricted internet access outside of goguardian's 
 4. Enjoy your unblocked stay!
 
 #### Discovered by @py660
-
 
 [**🔼 Back to top**](#ext-remover)
 
@@ -511,21 +532,6 @@ javascript:let shim = false;var ids = prompt("extension ids (comma separated)").
 5. Paste the ID of the extension into the prompt separated by commas.
 
 If you close the tab, the exploit will stop working.
-
-[**🔼 Back to top**](#ext-remover)
-
-## SH1MMER *Unenrollment*
-
-SH1MMER is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on January, Friday the 13th, 2023.
-
-Due to the detail this exploit requires, please check out the offical website: [sh1mmer.me](https://sh1mmer.me)
-
-**This exploit has been patched since Chrome OS 111.**
-
-### Further Reading
-- [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
-- [Official Website](https://sh1mmer.me/)
-- [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
 
 [**🔼 Back to top**](#ext-remover)
 
