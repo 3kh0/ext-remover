@@ -575,7 +575,7 @@ If you close the tab, the exploit will stop working.
 
 Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, such as LTBEEF. This is a built-in feature of ChromeOS.
 
-Please do note that depending on your `kernver=` you may not be able to downgrade to certain version. More info is at the [CryptoSmite Unenrollment](#cryptosmite-unenrollment) section.
+Please do note that depending on your `kernver=` you may not be able to downgrade to certain versions. More info is at the [CryptoSmite Unenrollment](#cryptosmite-unenrollment) section.
 
 ### Requirements
 - A USB thumb drive with at least 4GB of storage, some boards have small or bigger images, I recommend 16GB
