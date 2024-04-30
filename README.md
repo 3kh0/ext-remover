@@ -64,10 +64,10 @@ If you're on v120 or higher, you need to downgrade in order to use CryptoSmite. 
    - You should be on an "Insert Recovery Media" or "Let's step you through the recovery process" screen.
 2. Press TAB and look at the last digit of the `kernver=` line
 
-- `kernver=` ends with a 2!
+- `kernver=` ends with a 2! <br />
 Congratulations, you can downgrade to v119 or lower! Follow the instructions at [Downgrading *Change versions*](#downgrading-change-versions) on how to downgrade.
 
-- `kernver=` ends with a 3!
+- `kernver=` ends with a 3! <br />
 Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit or do a **dangerous** hardware modification.
 
 ### Using CryptoSmite
