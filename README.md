@@ -68,7 +68,7 @@ If you're on v120 or higher, you need to downgrade in order to use CryptoSmite. 
 Congratulations, you can downgrade to v119 or lower! Follow the instructions at [Downgrading *Change versions*](#downgrading-change-versions) on how to downgrade.
 
 - `kernver=` ends with a 3! <br />
-Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit or do a **dangerous** hardware modification.
+Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit or do a [**dangerous** hardware modification.](https://blog.darkn.bio/blog/3-the-tsunami)
 
 ### Using CryptoSmite
 1. Download a SH1MMER Prebuilt image here: [dl.darkn.bio](<https://dl.darkn.bio/SH1mmer/Prebuilt/>)
