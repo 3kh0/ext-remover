@@ -68,7 +68,7 @@ If you're on v120 or higher, you need to downgrade in order to use CryptoSmite. 
 Congratulations, you can downgrade to v119 or lower! Follow the instructions at [Downgrading *Change versions*](#downgrading-change-versions) on how to downgrade.
 
 - `kernver=` ends with a 3! <br />
-Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit or do a **dangerous** hardware modification.
+Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit or do a [**dangerous** hardware modification.](https://blog.darkn.bio/blog/3-the-tsunami)
 
 ### Using CryptoSmite
 1. Download a SH1MMER Prebuilt image here: [dl.darkn.bio](<https://dl.darkn.bio/SH1mmer/Prebuilt/>)
@@ -98,7 +98,7 @@ Due to the detail this exploit requires, please check out the offical website: [
 Mercury Workshop received a notice from Google™️ that they had to take down their builder and shims. Currently, it is being rehosted by multiple community members.
 - [Wax4Web](https://darkn.bio/sh1mmer/builder)
 - [RMA shims](https://dl.darkn.bio/SH1mmer)
-- [Prebuilt shims](https://dl.darkn.bip/SH1mmer/Prebuilt)
+- [Prebuilt shims](https://dl.darkn.bio/SH1mmer/Prebuilt)
 
 ### Further Reading
 - [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
@@ -573,13 +573,13 @@ If you close the tab, the exploit will stop working.
 
 ## Downgrading *Change versions*
 
-Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, such as LTBEEF. This is a built-in feature of ChromeOS.
+Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, such as LTBEEF, SH1MMER, or CryptoSmite. This is a built-in feature of ChromeOS.
 
-Please do note that depending on your `kernver=` you may not be able to downgrade to certain version. More info is at the [CryptoSmite Unenrollment](#cryptosmite-unenrollment) section.
+Please do note that depending on your `kernver=` you may not be able to downgrade to certain versions. More info is at the [CryptoSmite Unenrollment](#cryptosmite-unenrollment) section.
 
 ### Requirements
-- A USB thumb drive with at least 4GB of storage, some boards have small or bigger images, I recommend 16GB
-- A personal computer with access to downloading extensions
+- A USB thumb drive with at least 8GB of storage, however 16GB (or more) is recommended.
+- A personal computer with access to downloading the Chromebook Recovery Utility.
 
 ### Setup
 
@@ -589,7 +589,7 @@ Please do note that depending on your `kernver=` you may not be able to downgrad
 
 2. Navigate to [chrome100.dev](https://chrome100.dev/) , press `ctrl+f` and type in your board.
    - Please note that chrome100 is now **outdated.** Use [cros.tech](https://cros.tech) for newer images.
-4. Find and download the Chrome version you want to your personal computer.
+3. Find and download the Chrome version you want to your personal computer.
 
 ### Downgrading
 1. Install [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) onto your personal computer.
