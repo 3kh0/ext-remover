@@ -575,7 +575,7 @@ If you close the tab, the exploit will stop working.
 
 Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, such as LTBEEF, SH1MMER, or CryptoSmite. This is a built-in feature of ChromeOS.
 
-Please do note that depending on your `kernver=` you may not be able to downgrade to certain versions. More info is at the [CryptoSmite Unenrollment](#cryptosmite-unenrollment) section.
+Please do note that depending on your `kernver=` you may not be able to downgrade to certain versions. More info is at the [Finding Kernver](#finding-kernver) section.
 
 ### Requirements
 - A USB thumb drive with at least 8GB of storage, however 16GB (or more) is recommended.
@@ -588,13 +588,12 @@ Please do note that depending on your `kernver=` you may not be able to downgrad
 ![chrome://version](img/chromeos-check-board.png)
 
 2. Navigate to [chrome100.dev](https://chrome100.dev/) , press `ctrl+f` and type in your board.
-   - Please note that chrome100 is now **outdated.** Use [cros.tech](https://cros.tech) for newer images.
 3. Find and download the Chrome version you want to your personal computer.
 
 ### Downgrading
 1. Install [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) onto your personal computer.
 2. Open the extension, click on the settings button in the top right-hand corner, and click "Use local image".
-3. Select the recovery image you downloaded from chrome100 or cros.tech.
+3. Select the recovery image you downloaded from chrome100.
 4. Plug in the USB you wish to use, and follow the prompts on the screen.
 5. On your Chromebook, press esc+reload+power and follow the prompts.
 6. On the checking for updates screen or Wi-Fi selection screen, press `ctrl`+`alt`+`e` to skip the "checking for updates" screen.
