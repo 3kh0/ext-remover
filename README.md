@@ -9,7 +9,7 @@ Please use these only when you have permission, I (3kh0) do not condone the use 
 
 Image Credit: LittleMissNyan
 
-Thank you to all of the contributors! Yall really are pretty epic :D
+Thank you to all of the contributors! Ya'll are pretty epic :D
 
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
@@ -57,7 +57,7 @@ Thank you to all of the contributors! Yall really are pretty epic :D
 **This exploit has been patched since Chrome OS 120.**
 
 ### Finding Kernver
-If you're on v120 or higher, you need to downgrade in order to use CryptoSmite. To do this, you first need to check your `kernver=` in Recovery Mode.
+If you're on v120 or higher, you need to downgrade to use CryptoSmite. To do this, you first need to check your `kernver=` in Recovery Mode.
 
 1. Boot into Recovery Mode
    - Hold ESC + Refresh + Power for 2 or 3 seconds.
@@ -89,7 +89,7 @@ Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit
 
 **SH1MMER** is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on **January, Friday the 13th, 2023**.
 
-Due to the detail this exploit requires, please check out the offical website: [sh1mmer.me](https://sh1mmer.me)
+Due to the detail this exploit requires, please check out the official website: [sh1mmer.me](https://sh1mmer.me)
 
 **This exploit has been patched since Chrome OS 111.**
 
@@ -113,12 +113,12 @@ An exploit that allows for access to sites outside of the Hapara Focus Session
 
 ### How to use it?
 
-**You teacher may be able to still see your screen, but they won't think you are doing anything wrong because of the focus session.**
+**Your teacher may be able to still see your screen, but they won't think you are doing anything wrong because of the focus session.**
 
 **YOU MUST NEED data: LINKS ALLOWED, IF YOU DON'T HAVE THOSE ALLOWED, THIS WILL NOT WORK**.
 
 1. create a bookmark named anything, head to the URL section, and paste this in it: `data:text/html,<!DOCTYPE html> <html> <head> <title>full screen iframe</title> <style type="text/css"> html { overflow: auto; } html, body, div, iframe { margin: 0px; padding: 0px; height: 100%; border: none; } iframe { display: block; width: 100%; border: none; overflow-y: auto; overflow-x: hidden; } </style> </head> <body> <iframe src="https://www.google.com.au" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%" scrolling="auto" id="google"> </iframe> </body> </html>`
-2.  when you are in a focus session, click the bookmark, and it will open a google tab. (If it says that it doesn't work, then you can download the [Iframe](https://github.com/3kh0/ext-remover/blob/main/HaparaBypass-Iframe.html)
+2.  when you are in a focus session, click the bookmark, and it will open a Google tab. (If it says that it doesn't work, then you can download the [Iframe](https://github.com/3kh0/ext-remover/blob/main/HaparaBypass-Iframe.html)
 3.  enjoy not having to listen to a lecture from your teacher!
 (Credit to [Hero Link 6](https://github.com/HeroLink6) For finding this exploit, you can find more info on his GitHub repository [here](https://github.com/HeroLink6/Hapara-Focus-Session-Bypass/tree/main).)
 
@@ -128,17 +128,17 @@ An exploit that allows for access to sites outside of the Hapara Focus Session
 
 ### What is it?
 
-An exploit that allows for unrestricted internet access outside of goguardian's control
+An exploit that allows for unrestricted internet access outside of GoGuardian's control
 
 ### How to use it?
 
-**Teacher's can still see your screen, but they can't block or close any of your tabs.**
+**Teachers can still see your screen, but they can't block or close any of your tabs.**
 
 **YOUR TEACHER NEEDS TO HAVE SET A TAB LIMIT. TRY OPENING TONS OF TABS TO CONVINCE THEM TO ENABLE TAB LIMITS**.
 
 1. create a bookmark named anything: `javascript: window.onbeforeunload = ()=>{return false;}`
 2. Hold down CTRL and then SPAM CLICK the bookmark until you're well above the tab limit, opening a bunch of `about:blank` pages.
-3. It might ask if you want to leave this page, this is goguardian trying to close it. Say No, and click `Prevent from creating additional dialogues`.
+3. It might ask if you want to leave this page, this is GoGuardian trying to close it. Say No, and click `Prevent from creating additional dialogues`.
 4. Enjoy your unblocked stay!
 
 #### Discovered by @py660
@@ -316,7 +316,7 @@ A method of using LTMEAT that does not require `chrome://` URLs. This works by u
 4. Right-click on the folder again and hit `Bookmark Manager`. You should see your page. Click on it and hit `Ctrl`+`C`. Press `Ctrl`+`V` until you have 38 of them.
 5. Go to a new tab and right-click your folder. Press `Open All (38)`.
 6. Repeat step 3, then click on one of the tabs from this batch. Wait until the `This page is taking too long` popup appears. This will take 30-60 seconds. If it doesn’t, do `chrome://restart` and go back to step 2. Add 3-4 more pages to the folder.
-7. Once the popup happens, right-click on one of the tabs closest to the right of the screen and hit `Duplicate`. Then, go to your `Kill switch` bookmark and look for a switch to flip, `Allow Access to File:// urls`. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click `Close all tabs to the right`. KEEP THIS TAB OPEN!!!
+7. Once the popup happens, right-click on one of the tabs closest to the right of the screen and hit `Duplicate`. Then, go to your `Kill switch` bookmark and look for a switch to flip, `Allow Access to File://URLs`. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click `Close all tabs to the right`. KEEP THIS TAB OPEN!!!
 
 Tips: Go to `chrome://settings/performance` and turn Memory Saver off, and in the box where it says `Keep these sites always active`, paste in the extension URL. I’ve noticed clicking on one of the tabs from the second batch seems to help with reliability.
 
@@ -393,11 +393,11 @@ Thanks to Nyaann#3881 for this exploit
 Corkey does indeed include power washing the Chromebook, which wipes local data including everything under "My files," so I suggest you select everything you want to drag and back up to Google Drive if that's available for your account.
 
 1. Esc+Refresh+Power and re-enroll (Enter recovery page), or you can just powerwash.
-2. Log into your Chromebook and immediately turn off WiFi and do refresh+power to (instant restart)
+2. Log into your Chromebook and immediately turn off WiFi and do refresh+power to instant-restart.
 3. Log back into your Chromebook with the WiFi off. Look for an option to log in as an existing user and click that.
 4. Go to `chrome://extensions`, turn on WiFi, and wait for your school's blocking extension to appear.
 5. As soon as it appears, turn off WiFi and restart as fast as possible.
-6. Log back in, go back to extensions, and wait. If it says your blocking extension could be corrupted or doesn't appear at all, then it worked (wait at least a minute with a close watch in case it comes back)
+6. Log back in, go back to extensions, and wait. If it says your blocking extension could be corrupted or doesn't appear at all, then it worked (wait at least a minute with a close watch in case it comes back.)
 7. If it didn't work, start over. You have to be fast.
 
 [**🔼 Back to top**](#ext-remover)
@@ -519,7 +519,7 @@ This exploit keeps your Chromebook downgraded (or on the current version) withou
 8. Press the `generate onc` button below the textbox.
 9. Once you have downloaded the file, go to `chrome://network#general`.
 10. Click on the `import ONC` button.
-11. Import the newly downloaded file.
+11. Import the newly-downloaded file.
 
 **Extra notes**
 - Your Chromebook will no longer automatically update. (as long as you are on a wifi that you CAUBed)
@@ -575,7 +575,7 @@ If you close the tab, the exploit will stop working.
 
 Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, such as LTBEEF, SH1MMER, or CryptoSmite. This is a built-in feature of ChromeOS.
 
-Please do note that depending on your `kernver=` you may not be able to downgrade to certain versions. More info is at the [Finding Kernver](#finding-kernver) section.
+Please do note that depending on your `kernver=` you may not be able to downgrade to certain versions. More info can be found at the [Finding Kernver](#finding-kernver) section.
 
 ### Requirements
 - A USB thumb drive with at least 8GB of storage, however 16GB (or more) is recommended.
@@ -678,7 +678,7 @@ Credit to [vk6](https://ading.dev/) for this exploit
 
 ## uBlock Run *Run Code On Pages*
 
-If your school allows the uBlock Origin chrome extension, then running any bookmarklet is possible.
+If your school allows the uBlock Origin Chrome extension, then running any bookmarklet is possible.
 
 ### Requirements
 - uBlock Origin
@@ -701,7 +701,7 @@ If your school allows the uBlock Origin chrome extension, then running any bookm
 ## uRun - Bypass bookmarklet restrictions with uBlock
 From [Inglan2](https://github.com/Inglan2)
 
-Recently Google cracked down on bookmarklets and now they don't work (Its based on the [DeveloperToolsAvailability](https://chromeenterprise.google/policies/?policy=DeveloperToolsAvailability) policy). I wanted to run scripts still so I started making this, inspired by [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages), but with more features, like saving scripts.
+Recently Google cracked down on bookmarklets and now they don't work (It's based on the [DeveloperToolsAvailability](https://chromeenterprise.google/policies/?policy=DeveloperToolsAvailability) policy). I wanted to run scripts still so I started making this, inspired by [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages), but with more features, like saving scripts.
 1. Open uBlock settings
 2. Enable advanced settings, and click the gear ⚙️ button
 
@@ -815,18 +815,17 @@ Credit to akabutnice
 
 ## Microsoft Labs *Virtualbox but it got 20 doses of the COVID Vaccine*
 
-This exploit cos removed in "The Great Reformatting of 2023" so I am gonna readd it!!!
 Thanks a bunch Bill Gates
 
 **Do this! Not drugs!**
 1. Go to this website [Microsoft Labs](https://learn.microsoft.com/en-us/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)
-2. click that button thay say "Sign in to launch VM mode"
+2. Click the button that says "Sign in to launch VM mode."
 3. Holy guacamole! You need a Microsoft Account! Use your credentials and sign in.
 4. Load the virtual machine by clicking the button or if you sign it it will redirect you to it automatically.
-5. The password is pass@word1
-6. Profit
+5. The password is `pass@word1`.
+6. Load in and profit!
 
-NOTES: sound doesn't work, a lot of websites are blocked, but its just fun to screw around in it.
+NOTE: Sound doesn't work and a lot of websites are blocked, but it's just fun to screw around with.
 
 (Not really) credit to mundaneunblocking
 
