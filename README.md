@@ -1,5 +1,5 @@
 # EXT-REMOVER
-This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there is more! Many of these exploits can destroy your computer if misused. So PLEASE, PLEASE make sure you follow these instructions very carefully!
+This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there are more! Some of these exploits can destroy your computer if misused. So PLEASE, PLEASE make sure you follow these instructions very carefully!
 
 <b>Need help? Ask for help <a href="https://github.com/3kh0/ext-remover/discussions">here</a>!</b>
 
@@ -27,9 +27,9 @@ Thank you to all of the contributors! Ya'll are pretty epic :D
   * [Baby LTMEAT *Freeze extensions*](#baby-ltmeat-freeze-extensions)
   * [LTMEAT Print *Freeze extensions*](#ltmeat-print-freeze-extensions)
   * [Dextensify *Disable extensions*](#dextensify-freeze-extensions)
-  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg-ltbeef-w--service-workers)
+  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg-ltbeef-w-service-workers)
   * [Corkey *Corrupt extensions*](#corkey-corrupt-extensions)
-  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher-install-extensions-w-o-allowlist)
+  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher-install-extensions-wo-allowlist)
   * [Point-Blank *Execute scripts on extension pages*](#point-blank-execute-scripts-on-extension-pages)
   * [UBoss *Tamper with IBoss*](#uboss-tamper-with-iboss)
   * [CAUB *Prevent Updates*](#caub-prevent-updates)
@@ -44,9 +44,9 @@ Thank you to all of the contributors! Ya'll are pretty epic :D
   * [Quick View *Bypass extensions*](#quick-view-bypass-extensions)
   * [Buypass *Bypass extensions*](#buypass-bypass-extensions)
   * [Chaos *Hapara bypass*](#chaos-hapara-bypass)
-  * [SOT Exploit *OneTab bypass**](#sot-exploit)
+  * [SOT Exploit *Open URLs in OneTab*](#sot-exploit-open-urls-in-onetab)
   * [GoGuardian GoAway *GoGuardian bypass*](#goguardian-goaway-goguardian-bypass)
-  * [Microsoft Labs](#microsoft-labs-virtualbox-but-it-got-20-doses-of-the-covid-vaccine*)
+  * [Microsoft Labs](#microsoft-labs-virtualbox-but-it-got-20-doses-of-the-covid-vaccine)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
@@ -64,14 +64,15 @@ If you're on v120 or higher, you need to downgrade to use CryptoSmite. To do thi
    - You should be on an "Insert Recovery Media" or "Let's step you through the recovery process" screen.
 2. Press TAB and look at the last digit of the `kernver=` line
 
-- `kernver=` ends with a 2! <br />
+If:
+- `kernver=` ends with a 2: <br />
 Congratulations, you can downgrade to v119 or lower! Follow the instructions at [Downgrading *Change versions*](#downgrading-change-versions) on how to downgrade.
 
-- `kernver=` ends with a 3! <br />
+- `kernver=` ends with a 3: <br />
 Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit or do a [**dangerous** hardware modification.](https://blog.darkn.bio/blog/3-the-tsunami)
 
 ### Using CryptoSmite
-1. Download a SH1MMER Prebuilt image here: [dl.darkn.bio](<https://dl.darkn.bio/SH1mmer/Prebuilt/>)
+1. Download a SH1MMER prebuilt image here: [dl.darkn.bio](<https://dl.darkn.bio/SH1mmer/Prebuilt/>)
 2. Disable OS verification *(blocked or not, doesn't matter)*, and boot into the shim.
 3. Navigate to Payloads and navigate to CryptoSmite using the arrow keys, then press `Enter`.
 4. Type in `Y` then press enter, and it'll automatically reboot upon completion.
@@ -153,6 +154,7 @@ An exploit that allows for browsing within a completely unblocked Chrome
 browser. It works on ChromeOS 118 and a wide range of previous versions.
 - Skiovox utilizes a bug in kiosk apps
 - Very similar to a bug from 3 years ago
+  
 Within the unblocked browser, you can
 - Install extensions
 - Bypass pretty much all blocks
@@ -418,9 +420,8 @@ A bookmarklet capable of installing extensions, for those without an allowlist.
 3. Then put the icon of the extension, the ID, and the name of it (This does not matter, you can put anything), then press download, and it will work.
 
 ### Extra Notes
+- This will not work if you have a blocklist, this is only for extensions that aren't on the allowlist
 - Credit to "Aka, but nice" on Discord.
-- DNS will be up soon for those who have JavaScript bookmarklets blocked.
-- This will not work if you have a blocklist this is only for if when you go to the web store it shows blocked
 
 [**🔼 Back to top**](#ext-remover)
 
@@ -503,7 +504,9 @@ If it doesn't work let us know by creating a discussion, this was made in partne
 
 ## CAUB *Prevent Updates*
 
-This exploit keeps your Chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by Catakang#0987. Using onc files, you can convince your Chromebook that the WiFi that you're connected to is pay-to-use (like a hotspot using data), and thus it will not check for updates.
+This exploit keeps your Chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by Catakang#0987. Using onc files, you can convince your Chromebook that the WiFi that you're connected to is pay-to-use (like a hotspot using data), and thus it will not check for updates. 
+### Note
+Do **_NOT_** leave your Chromebook on a new WiFi network for more then a day without redoing the process unless you also have CAUB Flags. Even if you do have both, it can't hurt to be safe when taking your chromebook somewhere new.
 
 ### Requirements
 - Access to `chrome://network#state`
@@ -647,18 +650,17 @@ curl -Ls https://mercuryworkshop.github.io/Pollen/PollenFS.sh | bash
 [**🔼 Back to top**](#ext-remover)
 
 ## Killcurly *Break extensions*
-Kill the extension by signing out.
+Kill extensions by signing out.
 
 1. Visit `chrome://settings/signOut`.
-2. Press the big blue button.
-3. Go to `chrome://restart`
-4. Now visit `tinyurl.com/AddSession` or [this link](https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession)
+2. If you are on the right version, there should be a big blue button. Press it.
+3. Open a new tab and type in `chrome://restart`, then press enter.
+4. Now visit `tinyurl.com/AddSession` or [this link.](https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession)
 5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, YouTube, and any Google service.
-6. All extensions should stop working.
-7. Note that you must repeat this every time you restart or sign out.
-8. If your Chrome version is v112 or above, this exploit will no longer work, the bypass to this is listed further on.
 
-Credit to Zoroark
+All of your extensions should stop working. Note that you must repeat this every time you restart or sign out. 
+
+This exploit is patched on Chrome versions 112 and above. Credit to Zoroark
 
 [**🔼 Back to top**](#ext-remover)
 
@@ -678,18 +680,17 @@ Credit to [vk6](https://ading.dev/) for this exploit
 
 ## uBlock Run *Run Code On Pages*
 
-If your school allows the uBlock Origin Chrome extension, then running any bookmarklet is possible.
+If your school allows the uBlock Origin Chrome extension, you can run bookmarklets with the extension.
 
 ### Requirements
 - uBlock Origin
 
 ### Getting started
 1. Make sure you have [uBlock Origin](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) installed.
-2. Go to the extension's settings
+2. Go to the extension's settings.
 3. Under the settings tab, check the "I am an advanced user" box, then click on the small cog icon.
-4. Find `userResourcesLocation` and change it from `unset` to `https://raw.githubusercontent.com/3kh0/ext-remover/main/ublockExec.js`
-
-5. Goe My filters tab of the settings and add the following line:
+4. Find `userResourcesLocation` and change it from `unset` to `https://raw.githubusercontent.com/3kh0/ext-remover/main/ublockExec.js`.
+5. Go to the filters tab of the settings and add the following line:
 ```
 *##+js(execute_script.js)
 ```
@@ -706,7 +707,7 @@ Recently Google cracked down on bookmarklets and now they don't work (It's based
 2. Enable advanced settings, and click the gear ⚙️ button
 
 > [!CAUTION]
-> DO NOT MODIFY ANYTHING ELSE ON THIS PAGE, UNLESS YOU KNOW WHAT YOU ARE DOING (you probably don't), AS YOU COULD BREAK SOMETHING.
+> DO NOT MODIFY ANYTHING ELSE ON THIS PAGE UNLESS YOU KNOW WHAT YOU ARE DOING (you probably don't), AS YOU COULD BREAK SOMETHING.
 
 > [!TIP]
 > If you mess up, go to the home of settings and at the bottom click reset to default settings
@@ -741,7 +742,7 @@ Simply press Ctrl + Shift + \` to open the menu and from there you can run and c
 
 QuickView is a universal webview exploit in Chrome OS that utilizes the QuickOffice component extension. This exploit lets you create login windows with arbitrary URLs, thus allowing you to load pages without any extensions.
 
-Go to <a href="https://quickview-exploit.pages.dev/">quickview-exploit.pages.dev</a> and follow the instructions
+Go to <a href="https://quickview-exploit.pages.dev/">quickview-exploit.pages.dev</a> and follow the instructions.
 
 ### Further reading
 - [Writeup](https://ading.dev/blog/posts/quickview.html)
@@ -776,18 +777,18 @@ Visit any of the links below:
 
 ## Chaos *Hapara bypass*
 
-**Devtools must not be blocked by policy to perform this exploit.**
+**DevTools must not be allowed by policy to perform this exploit.**
 
-Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow instructions
+Go to <a href="https://xlak.github.io/chaos/">this link</a> and follow the instructions.
 
 ### Further Reading:
 - [Repository](https://github.com/xlak/chaos)
 
 [**🔼 Back to top**](#ext-remover)
 
-## SOT Exploit *OneTab bypass*
+## SOT Exploit *Open URLs in OneTab*
 
-1. Download this extension [One Tab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+1. If you do not already have [OneTab](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall) installed, try to.
 2. Click the import button in the settings tab.
 3. Copy-paste the URL you wish to visit about 100 times, and then click import.
 4. Spam click the top link, then either spam escape on one of them or wait for one to load on a about:blank page.
@@ -797,10 +798,7 @@ Credit to [Coding4Hours](https://github.com/Coding4Hours)
 [**🔼 Back to top**](#ext-remover)
 
 ## GoGuardian GoAway *GoGuardian bypass*
-
-No idea whatsoever how this went through
-
-THIS EXPLOIT WILL NOT WORK FOR YOU IF YOU HAVE ANY OTHER EXTENSION BESIDES GOGUARDIAN
+THIS EXPLOIT WILL NOT WORK FOR YOU IF YOU HAVE ANY EXTENSION BESIDES GOGUARDIAN
 
 ### Getting Started
 1. Obviously (but still needs to be said due to skids), make sure GoGuardian is actually installed
