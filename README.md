@@ -63,6 +63,7 @@ data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%22%3
 ```
 2. Enjoy! Keep the page open if it switches back on for some reason.
 
+[**🔼 Back to top**](#ext-remover)
 
 ## CryptoSmite *Unenrollment*
 
@@ -100,6 +101,8 @@ Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit
 - [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
 - [Official Blogspot](https://exploitingchromium.blogspot.com/)
 
+[**🔼 Back to top**](#ext-remover)
+
 ## SH1MMER *Unenrollment*
 
 **SH1MMER** is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on **January, Friday the 13th, 2023**.
@@ -119,6 +122,8 @@ Mercury Workshop received a notice from Google™️ that they had to take down 
 - [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
 - [Official Website](https://sh1mmer.me/)
 - [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
+
+[**🔼 Back to top**](#ext-remover)
 
 ## Hapara Focus Session Bypass
 
