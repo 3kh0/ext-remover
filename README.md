@@ -63,6 +63,7 @@ data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%22%3
 ```
 2. Enjoy! Keep the page open if it switches back on for some reason.
 
+[**🔼 Back to top**](#ext-remover)
 
 ## CryptoSmite *Unenrollment*
 
@@ -119,6 +120,8 @@ Mercury Workshop received a notice from Google™️ that they had to take down 
 - [Repository](https://github.com/MercuryWorkshop/sh1mmer)  
 - [Official Website](https://sh1mmer.me/)
 - [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
+
+[**🔼 Back to top**](#ext-remover)
 
 ## Hapara Focus Session Bypass
 
