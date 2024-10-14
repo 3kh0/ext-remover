@@ -101,6 +101,8 @@ Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit
 - [Writeup](https://blog.coolelectronics.me/breaking-cros-2/)
 - [Official Blogspot](https://exploitingchromium.blogspot.com/)
 
+[**🔼 Back to top**](#ext-remover)
+
 ## SH1MMER *Unenrollment*
 
 **SH1MMER** is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on **January, Friday the 13th, 2023**.
