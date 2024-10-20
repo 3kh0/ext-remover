@@ -698,6 +698,8 @@ Credit to [vk6](https://ading.dev/) for this exploit
 [**🔼 Back to top**](#ext-remover)
 
 ## uBlock Run *Run Code On Pages*
+> [!NOTE]
+> Google is deprecating mv2, so uBlock will not work as of Oct 24, and will be fully removed for enterprise as well in June 25. More info [here](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
 
 If your school allows the uBlock Origin Chrome extension, you can run bookmarklets with the extension.
 
@@ -719,6 +721,9 @@ If your school allows the uBlock Origin Chrome extension, you can run bookmarkle
 [**🔼 Back to top**](#ext-remover)
 
 ## uRun - Bypass bookmarklet restrictions with uBlock
+> [!NOTE]
+> Google is deprecating mv2, so uBlock will not work as of Oct 24, and will be fully removed for enterprise as well in June 25. More info [here](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
+
 From [Inglan2](https://github.com/Inglan2)
 
 Recently Google cracked down on bookmarklets and now they don't work (It's based on the [DeveloperToolsAvailability](https://chromeenterprise.google/policies/?policy=DeveloperToolsAvailability) policy). I wanted to run scripts still so I started making this, inspired by [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages), but with more features, like saving scripts.
