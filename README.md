@@ -52,6 +52,19 @@ Thank you to all of the contributors! Ya'll are pretty epic :D
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
+## SecurKill
+
+**SecurKill** is an exploit that allows users to disable Securly (and possibly others) on school managed chromebooks. It continues to work on chromebooks as of October 21 2024 (ChromeOS 129) as long as task manager is allowed.
+
+Steps for use: 
+1. Open Desmos Graphing Calculator and type something random.
+2. Go to Task Manager (Search/Launcher + Esc)
+3. Kill the Securly task
+4. Securly will attempt refreshing all your tabs. However, it cannot refresh the Desmos tab. On the Desmos tab, it will have a prompt saying "Leave site?". Click cancel. The prompt should show up again. Check the "Prevent this page from making additional dialogues" checkbox and click cancel again.
+5. Open any tab unblocked!
+
+[**🔼 Back to top**](#ext-remover)
+
 ## Rigtools
 
 **Rigtools** is an exploit that allows users to run code on extensions, disable extensions, and basically do whatever to and with the extension as long as the extension has the correct permissions. It is **patched** in Chrome OS 129 and above as of October 2024.
