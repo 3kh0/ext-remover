@@ -14,6 +14,7 @@ Thank you to all of the contributors! Ya'll are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [OlyBmmer](#olybmmer)
   * [Rigtools](#rigtools)
   * [ExtHang3r](#exthang3r)
   * [CryptoSmite *Unenrollment*](#cryptosmite--unenrollment)
