@@ -14,6 +14,7 @@ Thank you to all of the contributors! Ya'll are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [OlyBmmer](#olybmmer)
   * [Rigtools](#rigtools)
   * [ExtHang3r](#exthang3r)
   * [CryptoSmite *Unenrollment*](#cryptosmite--unenrollment)
@@ -51,6 +52,12 @@ Thank you to all of the contributors! Ya'll are pretty epic :D
   * [Microsoft Labs](#microsoft-labs--virtualbox-but-it-got-20-doses-of-the-covid-vaccine)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
+
+## OlyBmmer
+
+**OlyBmmer** is an exploit that allows users to unenroll school managed chromebooks. Due to the specificness of this exploit, please visit the linked repository: <a href='https://github.com/BinBashBanana/badrecovery'>OlyBmmer Exploit</a>
+
+[**🔼 Back to top**](#ext-remover)
 
 ## Rigtools
 
