@@ -9,7 +9,7 @@ Please use these only when you have permission, I (3kh0) do not condone the use 
 
 Image Credit: LittleMissNyan
 
-Thank you to all of the contributors! Ya'll are pretty epic :D
+Thank you to all of the contributors! You all are pretty epic :D
 
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
@@ -55,15 +55,15 @@ Thank you to all of the contributors! Ya'll are pretty epic :D
 
 ## OlyBmmer
 
-**OlyBmmer** is an exploit that allows users to unenroll school managed chromebooks. Due to the specificness of this exploit, please visit the linked repository: <a href='https://github.com/BinBashBanana/badrecovery'>OlyBmmer Exploit</a>
+**OlyBmmer** is an exploit that allows users to unenroll school-managed Chromebooks. Due to the specificness of this exploit, please visit the linked repository: <a href='https://github.com/BinBashBanana/badrecovery'>OlyBmmer Exploit</a>
 
 [**🔼 Back to top**](#ext-remover)
 
 ## Rigtools
 
-**Rigtools** is an exploit that allows users to run code on extensions, disable extensions, and basically do whatever to and with the extension as long as the extension has the correct permissions. It is **patched** in Chrome OS 129 and above as of October 2024.
+**Rigtools** is an exploit that allows users to run code on extensions, disable extensions, and basically do whatever they want with an extension as long as it has the correct permissions. As of October 2024, it is **patched** in Chrome OS 129 and above.
 
-### How do to use it?
+### How do you use it?
 
 1. Open this link and just leave it alone. (Note: This will not run code it's just there to fix the second page.)
 ```md
@@ -86,7 +86,7 @@ Lastly, You can run code like
 ```js
 alert("hi")
 ```
-so if you have the correct permissions on your extensions manifest file you can run this code below to run a certain piece of code on any page:
+so if you have the correct permissions on your extensions manifest file, you can run this code below to run a certain piece of code on any page:
     - tabs
     - activeTab
     - browserAction
@@ -95,7 +95,7 @@ If it does not have these permissions, this will not work. (These are in the man
 ```js
 chrome.browserAction.onClicked.addListener(() => {chrome.tabs.executeScript(null, {code: `location.href="javascript:replace this part with your own bookmarklet.";`});});
 ```
-and if it works nice! If it doesn't then cry in a corner.
+and if it works, nice! If it doesn't, then cry in a corner.
 
 
 Link to repo to self host for new/unofficial ui: https://github.com/Sincereham222/rigtools-newui
@@ -104,7 +104,7 @@ Link to repo for official ui: https://github.com/FWSmasher/rigtools
 [**🔼 Back to top**](#ext-remover)
 ## ExtHang3r
 
-**ExtHang3r** is an exploit that allows users to toggle admin-installed extentions on and off. It remains **unpatched** in Chrome OS 127 as of October 2024.
+**ExtHang3r** is an exploit that allows users to toggle admin-installed extensions on and off. As of October 2024, it remains **unpatched** in Chrome OS 127.
 
 ### How do I use it?
 
@@ -141,10 +141,10 @@ Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit
 1. Download a SH1MMER prebuilt image here: [dl.darkn.bio](<https://dl.darkn.bio/SH1mmer/Prebuilt/>)
 2. Disable OS verification *(blocked or not, doesn't matter)*, and boot into the shim.
 3. Navigate to Payloads and navigate to CryptoSmite using the arrow keys, then press `Enter`.
-4. Type in `Y` then press enter, and it'll automatically reboot upon completion.
+4. Type in `Y`, then press enter, and it'll automatically reboot upon completion.
 5. Proceed through the setup partially till you get to the Add Account Screen.
-   - If you see an update prompt, reboot then press `CTRL + ALT + E` on the Wi-Fi screen.
-     - This *should* allow skipping the update, or make it not appear at all.
+   - If you see an update prompt, reboot it and then press `CTRL + ALT + E` on the Wi-Fi screen.
+     - This *should* allow skipping the update or make it not appear at all.
 6. Powerwash the Chromebook at the "Add Account" screen. Afterwards, it'll be fully unenrolled.
 
 ### Further Reading
@@ -156,7 +156,7 @@ Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit
 
 ## SH1MMER *Unenrollment*
 
-**SH1MMER** is an exploit capable of completely unenrolling enterprise-managed Chromebooks. It was found by the Mercury Workshop team and was released on **January, Friday the 13th, 2023**.
+**SH1MMER** is an exploit capable of completely unenrolling enterprise-managed Chromebooks. The Mercury Workshop team found it and released it on Friday, January 13th, 2023.
 
 Due to the detail this exploit requires, please check out the official website: [sh1mmer.me](https://sh1mmer.me)
 
@@ -164,7 +164,7 @@ Due to the detail this exploit requires, please check out the official website: 
 
 ### Note
 
-Mercury Workshop received a notice from Google™️ that they had to take down their builder and shims. Currently, it is being rehosted by multiple community members.
+Mercury Workshop received a notice from Google™️ that they had to take down their builder and shims. Currently, multiple community members are rehosting it.
 - [Wax4Web](https://darkn.bio/sh1mmer/builder)
 - [RMA shims](https://dl.darkn.bio/SH1mmer)
 - [Prebuilt shims](https://dl.darkn.bio/SH1mmer/Prebuilt)
@@ -209,7 +209,7 @@ An exploit that allows for unrestricted internet access outside of GoGuardian's 
 
 1. create a bookmark named anything: `javascript: window.onbeforeunload = ()=>{return false;}`
 2. Hold down CTRL and then SPAM CLICK the bookmark until you're well above the tab limit, opening a bunch of `about:blank` pages.
-3. It might ask if you want to leave this page, this is GoGuardian trying to close it. Say No, and click `Prevent from creating additional dialogues`.
+3. It might ask if you want to leave this page. This is GoGuardian trying to close it. Say No, and click `Prevent from creating additional dialogues`.
 4. Enjoy your unblocked stay!
 
 #### Discovered by @py660
