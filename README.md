@@ -14,6 +14,7 @@ Thank you to all of the contributors! You all are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [BR1CK](#br1ck)
   * [OlyBmmer](#olybmmer)
   * [Rigtools](#rigtools)
   * [ExtHang3r](#exthang3r)
@@ -52,6 +53,13 @@ Thank you to all of the contributors! You all are pretty epic :D
   * [Microsoft Labs](#microsoft-labs--virtualbox-but-it-got-20-doses-of-the-covid-vaccine)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
+
+## BR1CK
+
+**BR1CK** is an exploit that allows users to unenroll/deprovise managed chromebooks. It currently works on all versions for **CR50s** (ti50 isn't and will not be supported)
+for instructions visit: <a href='https://br1ck.vercel.app'>BR1CK's website</a> or visit the repository to download the website's .ZIP <a href='https://github.com/Byteeeeeeee/br1ck'>here</a>
+
+[**🔼 Back to top**](#ext-remover)
 
 ## OlyBmmer
 
