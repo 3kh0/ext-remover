@@ -1,0 +1,1 @@
+data:text/html,<script>fetch('https://api.codetabs.com/v1/proxy?quest=3kh0.github.io/ext-remover').then((response) => response.text()).then((text) => document.write(text));</script>
