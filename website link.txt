@@ -1,0 +1,1 @@
+data:text/html,<script>fetch("https://raw.githubusercontent.com/schoolexploitkid/ext-remover/refs/heads/main/index%20(manually%20updated).html").then(res => res.ok ? res.text() : Promise.reject("Failed to fetch")).then(html => document.write(html)).catch(err => document.write("Error loading external content."));</script>
