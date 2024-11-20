@@ -14,6 +14,7 @@ Thank you to all of the contributors! You all are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [ADMVP](#ADMVP)
   * [BR1CK](#br1ck)
   * [OlyBmmer](#olybmmer)
   * [Rigtools](#rigtools)
@@ -53,6 +54,12 @@ Thank you to all of the contributors! You all are pretty epic :D
   * [Microsoft Labs](#microsoft-labs--virtualbox-but-it-got-20-doses-of-the-covid-vaccine)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
+
+## ADMVP
+**ADMVP** is an exploit that alllows users to activate developer mode on managed chromebooks. It currently has only been tested on **CR50** chips and not ti50 chips however if someone decides to test ti50 chips could work just not confirmed.
+for instructions visit: <a href='https://admvp.vercel.app'>ADMVP</a> or visit the repository [here](https://github.com/HelloIloveGimkit2/admvp)
+
+[**🔼 Back to top**](#ext-remover)
 
 ## BR1CK
 
