@@ -59,6 +59,8 @@ Thank you to all of the contributors! You all are pretty epic :D
 **ADMVP** is an exploit that alllows users to activate developer mode on managed chromebooks. It currently has only been tested on **CR50** chips and not ti50 chips however if someone decides to test ti50 chips could work just not confirmed.
 for instructions visit: <a href='https://admvp.vercel.app'>ADMVP</a> or visit the repository [here](https://github.com/HelloIloveGimkit2/admvp)
 
+[**🔼 Back to top**](#ext-remover)
+
 ## BR1CK
 
 **BR1CK** is an exploit that allows users to unenroll/deprovise managed chromebooks. It currently works on all versions for **CR50s** (ti50 isn't and will not be supported)
