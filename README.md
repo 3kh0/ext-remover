@@ -142,7 +142,7 @@ If:
 - `kernver=` ends with a 2: <br />
 Congratulations, you can downgrade to v119 or lower! Follow the instructions at [Downgrading *Change versions*](#downgrading-change-versions) on how to downgrade.
 
-- `kernver=` ends with a number that is <= 3: <br />
+- `kernver=` ends with a 3 or higher: <br />
 Sorry, you can't downgrade to v119 or lower. Wait for a new unenrollment exploit or do a [**dangerous** hardware modification.](https://blog.darkn.bio/blog/3-the-tsunami)
 
 ### Using CryptoSmite
