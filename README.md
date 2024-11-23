@@ -14,7 +14,6 @@ Thank you to all of the contributors! You all are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
-  * [ADMVP](#ADMVP)
   * [BR1CK](#br1ck)
   * [OlyBmmer](#olybmmer)
   * [Rigtools](#rigtools)
@@ -849,10 +848,9 @@ Go to <a href="https://quickview-exploit.pages.dev/">quickview-exploit.pages.dev
 ### Getting started
 
 Visit any of the links below:
-- https://buypass.bypassi.com
-- https://buypass.brandonprather.repl.co
-- https://buypass.glitch.me
-- https://buypass.netlify.app
+- https://the-buypass.netlify.app/
+- https://playful-meringue-fb58bc.netlify.app/ 
+- https://buypass-poc.netlify.app/
 
 ### Further reading
 - [Repository](https://github.com/bypassiwastaken/buypass)
@@ -891,24 +889,22 @@ THIS EXPLOIT WILL NOT WORK FOR YOU IF YOU HAVE ANY EXTENSION BESIDES GOGUARDIAN
 4. If the GET request fails and you are left on an error screen (don't panic, this is intended, continue)
 5. Visit `chrome://restart`` to clear cached sites from GoGuardian
 
-Credit to akabutnice
+Credit to [aka-but-nice](https://github.com/aka-but-nice)
 
 [**🔼 Back to top**](#ext-remover)
 
-## Microsoft Labs *Virtualbox but it got 20 doses of the COVID Vaccine*
+## Microsoft Labs *Virtualbox but ass*
 
-Thanks a bunch Bill Gates
-
-**Do this! Not drugs!**
+### Instructions:
 1. Go to this website [Microsoft Labs](https://learn.microsoft.com/en-us/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)
 2. Click the button that says "Sign in to launch VM mode."
-3. Holy guacamole! You need a Microsoft Account! Use your credentials and sign in.
+3. Wowzers! You need a Microsoft Account! Use your credentials and sign in.
 4. Load the virtual machine by clicking the button or if you sign it it will redirect you to it automatically.
 5. The password is `pass@word1`.
 6. Load in and profit!
 
 NOTE: Sound doesn't work and a lot of websites are blocked, but it's just fun to screw around with.
 
-(Not really) credit to mundaneunblocking
+(Not really) Credit to mundaneunblocking for readding this exploit
 
 [**🔼 Back to top**](#ext-remover)
