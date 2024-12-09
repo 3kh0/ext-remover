@@ -15,7 +15,7 @@ Thank you to all of the contributors! You all are pretty epic :D
 
 - [EXT-REMOVER](#ext-remover)
   * [BR1CK](#br1ck)
-  * [OlyBmmer](#olybmmer)
+  * [BadRecovery](#badrecovery)
   * [Rigtools](#rigtools)
   * [ExtHang3r](#exthang3r)
   * [CryptoSmite *Unenrollment*](#cryptosmite--unenrollment)
@@ -61,9 +61,9 @@ for instructions visit: <a href='https://br1ck.vercel.app'>BR1CK's website</a> o
 
 [**🔼 Back to top**](#ext-remover)
 
-## OlyBmmer
+## BadRecovery (Formerly OlyBmmer)
 
-**OlyBmmer** is an exploit that allows users to unenroll school-managed Chromebooks. Due to the specificness of this exploit, please visit the linked repository: <a href='https://github.com/BinBashBanana/badrecovery'>OlyBmmer Exploit</a>
+**BadRecovery** is an exploit that allows users to unenroll school-managed Chromebooks. Due to the specificness of this exploit, please visit the linked repository: <a href='https://github.com/BinBashBanana/badrecovery'>BadRecovery Exploit</a>
 
 [**🔼 Back to top**](#ext-remover)
 
