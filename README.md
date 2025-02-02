@@ -750,9 +750,18 @@ Kill extensions by signing out.
 4. Now visit `tinyurl.com/AddSession` or [this link.](https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAlAmgQ&flowName=GlifWebSignIn&flowEntry=AddSession)
 5. Add your **SCHOOL** account back. It WILL NOT WORK if you add a home account back. This is just so you can still access Google Drive, YouTube, and any Google service.
 
+Alternate method (unpatched)
+1. Visit chrome://settings/content/all
+2. Find google.com
+3. Click trashcan button
+4. Click delete
+5. Go to chrome://extensions and find securly (or whatever other ext)
+6. Click the allow access to file urls switch
+Now you can go to the link and add account back if you want, but not necessary.
+
 All of your extensions should stop working. Note that you must repeat this every time you restart or sign out. 
 
-This exploit is patched on Chrome versions 112 and above. Credit to Zoroark
+Method 1 is patched on Chrome versions 112 and above. Method 2 remains unpatched. Credit to Zoroark for method 1 and schoolexploitkid for method 2.
 
 [**🔼 Back to top**](#ext-remover)
 
