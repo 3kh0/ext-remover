@@ -55,7 +55,7 @@ Thank you to all of the contributors! You all are pretty epic :D
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
-## Securly Kill
+## SecurlyKill
 
 You must be able to install ublock origin to do this.
 Steps:
