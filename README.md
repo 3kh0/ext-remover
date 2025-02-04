@@ -14,7 +14,7 @@ Thank you to all of the contributors! You all are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
-  * [Securly Kill](#securly-kill)
+  * [Securly Kill](#securlykill)
   * [BR1CK](#br1ck)
   * [OlyBmmer](#olybmmer)
   * [Rigtools](#rigtools)
@@ -55,7 +55,7 @@ Thank you to all of the contributors! You all are pretty epic :D
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
-## Securly-Kill
+## Securly Kill
 
 You must be able to install ublock origin to do this.
 Steps:
