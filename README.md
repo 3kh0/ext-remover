@@ -19,7 +19,7 @@ Thank you to all of the contributors! You all are pretty epic :D
   * [OlyBmmer](#olybmmer)
   * [Rigtools](#rigtools)
   * [ExtHang3r](#exthang3r)
-  * [CryptoSmite *Unenrollment*](#cryptosmite--unenrollment)
+  * [CryptoSmite *Unenrollment*](#cryptosmite-unenrollment)
   * [SH1MMER *Unenrollment*](#sh1mmer--unenrollment)
   * [Hapara Focus Session Bypass](#hapara-focus-session-bypass)
   * [GuardianTabCrash *Unrestricted browsing*](#guardiantabcrash--unrestricted-browsing)
