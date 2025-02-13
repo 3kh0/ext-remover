@@ -127,7 +127,7 @@ Link to repo for official ui: https://github.com/FWSmasher/rigtools
 [**🔼 Back to top**](#ext-remover)
 ## ExtPrint3r
 
-**ExtPrint3r** is an exploit that allows users to toggle admin-installed extensions on and off by printing iframes. It is based on [LTMEAT Print](#ltmeat-print-freeze-extensions). As of February 2025, it remains **unpatched** in Chrome OS 132.
+**ExtPrint3r** is an exploit that allows users to toggle admin-installed extensions on and off by printing iframes. The exploit is based on [LTMEAT Print](#ltmeat-print-freeze-extensions), and as of February 2025, it remains **unpatched** in Chrome OS 132.
 
 ### How do I use it?
 
@@ -145,7 +145,7 @@ data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%22%3
 
 > It's recommended to use [ExtPrint3r](#extprint3r) instead, since it's much more consisent and lasts for a longer period of time.
 
-**ExtHang3r** is an exploit that allows users to toggle admin-installed extensions on and off by flooding iframes in a window. It is based on [LTMEAT Flood](#ltmeat-flood-freeze-extensions). As of February 2025, it remains **unpatched** in Chrome OS 132.
+**ExtHang3r** is an exploit that allows users to toggle admin-installed extensions on and off by flooding iframes in a window. The exploit is based on [LTMEAT Flood](#ltmeat-flood-freeze-extensions), and as of February 2025, it remains **unpatched** in Chrome OS 132.
 
 ### How do I use it?
 
