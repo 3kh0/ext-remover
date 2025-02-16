@@ -867,10 +867,9 @@ Go to <a href="https://quickview-exploit.pages.dev/">quickview-exploit.pages.dev
 ### Getting started
 
 Visit any of the links below:
-- [https://buypass.bypassi.com](https://buypass.bypassi.com)
-- [https://buypass.glitch.me](https://buypass.glitch.me)
-- [https://buypass.netlify.app](https://buypass.netlify.app)
-- [https://buypass.brandonprather.repl.co](https://replit.com/@BrandonPrather/Buypass)
+- [https://the-buypass.netlify.app/](https://the-buypass.netlify.app/)
+- [https://playful-meringue-fb58bc.netlify.app/](https://playful-meringue-fb58bc.netlify.app/)
+- [https://buypass-poc.netlify.app/](https://buypass-poc.netlify.app/)
 
 ### Further reading
 - [Repository](https://github.com/bypassiwastaken/buypass)
