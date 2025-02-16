@@ -254,9 +254,13 @@ Within the unblocked browser, you can
 
 ### How to use it
 
-Bypassi made a wonderful slideshow for you goofballs to follow, archived below!
+Bypassi made a wonderful slideshow for you goofballs to follow and view using the first link below! (Note: The others no longer work and are only there for archival purposes.)
 
 - [`img/skiovox.pdf`](img/skiovox.pdf)
+- https://www.skiovox.com/skiovox.pdf
+- https://drive.google.com/file/d/1tl8eP26MFRejHO38H5HwMLl2VaQrtn0Z/preview
+- https://ftp.3kh0.net/Archive/skiovox.pdf
+- https://1drv.ms/b/s!Ais5N3vPLTEMh8poZbywnNWdMUrhUA?e=MaCHBx
 
 ### Further Reading
 - [Skiovox helper](https://github.com/bypassiwastaken/skiovox-helper)
@@ -869,7 +873,13 @@ Go to <a href="https://quickview-exploit.pages.dev/">quickview-exploit.pages.dev
 Visit any of the links below:
 - [https://the-buypass.netlify.app/](https://the-buypass.netlify.app/)
 - [https://playful-meringue-fb58bc.netlify.app/](https://playful-meringue-fb58bc.netlify.app/)
-- [https://buypass-poc.netlify.app/](https://buypass-poc.netlify.app/)
+- [https://buypass-poc.netlify.app/](https://buypass-poc.netlify.app)
+
+Broken links:
+- https://buypass.bypassi.com
+- https://buypass.brandonprather.repl.co
+- https://buypass.glitch.me
+- https://buypass.netlify.app
 
 ### Further reading
 - [Repository](https://github.com/bypassiwastaken/buypass)
