@@ -126,7 +126,7 @@ Link to repo for official ui: https://github.com/FWSmasher/rigtools
 [**🔼 Back to top**](#ext-remover)
 ## ExtPrint3r
 
-**ExtPrint3r** is an exploit that allows users to toggle admin-installed extensions on and off by printing iframes. and it is based on [LTMEAT Print](#ltmeat-print-freeze-extensions). This has been **patched** above Chrome OS 134, and no fix has been found yet.
+**ExtPrint3r** is an exploit based on [LTMEAT Print](#ltmeat-print-freeze-extensions) that allows users to toggle admin-installed extensions on and off by printing iframes. This has been **patched** in versions higher than Chrome OS 134, and no fix has been found yet.
 
 ### How do I use it?
 
