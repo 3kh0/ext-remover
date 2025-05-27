@@ -3,7 +3,7 @@
 
 This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there are more! Some of these exploits can destroy your computer if misused. So PLEASE, PLEASE make sure you follow these instructions very carefully!
 
-<b>Need help? Ask at Titanium Network! (Note: the discussions in this repo are very inactive; you will probably not get any replies if you try making a post there.) </b>
+<b>Need help? Ask [here](https://github.com/3kh0/ext-remover/discussions)! (Note: the discussions in this repo are very inactive; you will probably not get any replies if you try making a post there.) </b>
 
 Please use these only when you have permission - I (3kh0) do not condone the use of any exploits for illegal purposes!
 
