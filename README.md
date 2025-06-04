@@ -123,8 +123,23 @@ chrome.browserAction.onClicked.addListener(() => {chrome.tabs.executeScript(null
 and if it works, nice! If it doesn't, then cry in a corner.
 
 
-Link to repo to self host for new/unofficial ui: https://github.com/Sincereham222/rigtools-newui
-Link to repo for official ui: https://github.com/FWSmasher/rigtools
+Link to repo to self host for new/unofficial ui: [https://github.com/Sincereham222/rigtools-newui](https://github.com/T3M1N4L/rigtools-updated-ui)
+Link to repo for official ui: [https://github.com/FWSmasher/rigtools](https://github.com/MunyDev/rigtools-v2)
+### Hartools
+[crossjbly](https://github.com/crossjbly/), and a few friends had figured out how to still use rigtools post-rigtools patch on 129-132 **if javascript:// URLs are unblocked** through the use of http archive files, aka `.har` files. If javascript:// URLs are **Blocked** this method only works until version 128 (patched **on** 129).
+1. Download the latest `.har` file from the [releases page](https://github.com/t3m1n4l/rigtools-updated-ui/releases/latest/)
+2. Get the `.har` file onto the device you want to run the devtools XSS on
+3. On the device you want to run the devtools XSS on go to `devtools://devtools/bundled/inspector.html`
+> If `devtools://devtools/bundled/inspector.html` is blocked use the one of the following links
+> * `devtools://devtools/bundled/js_app.html`
+> * `devtools://devtools/bundled/devtools_app.html`
+> * `devtools://devtools/bundled/worker_app.html`
+4. Once it FULLY loads, add `?experiments=true` to the end of the URL and click enter. (ex. `devtools://devtools/bundled/inspector.html?expirements=true`)
+5. Go to the `Network` tab. If you can't find it there should be a button on the topbar that looks like this `>>` and a dropdown should open in which you can select `Network`
+> ^^^ if you are already on the network page you can skip this ^^^
+6. Click the little upload button and upload the downloaded `.har` file
+> ^^^ you may need to expand the sidebar to see it ^^^
+7. Double click on the text that appears in the box `[DOUBLE CLICK THIS]`
 
 [**🔼 Back to top**](#ext-remover)
 ## ExtPrint3r
