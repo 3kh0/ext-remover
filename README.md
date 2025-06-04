@@ -95,7 +95,7 @@ for instructions visit: <a href='https://br1ck.vercel.app'>BR1CK's website</a> o
 devtools://devtools/bundled/devtools_app.html
 ```
 2. Open this link and go to Network
-
+<br>(Notice: If it says "WebSocket Disconnected," the link is down. Try to find a working one, self-host it, or, the easiest option, use Hartools as shown further below.
 ```md
 devtools://devtools/bundled/devtools_app.html?experiments=true&ws=rig.kxtz.dev/
 ```
