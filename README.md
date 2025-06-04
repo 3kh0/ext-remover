@@ -292,7 +292,7 @@ Bypassi made a wonderful slideshow for you goofballs to follow and view using th
 ## LTBEEF *Disable extensions*
 
 LTBEEF (Literally The Best Exploit Ever Found) is an exploit found by Bypassi (Bypassi#7037) in September 2022 and is a great way to disable spyware installed on your Chromebook by your school.
-
+**Please note that this exploit has been patched in newer versions of chrome (later versions of 102, and 106+) and may not work.**
 ### How to use LTBEEF
 
 Use either of the two bookmarklets below. The instructions are the same for both.
