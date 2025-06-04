@@ -127,7 +127,8 @@ Link to repo to self host for new/unofficial ui: [https://github.com/Sincereham2
 Link to repo for official ui: [https://github.com/FWSmasher/rigtools](https://github.com/MunyDev/rigtools-v2)
 ### Hartools
 [crossjbly](https://github.com/crossjbly/), and a few friends had figured out how to still use rigtools post-rigtools patch on 129-132 **if javascript:// URLs are unblocked** through the use of http archive files, aka `.har` files. If javascript:// URLs are **Blocked** this method only works until version 128 (patched **on** 129).
-1. Download the latest `.har` file from the [releases page](https://github.com/t3m1n4l/rigtools-updated-ui/releases/latest/)
+1. Download the latest `.har` file from the [releases page](https://github.com/t3m1n4l/rigtools-updated-ui/releases/latest/) or the 5/20/25 release [here](https://github.com/3kh0/ext-remover/blob/main/hartools-5-20-2025.har) if that one doesn't work (you will have to click "download raw.")
+
 2. Get the `.har` file onto the device you want to run the devtools XSS on
 3. On the device you want to run the devtools XSS on go to `devtools://devtools/bundled/inspector.html`
 > If `devtools://devtools/bundled/inspector.html` is blocked use the one of the following links
