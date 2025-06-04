@@ -1,9 +1,11 @@
 # EXT-REMOVER
+**NOTE: THIS LIST IS VERY OUTDATED AND MISSING A LOT OF STUFF. TO SEE A FULL COLLECTION, JOIN TITANIUM NETWORK <a href="https://discord.gg/unblock">HERE</a>.** <br>
+
 This is a curated list of exploits for ChromeOS. It started with LTBEEF, and now there are more! Some of these exploits can destroy your computer if misused. So PLEASE, PLEASE make sure you follow these instructions very carefully!
 
-<b>Need help? Ask for help <a href="https://github.com/3kh0/ext-remover/discussions">here</a>!</b>
+<b>Need help? Ask [here](https://github.com/3kh0/ext-remover/discussions)! (Note: the discussions in this repo are very inactive; you will probably not get any replies if you try making a post there.) </b>
 
-Please use these only when you have permission, I (3kh0) do not condone the use of any exploits for illegal purposes!
+Please use these only when you have permission - I (3kh0) do not condone the use of any exploits for illegal purposes!
 
 <img width="250px" src="https://user-images.githubusercontent.com/58097612/191354621-bf7ff072-b9d7-46b5-994a-4d2adbf0e4f3.png">
 
@@ -58,9 +60,9 @@ Thank you to all of the contributors! You all are pretty epic :D
 
 ## Securly Kill
 
-You must be able to install ublock origin to do this.
+You must be able to install uBlock Origin to do this.
 Steps:
-1. Install Ublock Origin extension
+1. Install uBlock Origin.
 2. Set up URun
 3. Go to https://securly.com and click Ctrl + Shift + ` (It will say blocked but its fine) ## DO NOT CLOSE THE OPENED WINDOW!!!
 4. Remove URun and set up UBlock run
@@ -812,7 +814,7 @@ If your school allows the uBlock Origin Chrome extension, you can run bookmarkle
 ```
 *##+js(execute_script.js)
 ```
-6. Now press ctr+alt+tilde (~) to run code on the current page
+6. Now press ctrl+alt+tilde (~) to run code on the current page
 7. Have fun!
 
 [**🔼 Back to top**](#ext-remover)
@@ -840,7 +842,7 @@ Recently Google cracked down on bookmarklets and now they don't work (It's based
 > ```
 > to
 > ```
-> userResourcesLocation https://inglan2.github.io/uRun/urun.js
+> userResourcesLocation https://ustuff.github.io/uRun/urun.js
 > ```
 
 > [!TIP]
@@ -937,20 +939,15 @@ Credit to akabutnice
 
 [**🔼 Back to top**](#ext-remover)
 
-## Microsoft Labs *Virtualbox but it got 20 doses of the COVID Vaccine*
+## Microsoft Labs *Virtualbox but worse*
 
-Thanks a bunch Bill Gates
-
-**Do this! Not drugs!**
 1. Go to this website [Microsoft Labs](https://learn.microsoft.com/en-us/training/modules/implement-common-integration-features-finance-ops/10-exercise-1)
 2. Click the button that says "Sign in to launch VM mode."
-3. Holy guacamole! You need a Microsoft Account! Use your credentials and sign in.
-4. Load the virtual machine by clicking the button or if you sign it it will redirect you to it automatically.
+3. Oh! You need a Microsoft Account! Use your credentials and sign in.
+4. Load the virtual machine by clicking the button. If you sign in, it will redirect you to it automatically.
 5. The password is `pass@word1`.
 6. Load in and profit!
 
 NOTE: Sound doesn't work and a lot of websites are blocked, but it's just fun to screw around with.
-
-(Not really) credit to mundaneunblocking
 
 [**🔼 Back to top**](#ext-remover)
