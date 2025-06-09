@@ -95,7 +95,7 @@ for instructions visit: <a href='https://br1ck.vercel.app'>BR1CK's website</a> o
 devtools://devtools/bundled/devtools_app.html
 ```
 2. Open this link and go to Network
-
+<br>(Notice: If it says "WebSocket Disconnected," the link is down. Try to find a working one, self-host it, or, the easiest option, use HarTools.
 ```md
 devtools://devtools/bundled/devtools_app.html?experiments=true&ws=rig.kxtz.dev/
 ```
@@ -123,8 +123,9 @@ chrome.browserAction.onClicked.addListener(() => {chrome.tabs.executeScript(null
 and if it works, nice! If it doesn't, then cry in a corner.
 
 
-Link to repo to self host for new/unofficial ui: https://github.com/Sincereham222/rigtools-newui
-Link to repo for official ui: https://github.com/FWSmasher/rigtools
+Link to repo to self host for new/unofficial ui: [https://github.com/Sincereham222/rigtools-newui](https://github.com/T3M1N4L/rigtools-updated-ui)
+Link to repo for official ui: [https://github.com/FWSmasher/rigtools](https://github.com/MunyDev/rigtools-v2)
+
 
 [**🔼 Back to top**](#ext-remover)
 ## ExtPrint3r
@@ -276,7 +277,7 @@ Bypassi made a wonderful slideshow for you goofballs to follow and view using th
 ## LTBEEF *Disable extensions*
 
 LTBEEF (Literally The Best Exploit Ever Found) is an exploit found by Bypassi (Bypassi#7037) in September 2022 and is a great way to disable spyware installed on your Chromebook by your school.
-
+**Please note that this exploit has been patched in newer versions of chrome (later versions of 102, and 106+) and may not work.**
 ### How to use LTBEEF
 
 Use either of the two bookmarklets below. The instructions are the same for both.
