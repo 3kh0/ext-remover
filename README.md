@@ -55,6 +55,7 @@ Thank you to all of the contributors! You all are pretty epic :D
   * [SOT Exploit *Open URLs in OneTab*](#sot-exploit-open-urls-in-onetab)
   * [GoGuardian GoAway *GoGuardian bypass*](#goguardian-goaway-goguardian-bypass)
   * [Microsoft Labs](#microsoft-labs-virtualbox-but-it-got-20-doses-of-the-covid-vaccine)
+  * [Pi-Hole Securly Disabling](#pi-hole-securly-disabling)
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
@@ -950,5 +951,20 @@ Credit to akabutnice
 6. Load in and profit!
 
 NOTE: Sound doesn't work and a lot of websites are blocked, but it's just fun to screw around with.
+
+[**🔼 Back to top**](#ext-remover)
+
+
+## Pi-Hole Securly Disabling
+## Unpatched as of ChromeOS v138 (tested today)
+1. Install pi-hole on a Raspberry Pi
+2. In the web interface, go to the Lists tab
+3. Add `https://raw.githubusercontent.com/imcalledfyre/securly-pihole-disabler/refs/heads/main/hosts` as a blocklist
+4. Reboot the pi
+5. Go to your chromebook's wifi network, and in the network tab, put the pi's ip as number 1, and then 1.1.1.1 as the second one, so if the pi goes down it doesnt break your network
+6. Admin blocked DNS? Too bad, or use the ONC thingy to put custom DNS
+   
+NOTE: your pi must be on the same local network as the chromebook for this to work
+Sorry if i messed up how to add stuff, im new to this github commit stuff
 
 [**🔼 Back to top**](#ext-remover)
