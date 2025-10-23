@@ -36,7 +36,7 @@ Thank you to all of the contributors! You all are pretty epic :D
   * [LTMEAT Overload *Hang extensions*](#ltmeat-overload-hang-extensions)
   * [Dextensify *Freeze extensions*](#dextensify-freeze-extensions)
   * [JPCMG *LTBEEF w/ Service workers*](#jpcmg-ltbeef-w-service-workers)
-  * [Corkey *Corrupt extensions*](#corkey-corrupt-extensions)
+  * [Corkey/Crimson *Corrupt extensions*](#corkey-corrupt-extensions)
   * [Extension Launcher *Install extensions w/o allowlist*](#extension-launcher-install-extensions-wo-allowlist)
   * [Point-Blank *Execute scripts on extension pages*](#point-blank-execute-scripts-on-extension-pages)
   * [UBoss *Tamper with IBoss*](#uboss-tamper-with-iboss)
@@ -500,7 +500,7 @@ Thanks to Nyaann#3881 for this exploit
 
 [**🔼 Back to top**](#ext-remover)
 
-## Corkey *Corrupt extensions*
+## Corkey (a.k.a. Crimson) *Corrupt extensions*
 
 Corkey does indeed include power washing the Chromebook, which wipes local data including everything under "My files," so I suggest you select everything you want to drag and back up to Google Drive if that's available for your account.
 
