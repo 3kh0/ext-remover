@@ -466,6 +466,8 @@ Credit to Bypassi for the original LTMEAT framework, and to Swordmaster4321 for 
 4. Spam the file URLs switch for a couple seconds, until the size section starts loading forever
 5. Quickly switch to the tab and hit enter.
 6. Any time you want to navigate to a new website spam the switch again
+
+Note: Securly has "patched" this by making an overlay anytime the extension hangs. This can be fixed with uBlock origin (if you have it installed) by using the "element zapper" (lightning bolt button) to delete the overlay.
    
 [**🔼 Back to top**](#ext-remover)
 
