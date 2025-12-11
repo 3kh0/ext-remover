@@ -614,7 +614,7 @@ If it doesn't work let us know by creating a discussion, this was made in partne
 
 [**🔼 Back to top**](#ext-remover)
 
-## CAUB *Prevent Updates*
+## CAUB *Prevent Updates* (Patched on v129 and above)
 
 This exploit keeps your Chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by Catakang#0987. Using onc files, you can convince your Chromebook that the WiFi that you're connected to is pay-to-use (like a hotspot using data), and thus it will not check for updates. 
 ### Note
