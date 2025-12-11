@@ -460,14 +460,17 @@ Credit to Bypassi for the original LTMEAT framework, and to Swordmaster4321 for 
 
 ## LTMEAT Overload *Hang extensions*
 
+> [!NOTE]
+> This is patched in newer Chrome versions by only reloading extensions when you restart the browser. If you know the exact version where this was patched, please create an issue and ping [@djshelfmushroom](https://github.com/djshelfmushroom)
 1. Go to `chrome://extensions/?id=extension_id_here`
 2. Find the `Allow access to file URLs` switch
-3. Open the site you want to go to in the address bar of a new tab **DO NOT OPEN THE SITE YET**
-4. Spam the file URLs switch for a couple seconds, until the size section starts loading forever
-5. Quickly switch to the tab and hit enter.
+3. Put the URL of the site you want to go to in the address bar of a new tab **DO NOT OPEN THE SITE YET**
+4. Spam the file URLs switch for a couple seconds, until the size section starts loading forever. This can be done with enter or spacebar if you click the switch once first.
+5. Quickly switch to the tab with your website and hit enter.
 6. Any time you want to navigate to a new website spam the switch again
 
-Note: Securly has "patched" this by making an overlay anytime the extension hangs. This can be fixed with uBlock origin (if you have it installed) by using the "element zapper" (lightning bolt button) to delete the overlay.
+> [!NOTE]
+> Securly has "patched" this by making an overlay anytime the extension hangs. This can be fixed with uBlock origin (if you have it installed) by using the "element zapper" (lightning bolt button) to delete the overlay.
    
 [**🔼 Back to top**](#ext-remover)
 
