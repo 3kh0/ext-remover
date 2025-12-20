@@ -60,21 +60,21 @@ Thank you to all of the contributors! You all are pretty epic :D
 
 ## Quicksilver (Unenrollment)
 
-Quicksilver - unenrollment from v125 - v142 (kv4 - kv6)
-Quicksilver is an exploit for ChromeOS devices allowing for unenrollment on devices v125 or above (kv4) and v142 or below (kv6)
-Don't know what your ChromeOS version or kernver is? Check here
-How to use
-If your device can boot SH1MMER (unkeyrolled):
-Boot SH1MMER (make sure the version is from at least December 15th 2025)
-Open the payloads menu and run the quicksilver payload
-Go through setup, you should be unenrolled!!
-if your version is from before December 15th 2025, run this command in the bash shell: `vpd -i RW_VPD -s re_enrollment_key="$(openssl rand -hex 32)"`. it will say unable to write 'random state', ignore this
-If your device cannot boot SH1MMER (keyrolled):
-Do ⁠Sh1ttyExec <143
-Enable developer mode & then enter recovery mode again
-Boot a GoodSilver image and choose "Deprosivion"
-After it reboots, go through setup, you will be unenrolled!!
-This is persistent if you're on an unpatched version (<=v142)! If you're not updated & want to re-enroll run vpd -i RW_VPD -d "re_enrollment_key" in any shell
+Quicksilver - unenrollment from v125 - v142 (kv4 - kv6) <br>
+Quicksilver is an exploit for ChromeOS devices allowing for unenrollment on devices v125 or above (kv4) and v142 or below (kv6) <br>
+Don't know what your ChromeOS version or kernver is? Check here <br>
+How to use<br>
+If your device can boot SH1MMER (unkeyrolled):<br>
+Boot SH1MMER (make sure the version is from at least December 15th 2025)<br>
+Open the payloads menu and run the quicksilver payload<br>
+Go through setup, you should be unenrolled!!<br>
+if your version is from before December 15th 2025, run this command in the bash shell: `vpd -i RW_VPD -s re_enrollment_key="$(openssl rand -hex 32)"`. it will say unable to write 'random state', ignore this<br>
+If your device cannot boot SH1MMER (keyrolled):<br>
+Do ⁠Sh1ttyExec <143<br>
+Enable developer mode & then enter recovery mode again<br>
+Boot a GoodSilver image and choose "Deprosivion"<br>
+After it reboots, go through setup, you will be unenrolled!!<br>
+This is persistent if you're on an unpatched version (<=v142)! If you're not updated & want to re-enroll run vpd -i RW_VPD -d "re_enrollment_key" in any shell<br>
 Please look at ⁠Avoiding accidental re-enrollment if you update to a patched version
 
 ## Avoiding Accidental Re-enrollment
