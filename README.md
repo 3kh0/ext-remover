@@ -58,6 +58,62 @@ Thank you to all of the contributors! You all are pretty epic :D
 
 <small><i><a href='http://github.com/3kh0/readme-toc/'>Table of contents generated with readme-toc</a></i></small>
 
+## Quicksilver (Unenrollment)
+
+Quicksilver - unenrollment from v125 - v142 (kv4 - kv6) <br>
+Quicksilver is an exploit for ChromeOS devices allowing for unenrollment on devices v125 or above (kv4) and v142 or below (kv6) <br>
+Don't know what your ChromeOS version or kernver is? Check here <br>
+How to use<br>
+If your device can boot SH1MMER (unkeyrolled):<br>
+Boot SH1MMER (make sure the version is from at least December 15th 2025)<br>
+Open the payloads menu and run the quicksilver payload<br>
+Go through setup, you should be unenrolled!!<br>
+if your version is from before December 15th 2025, run this command in the bash shell: `vpd -i RW_VPD -s re_enrollment_key="$(openssl rand -hex 32)"`. it will say unable to write 'random state', ignore this<br>
+If your device cannot boot SH1MMER (keyrolled):<br>
+Do ⁠Sh1ttyExec <143<br>
+Enable developer mode & then enter recovery mode again<br>
+Boot a GoodSilver image and choose "Deprosivion"<br>
+After it reboots, go through setup, you will be unenrolled!!<br>
+This is persistent if you're on an unpatched version (<=v142)! If you're not updated & want to re-enroll run vpd -i RW_VPD -d "re_enrollment_key" in any shell<br>
+Please look at ⁠Avoiding accidental re-enrollment if you update to a patched version
+
+## Avoiding Accidental Re-enrollment
+
+r110 and lower:
+Run this command in any root shell:
+`vpd -i RW_VPD -s check_enrollment=0`
+ Then powerwash (verified or developer mode)
+
+r111-r124:
+CL: https://crrev.com/c/4255465
+
+Run these commands in a developer mode root shell (or a shim with CTRL+U boot):
+`vpd -i RW_VPD -s check_enrollment=0
+tpm_manager_client take_ownership
+cryptohome --action=remove_firmware_management_parameters`
+ Then powerwash (verified or developer mode)
+
+r125-r135:
+CL: https://crrev.com/c/5454834
+
+Powerwash, go to developer mode, enter VT2, and run these commands (make sure to type the > and >> exactly as you see them):
+`echo --enterprise-enable-unified-state-determination=never >/tmp/chrome_dev.conf
+echo --enterprise-enable-forced-re-enrollment=never >>/tmp/chrome_dev.conf
+echo --enterprise-enable-initial-enrollment=never >>/tmp/chrome_dev.conf
+mount --bind /tmp/chrome_dev.conf /etc/chrome_dev.conf
+initctl restart ui`
+ Then switch out of VT2 and set up the device (don't reboot until you've finished setting it up).
+
+r136+
+CL: https://crrev.com/c/6309012
+
+Powerwash, go to developer mode, enter VT2, and run these commands:
+`echo --enterprise-enable-state-determination=never >/tmp/chrome_dev.conf
+mount --bind /tmp/chrome_dev.conf /etc/chrome_dev.conf
+initctl restart ui`
+ Then switch out of VT2 and set up the device (don't reboot until you've finished setting it up).
+ 
+
 ## Securly Kill
 
 You must be able to install uBlock Origin to do this.
