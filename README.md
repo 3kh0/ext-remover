@@ -16,6 +16,8 @@ Thank you to all of the contributors! You all are pretty epic :D
 <a href="https://github.com/3kh0/ext-remover/graphs/contributors"><img src="https://contrib.rocks/image?repo=3kh0/ext-remover" /></a>
 
 - [EXT-REMOVER](#ext-remover)
+  * [Quicksilver - Unenrollment](#securly-kill)
+  * [Avoiding Re-enrollment](#securly-kill)
   * [Securly Kill](#securly-kill)
   * [BR1CK](#br1ck)
   * [BadRecovery](#badrecovery)
