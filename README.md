@@ -332,6 +332,24 @@ Bypassi made a wonderful slideshow for you goofballs to follow and view using th
 
 [**🔼 Back to top**](#ext-remover)
 
+## VPSE *view page source*
+
+VPSE (view page source Exploit) was found by me robloxsuckslikereallydude in december of 2023, and is the best way to hack ur school's testing site and get an A
+
+### How to use VPSE
+here are the prerequisites:
+- A functioning brain
+and that's all
+
+#### doing the exploit
+put view-source: before https:// PLEASE NOTE THAT YOU PUT THE COLON IN WITH view-source AT THE END
+
+#### Example for retards
+view-source:https://www.iboss.com
+there example
+
+[**🔼 Back to top**](#ext-remover)
+
 ## LTBEEF *Disable extensions*
 
 LTBEEF (Literally The Best Exploit Ever Found) is an exploit found by Bypassi (Bypassi#7037) in September 2022 and is a great way to disable spyware installed on your Chromebook by your school.
