@@ -28,6 +28,7 @@ Thank you to all of the contributors! You all are pretty epic :D
   * [Hapara Focus Session Bypass](#hapara-focus-session-bypass)
   * [GuardianTabCrash *Unrestricted browsing*](#guardiantabcrash-unrestricted-browsing)
   * [Skiovox *Unrestricted browsing*](#skiovox-unrestricted-browsing)
+  * [VSEM](#vsem-view-page-source)
   * [LTBEEF *Disable extensions*](#ltbeef-disable-extensions)
   * [LoMoH *Disable extensions*](#lomoh-disable-extensions)
   * [LTMEAT *Disable extensions*](#ltmeat-disable-extensions)
@@ -331,6 +332,22 @@ Bypassi made a wonderful slideshow for you goofballs to follow and view using th
 - [Skiovox helper](https://github.com/bypassiwastaken/skiovox-helper)
 
 [**🔼 Back to top**](#ext-remover)
+
+
+## VSEW *View page source*
+VSEW (View Source Exploit Website) this exploit was found by robloxsuckslikereallydude in December 2023, and is the greatest way to hack the communist and troll them
+
+### How to Use VSEW
+js add view-source: before https:// MAKE SURE COLON IS THERE
+[`img/viewsource.gif`](img/viewsource.gif)
+
+
+#### Help Me I'm retarded
+very clear the steps u need a functioning brain to do it tho
+
+
+[**🔼 Back to top**](#ext-remover)
+
 
 ## LTBEEF *Disable extensions*
 
