@@ -119,6 +119,7 @@ initctl restart ui`
 ## Securly Kill
 
 You must be able to install uBlock Origin to do this.
+NOTE: uBlock Origin Is no longer supported on chrome V140 becuase of a transistion to manifest V2 To V3
 Steps:
 1. Install uBlock Origin.
 2. Set up URun
