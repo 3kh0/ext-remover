@@ -119,21 +119,21 @@ initctl restart ui`
 ## Securly Kill
 
 You must be able to install uBlock Origin to do this.
-NOTE: uBlock Origin Is no longer supported on chrome V140 becuase of a transistion to manifest V2 To V3
+NOTE: uBlock Origin is no longer supported on ChromeOS v140 because of a transition from manifest V2 to V3.
 Steps:
 1. Install uBlock Origin.
 2. Set up URun
 3. Go to https://securly.com and click Ctrl + Shift + ` (It will say blocked but its fine) ## DO NOT CLOSE THE OPENED WINDOW!!!
-4. Remove URun and set up UBlock run
+4. Remove URun and set up uBlock run
 5. Copy the code from here: https://raw.githubusercontent.com/zek-c/Securly-Kill-V111/refs/heads/main/kill.js
-6. Go back to https://securly.com and click Ctrl + Shift + ` again. The prompt will open in the blocked urun window, but that is how it should work
-7. Paste the code you copied into the eval prompt and click enter
+6. Go back to https://securly.com and click Ctrl + Shift + ` again. The prompt will open in the blocked uRun window, but that is how it should work
+7. Paste the code you copied into the eval prompt and click Enter.
 8. A big red OFF button should show up. Click off to kill the extension.
 
 ## BR1CK
 
-**BR1CK** is an exploit that allows users to unenroll/deprovise managed chromebooks. It currently works on all versions for **CR50s** (ti50 isn't and will not be supported)
-for instructions visit: <a href='https://br1ck.vercel.app'>BR1CK's website</a> or visit the repository to download the website's .ZIP <a href='https://github.com/Byteeeeeeee/br1ck'>here</a>
+**BR1CK** is an exploit that allows users to unenroll/de-provision managed Chromebooks. It currently works on all versions for **CR50s** (ti50 isn't and will not be supported)
+For instructions, visit: <a href='https://br1ck.vercel.app'>BR1CK's website</a> or visit the repository to download the website's .ZIP <a href='https://github.com/Byteeeeeeee/br1ck'>here</a>
 
 [**🔼 Back to top**](#ext-remover)
 
@@ -386,7 +386,7 @@ javascript:(function(){if (location.hostname == "docs.google.com") {document.bod
 ### Website/HTML Version (for blocked bookmarklets)
 [LoMoH HTML](https://ashtondavies.github.io/LoMoH?unlock)
 **Additional Notes:**
-You must create your link with the button on the page for locked mode to work within your organization/district.
+Please create your link using the button on the page to enable locked mode within your organization/district.
 If this is patched for you, you will get rickrolled attempting to perform this exploit. This is just a heads-up for those who do happen to read this.
 
 [GitHub Repository](https://github.com/AshtonDavies/LoMoH)
@@ -408,7 +408,7 @@ For some filters like Securly, the block screen is already an extension page.
 2. Bookmark the extension page (bookmark A) if you wish. Then, bookmark `chrome://kill` (B) and `chrome://hang` (C). 
 3. On the extension page (A), click the `chrome://kill` bookmark (B). The page should crash. You should already have the next step prepared. 
 4. Instantly start spamming `chrome://hang` (bookmark C) and quickly reload the page while spamming (ideally with the refresh key on your keyboard or `ctrl`+`R`). You should have reloaded within one or two seconds of killing the page. 
-5. If the extension page (bookmark A) no longer loads, then LTMEAT worked! You can close your tabs, and the extension will be dead. If nothing loads, you probably reloaded too late or spammed too slowly. This isn't rocket science! Restart your computer to revert back to normal. 
+5. If the extension page (bookmark A) no longer loads, then LTMEAT worked! You can close your tabs, and the extension will be dead. If nothing loads, you probably reloaded too late or spammed too slowly. This isn't rocket science! Restart your computer to revert to normal. 
 
 Exploit made by [Bypassi#7037](https://buymeacoffee.com/bypassi), [learn why this works](https://ltmeat.bypassi.com).
 
@@ -428,7 +428,7 @@ If you got this because you tried to visit the `extension_id_here` example URL, 
 
 **I don't have a bookmarks bar!!!!**
 
-First, try running ctrl+shift+B. If that doesn't work, go to `chrome://settings` and turn on the "home button" feature, then set it to `chrome://hang`. A home icon in the top left should appear to the right of your refresh icon. Use that instead of bookmark C.
+First, try running Ctrl+Shift+B. If that doesn't work, go to `chrome://settings` and turn on the "home button" feature, then set it to `chrome://hang`. A home icon in the top left should appear to the right of your refresh icon. Use that instead of bookmark C.
 
 There is a version where you don't need bookmarklets, but I am currently gatekeeping it (L). Check this site daily to see if new alternate instructions have been posted. 
 
@@ -446,7 +446,7 @@ Might be admin-blocked. Either be smart enough to figure out another way or chec
 
 **I disabled the extension. Why is some stuff still blocked?**
 
-I have bad news for you... not all filters are Chrome Extensions. Again, make sure the extension pages (like bookmark A) are frozen before you assume that your skiddy self successfully did the exploit. 
+I have bad news for you... Not all filters are Chrome Extensions. Again, make sure the extension pages (like bookmark A) are frozen before you assume that your skiddy self successfully did the exploit. 
 
 [Baby method for slow people](https://ltmeat.bypassi.com/alt/1.txt)
 
@@ -454,7 +454,7 @@ I have bad news for you... not all filters are Chrome Extensions. Again, make su
 
 ## LTMEAT Flood *Freeze extensions*
 
-1. Create a bookmark folder and paste the extension page many times. (About 800 minimum is recommended, assuming your Chromebook is average school quality) You should add the extension page at the beginning of the folder.
+1. Create a bookmark folder and paste the extension page many times. (About 800 minimum is recommended, assuming your Chromebook is of average school quality) You should add the extension page at the beginning of the folder.
 2. Right-click and open all in a new window.
 3. Close the window with all those tabs.
 4. Open the folder in a new window again, and Chrome should hang those tabs to take care of the old ones in the background that were just closed. (Equivalent to the duplicate tab step in Bypassi's method)
@@ -475,8 +475,8 @@ A method of using LTMEAT that does not require `chrome://` URLs. This works by u
 3. Then right-click on your folder and hit `Add Page`. Press Enter.
 4. Right-click on the folder again and hit `Bookmark Manager`. You should see your page. Click on it and hit `Ctrl`+`C`. Press `Ctrl`+`V` until you have 38 of them.
 5. Go to a new tab and right-click your folder. Press `Open All (38)`.
-6. Repeat step 3, then click on one of the tabs from this batch. Wait until the `This page is taking too long` popup appears. This will take 30-60 seconds. If it doesn’t, do `chrome://restart` and go back to step 2. Add 3-4 more pages to the folder.
-7. Once the popup happens, right-click on one of the tabs closest to the right of the screen and hit `Duplicate`. Then, go to your `Kill switch` bookmark and look for a switch to flip, `Allow Access to File://URLs`. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click `Close all tabs to the right`. KEEP THIS TAB OPEN!!!
+6. Repeat step 3, then click on one of the tabs from this batch. Wait until the `This page is taking too long` pop-up appears. This will take 30-60 seconds. If it doesn’t, do `chrome://restart` and go back to step 2. Add 3-4 more pages to the folder.
+7. Once the pop-up happens, right-click on one of the tabs closest to the right of the screen and hit `Duplicate`. Then, go to your `Kill switch` bookmark and look for a switch to flip, `Allow Access to File://URLs`. Then, click on the leftmost extension tab (one that opened from the main.js folder) and click `Close all tabs to the right`. KEEP THIS TAB OPEN!!!
 
 Tips: Go to `chrome://settings/performance` and turn Memory Saver off, and in the box where it says `Keep these sites always active`, paste in the extension URL. I’ve noticed clicking on one of the tabs from the second batch seems to help with reliability.
 
@@ -524,12 +524,12 @@ Credit to Bypassi for the original LTMEAT framework, and to Swordmaster4321 for 
 1. Go to `chrome://extensions/?id=extension_id_here`
 2. Find the `Allow access to file URLs` switch
 3. Put the URL of the site you want to go to in the address bar of a new tab **DO NOT OPEN THE SITE YET**
-4. Spam the file URLs switch for a couple seconds, until the size section starts loading forever. This can be done with enter or spacebar if you click the switch once first.
+4. Spam the file URLs switch for a couple of seconds, until the size section starts loading forever. This can be done with enter or spacebar if you click the switch once first.
 5. Quickly switch to the tab with your website and hit enter.
-6. Any time you want to navigate to a new website spam the switch again
+6. Any time you want to navigate to a new website, spam the switch again
 
 > [!NOTE]
-> Securly has "patched" this by making an overlay anytime the extension hangs. This can be fixed with uBlock origin (if you have it installed) by using the "element zapper" (lightning bolt button) to delete the overlay.
+> Securly has "patched" this by making an overlay anytime the extension hangs. This can be fixed with uBlock Origin (if you have it installed) by using the "element zapper" (lightning bolt button) to delete the overlay.
    
 [**🔼 Back to top**](#ext-remover)
 
@@ -552,10 +552,10 @@ Made by <a href="https://ading.dev/">ading2210</a>
 - Inspect element
 
 1. Go to `chrome://serviceworker-internals`
-2. Find your extension, this exploit will not work if you can't find it. Some extensions will not work with this exploit.
-3. Hit the start button then the `Inspect` button, and execute the LTBEEF code
+2. Find your extension; this exploit will not work if you can't find it. Some extensions will not work with this exploit.
+3. Hit the start button, then the `Inspect` button, and execute the LTBEEF code
 ```js
-chrome.management.setEnabled('extension_id_here',false)
+chrome.management.setEnabled('extension_id_here', false)
 ```
 
 ![Screenshot example](img/jpcmg.png)
@@ -566,7 +566,7 @@ Thanks to Nyaann#3881 for this exploit
 
 ## Corkey *Corrupt extensions*
 
-Corkey does indeed include power washing the Chromebook, which wipes local data including everything under "My files," so I suggest you select everything you want to drag and back up to Google Drive if that's available for your account.
+Corkey does indeed include power washing the Chromebook, which wipes local data, including everything under "My files," so I suggest you select everything you want to drag and back up to Google Drive if that's available for your account.
 
 1. Esc+Refresh+Power and re-enroll (Enter recovery page), or you can just powerwash.
 2. Log into your Chromebook and immediately turn off WiFi and do refresh+power to instant-restart.
@@ -580,11 +580,11 @@ Corkey does indeed include power washing the Chromebook, which wipes local data 
 
 ## Extension Launcher *Install extensions w/o allowlist*
 
-A bookmarklet capable of installing extensions, for those without an allowlist.
+A bookmarklet capable of installing extensions for those without an allowlist.
 
 ### Requirements
 1. Access to the Chrome Web Store
-2. A Chromebook without allowlist
+2. A Chromebook without an allowlist
 3. Bookmarklets enabled
 
 ### Instructions
@@ -594,7 +594,7 @@ A bookmarklet capable of installing extensions, for those without an allowlist.
 3. Then put the icon of the extension, the ID, and the name of it (This does not matter, you can put anything), then press download, and it will work.
 
 ### Extra Notes
-- This will not work if you have a blocklist, this is only for extensions that aren't on the allowlist
+- This will not work if you have a blocklist; this is only for extensions that aren't on the allowlist
 - Credit to "Aka, but nice" on Discord.
 
 [**🔼 Back to top**](#ext-remover)
@@ -636,22 +636,22 @@ If it says blocked by Chrome, reload (you have to actually have Securly ofc)
 
 [Go to this page](https://tinyurl.com/goofguardian)
 
-If your school updated GoGuardian, this exploit may not work.
+If your school has updated GoGuardian, this exploit may not work.
 
 ### Extra Notes
 
 - Now most of these links are a block page (this is intentional) 
-- Each page should have a blue link, click the link on the page if it opens a blank page click the bookmarklet that you just made 
-- Click either hard disable or soft disable, soft disable will only disable it until you restart your Chromebook.
-- You can also run some of the scripts and run your own code, your extension may disable javascript running on it, so running your own code may not work.
-- I recommend doing soft disable, which only disables it until restart. 
-- The idea was from <a href="https://bolg.glitch.me/_/point-blank/">Bypassi#7037</a>
+- Each page should have a blue link. Click the link on the page. If it opens a blank page, click the bookmarklet that you just made 
+- Click either hard disable or soft disable. Soft disable will only disable it until you restart your Chromebook.
+- You can also run some of the scripts and run your own code; your extension may disable JavaScript running on it, so running your own code may not work.
+- I recommend doing a soft disable, which only disables it until a restart. 
+- The idea was from a blog by Bypassi#7037
 
 [**🔼 Back to top**](#ext-remover)
 
 ## UBoss *Tamper with IBoss*
 
-This works only for iBoss, and Blocksi, If you don't have one of these, use New Point Blank.
+This works only for iBoss and Blocksi. If you don't have one of these, use New Point, Blank.
 
 ### Requirements
 - Bookmarklets enabled
@@ -672,7 +672,7 @@ javascript:opener.eval(`fetch("https://rounded-boiling-flax.glitch.me/uboss.js")
 2. Then go to the site with your blocker that was listed above.
 3. Run the code. Follow the instructions there.
 
-If it doesn't work let us know by creating a discussion, this was made in partnership with `akabutnice` and `bypassi`.
+If it doesn't work, let us know by creating a discussion. This was made in partnership with `akabutnice` and `bypassi`.
 
 [**🔼 Back to top**](#ext-remover)
 
@@ -680,7 +680,7 @@ If it doesn't work let us know by creating a discussion, this was made in partne
 
 This exploit keeps your Chromebook downgraded (or on the current version) without automatic updates screwing you over. This exploit was found by Catakang#0987. Using onc files, you can convince your Chromebook that the WiFi that you're connected to is pay-to-use (like a hotspot using data), and thus it will not check for updates. 
 ### Note
-Do **_NOT_** leave your Chromebook on a new WiFi network for more then a day without redoing the process unless you also have CAUB Flags. Even if you do have both, it can't hurt to be safe when taking your chromebook somewhere new.
+Do **_NOT_** leave your Chromebook on a new WiFi network for more then a day without redoing the process unless you also have CAUB Flags. Even if you do have both, it can't hurt to be safe when taking your Chromebook somewhere new.
 
 ### Requirements
 - Access to `chrome://network#state`
@@ -741,8 +741,8 @@ javascript:let shim = false;var ids = prompt("extension ids (comma separated)").
 2. Navigate to `chrome://extensions`.
 3. Click on an extension that YOU installed from the Chrome Web Store > Details.
 4. In the URL bar, copy the string of letters and numbers after the `/?id=`.
-5. Click "View in Chrome Web Store" and spam the escape key. If it loads into Chrome Webstore try again, if it is a blank screen click the bookmarklet.
-5. Paste the ID of the extension into the prompt separated by commas.
+5. Click "View in Chrome Web Store" and spam-press the escape key. If it loads into Chrome Webstore try again; if it is a blank screen, click the bookmarklet.
+5. Paste the ID of the extension into the prompt, separated by commas.
 
 If you close the tab, the exploit will stop working.
 
@@ -752,15 +752,15 @@ If you close the tab, the exploit will stop working.
 
 Downgrading can be used for several exploits, to get to a version that does not have patches for certain exploits, such as LTBEEF, SH1MMER, or CryptoSmite. This is a built-in feature of ChromeOS.
 
-Please do note that depending on your `kernver=` you may not be able to downgrade to certain versions. More info can be found at the [Finding Kernver](#finding-kernver) section.
+Please do note that depending on your `kernver=`, you may not be able to downgrade to certain versions. More info can be found at the [Finding Kernver](#finding-kernver) section.
 
 ### Requirements
-- A USB thumb drive with at least 8GB of storage, however 16GB (or more) is recommended.
+- A USB thumb drive with at least 8GB of storage, 16GB (or more) is recommended.
 - A personal computer with access to downloading the Chromebook Recovery Utility.
 
 ### Setup
 
-1. Navigate to `chrome://version` on the Chromebook you wish to downgrade. If that is blocked try `chrome://system/:~:text=CHROMEOS_RELEASE_DESCRIPTION`, and check for your board under `Platform`. For me, that would be octopus.
+1. Navigate to `chrome://version` on the Chromebook you wish to downgrade. If that is blocked, try `chrome://system/:~:text=CHROMEOS_RELEASE_DESCRIPTION`, and check for your board under `Platform`. For me, that would be octopus.
 
 ![chrome://version](img/chromeos-check-board.png)
 
@@ -770,7 +770,7 @@ Please do note that depending on your `kernver=` you may not be able to downgrad
 ### Downgrading
 1. Install [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) onto your personal computer.
 2. Open the extension, click on the settings button in the top right-hand corner, and click "Use local image".
-3. Select the recovery image you downloaded from chrome100.
+3. Select the recovery image you downloaded from Chrome100.
 4. Plug in the USB you wish to use, and follow the prompts on the screen.
 5. On your Chromebook, press esc+reload+power and follow the prompts.
 6. On the checking for updates screen or Wi-Fi selection screen, press `ctrl`+`alt`+`e` to skip the "checking for updates" screen.
@@ -779,14 +779,14 @@ Please do note that depending on your `kernver=` you may not be able to downgrad
 
 ## Pollen *Policy Editor*
 
-chromeOS User Policy Editor
+ChromeOS User Policy Editor
 
 ### Requirements
 - Devmode **NEEDS** to be enabled.
 
 ### Getting started
 
-There are two modes for this, I recommend just using the first one.
+There are two modes for this; I recommend just using the first one.
 
 #### Normal
 
@@ -811,7 +811,7 @@ sudo su
 curl -Ls https://mercuryworkshop.github.io/Pollen/RootFS.sh | bash
 ```
 3. Reboot
-4. Go Through Steps 1-3 Again
+4. Go through Steps 1-3 again.
 5. Run the following command:
 ```sh
 curl -Ls https://mercuryworkshop.github.io/Pollen/PollenFS.sh | bash
@@ -835,11 +835,11 @@ Kill extensions by signing out.
 Alternate method (unpatched)
 1. Visit chrome://settings/content/all
 2. Find google.com
-3. Click trashcan button
+3. Click the trashcan button
 4. Click delete
-5. Go to chrome://extensions and find securly (or whatever other ext)
-6. Click the allow access to file urls switch
-Now you can go to the link and add account back if you want, but not necessary.
+5. Go to chrome://extensions and find securly (or whatever other extension)
+6. Click the " Allow access to file URLs " switch
+Now you can go to the link and add the account back if you want, but not necessary.
 
 All of your extensions should stop working. Note that you must repeat this every time you restart or sign out. 
 
@@ -863,7 +863,7 @@ Credit to [vk6](https://ading.dev/) for this exploit
 
 ## uBlock Run *Run Code On Pages*
 > [!NOTE]
-> Google is deprecating mv2, so uBlock will not work as of Oct 24, and will be fully removed for enterprise as well in June 25. More info [here](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
+> Google is deprecating MV2, so uBlock will not work as of Oct 24, and will be fully removed for enterprise as well in June 25. More info [here](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
 
 If your school allows the uBlock Origin Chrome extension, you can run bookmarklets with the extension.
 
@@ -879,18 +879,18 @@ If your school allows the uBlock Origin Chrome extension, you can run bookmarkle
 ```
 *##+js(execute_script.js)
 ```
-6. Now press ctrl+alt+tilde (~) to run code on the current page
+6. Now press Ctrl+Alt+tilde (~) to run code on the current page
 7. Have fun!
 
 [**🔼 Back to top**](#ext-remover)
 
 ## uRun - Bypass bookmarklet restrictions with uBlock
 > [!NOTE]
-> Google is deprecating mv2, so uBlock will not work as of Oct 24, and will be fully removed for enterprise as well in June 25. More info [here](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
+> Google is deprecating MV2, so uBlock will not work as of Oct 24, and will be fully removed for enterprise as well in June 25. More info [here](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
 
 From [Inglan2](https://github.com/Inglan2)
 
-Recently Google cracked down on bookmarklets and now they don't work (It's based on the [DeveloperToolsAvailability](https://chromeenterprise.google/policies/?policy=DeveloperToolsAvailability) policy). I wanted to run scripts still so I started making this, inspired by [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages), but with more features, like saving scripts.
+Recently, Google cracked down on bookmarklets, and now they don't work (It's based on the [DeveloperToolsAvailability](https://chromeenterprise.google/policies/?policy=DeveloperToolsAvailability) policy). I wanted to run scripts still so I started making this, inspired by [uBlock Run *Run Code On Pages*](#ublock-run-run-code-on-pages), but with more features, like saving scripts.
 1. Open uBlock settings
 2. Enable advanced settings, and click the gear ⚙️ button
 
@@ -919,7 +919,7 @@ Recently Google cracked down on bookmarklets and now they don't work (It's based
 > ```
 
 ### Usage
-Simply press Ctrl + Shift + \` to open the menu and from there you can run and create scripts. To add a script, press the ➕ button up the top right, and enter the code you would like to add (without the `javascript:` part).
+Simply press Ctrl + Shift + \` to open the menu, and from there you can run and create scripts. To add a script, press the ➕ button up the top right, and enter the code you would like to add (without the `javascript:` part).
 
 [**🔼 Back to top**](#ext-remover)
 
@@ -957,12 +957,6 @@ Visit any of the links below:
 - [https://playful-meringue-fb58bc.netlify.app/](https://playful-meringue-fb58bc.netlify.app/)
 - [https://buypass-poc.netlify.app/](https://buypass-poc.netlify.app)
 
-Broken links:
-- https://buypass.bypassi.com
-- https://buypass.brandonprather.repl.co
-- https://buypass.glitch.me
-- https://buypass.netlify.app
-
 ### Further reading
 - [Repository](https://github.com/bypassiwastaken/buypass)
 
@@ -996,9 +990,9 @@ THIS EXPLOIT WILL NOT WORK FOR YOU IF YOU HAVE ANY EXTENSION BESIDES GOGUARDIAN
 ### Getting Started
 1. Obviously (but still needs to be said due to skids), make sure GoGuardian is actually installed
 2. Visit the [attached URL](goaway.txt) in a new tab
-3. On that tab there will be a simple white screen with nothing on it, reload the page
-4. If the GET request fails and you are left on an error screen (don't panic, this is intended, continue)
-5. Visit `chrome://restart`` to clear cached sites from GoGuardian
+3. On that tab, there will be a simple white screen with nothing on it. Reload the page
+4. If the GET request fails and you are left on an error screen, don't panic; this is intended. Continue.
+5. Visit `chrome://restart` to clear cached sites from GoGuardian
 
 Credit to akabutnice
 
