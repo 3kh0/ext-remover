@@ -159,7 +159,7 @@ add("h2", remove_extensions).innerHTML =
 add("p", remove_extensions).textContent =
   "LTBEEF was fixed by Chrome in v106, so this is a great alternative that works in the latest version.";
 add("p", remove_extensions).innerHTML =
-  'This allows you to emulate the switch in chrome://extensions and fully disable any extension by typing its ID in the textbox below (you can seperate multiple by commas). The ID can be found by going to chrome://extensions, clicking "Details" for the extension, and copying the text after the = in the URL. <b>"Removing" iBoss is not a good idea since it will stop this page from working. However, it is the only truly full iBoss bypass on this page. It can be reversed by visiting chrome://restart.</b>';
+  'This allows you to emulate the switch in chrome://extensions and fully disable any extension by typing its ID in the textbox below (you can separate multiple by commas). The ID can be found by going to chrome://extensions, clicking "Details" for the extension, and copying the text after the = in the URL. <b>"Removing" iBoss is not a good idea since it will stop this page from working. However, it is the only truly full iBoss bypass on this page. It can be reversed by visiting chrome://restart.</b>';
 var remove_extensions_input = add("input", remove_extensions);
 remove_extensions_input.placeholder = "Extension IDs here...";
 remove_extensions_input.type = "text";
